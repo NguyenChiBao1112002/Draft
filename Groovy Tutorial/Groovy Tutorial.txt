@@ -1,0 +1,143 @@
+Link: https://www.youtube.com/watch?v=l-5qrSZMUh4&list=PLhW3qG5bs-L8T6v6DgsZo93DgYDmOF9u4&index=8
+
+*Lesson 8------------------------------------------------*
+def name = "Chi Bao" -> Good
+String name = "Chi Bao" -> Good
+name = "Chi Bao -> Bad
+
+println 'Name is ${name}' -> sai, phải sử dụng dấu ""
+println "Name is ${name}" -> đúng, ${}: biến nội suy(variable interpolation)
+
+// groovy in dynamically typed
+def (String a, int b,  double c) = [30, 40, 50] //phép gán đa biến (multiple assginment)
+
+
+*Lesson 9--------------------------------------------------*
+// Data Types
+def s = 10
+println(s) -> 10
+println(s.getClass().getName()) -> java.lang.Integer
+
+def m = (byte)10
+println(m) -> 10
+println(m.getClass().getName()) -> java.lang.Byte
+
+//byte 
+byte b
+println(b)
+println(Byte.MIN_VALUE) //-128
+println(Byte.MAX_VALUE) //127
+
+//short
+short c
+println(c)
+println(Short.MIN_VALUE) //-32768
+println(Short.MAX_VALUE) //-32767
+
+//int 
+//long
+//float
+//double
+//char
+char c = 'a' -> true
+char c = 'abc' -> false
+
+//Boolean
+boolean flag = true
+
+//String
+String str = "Groovy"
+
+
+*Lesson 10--------------------------------------------------*
+// Operators (toán tử)
+// 1. Arithmetic operators (toán tử số học): 
++
+-
+*
+/ (lấy hết, lấy luôn phần thập phân, vì trả về số thực)
+% (lấy phần dư)
+intdiv (lấy phần nguyên, bỏ qua phần thập phân, vì trả về số nguyên)
+** (power: mũ)
+
+// 2. Unary (đơn nhất) operators (toán tử một ngôi)
+assert +3 == 3 -> true
+assert -4 == -4 -> true
+assert -4 == 0-4 -> true
+assert -(-1) == 1 -> true
+
+
+//3. Increment (tăng) ++ and Decrement -- (giảm)
+int i = 10 
+println(i++) // 10
+println(i) // 11
+
+int x = 10
+println(++i) //11
+println(i) //1
+
+//4.
+
+==
+!=
+<
+<=
+>
+>=
+
+// 5.
+&&
+||
+!
+****Precedence (sự ưu tiên): "!" > "&&" > "||" (giống Java)
+
+//6. Tenary Operator
+def output1 = (1>0)? "1 is greater" : "1 is not greater"
+println(output1) //1 is greater
+
+
+*Lesson 11--------------------------------------------------*
+// Conditional Statements: If-else; switch-case
+switch (variable) {
+    case value1:
+        // Thực hiện khi variable bằng value1
+        break
+    case value2:
+        // Thực hiện khi variable bằng value2
+        break
+    case value3:
+        // Thực hiện khi variable bằng value3
+        break
+    default:
+        // Thực hiện khi không khớp với bất kỳ giá trị nào
+}
+
+*Lesson 12--------------------------------------------------*
+// Loops (for, for in, while)
+// upto, times, step
+
+//For: for(int i = 0; i < n; i++) or for(def i = 0; i < n; i++) ~Java
+
+// For in: for(i in 1..5) -> đi từ 1 đến 5
+a..b -> từ a đến b
+a..<b -> từ a đến b-1
+b..>a -> đi từ b đến a+1 (đk: b>a)
+(a..b).step(2) -> từ a đến b với bước nhảy 2
+
+//upto
+1.upto(5){
+ println("$it") -> 1 2 3 4 5 -> $it là một biến đặt biệt đại diện cho đối tượng hiện tại đang xử lý
+}
+
+//times
+5.times {println "$it"} -> 0, 1, 2, 3, 4 (Lặp 5 lần, bắt đầu từ 0)
+
+
+1.step(10, 2) {println "$it"} -> 1, 3, 5 7, 9 (Bắt đầu từ 1, bước nhảy 2, đến ko vượt quá 10 (<=10))
+
+*Lesson 13--------------------------------------------------*
+
+
+
+
+
