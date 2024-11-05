@@ -5,3 +5,4 @@
 	+ Library: cung cấp các tiện ích, chức năng có sẵn, làm nhiệm vụ nào đó
 	+ Framework: gồm nhiều library, là một khung chương trình sẵn có, 
 	khi code phải tuân thủ một số nguyên tắc cấu trúc của Framework
+

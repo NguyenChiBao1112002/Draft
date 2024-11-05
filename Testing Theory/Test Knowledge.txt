@@ -1,0 +1,15 @@
+high-level testcase: nêu mục đích cần đạt được, không đi vào các nhập vào các bước giá trị cụ thể (ví dụ chuyển tiền 
+liên ngân hàng thành công)
+
+low-level testcase: cacs testcase có giá trị cụ thể (vd high-level testcase = nhiều low-level testcase)
+(ví dụ như đăng nhập -> thẻ và tài khoản.....)
+
+end-to-end testcase: là một testcase bao phủ một luồng dịch vụ nào đó thường viết gồm nhiều high-level testcase
+(kiểm tra nhân viên duyệt vay online....)
+
+test scenario: một kịch bản để chỉ ra vấn đề cần test (1 test scenario = 1 hoặc nhiều testcase)
+(vd: người dùng mua hàng trả online [ATM, ví điện tử, bên thứ 3] (test scenario)) [Trong các dự án nhỏ 
+thì một test scenario ~ end-to-end testcase]
+
+checklist: là các list cần check
+------------------------------

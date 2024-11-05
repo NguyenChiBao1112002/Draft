@@ -136,7 +136,210 @@ b..>a -> đi từ b đến a+1 (đk: b>a)
 1.step(10, 2) {println "$it"} -> 1, 3, 5 7, 9 (Bắt đầu từ 1, bước nhảy 2, đến ko vượt quá 10 (<=10))
 
 *Lesson 13--------------------------------------------------*
+// Exception Handling
+try-catch
+try-catch-finally
+try-finally
+finally: luôn được thực thi sau khối lệnh try hoặc catch bất kể có ngoại lệ xảy ra hay không
 
+try{
+	int i = 1/0
+}catch(ArithmeticException exp1){
+	println("Catch block to catch Arithmetic exp")
+}catch(Exception exp){
+	println("I am inside exception block")
+	println(exp.getCause())
+	println(exp.getMessage())
+//	exp.printStackTrace()
+}finally{
+	pritnln("I am inside finally block")
+}
+
+*Lesson 14--------------------------------------------------*
+// Strings                           Multiline		Interpolation (Phép nội suy)
+single quoted '...'
+double quoted "..."						Y
+triple single quoted '''...'''		Y
+triple double quoted ""...""		Y			Y
+slashy /.../				Y			Y
+dollar slashy $/.../$			Y			Y
+----
+def name = "Nguyen Chi Bao"
+println(name) -> Nguyen Chi Bao
+println("My name is " + name)
+println("My name is ".concat(name)) -> concat: hàm nối chuỗi
+
+println("My name is ${name}") -> My name is Nguyen Chi Bao
+println('My name is ${name}') -> My name is ${name}
+------
+
+def name = "Nguyen Chi Bao"
+println(name.length())
+println(name[2]) -> u
+println(name[-2]) -> a (đi ngược, bắt đầu từ -1 chứ ko bắt đầu từ 0, vì 0 ở đầu)
+println(indexOf('u')) -> 2
+println(name.[0..2]) -> Ngu
+println(name[5..3]) -> ney
+println(name[0,2,4]) -> Nue
+println(name.substring(2)) -> uyen Chi Bao
+println(name.subSequence(1, 4)) -> guy
+------
+def str = "This is a groovy class"
+println(str.split(" ")) -> [This, is, a, groovy, class]
+println(str-("groovy ")) -> This is a class
+println(str.replace("class", "session")) -> This is a groovy session
+println(str.toLowerCase()) -> this is a groovy class
+println(str.toUpperCase()) -> THIS IS A GROOVY CLASS
+println(str.toList()) -> [T, h, i, s,  , a,  ,......]
+println("Groovy"*3) -> Groovy Groovy Groovy
+println("Abc".equals("abc")) -> false
+println("Abc).equalsIgnoreCase("abc") -> true
+-------
+def name = "Bao"
+def s1 =  /a green sky 
+	${name}/
+def s2 = $/a blue tree 
+	${name}/$
+println(s1) ->  a green  sky
+		Bao
+
+
+pritnln(s2) -> a blue tree
+		Bao
+--------
+def s3 = "My name is "Bao""
+println(s3) -> error
+-----
+def s3 = "My name is \"Bao\""
+println(s3) -> My name is "Bao"
+--- 
+def s4 = /My name is "Bao"/
+println(s4) -> My name is "Bao"
+
+
+*Lesson 15--------------------------------------------------*
+// Methods
+
+
+*Lesson 16--------------------------------------------------*
+// Closures ~ Lambda trong các ngôn ngữ khác
+def myClosure1 = {println("Hello World")}
+myClosure1.call() -> Hello World
+
+----
+def myClosure1 = {name -> println("Hello ${name}")}
+myClosure.call("Bao") -> Hello Bao
+
+------
+def str = "Hello"
+def myClosure1 = {name -> println("${str} ${name}")}
+
+myClosure1.call("Bao") -> Hello Bao
+
+//def myMethod(){
+//	println("$str")
+//}
+//myMethod() -> error (closure cho phép truy cập các biến bên ngoài nó, còn method bình không cho)
+
+myMethod(clos){
+	clos.call("Groovy")
+}
+
+myMethod(myClosure1) -> Hello Groovy
+-------
+
+def myClosure2 = {
+	a,b,c-> 
+	return (a+b+c)
+}
+
+def res = myClosure2(10, 20, 30) 
+
+pritnln(res) -> 60
+
+def myList1 = ["Apples", "Oranges", "Grapes"]
+
+print(myList1.each{it}) -> [Apples, Oranges, Grapes]
+
+def myMap = ['subject': 'Groovy',
+	     'topic': 'closures'
+	    ]
+println(myMap.each{it}) -> [subject:groovy, topic: closures]
+
+def myList =[1, 2, 3, 4, 5]
+
+println(myList.find{item -> item == 3}) -> 3
+println(myList.find{item -> item == 6}) -> null
+printLn(myList.findAll{item -> item > 3}) -> [4, 5]
+println(myList.any{item -> item > 3}) -> true
+println(myList.any{item -> item > 6}) -> false
+println(myList.every{item -> item > 3}) -> false
+println(myList.collect{item -> item*2 }) -> [2, 4, 6, 8, 10]
+
+*Lesson 17--------------------------------------------------*
+// List: structure to store collection of data items
+// Syntax: [obj1, obj2, obj3,...]
+// [1, 2, 3, 4]
+// ["Groovy", "Bao"]
+// [1, 2, 3, ['A', 'B'], 4]
+// [1, 2, "Groovy", 2.2]
+// []
+
+-----
+def fruits = ["Apples", "Oranges", "Grapes"]
+println(fruits[1]) -> Oranges 
+println(fruits.get(2)) -> Grapes
+
+def myList = [1, 2, 3, ['A', 'B', 'Groovy'], 4]
+println(myList[2]) -> 3
+println(myLsit[3][2]) -> Groovy
+prtintln(myList.get(3).get(2)) -> Groovy
+
+println(myList[0..2]) -> [1, 2, 3] 
+println(myList[4..2]) -> [4, ['A', 'B', 'Groovy'], 3]
+println(myList.contains(2)) -> true
+println(myList.contains("Groovy")) -> false
+println(myList[3].contains("Groovy")) -> true
+println(myList.size()) -> 5
+println(myList[3].zies()) -> 3
+myList.add(10)
+println(myList) -> [1, 2, 3, [A, B, Groovy], 4, 10]
+
+myList<<20
+println(myList) -> [1, 2, 3, [A, B, Groovy], 4, 10, 20]
+println(myList.add(2, 22)) -> [1, 2, 22, 3, [A, B, Groovy], 4, 10, 20] (thêm 22 ở vị trí số 2)
+
+
+myList.remove(2) (xóa ở index thứ 2)
+println(myList) -> [1, 2, 3, [A, B, Groovy], 4, 10, 20]
+
+myList = myList + [30, 40]
+println(myList) -> [1, 2, 3, [A, B, Groovy], 4, 10, 20, 30, 40]
+
+myList.plus([50])
+println(myList) -> [1, 2, 3, [A, B, Groovy], 4, 10, 20, 30, 40, 50]
+
+myList = myList - [30, 40]
+println(myList) ->  [1, 2, 3, [A, B, Groovy], 4, 10, 20, 50]
+myList = myList.minus([50])
+println(myList) -> [1, 2, 3, [A, B, Groovy], 4, 10, 20]
+
+myList.pop()
+println(myList) -> [2, 3, [A, B, Groovy], 4, 10, 20]
+
+myList.removeLast()
+println(myList) -> [2, 3, [A, B, Groovy], 4, 10]
+
+println(myList.intersect([1, 2, 3])) -> [2, 3] (intersect: giao nhau)
+
+myList = myList.reverse()
+println(myList) -> [10, 4, [Groovy, B, A], 3, 2]
+
+myList = myList.sort()
+println(myList) -> [2, 3, 4, [A, B, Groovy], 10, 20]
+
+myList.clear()
+println(myList.isEmpty()) -> true
 
 
 
