@@ -1,0 +1,16 @@
+Bitbucket
+Jira
+SourceTree
+SVN
+-----
+CI/CD (Docker, Jenkins, ....)
+
+------
+Selenium
+JMeter
+Postman
+SQL
+NoSQL
+Playwright
+------
+English

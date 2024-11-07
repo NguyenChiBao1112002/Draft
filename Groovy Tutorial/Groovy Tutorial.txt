@@ -341,6 +341,145 @@ println(myList) -> [2, 3, 4, [A, B, Groovy], 10, 20]
 myList.clear()
 println(myList.isEmpty()) -> true
 
+*Lesson 18--------------------------------------------------*
+// Map
+key-value pair
+unordered collection
 
+[key : value]
+
+['name': 'Bao']
+
+[:] = empty map
+
+def employee = [
+	'name': 'Bao',
+	'age': 22
+	]
+
+println(employee) -> [name:Bao, age:22]
+println(employee.name) -> Bao
+println(employee['name']) -> Bao
+println(employee.get('age')) - > 22
+println(employee.getAt('age')) -> 22
+
+println(employee.size()) -> 2
+println(employee.put('city', 'Paris')) 
+println(employee) -> [name:Bao, age:22, city:Paris]
+
+println(employee.containsKey('city')) -> true
+println(employee.containsValue('Paris')) -> true
+
+println(employee.getClass()) -> java.util.LinkedHashMap
+
+
+def emp2 = employee.clone()
+println(emp2) -> [name:Bao, age:22, city:Paris]
+
+employee.each{key, value -> 
+	println("${key} : ${value}")
+}
+
+employee.eachWithIndex{key, value, i ->
+	println("${i} | ${key} : ${value}")
+}
+
+employee.each{entry, i->
+	println("${i} | ${entry.key} : ${entry.value}")
+}
+
+def map1 = ['a' : 1, 'b' : 2]
+
+def entries = map1.entrySet()
+
+entries.each{entry ->
+	assert entry.key in ['a', 'b']
+	assert entry.value in [1, 2]
+}
+
+employee.clear()
+println(employee) -> [:]
+
+*Lesson 19--------------------------------------------------*
+// Range
+
+creates a list of sequantial values
+denoted (biểu thị, chỉ rõ, kí hiệu) by first and last value of the sequence
+
+1..10
+'a'..'z'
+10..1
+
+2 types -> inclusive (bao gồm) & exclusive (loại trừ)
+1..10 -> ".." -> 1 to 10
+1..<10 -> "..<" -> 1 to 9
+
+---
+def range = 1..10
+println(range) -> 1..10
+println(range.size()) -> 10
+println(range.getFrom()) -> 1
+println(range.getTo) -> 10
+
+assert range.from == 1 -> OK
+assert range.to == 10 -> OK
+
+println(range.get(3)) -> 4
+println(range[3]) -> 4
+
+println(range.contains(6)) -> true
+println(range.isReverse()) -> false (vì 1..10, nếu 10..1 -> true)
+
+
+def range2 = range.subList(3, 7)
+println(range2.getFrom()) -> 4
+println(range2.getTo()) -> 7
+
+
+//iterate on a range 
+
+for(i in range){
+	println i 
+} -> println from 1 to 10
+
+(1..10).each{ i ->
+	println("Value = ${i}")
+}
+
+range.each{ i ->
+	println("Value = ${i}")
+}
+
+println(range instanceof java.util.List) -> true
+
+
+*Lesson 20--------------------------------------------------*
+// Input and Output
+print("Enter your name:")
+def name = System.console().readLine()
+println("Hello ${name}")
+
+print("Enter first number: ")
+def num1 = System.console().readLine().toInteger()
+print("Enter second number: ")
+def num2 = System.console().readLine().toInteger()
+
+println("${num1} + ${num2} = " + (num1 + number2))
+-------
+// Output
+// print
+// println
+// printf
+
+
+def myName = "Bao"
+println("My name is ${myName}") -> My name is Bao
+printf("My name is %s \n", myName) -> My name is Bao
+
+printf("%s | %s | %d | %.2f \n", ["Bao", "Groovy", 10, 20.203])
+printf("%-10s  | %10s | %d | %.2f \n", ["Bao", "Groovy", 10, 20.203])
+
+*Lesson 21--------------------------------------------------*
+// File IO | How to read Files
 
 
