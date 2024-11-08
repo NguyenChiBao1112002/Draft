@@ -482,4 +482,148 @@ printf("%-10s  | %10s | %d | %.2f \n", ["Bao", "Groovy", 10, 20.203])
 *Lesson 21--------------------------------------------------*
 // File IO | How to read Files
 
+1. How to read file as String
+2. How to read file as List
+3. How to read file as Array
+4. How to read file line by line
+5. How to delete file
+-----
+// Reading Files
+String filePath = "D:/data1.txt"
+File myFile = new File(filePath)
+
+// Reading entire content as String
+println(myFile.text) -> Line 1
+			Line 2
+			Line 3
+
+//collect lines into a list
+def list = myFile.collect{it}
+println("list : ${list}")
+
+//store file content in an array
+def array = myFile as String[]
+println("array : ${array}") -> array: [Line 1, Line 2, Line 3]
+
+
+// read file into a list of String
+def lines = myFile.readLines()
+println("lines: $lines") -> lines: [Line 1, Line 2, Line 3]
+
+//read file line by line
+myFile.eachLine { line -> 
+	println("line: ${line}") 
+}
+-> line: Line 1
+   line: Line 2
+   line: Line 3
+
+//read file line by line with line number
+def lineNoRange = 2..4
+def lineList = []
+myFile.eachLine { line, lineNo -> 
+	if(LineNoRange.contains(lineNo)){
+		lineList.add(line)
+	}
+	//println("${lineNo}: ${line}") 
+}
+println("lineList: ${lineList}") -> lineList: [Line 2, Line 3]
+
+//read with reader
+def line
+myFile.withReader {reader -> 
+	while(line  = reader.readLine() != null){
+		pritln("line: ${line}")	
+	}
+}
+->line: Line 1
+  line: Line 2
+  line: Line 3
+
+
+// reading with new reader
+def outputFile = "data2.txt"
+def reader = myFile.newReader()
+new File(outputFile).append(reader)
+reader.close()
+
+//when working with binary files, read content as bytes
+byte[] contents = myFile.bytes
+println(contents) -> [76, 105, 110, .....]
+
+// size in bytes
+println(myFile.length()) -> 22
+
+// check if is a file or dir
+println(myFile.isFile()) -> true
+println(myFile.isDirectory()) -> false
+
+//get list of files from a dir
+new File("D:/Desktop/TestJob1").eachFile{
+	files -> println(files.getAbsolutePath())
+}
+
+//recursively display all files in a dir and its sub-dir
+new File("D:/Desktop/TestJob1").eachFileRecurse{
+	file -> println(file.getAbsolutePath())
+}
+
+//copy file data to another file
+def newFile = new File("data3.txt")
+newFile << myFile.text
+
+//delete file 
+newFile.delete()
+
+
+*Lesson 22--------------------------------------------------*
+// How to write Files
+
+File myFile = new File("data1.txt")
+
+myFile.write("This is Line 1")
+myFile << "\nThis is Line 2"
+
+println(myFile.text) -> This is Line 1
+			This is Line 2
+
+///myFile.text = "This is Line 3" -> sẽ ghi đè , tức là bỏ qua Line 1, Line 2 (đè)
+
+myFile.withWriter{writer ->
+	writer.writeLine(This is Line 4)
+}
+
+//println(myFile.text) -> This is Line 4
+
+myFile.append("This is Line 5") -> This is Line 4
+
+				   This is Line 5
+
+println(myFile.length()) -> 30
+println(myFile.isFile()) -> true
+println(myFile.isDirectory()) -> false
+println(myFile.isHidden()) -> false
+
+def newFile = new File("data2.txt")
+newFile << myFile.text
+
+myFile.bytes = [] -> remove data
+
+myFile.renameTo(new File("newFile.txt"))
+
+myFile.delete()
+
+println(text) -> This is Line 4
+		 This is Line 5
+
+*Lesson 23--------------------------------------------------*
+//OOP | Classes & Objects
+
+
+
+
+
+
+
+
 

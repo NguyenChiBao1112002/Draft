@@ -1,5 +1,3 @@
-- Groovy: Lesson 19 and 20
-- Outline what need you learn
----------------------------
+- Groovy: Lesson 23, 24, 25, 26
+-------------------
 Done:
-19, 20
