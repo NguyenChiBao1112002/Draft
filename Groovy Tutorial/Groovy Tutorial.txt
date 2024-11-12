@@ -617,7 +617,307 @@ println(text) -> This is Line 4
 		 This is Line 5
 
 *Lesson 23--------------------------------------------------*
-//OOP | Classes & Objects
+// OOP | Classes & Objects
+
+Class - collection of data and methods that represent a real world object
+
+
+*Lesson 24--------------------------------------------------*
+// OOP | Example 1
+
+
+class Student {
+	String name
+	int sub1Marks
+	int sub2Marks
+
+	def printTotal() {
+		println("${name} has total marks = " + (sub1Marks + sub2Marks))
+	}
+
+	static void main(args){
+		Student student1 = new Student()
+		student.name = 'John'
+		student.sub1Marks = 88
+		student.sub2Marks = 77
+		student.printTotal()
+	}
+}
+
+
+*Lesson 25--------------------------------------------------*
+// OOP | Example 2 
+
+
+class Car{
+
+	String name
+	String color
+	int model
+
+	def getCarDetails(){
+		println("You are driving $model, $color colored $name")
+	}
+
+	def starEngine(){
+		println("Starting engine for ${name}")
+	}
+	
+	static void main(args){
+		
+		Car toyota = new Car()
+		Car ford = new Car()
+		Car mercedes = new Car()
+
+		toyota.name = "Toyota"
+		toyota.model = 2019
+		toyota.color = "Red"
+
+		ford.name = "Ford"
+		ford.model = 2018
+		ford.color = "White"
+
+		toyota.name = "Mercedes"
+		toyota.model = 2017
+		toyota.color = "Grey"
+
+		toyota.getCarDetails()
+		toyota.starEngine()
+		println("================================================")
+
+		ford.getCarDetails()
+		ford.starEngine()
+		println("================================================")
+
+		mercedes.getCarDetails()
+		mercedes.starEngine()
+		println("================================================")
+	}
+}
+
+
+*Lesson 26--------------------------------------------------*
+// OOP | Example 3
+
+
+*Lesson 27--------------------------------------------------*
+// OOP | Inheritance and Method Overriding 
+
+Inheritance: process where one class acquires properties (methods and fields) from another class 
+
+parent child 
+super  sub
+base   derived (derive: chuyển hóa, trích dẫn)
+
+class Animal {
+	String name
+	String breed (giống, loài)
+
+	def eats(){
+		println("$name eats")
+	}
+
+	def moves(){
+		println("$name moves")
+	}
+}
+
+
+class Dog extends Animal{
+	
+	String dogName
+	def plays() {
+		println("${dogName} likes to play")
+	}
+
+	def eats() {
+		println("${dogName} likes to eat")
+	}
+}
+
+class DogObjects {
+	static void main(args) {
+		Dog dog1 = new Dog()
+		dog1.name = "Dog"
+		dog1.breed = "German Shephered"
+		dog1.eats() -> null likes to eat
+		dog1.moves()
+		dog1.dogName = "Buddy"
+		dog1.plays()
+		dog1.eats() -> Buddy likes to eat
+	}
+
+}
+
+*Lesson 28--------------------------------------------------*
+// OOP | Inheritance Example  
+
+
+
+class Cars {
+	String name
+	String color
+	String model
+
+	def starEngine() {
+		println("Engine started for ${name}")
+	}
+
+	def stopEngine() {
+		println("Engine stoppedfor ${name}")
+	}
+
+	def accelerate() {
+		println("Accelerating ${name}")
+	}
+}
+
+class Toyota extends Cars{
+	int topSpeed
+	def topSpeed() {
+		println("Top speed is ${topSpeed}")
+	}
+
+	static void main(args) {
+		Toyota car1 = new Toyota()
+		car1.name = "Toyota"
+		car1.color = "Red"
+		car1.model = 2019
+		car1.topSpeed = 200
+		car1. starEngine()
+		car1.accelerate()
+		car1.topSpeed()
+		car1.stopEngine()
+	}
+}
+
+*Lesson 29--------------------------------------------------*
+// OOP | Abstract class with example
+
+abstract class Car {
+	String name
+	String color
+	String model
+
+	def starEngine() {
+		println("Engine started for ${name}")
+	{
+
+	abstract def topSpeed();
+}
+
+class Toyota extends Car {
+	int topSpeed
+
+	@Override
+	public Object topSpeed() {
+		println("Top speed for ${name} is ${topSpeed}")
+	}
+
+	static void main(args) {
+		Toyota car1 = new Toyota()
+		car1.name = "Toyota"
+		car1.model = 2019
+		car1.color = "Red"
+		car1.topSpeed = 250
+		car1.starEngine()
+		car1.topSpeed()
+	}
+}
+
+*Lesson 30--------------------------------------------------*
+// OOP | Interface
+
+interface Car {
+	
+	def startEngine()
+	def stopEngine()
+}
+
+class Toyota implements Car {
+	@Override 
+	public Object startEngine() {
+		return null
+	}
+
+	@Override
+	public Object stopEngine() {
+		return null
+	}
+}
+
+
+*Lesson 31--------------------------------------------------*
+// OOP | Regular Expressions (Biểu thức chính quy)
+
+// regex - pattern used to find substrings in a text
+// ~ "expression"
+
+
+def regex = /(?:[^Groovy]*)/
+def match = "This is Groovy" =~ regex
+
+if (match) {
+	def i=0
+	while(match) {
+		println(match[i])
+		i++
+	}
+} else {
+	println("No match found")
+}
+
+*DONE---------------------------------------------------------*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

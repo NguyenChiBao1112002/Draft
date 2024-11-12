@@ -1,0 +1,84 @@
+***==============JMeter Automation - Duc Giang Tester Education Youtube Channel=================***
+
+Lesson 01-------------------------------------------------*
+// Config API
+Đề bài: Thực hành config API trên JMeter, Run và xem Result
+
+- Thread group: số lượng users cùng thực hiện 1 action nào đó trong một khoảng thời gian
+- Bất cứ khi nào cần dùng tính năng gì trong samplers đều cần tạo thread group
+  (Chuột phải trên Test Plan > Add > Threads (users) > Thread Group)
+- Chúng ta có thể biến đổi tên tất cả các thành phần trong JMeter
+
+- Samplers: chứa các thành phần dùng để gửi yêu cầu đến máy chủ và nhận phản hồi
+- Listeners: hiển thị kết quả, thông thường ta sẽ dùng View Results Tree để xem Response API. 
+  Các Listeners cho phép người dùng xem và phân tích kết quả dưới dạng đồ thị, bảng hoặc ghi log
+- Thêm Header (nếu cần): right click (lên API thì Header cho API đó, lên Thread Group thì chung cho mọi API trong
+Thread Group đó) -> Config Element -> HTTP Header Manager 
+
+
+Lesson 02-------------------------------------------------*
+// Config a Thread Group
+Ví dụ: Muốn giả lập 100 người chạy API nàY (API ở bài 1) trong 5s thì sao
+
+- Number of threads (users): Lấy số request (users) muốn gửi tới server
+- Ramp up period (second): Là tổng thời gian JMeter gửi hết số lượng request đi
+Ví dụ: 
+	-> 1000 target threads với 1000 seconds ramp-up: JMeter sẽ gửi 1 request 1s
+	-> 1000 target threads với 100 seconds ramp-up: JMeter sẽ gửi 10 request 1s
+	-> 1000 target threads với 50 seconds ramp-up: JMeter sẽ gửi 20 request 1s
+
+- Loop count: Là số lần lặp lại
+Ví dụ: cho 100 user chạy và loop count là 3 -> tổng số lần chạy sẽ là 100 user với 1 lần chạy và lặp lại 3 lần
+= 30 lần chạy, khi check vào Infinite ( (adj)[ˈinfənət]): vô hạn) thì sẽ chạy vô hạn
+
+- Các action khi đang chạy mà 1 request bị fail thì sẽ làm gì:
+	+ Continue: Khi có lỗi trong một sample, JMeter sẽ tiếp tục thực thi 
+	các samples còn lại trong cùng một thread hoặc thử lại các samples 
+	trong các thread tiếp theo mà không dừng lại.
+
+	+ Star next thread loop: au khi một sample gặp lỗi, JMeter sẽ bắt đầu 
+	vòng lặp (loop) của thread tiếp theo, thay vì tiếp tục các sample còn 
+	lại trong thread hiện tại.
+
+	+ Stop thread:Dừng chỉ thread hiện tại khi gặp lỗi, các threads còn lại sẽ tiếp tục chạy.
+
+	+ Stop test: Dừng toàn bộ test khi có lỗi xảy ra, 
+	nhưng các threads sẽ hoàn thành các sample còn lại trước khi test dừng.
+
+	+ Stop test now: Đây là lựa chọn cực kỳ khẩn cấp. Ngay khi có lỗi, toàn bộ test (Test Plan)
+	sẽ dừng lại ngay lập tức mà không đợi các thread khác hoàn thành.
+	
+
+// Một loại Listeners nữa (Bài 1 là View Results Tree): là Summary Report
+Right Click on Thread Groups -> Add -> Listeners -> Summary Report 
+Trong Summary Report: 
+	Column: Std.Dev: Độ lệch chuẩn | Đơn vị thời gian (thường là giây) = căn bậc 2 của phương sai)
+	Throughput (đây là thông số quan trọng): số lượng request được server xử lý trong 1 đơn vị thời gian thường là giây (s)
+	Received kb/s - lưu lượng server trả về, đơn vị là kilobytes/s
+	Sent kb/s - lưu lượng client gửi đi server, đơn vị là kilobyte/s
+	Avg.byte - lưu lượng trung bình mà server trả về là bytes
+
+
+
+
+Lesson 03-------------------------------------------------*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
