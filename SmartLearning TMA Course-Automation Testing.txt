@@ -1,0 +1,75 @@
+*SmartLearning TMA Course-----Automation Testing-----------------*
+
+Lesson_1===========================================================
+// What is Automation Testing
+
+1. in front of someone/something : (phrase), phía trước
+2. on the contrary: (phrase), [ɑn ði ˈkɑntrɛri], trái ngược lại, ngược lại
+3. actual: (adj), [ˈæk.tʃu.əl], thật sự, hiện nay, hiện thời
+4. demand: (v/n), [dɪˈmænd], yêu cầu/ lời yêu cầu, nhu cầu
+5. considerable: (adj), [kənˈsɪd.ɚ.ə.bəl], đáng kể, to tát
+6. cycle: (n),  [ˈsaɪ.kəl], xe đạp, chu kỳ, vòng đời
+7. intervention: (n), [ˌɪn.t̬ɚˈven.ʃən], sự can thiệp
+8. ROI: (Return on Investment), Tỷ suất hoàn vốn / Tỷ lệ lợi nhuận trên đầu tư
+9. eliminate: (v), [iˈlɪm.ə.neɪt], loại bỏ, lấy đi
+10. altogether: (adv), [ˌɑːl.təˈɡeð.ɚ], toàn bộ, tổng cộng
+11. workflow: (n), [ˈwɝːk.floʊ], quy trình làm việc
+12. consume: (v), [kənˈsuːm], tiêu thụ, tiếp thu, thiêu rụi
+13. multilingual: (adj), [ˌmʌl.tiˈlɪŋ.ɡwəl], đa ngôn ngữ
+14. site: (v/n), [saɪt], đặt ở vị trí/ địa điểm, vị trí, trang web
+15. unattended: (adj), [ˌʌn.əˈten.dɪd], không được giám sát, bỏ mặc
+16. overnight: (adj, adv), [ˌoʊ.vɚˈnaɪt], qua đêm
+18. hence: (adv), [hens], vì vậy
+19. error-prone: (adj), [ˈɛrər proʊn], dễ bị lỗi
+20. which: cái mà
+21. criterion: (n), [kraɪˈtɪr.i.ən], tiêu chí
+22. tedious: (adj), [ˈtiː.di.əs],  tẻ nhạt, buồn chán 
+23. time-consuming: (adj), [ˈtaɪm.kənˌsuː.mɪŋ], tốn thời gian
+24. category: (n), [ˈkæt̬.ə.ɡɔːr.i], danh mục, loại, hạng
+25. on an ad-hoc basis: (collocation: sự kết hợp từ/ sự sắp đặt), trên cơ sở đặc biệt
+26. common: (adj), chung, thông thường
+27. feasible: (adj), [ˈfiː.zə.bəl], khả thi -> (adv) -> feasibly [ˈfiː.zə.bli]
+34. feasibility: (n), [ˌfiː.zəˈbɪl.ə.t̬i], tính/sự khả thi
+28. extent/extensive: (n/adj)  [ɪkˈstent / ɪkˈsten.sɪv], phạm vi, kích thước / rộng rãi
+29. cross-browser: đa trình duyệt / cross: đi qua
+30. timeline: (n), [ˈtaɪm.laɪn], dòng thời gian, biểu đồ thời gian
+31. deliverable: (n, adj), [dɪˈlɪv.ɚ.ə.bəl], sản phẩm bàn giao/ (hiếm có nghĩa này -> có thể giao được)
+32. once: (adv, conjunction: liên từ), một lần/ ngay sau khi
+33. invoke: (v), [ɪnˈvoʊk], kêu/gọi ra
+34. carry something out: (v), thực hiện, hoàn thành
+35. release: (v, n), [rɪˈliːs], phát hành, công bố, giải phóng / sự phát hành, sự công bố, sự giải phóng
+36. involve: (v), [ɪnˈvɑːlv], bao gồm/ liên quan đến
+37. indentation: (n), [ˌɪn.denˈteɪ.ʃən], vết lõm, thụt đầu dòng
+38. uniform: (n, adj), [ˈjuː.nə.fɔːrm], đồng phục / cùng kiểu, đồng dạng
+39. adequate: (adj), [ˈæd.ə.kwət], đủ
+40. measure: (v/n), [ˈmeʒ.ɚ], đo lường/ sự đo lường
+41. metric: (adj, n),  [ˈmet.rɪk], chỉ số, đơn vị đo lường/ thuộc về đo lường
+42. satisfaction: (n), [ˌsæt̬.ɪsˈfæk.ʃən], sự hài lòng
+43. accuracy: (n), [ˈæk.jɚ.ə.si], sự chính xác
+44. thorough: (adj), [ˈθɝː.ə], kỹ lưỡng
+45. tricky: (adj), [ˈtrɪk.i], khó khăn
+46. ease: (v,n), [iːz], xoa dịu/ sự dễ dàng
+47. identification: (n), [aɪˌden.t̬ə.fəˈkeɪ.ʃən], việc/sự nhận dạng
+48. recovery: (n), [rɪˈkʌv.ɚ.i], sự hồi phục
+49. mapping: (n), sự ánh xạ
+50. etc: [/etˈset̬.ər.ə/], vân vân
+51. debug: (v), [ˌdiːˈbʌɡ], gỡ lỗi
+52. recognize: (v), [ˈrek.əɡ.naɪz], nhận ra, công nhận, thừa nhận
+53. tackle: (v), [ˈtæk.əl], giải quyết
+54. capability: (n), [ˌkeɪ.pəˈbɪl.ə.t̬i], khả năng
+55. go for: (phrasal verbs), tiến hành
+57. facility: (n), [fəˈsɪl.ə.t̬i], cơ sở, tiện nghi
+58. playback: (n), [ /ˈpleɪ.bæk/], phát lại
+34. walkthrough: (n, v), [ˈwɑːk.θruː], hướng dẫn chi tiết từng bước / dẫn dắt, hướng dẫn
+59. walkthrough test: kiểm thử xem xét
+60. format: (n,v), [ˈfɔːr.mæt], định dạng/định dạng
+61. assert: (v), [əˈsɝːt], khẳng định, xác nhận , yêu cầu
+62. basic: (adj, n), [ˈbeɪ.sɪk], cơ bản, nền tảng
+63. hand-in-hand: cùng nhau, hợp tác chặt chẽ, đi đôi với nhau
+34. revison: (n), [rɪˈvɪʒ.ən], sửa đổi, cập nhật, ôn tập
+
+
+
+
+
+

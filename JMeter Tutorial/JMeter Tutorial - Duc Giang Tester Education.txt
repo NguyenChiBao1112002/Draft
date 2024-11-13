@@ -62,8 +62,81 @@ Trong Summary Report:
 
 
 Lesson 03-------------------------------------------------*
+// JsonPath
+- Định dạng JSON:
+{
+	"key1" : "value1",
+	"key2" : "value2",
+	"key3" :
+		{
+			"key3.1" : "value3.1",
+			"key3.2" : "value3.2",
+			...
+		},
+	......
+}
+- Có 6 loại cho value:
+	1. Object - {}
+	2. Array - []
+	3. String - ""
+	4. Number - 20
+	5. Boolean - true/false
+	6. null
 
 
+- Lấy JsonPath thủ công ($ hoặc x hoặc ko có: tùy vào phần mềm sử dụng Json Path đó)
+	+ Để lấy value của một key: $.key
+	+ Để lấy value của key2 mà key2 là con key1: $.key1.key2
+	+ Để lấy value của key2 mà key2 là con key1 + value của key1 có nhiều value [] -> phải thêm chỉ số index: $.key1[0].key2
+	(index đi từ 0)
+	+ Để lấy value thứ nhất của key2 (key2 có nhiều value) mà key2 là con key1: $.key1.key2[0]
+     => Đi theo cấp, nếu nó nhiều thì đánh index (đi từ 0), có thể check value bằng jsonpath.com
+
+- Lấy JsonPath bằng JsonFinder 
+
+
+Lesson 04-------------------------------------------------*
+// Json Assertion
+Khi API trả về response -> ta muốn verify response như mong muốn thì thế nào
+-> có rất nhiều cách và nhiều function khác nhau để verify trên JMeter, chúng nằm ở Add >> Assertion >>...
+
+- Ô Match á regular expression: tick vào thì giá trị xem như biểu thức chính quy, có thể bắt các giá trị ko chính xác (vì lúc này nó xem như biểu thức chính quy)
+
+Đề bài 1:
+	. Request:
+		+ URL: https://reqres.in/api/login
+		+ Method: POST
+		+ Body: dạng parameter
+			. email: eve.holt@reqres.in
+			. password: cityslicka
+
+	. Response
+	{
+		"token": "aQanhsdsjhid7X4"
+	}
+
+	. Yêu cầu: Tôi muốn login bằng account trên và check xem token trả ra có đúng không
+
+
+-> Trong Json Assertion có các tham số:
+	. Assert json path exist: Path Json dẫn tới giá trị cần check, bắt đầu bằng "$."
+	. Expected Value: Giá trị mong muốn
+
+
+
+Đề bài 2:
+	. Request:
+		+ URL: https://reqres.in/api/users?page=2
+		+ Method: GET
+
+	. Yêu cầu: Hãy check xem các id của key "data" có giá trị từ 7 đến 12 hay không?
+	. Lời giải:
+		Lấy id thứ 1 -> $.data[0].id => kết quả là 7
+		Lấy hết id   -> $.data[*].id => kết quả [7, 8, 9, 10, 11, 12]
+
+
+Lesson 05-------------------------------------------------*
+// Response Assertion
 
 
 

@@ -13,3 +13,7 @@ thì một test scenario ~ end-to-end testcase]
 
 checklist: là các list cần check
 ------------------------------
+
+Katalon Studio -> được thiết kế theo dạng Hybrid Test Framework (là kết hợp nhiều loại Test Framework khác như: Data Driven Framework, Behavior Driven Development (BDD),...)
+
+------------------------------
