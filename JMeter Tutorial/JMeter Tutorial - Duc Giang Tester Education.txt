@@ -97,7 +97,7 @@ Lesson 03-------------------------------------------------*
 
 Lesson 04-------------------------------------------------*
 // Json Assertion
-Khi API trả về response -> ta muốn verify response như mong muốn thì thế nào
+Khi API trả về response -> ta muốn verify JSON trong response như mong muốn thì thế nào
 -> có rất nhiều cách và nhiều function khác nhau để verify trên JMeter, chúng nằm ở Add >> Assertion >>...
 
 - Ô Match á regular expression: tick vào thì giá trị xem như biểu thức chính quy, có thể bắt các giá trị ko chính xác (vì lúc này nó xem như biểu thức chính quy)
@@ -136,7 +136,15 @@ Khi API trả về response -> ta muốn verify response như mong muốn thì t
 
 
 Lesson 05-------------------------------------------------*
-// Response Assertion
+// Response Assertion: Dùng để check 1 giá trị cụ thể (không chỉ JSON như bài trước) trong response có như mong đợi không
+// Vị trí: Right Click HTTP Request -> Add -> Assertions -> Response Assertion
+
+- Có rất nhiều mục, 4 mục chính cần quan tâm:
+	+ Apply to: Chọn phạm vi để check response
+	+ Field to test: Các trường cụ thể trong response muốn lấy giá trị để check
+	+ Pattern matching rules: Quy luật so sánh actual result và expected result: equal, contain, match, ....
+	+ Pattern to test: Là giá trị mong muốn, click add để điền, nếu nhiều giá trị thì add nhiều lần và chọn thêm OR
+	
 
 
 
