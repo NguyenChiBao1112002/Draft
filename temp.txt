@@ -1,7 +1,5 @@
-JMeter: Lesson 5
 Vocabulary: ETS 2023 - Test 1 - Part 1
 Katalon: Learn about Coolmate Feasility Testing
-Learn about Santity Testing and Smoke Testing
 
 ---------------------------------------
 Done:

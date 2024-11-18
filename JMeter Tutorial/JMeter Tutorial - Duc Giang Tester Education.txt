@@ -145,6 +145,27 @@ Lesson 05-------------------------------------------------*
 	+ Pattern matching rules: Quy luật so sánh actual result và expected result: equal, contain, match, ....
 	+ Pattern to test: Là giá trị mong muốn, click add để điền, nếu nhiều giá trị thì add nhiều lần và chọn thêm OR
 	
+- Đề bài: 
+	* Request: 
+		URL: https://reqres.in/api/users?page=2
+		Method: GET
+
+	* Yêu cầu:
+		1. Hãy check xem trong reponse có chứa: "url":"https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral" hay không
+		2. Check xem stt code trả về của api có bằng 200 không
+		3. Check xem url gửi đi có phải là: https://reqres.in/api/users?page=2 hay không
+
+	*** Lưu ý khi sử dụng Text Reponse: 
+		1. Chú ý khoảng trắng để view Text: ko có, JSON: có gõ theo JSON (có khoảng trắng) -> Fail
+		2. Chú ý các kí tự đặc biệt và sử dụng "\": ví dụ \? để dùng ?,...
+		3. thay vì dùng contains có thể dùng substring để kiểm tra reponse data có trả về chứa chuỗi gì đó ko
+
+
+
+
+
+
+
 
 
 

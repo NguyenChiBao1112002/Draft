@@ -17,3 +17,28 @@ checklist: là các list cần check
 Katalon Studio -> được thiết kế theo dạng Hybrid Test Framework (là kết hợp nhiều loại Test Framework khác như: Data Driven Framework, Behavior Driven Development (BDD),...)
 
 ------------------------------
+Sanity Testing và Smoke Testing
+
+Smoke Testing: 
+	- Được thực hiện để xác định rằng các chức năng quan trọng của chương trình đang hoạt động tốt
+	- Xác minh tính ổn định của hệ thống để tiến hành kiểm tra nghiêm ngặt hơn
+	- Được thực hiện bởi Developer hoặc Tester
+	- Thường được tạo tài liệu hoặc script
+	- Là tập con của Acceptance Testing
+	- Thực hiện toàn bộ hệ thống từ đầu đến cuối
+	- Giống như kiểm tra sức khỏe tổng quát (rộng nhưng nông)
+
+Sanity Testing:
+	- Được thực hiện để kiểm tra các chức năng/lỗi mới đã được sửa
+	- Mục tiêu là để xác minh tính hợp lý của hệ thống để tiến hành thử nghiệm nghiêm ngặt hơn
+	- Thường được thực hiện bởi tester
+	- Sanity Testing thường không được viết scipt hoặc tài liệu
+	- Là tập con của Regresstion Testing
+	- Chỉ thực hiện một số thành phần cụ thể của toàn bộ hệ thống
+	- Giống như kiểm tra sức khỏe chuyên sâu (hẹp nhưng sâu)
+
+
+
+
+
+
