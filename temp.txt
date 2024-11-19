@@ -1,5 +1,7 @@
-Vocabulary: ETS 2023 - Test 1 - Part 1
-Katalon: Learn about Coolmate Feasility Testing
+JMeter Lesson 9, 10, 11, 12
+Katalon: Learn about Coolmate Feasility Testing (*)
 
 ---------------------------------------
 Done:
+Vocabulary: ETS 2023 - Test 1 - Part 1
+JMeter Lesson 6, 7, 8

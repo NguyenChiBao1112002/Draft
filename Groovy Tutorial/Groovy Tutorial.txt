@@ -587,7 +587,7 @@ myFile << "\nThis is Line 2"
 println(myFile.text) -> This is Line 1
 			This is Line 2
 
-///myFile.text = "This is Line 3" -> sẽ ghi đè , tức là bỏ qua Line 1, Line 2 (đè)
+///myFile.text = "This is Line 3" -> sẽ ghi đè , tức là bỏ Line 1, Line 2 (đè)
 
 myFile.withWriter{writer ->
 	writer.writeLine(This is Line 4)

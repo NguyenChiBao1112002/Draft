@@ -20,6 +20,16 @@
         </elementProp>
       </ThreadGroup>
       <hashTree>
+        <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
+          <collectionProp name="Arguments.arguments">
+            <elementProp name="url" elementType="Argument">
+              <stringProp name="Argument.name">url</stringProp>
+              <stringProp name="Argument.value">reqres.in</stringProp>
+              <stringProp name="Argument.metadata">=</stringProp>
+            </elementProp>
+          </collectionProp>
+        </Arguments>
+        <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="get_users" enabled="false">
           <stringProp name="HTTPSampler.domain">reqres.in</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
@@ -94,7 +104,7 @@
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="get_list_users">
-          <stringProp name="HTTPSampler.domain">reqres.in</stringProp>
+          <stringProp name="HTTPSampler.domain">${url}</stringProp>
           <stringProp name="HTTPSampler.protocol">https</stringProp>
           <stringProp name="HTTPSampler.path">api/users?page=2</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
@@ -106,7 +116,7 @@
           </elementProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="check_list_id" enabled="true">
+          <JSONPathAssertion guiclass="JSONPathAssertionGui" testclass="JSONPathAssertion" testname="check_list_id" enabled="false">
             <stringProp name="JSON_PATH">$.data[*].id</stringProp>
             <stringProp name="EXPECTED_VALUE">[7, 8, 9, 10, 11, 12]</stringProp>
             <boolProp name="JSONVALIDATION">true</boolProp>
@@ -115,7 +125,7 @@
             <boolProp name="ISREGEX">false</boolProp>
           </JSONPathAssertion>
           <hashTree/>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="check_URL">
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="check_URL" enabled="false">
             <collectionProp name="Asserion.test_strings">
               <stringProp name="-1373490308">&quot;url&quot;:&quot;https://contentcaddy.io?utm_source=reqres&amp;utm_medium=json&amp;utm_campaign=referral&quot;</stringProp>
             </collectionProp>
@@ -125,7 +135,7 @@
             <intProp name="Assertion.test_type">16</intProp>
           </ResponseAssertion>
           <hashTree/>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="check_reponse_code">
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="check_reponse_code" enabled="false">
             <collectionProp name="Asserion.test_strings">
               <stringProp name="49586">200</stringProp>
             </collectionProp>
@@ -135,7 +145,7 @@
             <intProp name="Assertion.test_type">8</intProp>
           </ResponseAssertion>
           <hashTree/>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="check_request_URL">
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="check_request_URL" enabled="false">
             <collectionProp name="Asserion.test_strings">
               <stringProp name="-799801539">https://reqres.in/api/users?page=2</stringProp>
             </collectionProp>
@@ -144,6 +154,97 @@
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">16</intProp>
           </ResponseAssertion>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="get_id_no2" enabled="false">
+            <stringProp name="JSONPostProcessor.referenceNames">id_no2</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.data[1].id</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">-1</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="get_id_ALL" enabled="false">
+            <stringProp name="JSONPostProcessor.referenceNames">id_ALL</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.data[*].id</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">-1</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="get_email_no2" enabled="false">
+            <stringProp name="JSONPostProcessor.referenceNames">getEmail2</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.data[1].email</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">-1</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="get_email_All" enabled="false">
+            <stringProp name="JSONPostProcessor.referenceNames">getEmailAll</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.data[*].email</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">-1</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="get_username_email" enabled="false">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">var getEmail = vars.get(&apos;getEmail2_1&apos;);
+var index = getEmail.indexOf(&quot;@&quot;);
+getEmail = getEmail.slice(0, index);
+log.info(&quot;\nUsername cua email thu 2 la: &quot; + getEmail);
+
+
+</stringProp>
+            <stringProp name="scriptLanguage">javascript</stringProp>
+          </JSR223PostProcessor>
+          <hashTree/>
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="get_all_username_email" enabled="false">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">var getNumberOfEmail = vars.get(&quot;getEmailAll_matchNr&quot;)
+for(var i=1; i&lt;=getNumberOfEmail; i++){
+	var getEmail = vars.get(&quot;getEmailAll_&quot; + i)
+	var index = getEmail.indexOf(&quot;@&quot;)
+	getEmail = getEmail.slice(0, index)
+	log.info(&quot;Username cua email thu &quot; + i + &quot; la: &quot; + getEmail)
+}
+</stringProp>
+            <stringProp name="scriptLanguage">javascript</stringProp>
+          </JSR223PostProcessor>
+          <hashTree/>
+          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="check_domain_email_2" enabled="false">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">var getEmail = vars.get(&quot;getEmail2_1&quot;);
+var index = getEmail.indexOf(&quot;@&quot;)
+actualDomain = getEmail.slice(index+1)
+log.info(&quot;Ten mien cua email thu 2 la: &quot; + actualDomain)
+var expectedDomain = &quot;reqres.in&quot;
+if(actualDomain != expectedDomain){
+	AssertionResult.setFailureMessage(&quot;\nTen mien mong doi cua email thu 2 la: &quot; + expectedDomain + &quot;\nTen mien thuc te cua email thu 2 la: &quot; + actualDomain)
+	AssertionResult.setFailure(true)
+}
+</stringProp>
+            <stringProp name="scriptLanguage">javascript</stringProp>
+          </JSR223Assertion>
+          <hashTree/>
+          <JSR223Assertion guiclass="TestBeanGUI" testclass="JSR223Assertion" testname="check_domain_email_all" enabled="false">
+            <stringProp name="cacheKey">true</stringProp>
+            <stringProp name="filename"></stringProp>
+            <stringProp name="parameters"></stringProp>
+            <stringProp name="script">var getNumberOfEmail = vars.get(&quot;getEmailAll_matchNr&quot;)
+for(var i=1; i&lt;=getNumberOfEmail; i++){
+	var getEmail = vars.get(&quot;getEmailAll_&quot; + i)
+	var index = getEmail.indexOf(&quot;@&quot;)
+	actualDomain = getEmail.slice(index+1)
+	log.info(&quot;Ten mien cua email thu &quot; + i + &quot; la: &quot; + actualDomain)
+	var expectedDomain = &quot;reqres.in&quot;
+	if(actualDomain != expectedDomain){
+		AssertionResult.setFailureMessage(&quot;\nTen mien mong doi cua email thu&quot; + i + &quot; la: &quot; + expectedDomain + &quot;\nTen mien thuc te cua email thu &quot; + i + &quot; la: &quot; + actualDomain)
+		AssertionResult.setFailure(true)
+		log.info(&quot;\nTen mien mong doi cua email thu&quot; + i + &quot; la: &quot; + expectedDomain + &quot;\nTen mien thuc te cua email thu&quot; + i + &quot; la: &quot; + actualDomain)
+	}
+}
+</stringProp>
+            <stringProp name="scriptLanguage">javascript</stringProp>
+          </JSR223Assertion>
           <hashTree/>
         </hashTree>
         <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree">
@@ -183,7 +284,7 @@
           <stringProp name="filename"></stringProp>
         </ResultCollector>
         <hashTree/>
-        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -219,6 +320,12 @@
           </objProp>
           <stringProp name="filename"></stringProp>
         </ResultCollector>
+        <hashTree/>
+        <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler">
+          <boolProp name="displayJMeterProperties">false</boolProp>
+          <boolProp name="displayJMeterVariables">true</boolProp>
+          <boolProp name="displaySystemProperties">false</boolProp>
+        </DebugSampler>
         <hashTree/>
       </hashTree>
     </hashTree>

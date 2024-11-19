@@ -160,7 +160,92 @@ Lesson 05-------------------------------------------------*
 		2. Chú ý các kí tự đặc biệt và sử dụng "\": ví dụ \? để dùng ?,...
 		3. thay vì dùng contains có thể dùng substring để kiểm tra reponse data có trả về chứa chuỗi gì đó ko
 
+Lesson 06-------------------------------------------------*
+// JSON Extractor, Debug Sampler
 
+- Json Extractor (vừa có thể verify, vừa có thể đưa vào một API khác,...): Là 1 trong những loại Pót Processors (ta hiểu chúng dùng để xử lý data)
+(JSON Extractor: dùng để lấy ra một giá trị cần thiết của response API dạng json, (ko dùng JSON Asertion) vì trong một số trường hợp cần lấy giá trị của reponse API này
+để đặt vào một request cảu một API khác)
+- JSON Extractor dùng để lấy ra giá trị cần thiết từ trong reponse API dạng JSON
+- Nó cần thiết trong hoạt động kiểm thử khi ta phải test API, check các nội dung trong response xem có như mong đợi
+- Cách tạo: Right click lên Thread Group hoặc 1 sampler (như http request) > chọn add > Post Processors > JSON Extractor
+
+- Các thông số: 
+	+ Apply to: Tương tự như Response assertion
+	+ Name of created variable: tên biến gán cho giá trị lấy được
+	+ Json path expression: Jsonpath đến giá trị cần tìm
+	+ Match No: chỉ số đến giá trị đó trong trường hợp JSonpath chỉ tới nhiều giá trị [mảng] (để trống hoặc điền 0 > lấy random, điền -1 sẽ lấy tất), 1 sẽ lấy phần tử thứ nhất,... (thứ tự phần tử đi từ 1)
+	+ Compute concatenation (sự ghép nối) var: Lấy ra số lượng kết quả và gán thành biến dạng var_matchNr (trong đó var là tên biến đặt ở mục Name of created variable)
+	+ Default value: Giá trị mặc định của biến khi không lấy được data nào
+
+- Debug Sampler: Công cụ để debug, xem log sau khi chạy, phục vụ cho việc tìm nguyên nhân đoạn script chạy lỗi
+- Cách tạo: Chuột phải Thread Groups > add > samplers > debug sampler
+
+
+- Đề bài:
+	+ Request: 
+		URL: https://reqres.in/api/users?page=2
+	+ Yêu cầu:
+		1. Hãy lấy ra id ở vị trí thứ 2, sau đó dùng debug để xem kết quả lấy được
+		2. Hãy lấy ra tất cả id sau đó dùng debug để xem kết quả lấy được
+		
+Lesson 07-------------------------------------------------*
+// JSR223 PostProcessor, Log info
+
+- JSR223 PostProcessor: Là 1 trong những loại Pót Processor (ta hiểu chúng dùng để xử lý dữ liệu)
+- JSR223 PostProcessor: dùng để xử lý dữ liệu trước khi thao tác gì đó (ví dụ: trước khi verify data, trước khi update vào DB, trước khi truyền vào request API,...)
+- JSR223 PostProcessor: hoạt động bằng cách dùng các đoạn script để xử lý
+- Nó cần thiết trong hoạt động kiểm thử khi ta phải test API, xử lý data thành dạng ta mong đợi để tiến hành các bước đằng sau
+- Cách tạo: Chuột phải tại thread group hoặc chuột phải tại 1 sampler (như http request) > chọn add > Post Processors > JSR223 PostProcessor
+- JSR223 PostProcessor thường được sử dụng chung với JSON Extractor (JSON Extractor sẽ lấy dữ liệu ra thành biến, sau đó sẽ viết script để xử lý trong JSR223 PostProcessor)
+(Muốn dùng biến phải thêm chỉ số: ví dụ (Name of created variable: getEmail2 thì muốn sử dụng JSR223 PostProcessor getEmail2_1))
+(Các JSON Extractor phải đặt trước các JSR223 PostProcessor nếu muốn dùng nó)
+
+- Đề bài:
+	+ Request:
+		. URL: https://reqres.in/api/users?page=2
+		. Method: GET
+	+ Yêu cầu bài toán:
+		1. Hãy lấy email ở vị trí thứ 2, chỉ lấy phần username (phần đằng trước @) sau đó in ra bằng log info
+		2. Hãy lấy ra tất cả email, chỉ lấy phần username (phần đằng trước @) sau đó in ra bằng log info lần lượt tất cả chúng
+
+
+Lesson 08-------------------------------------------------*
+// JSR223 Assertion
+
+- JSR223 Assertion: là 1 loại assertion dùng để verify data giống như JSON Assertion
+- JSR223 Assertion: giống JSR223 PostProcessor ở chỗ đều có thể xử lý data bằng script, ngoài ra có thể verify dữ liệu luôn
+- Nó cần thiết trong hoạt động kiểm thử khi ta phải test API, xử lý data thành dạng ta mong đợi và verify data đó
+- Cách tạo: Chuột phải tại Thread Group hoặc chuột phải tại 1 sampler (như http request) > chọn add > Assertions > JSR223 Assertion
+
+
+- Đề bài: 
+	+ Request:
+		. Hãy lấy email ở vị trí thứ 2, chỉ lấy ra phần sau @, 
+		sau đó check xem chuỗi đó có phải reqres.in hay không
+
+		. Hãy lấy tất cả email, chỉ lấy ra phần sau @, sau đó
+		lần lượt check xem từng chuối đó có phải reqres.in hay không
+
+
+Lesson 09-------------------------------------------------*
+// Variables
+
+- User defined variables: là một chức năng để khai báo biến giúp giản tiện khi phải nhập đi nhập lại 1 giá trị nhiều lần
+- Cách tạo: Chuột phải test plan, hoặc chuột phải lên thread group, hoặc chuột phải 1 sampler (tùy thuộc vào phạm vi biến muốn dùng) > Add > Config Elements > User Defined variables
+- Click Add khi muốn thêm một biến, bao gồm 3 trường là : tên biến, giá trị của biến và mô tả (không bắt buộc)
+
+- Đề bài:
+	+ Request:
+		. URL: https://reqres.in/api/users?page=2
+		. Method: GET
+	+ Yêu cầu bài toán:
+		1. Hãy khai báo biến URL: có giá trị là reqres.in
+		2. Chạy request API trên bằng cách truyền biến
+
+- Cú pháp để gọi biến trong JMeter là: ${variableName}
+
+======Đến phút thứ 4
 
 
 
