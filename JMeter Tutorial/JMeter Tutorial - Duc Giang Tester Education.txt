@@ -245,7 +245,80 @@ Lesson 09-------------------------------------------------*
 
 - Cú pháp để gọi biến trong JMeter là: ${variableName}
 
-======Đến phút thứ 4
+- Random Variable: là 1 chức năng dùng để khai báo biến có giá trị ngẫu nhiên (mỗi 1 lần chạy biến sẽ có 1 giá trị khác nhau) theo một cấu trúc mong muốn
+- Cách tạo: Chuột phải lên test plan, hoặc chuột phải thread group, hoặc chuột phải lên 1 sampler (tùy vào phạm vi biến muốn dùng) > Add > Config Elements > Random Variable
+- Cấu trúc chung của một biến ngẫu nhiên: 1 chuỗi stirng + giá trị biến thiên ngẫu nhiên (số, ...)
+- Output Format: nơi điền chuỗi string nói ở trên
+
+- Chú thích: 
+	+ Variable name: Điền tên biến muốn đặt
+	+ Output Format: Điền nội dung format giá trị của biến
+	+ Minimum Value: Giá trị biến thiên min của biến
+	+ Maximum value: Giá trị biến thiên max của biến
+
+
+- Đề bài: 
+	. Request:
+		+ url: https://reqres.in/api/users
+		+ method: POST
+		+ body dạng paramter:	
+			. name: morpheus
+			. job: leader
+
+	. Reponse:
+	{
+		"name": "morpheus",
+		"job": "leader",
+		"id": "557",
+		"createdAt": "2002-10-06T01:53:17.528Z"
+	} 
+
+- Yêu cầu:
+	1. Khai báo biến ngẫu nhiên name có dạng: NametestXXXX (trong đó XXXX là 4 số ngẫu nhiên)
+	2. Khai báo biến ngẫu nhiên job có dạng: JobtestXXX (trong đó XXX là 3 số ngẫu nhiên nhỏ hơn 500)
+	3. Chạy request API trên bằng cách truyền biến name và param name và param job
+	4. Hãy verify job và name của response tra ra giống như job và name của request gửi đi hay không
+
+
+Lesson 10-------------------------------------------------*
+// CSV Dataset Config
+
+- CSV Data Set Config: là 1 tính năng cho phép người dùng sử dụng file CSV làm nơi khai báo
+biến với nhiều dòng giá trị và dùng chúng trong việc kiểm thử theo data driven framework
+
+- Đây là một tính năng quan trọng và phổ biến trong JMeter, nó giúp tiết kiệm nhiều thời gain kiểm thử 
+với những nhóm case có cùng thao tác và kết quả mong muốn, chỉ khác data đầu vào và đầu ra
+
+- Cách tạo: Chuột phải test plan, hoặc chuột phải thread group, hoặc chuột phải 1 sampler
+(tùy vào phạm vi biến muốn dùng) > Add > Config Elements > CSV Data S.Duonget Config
+
+
+- Cách config CSV Dataset config
+	. Filename: Đường dẫn đến file CSV
+	. File encoding: định dạng file theo chuẩn gì, thường để UTF-8
+	. Variables name: tên biến
+		. Ví dụ file CSV có tên cột thì ta để trống => bởi nếu để trống JMeter sẽ tự lấy dòng đầu làm tên biến
+		. Nếu file CSV ko để tên cột, thì ta điền biến vào đay, ứng với từng cột, cách nhau bởi dấu "," (userLogin, expectedToken), 
+		nếu muốn bở qua cột nào thì ko điền tên biến đó và thêm một dấu "," vào (userLogin,,)
+	. Ignore first line: bỏ qua dòng đầu
+		. True: nếu dòng dầu trong file CSV của ta là tên cột
+		. False: nếu dòng đầu trong file CSV không có tên cột mà là data luôn
+	. Delimiter: dấu để tach từng cột trong file CSV, thông thường là dấu phẩy, nếu để dấu phẩy mà không chạy được ta cần mở file CSV lên bằng notepad
+	hoặc text editor,...để xem data đang được ngăn cách bằng dấu gì thì ta điền dấu đó.
+	. Allow quoted data?: Nếu được bật, thì các giá trị có thể được đặt trong dấu ngoặc kép, cho phép các giá tị chứa dấu phân cách
+	. Recycle on EOF?: Nếu số lượng thread > số lượng Test Data, bạn có muốn tiếp tục thực hiện kiểm thử
+	bằng cách quay trở lại đọc từ đầu không?
+	. Stop thread on EOF?: Nếu chọn "Set", khi chạy đến EOF sẽ khiến cho thread bị dừng lại
+	. Sharing mode: Tại đây bạn có thể định nghĩa hành vi chia sẻ của file CSV. Mặc định sẽ chọn là "All threads"
+
+
+
+
+
+
+
+
+
 
 
 
