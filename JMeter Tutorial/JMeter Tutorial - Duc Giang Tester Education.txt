@@ -290,7 +290,7 @@ biến với nhiều dòng giá trị và dùng chúng trong việc kiểm thử
 với những nhóm case có cùng thao tác và kết quả mong muốn, chỉ khác data đầu vào và đầu ra
 
 - Cách tạo: Chuột phải test plan, hoặc chuột phải thread group, hoặc chuột phải 1 sampler
-(tùy vào phạm vi biến muốn dùng) > Add > Config Elements > CSV Data S.Duonget Config
+(tùy vào phạm vi biến muốn dùng) > Add > Config Elements > CSV Data Set Config
 
 
 - Cách config CSV Dataset config
@@ -299,25 +299,117 @@ với những nhóm case có cùng thao tác và kết quả mong muốn, chỉ 
 	. Variables name: tên biến
 		. Ví dụ file CSV có tên cột thì ta để trống => bởi nếu để trống JMeter sẽ tự lấy dòng đầu làm tên biến
 		. Nếu file CSV ko để tên cột, thì ta điền biến vào đay, ứng với từng cột, cách nhau bởi dấu "," (userLogin, expectedToken), 
-		nếu muốn bở qua cột nào thì ko điền tên biến đó và thêm một dấu "," vào (userLogin,,)
+		nếu muốn bỏ qua cột nào thì KO điền tên biến đó và thêm một dấu "," vào (userLogin,,)
 	. Ignore first line: bỏ qua dòng đầu
 		. True: nếu dòng dầu trong file CSV của ta là tên cột
 		. False: nếu dòng đầu trong file CSV không có tên cột mà là data luôn
-	. Delimiter: dấu để tach từng cột trong file CSV, thông thường là dấu phẩy, nếu để dấu phẩy mà không chạy được ta cần mở file CSV lên bằng notepad
+	. Delimiter: dấu để tách từng cột trong file CSV, thông thường là dấu phẩy, nếu để dấu phẩy mà không chạy được ta cần mở file CSV lên bằng notepad
 	hoặc text editor,...để xem data đang được ngăn cách bằng dấu gì thì ta điền dấu đó.
-	. Allow quoted data?: Nếu được bật, thì các giá trị có thể được đặt trong dấu ngoặc kép, cho phép các giá tị chứa dấu phân cách
+	. Allow quoted data?: Nếu được bật, thì các giá trị có thể được đặt trong dấu ngoặc kép, cho phép các giá trị chứa dấu phân cách
 	. Recycle on EOF?: Nếu số lượng thread > số lượng Test Data, bạn có muốn tiếp tục thực hiện kiểm thử
 	bằng cách quay trở lại đọc từ đầu không?
 	. Stop thread on EOF?: Nếu chọn "Set", khi chạy đến EOF sẽ khiến cho thread bị dừng lại
 	. Sharing mode: Tại đây bạn có thể định nghĩa hành vi chia sẻ của file CSV. Mặc định sẽ chọn là "All threads"
 
+Lesson 11-------------------------------------------------*
+// If controller và Foreach Controller
+
+- If controller: là 1 loại controller, dùng trong trường hợp các testcase chúng ta chạy với những điều kiện khác nhau
+sẽ thực hiện những action khác nhau (tương tự như cấu trúc if trong code)
+- Cách tạo: Chuột phải lên Thread Group > Add > Logic Controller > If controller
+- Config:
+	. Expression: Nhập vào mệnh đề thỏa mãn trả ra kết quả true hoặc false
+	. Interpret Condition as Variable Expression:
+		+ Check: nếu dùng expression dạng __jexl3 hoặc __groovy => performance sẽ tốt hơn
+		+ Uncheck: nếu dùng expression dạng variable bình thường
 
 
+- Đề bài:
+	+ Khai báo 1 biến ngẫu nhiên number có giá trị từ 1-100
+	+ Dùng 2 if controller để chạy 2 api khác nhau, với điều kiện nếu number <=50 thì chạy api1, number>50 thì chạy api2
+	+ Dùng View Result Tree để so sánh kết quả
 
 
+- For each Controller: dùng để chạy lặp lại 1 (nhiều) action nhiều lần, bằng cách truyền vào biến (từ ngoài vào) 
+có giá trị khác nhau ở mỗi lần chạy cho tới khi các giá trị của biến lần lượt chạy xong (hoặc chạy hết các giá trị 
+mong muốn)
+- Cách tạo: Chuột phải thread group > Add > Logic Controller > Foreach Controller
+- Config:
+	+ Input variable prefix: tên biến dạng mảng (có nhiều giá trị)
+	+ Start index for loop: chỉ số khởi tạo giá trị của biến
+	+ End index for loop: chỉ số kết thúc giá trị của biến
+	+ Hiểu nôm na là chạy từ biến có index a->b
+	+ Để trống Start và End Index để chạy hết các giá trị biến
+- Output variable name: tên biến dùng để gọi bên trong vòng For 
 
 
+- Đề bài: 
+	+ Chạy API get users của bài trước và lấy ra các email trong phần data
+	+ Lần lượt chạy API login với email là các email lấy được từ API trên
 
+
+Lesson 12 (Done)-------------------------------------------------*
+// Connect to DB
+
+- Trong quá trình kiểm thử API tự động, việc phải kết nối vào DB để check dữ liệu là việc thường xuyên và bắt buộc để đảm bảo dữ liệu của API là đúng với DB
+- JDBC Connection Configuration: là 1 chức năng giúp chúng ta kết nối từ JMeter vào cơ sở dữ liệu
+- Cách tạo JDBC Connection Configuration: Chuột phải -> Add -> Config Element -> JDBC Connection Configuration
+- JDBC Request: là 1 chức năng giúp chúng ta thực hiện các request đến DB như select, update, insert, delete
+- Cách tạo JDBC request: Chuột phải > Add > Samplers > JDBC Request
+
+- Các thông số trong Config JDBC Connection Configuarion:
+	+ Variable name of created pool: là tên biến dùng chung cho connect DB và các lệnh query sau này (đặt là gì cũng được)
+	+ Database URL: Url dẫn tới DB (Lưu ý mỗi loại DB sẽ có một cấu trúc URL khác nhau)
+	+ Cấu trúc của SQL Server là:
+	jdbc:sqlserver://[servername/ip]:[port];databaseName=[Name of DB];encrypt=true;trustServerCertificate=true
+	Phần encrypt=true;trustServerCertificate=true để cung cấp chứng chỉ tin cậy cho JMeter đồng ký kết nối
+	JDBC driver class: chọn loại như sau
+	com.microsoft.sqlserver.jdbc.SQLSERVERDRIVER
+	Điền username passwork để kết nối
+
+
+- Với Config JDBC Request:
+	+ Variable of pool...: phải điền đúng Variable name of created pool ở bước 1
+	+ Query type: chọn select nếu chạy câu lệnh select, update nếu chạy câu lệnh update, delete, insert
+	+ Nhập câu query vào ô dưới
+	+ Variable name: tên cột trong kết quả mà ta mong muốn lấy làm biến để so sánh (lưu ý tên biến phải viết cách nhau bởi dấu phẩy,
+	JMeter sẽ gán tượng tự từng cột trong kết quả với từng tên biến theo thứ tự từ trái sang)
+
+- Đề bài 1:
+	+ Cho DB sau:
+		. Servername: DESKTOP-80PCMJB\GIANGTESTER
+		. Username: gianght
+		. pass: 123456
+		. Tên DB: QLBH
+	
+	+ Yêu cầu:	
+		1. Kết nối tới DB trên
+		2. Viết câu query để lấy ra danh sách các products và xem kết quả bằng view result tree
+
+
+- Đề bài 2: 
+	+ Cho request
+		. URL: https//reqres.in/api/login
+		. Method: POST
+		. Body: dạng Parameter
+			+ email: eve.holt@reqres.in
+			+ password: cityslicka
+	+ Trả response:
+	{
+		"token": "QpwL5tke4Pnpja7X4"
+	}
+	
+
+	+ Yêu cầu: Trong DB, check lần lượt response API trả ra token có tương ứng vs token lưu trong DB ứng với từng username hay không
+
+
+	     userLogin			  expectedToken
+	george.bluth@reqres.in		QpwL5tke4Pnpja7X1
+	janet.weaver@reqres.in		QpwL5tke4Pnpja7X2
+	emma.wong@reqres.in		QpwL5tke4Pnpja7X3
+	eve.holt@reqres.in		QpwL5tke4Pnpja7X4
+	charles.morris@reqres.in	QpwL5tke4Pnpja7X5
+	tracey.ramos@reqres.in		QpwL5tke4Pnpja7X6
 
 
 
