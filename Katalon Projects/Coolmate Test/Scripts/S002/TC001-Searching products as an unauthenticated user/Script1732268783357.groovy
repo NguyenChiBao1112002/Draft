@@ -30,6 +30,6 @@ WebUI.delay(4)
 WebUI.sendKeys(findTestObject('Object Repository/common/ID/id', [('id'): 'input-spotlight']), 'searchKeywords')
 WebUI.delay(10)
 
-
+//WebUI.findWebElement(findTestObject)
 
 
