@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String searchKeywords = 'Ao thun'
+
+'Open Coolmate'
+CustomKeywords.'common.UtilKeyword.openURL'()
+
+'Click on Search box'
+WebUI.click(findTestObject('Object Repository/common/ID/id', [('id'): 'search-input']))
+WebUI.delay(4)
+
+'Enter search keywords'
+WebUI.sendKeys(findTestObject('Object Repository/common/ID/id', [('id'): 'input-spotlight']), 'searchKeywords')
+WebUI.delay(10)
+
+
+
+
