@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>user icon</name>
+   <tag></tag>
+   <elementGuidId>d0bfc033-fccd-4dce-bbf9-d4b8a8459f5b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class=&quot;header__actions&quot;]//a//img[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@class=&quot;header__actions&quot;]//a//img[2]</value>
+      <webElementGuid>4ed4c016-13d9-4570-a909-56062995ff89</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
