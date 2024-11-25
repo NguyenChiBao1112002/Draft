@@ -1,0 +1,39 @@
+******************JMeter Tutorial *** Quality Assurance Lab*****************************
+Link Youtube: https://www.youtube.com/@qualityassurancelab7764
+
+========================================================================================
+
+***Lesson 1 - How to install JMeter--------------------------------------------------------
+
+Number of threads = 10
+Ramp up period = 100 [ramp up: tăng tốc]
+each thread(user) - 100/10 to be up and running
+
+For example: 
+2
+4
+-> 4/2 - 2 sec to be up and running
+----------------------------------------------------------------------------------------
+
+***Lesson 2 - How to create First JMeter Test | JMeter Sample Test-------------------------
+-----------------------------------------------------------------------------------------
+
+***Lesson 3 - How to record test in JMeter | How to use Test Script Recorder in JMeter-----
+How to create: Add > Non-Test Elements > HTTP(S) Test Script Recorder (To Start: Need add certificate to the Browser + Use proxy)
+
+-----------------------------------------------------------------------------------------
+
+***Lesson 4 - Listeners in JMeter | View Result Tree | View Result in Table | Aggregate (n, adj: tổng hợp) Report-----------
+Report can be saved by entering Folder Name
+
+-----------------------------------------------------------------------------------------
+
+***Lesson 5 - How to run JMeter test from Command Line-----------------------------------
+Why do we need to use command line? -> Because, it will comsumming a lot of memory when using GUI mode.
+GUI of JMeter is designed just for recording development and debugging purpose.
+
+In cmd: 
+	Step 1: cd ...bin (contains JMeter)
+	Step 2: jmeter -n -t <test JMX file> -l <test log file> (e.x: jmeter -n -t .....\demo.jmx -l ...\results2.csv)
+	
+. jmeter -h : get all options what we can do from command line for the JMeter

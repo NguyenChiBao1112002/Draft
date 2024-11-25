@@ -83,7 +83,7 @@ public class UtilKeyword {
 		WebUI.click(newMemberPopup)
 		WebUI.delay(5)
 	}
-	
+
 	@Keyword
 	def openURL() {
 		'Set up ChromeDriver with options'
@@ -103,6 +103,5 @@ public class UtilKeyword {
 		WebUI.waitForPageLoad(10)
 		WebUI.maximizeWindow()
 		WebUI.delay(3)
-
 	}
 }
