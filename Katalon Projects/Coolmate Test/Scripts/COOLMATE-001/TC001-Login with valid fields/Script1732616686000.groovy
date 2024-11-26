@@ -42,9 +42,6 @@ WebUI.setEncryptedText(findTestObject('Object Repository/common/div/div_id_with_
 WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/common/button/button_class', [('class'):'login-btn']))
 WebUI.waitForPageLoad(10)
-//
-WebUI.takeScreenshot()
-
 
 'Handle pop-up elements or any other actions after login'
 TestObject updateSizePopup = new TestObject()
@@ -53,8 +50,6 @@ WebUI.waitForElementVisible(updateSizePopup, 10)
 WebUI.delay(3)
 WebUI.click(updateSizePopup)
 WebUI.delay(3)
-//
-WebUI.takeScreenshot()
 
 TestObject newMemberPopup = new TestObject()
 newMemberPopup.addProperty("xpath", ConditionType.EQUALS, "//*[@id='popup-member'][2]/div[2]/span")
