@@ -1,0 +1,87 @@
+******************JMeter Tutorial *** Quality Assurance Lab*****************************
+Link Youtube: https://www.youtube.com/@qualityassurancelab7764
+
+========================================================================================
+
+***Lesson 1 - How to install JMeter--------------------------------------------------------
+
+Number of threads = 10
+Ramp up period = 100 [ramp up: tăng tốc]
+each thread(user) - 100/10 to be up and running
+
+For example: 
+2
+4
+-> 4/2 - 2 sec to be up and running
+----------------------------------------------------------------------------------------
+
+***Lesson 2 - How to create First JMeter Test | JMeter Sample Test-------------------------
+-----------------------------------------------------------------------------------------
+
+***Lesson 3 - How to record test in JMeter | How to use Test Script Recorder in JMeter-----
+How to create: Add > Non-Test Elements > HTTP(S) Test Script Recorder (To Start: Need add certificate to the Browser + Use proxy)
+
+-----------------------------------------------------------------------------------------
+
+***Lesson 4 - Listeners in JMeter | View Result Tree | View Result in Table | Aggregate (n, adj: tổng hợp) Report-----------
+Report can be saved by entering Folder Name
+
+-----------------------------------------------------------------------------------------
+
+***Lesson 5 - How to run JMeter test from Command Line-----------------------------------
+Why do we need to use command line? -> Because, it will comsumming a lot of memory when using GUI mode.
+GUI of JMeter is designed just for recording development and debugging purpose.
+
+In cmd: 
+	Step 1: cd ...bin (contains JMeter)
+	Step 2: jmeter -n -t <test JMX file> -l <test log file> (e.x: jmeter -n -t .....\demo.jmx -l ...\results2.csv)
+	
+. jmeter -h : get all options what we can do from command line for the JMeter
+
+-----------------------------------------------------------------------------------------
+
+***Lesson 6 - How to generate HTML Dashboard Report in JMeter from Command Line----------
+For example: jmeter -n -t "C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab\L4 - Listener.jmx"
+		    -l "C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab\result3.csv" 
+                    -e -o "C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab\htmlReport\report1"
+
+
+- Generate report from (report.csv) with commandline: jmeter -g <log file> -o <Path to output folder>
+For example: jmeter -g "C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\result4.csv" 
+                    -o "C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab\htmlReport\report2"
+
+
+Notes:
+-n: Chạy JMeter trong chế độ non-GUI (không giao diện đồ họa). Điều này giúp tiết kiệm tài nguyên hệ thống và thường được sử dụng khi chạy kiểm thử tự động hoặc trong môi trường server.
+
+-t "C:\path\to\file.jmx": Chỉ định tập tin JMX chứa cấu hình kịch bản kiểm thử mà bạn muốn thực hiện. Đây là tệp bạn đã tạo trong JMeter GUI để định nghĩa các bài kiểm thử.
+
+-l "C:\path\to\result.csv": Chỉ định tệp kết quả (thường là định dạng .csv hoặc .jtl) nơi JMeter sẽ lưu các kết quả của bài kiểm thử (ví dụ như thời gian phản hồi, kết quả của mỗi request).
+
+-e: Kích hoạt việc tạo báo cáo sau khi kiểm thử. Khi sử dụng option này, JMeter sẽ tạo ra một báo cáo tổng quan (summary report) sau khi hoàn thành kiểm thử.
+
+-o "C:\path\to\htmlReport\report": Chỉ định đường dẫn thư mục nơi JMeter sẽ lưu các báo cáo HTML. Báo cáo này cung cấp các biểu đồ và thống kê chi tiết về kết quả kiểm thử trong định dạng dễ đọc.
+
+-----------------------------------------------------------------------------------------
+
+***Lesson 7 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

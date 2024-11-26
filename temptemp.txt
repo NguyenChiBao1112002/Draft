@@ -1,0 +1,124 @@
+
+Katalon Runtime Engine (KRE) là một công cụ dòng lệnh giúp chạy các bài kiểm tra Katalon Studio mà không cần giao diện người dùng của Katalon Studio, và nó thường được sử dụng trong các quy trình CI/CD. Khi sử dụng KRE trong GitHub Actions và Docker, bạn có thể chạy các test tự động hóa mà không cần phải cài đặt toàn bộ Katalon Studio (dễ dàng hơn và nhẹ nhàng hơn). KRE chỉ yêu cầu cài đặt và chạy qua dòng lệnh.
+
+Dưới đây là cách bạn có thể cấu hình GitHub Actions để chạy các test của Katalon với Katalon Runtime Engine (KRE) trong Docker.
+
+1. Tạo Dockerfile để sử dụng Katalon Runtime Engine (KRE)
+Đầu tiên, bạn cần tạo một Dockerfile để xây dựng Docker image có chứa Katalon Runtime Engine (KRE).
+
+Dockerfile để cài đặt KRE:
+
+Dockerfile
+Copy code
+# Sử dụng hình ảnh base của Ubuntu
+FROM ubuntu:20.04
+
+# Cài đặt các phụ thuộc cần thiết (JDK, wget, unzip, v.v.)
+RUN apt-get update && apt-get install -y \
+  openjdk-11-jdk \
+  wget \
+  unzip \
+  libxi6 \
+  libgconf-2-4 \
+  && rm -rf /var/lib/apt/lists/*
+
+# Cài đặt Katalon Runtime Engine (KRE)
+RUN wget https://download.katalon.com/ -O katalon-runtime-engine.tar.gz \
+  && tar -xvf katalon-runtime-engine.tar.gz \
+  && rm katalon-runtime-engine.tar.gz
+
+# Đặt thư mục làm việc
+WORKDIR /app
+
+# Cấu hình môi trường (JAVA_HOME, KATALON_HOME)
+ENV JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+ENV KATALON_HOME=/app/katalon
+ENV PATH=$PATH:$JAVA_HOME/bin:$KATALON_HOME
+
+# Lệnh mặc định khi chạy container
+CMD ["katalon"]
+Giải thích Dockerfile:
+Cài đặt JDK 11: Katalon Runtime Engine yêu cầu JDK để chạy, vì vậy chúng ta cần cài đặt OpenJDK 11.
+Cài đặt Katalon Runtime Engine: Tải xuống và giải nén Katalon Runtime Engine từ trang chính thức của Katalon.
+Cấu hình môi trường: Đặt biến môi trường JAVA_HOME và KATALON_HOME để Docker container có thể nhận diện và sử dụng chúng.
+Lệnh mặc định: Khi Docker container chạy, nó sẽ chạy lệnh katalon (Katalon Runtime Engine).
+2. Cấu hình GitHub Actions để sử dụng Docker và KRE
+Sau khi Dockerfile đã được tạo, bạn cần cấu hình GitHub Actions để sử dụng Docker và chạy các bài kiểm tra với Katalon Runtime Engine (KRE).
+
+Ví dụ workflow GitHub Actions (.github/workflows/ci.yml):
+
+yaml
+Copy code
+name: CI for Katalon Project with KRE and Docker
+
+on:
+  push:
+    branches:
+      - master  # Theo dõi thay đổi trên nhánh master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Chạy trên môi trường Ubuntu của GitHub Actions
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2  # Kiểm tra mã nguồn từ GitHub
+
+      - name: Build Docker image
+        run: |
+          docker build -t katalon-kre-image .  # Xây dựng Docker image từ Dockerfile
+
+      - name: Run Katalon tests with KRE inside Docker container
+        run: |
+          docker run --rm -v $GITHUB_WORKSPACE:/app katalon-kre-image katalon -noSplash -runMode=console -projectPath=/app/your_project.prj -testSuitePath="Test Suites/YourTestSuite" -browserType="Chrome"
+Giải thích các bước trong workflow:
+docker build: Xây dựng Docker image từ Dockerfile trong thư mục hiện tại và đặt tên là katalon-kre-image.
+docker run: Chạy container từ image katalon-kre-image, gắn kết thư mục mã nguồn của bạn vào thư mục /app trong container, sau đó chạy các bài kiểm tra Katalon bằng Katalon Runtime Engine (KRE) với lệnh:
+bash
+Copy code
+katalon -noSplash -runMode=console -projectPath=/app/your_project.prj -testSuitePath="Test Suites/YourTestSuite" -browserType="Chrome"
+Điều này sẽ chạy bài kiểm tra Katalon Studio trong container mà không cần giao diện người dùng.
+3. Push Docker image lên Docker Hub (tuỳ chọn)
+Nếu bạn muốn chia sẻ Docker image hoặc sử dụng lại nó trong môi trường khác, bạn có thể push image lên Docker Hub hoặc một registry Docker khác.
+
+Cấu hình GitHub Actions để push image lên Docker Hub:
+
+yaml
+Copy code
+name: Build and Push Docker image with KRE
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build_and_push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Build Docker image
+        run: |
+          docker build -t your-dockerhub-username/katalon-kre-image .
+
+      - name: Push Docker image to Docker Hub
+        run: |
+          docker push your-dockerhub-username/katalon-kre-image
+Giải thích các bước:
+
+Đăng nhập vào Docker Hub: Sử dụng docker/login-action@v2 để đăng nhập vào Docker Hub bằng thông tin đăng nhập được lưu trữ trong GitHub Secrets.
+Push image: Sau khi xây dựng Docker image, bạn có thể push nó lên Docker Hub để sử dụng lại.
+Kết luận
+Katalon Runtime Engine (KRE) là lựa chọn lý tưởng cho CI/CD vì nó nhẹ và có thể chạy qua dòng lệnh mà không cần giao diện người dùng.
+Docker giúp bạn đóng gói môi trường kiểm thử, bao gồm Katalon Runtime Engine và các phụ thuộc, vào trong một container để dễ dàng sử dụng lại và triển khai.
+GitHub Actions giúp bạn tự động hóa quy trình CI/CD, bao gồm xây dựng Docker image và chạy các bài kiểm tra Katalon với KRE trong môi trường Docker.
+Bằng cách kết hợp Katalon Runtime Engine (KRE) và Docker, bạn có thể tạo ra một quy trình kiểm thử CI/CD mạnh mẽ và dễ duy trì.

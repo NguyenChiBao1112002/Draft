@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC001-Searching products as an unauthenticated user</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>4148852c-ea80-4686-aa5e-8d8ff9cb1ce6</testCaseGuid>
-</TestCaseEntity>
