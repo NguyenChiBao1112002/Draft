@@ -37,3 +37,51 @@ In cmd:
 	Step 2: jmeter -n -t <test JMX file> -l <test log file> (e.x: jmeter -n -t .....\demo.jmx -l ...\results2.csv)
 	
 . jmeter -h : get all options what we can do from command line for the JMeter
+
+-----------------------------------------------------------------------------------------
+
+***Lesson 6 - How to generate HTML Dashboard Report in JMeter from Command Line----------
+For example: jmeter -n -t "C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab\L4 - Listener.jmx"
+		    -l "C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab\result3.csv" 
+                    -e -o "C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab\htmlReport\report1"
+
+
+- Generate report from (report.csv) with commandline: jmeter -g <log file> -o <Path to output folder>
+For example: jmeter -g "C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\result4.csv" 
+                    -o "C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab\htmlReport\report2"
+
+
+Notes:
+-n: Chạy JMeter trong chế độ non-GUI (không giao diện đồ họa). Điều này giúp tiết kiệm tài nguyên hệ thống và thường được sử dụng khi chạy kiểm thử tự động hoặc trong môi trường server.
+
+-t "C:\path\to\file.jmx": Chỉ định tập tin JMX chứa cấu hình kịch bản kiểm thử mà bạn muốn thực hiện. Đây là tệp bạn đã tạo trong JMeter GUI để định nghĩa các bài kiểm thử.
+
+-l "C:\path\to\result.csv": Chỉ định tệp kết quả (thường là định dạng .csv hoặc .jtl) nơi JMeter sẽ lưu các kết quả của bài kiểm thử (ví dụ như thời gian phản hồi, kết quả của mỗi request).
+
+-e: Kích hoạt việc tạo báo cáo sau khi kiểm thử. Khi sử dụng option này, JMeter sẽ tạo ra một báo cáo tổng quan (summary report) sau khi hoàn thành kiểm thử.
+
+-o "C:\path\to\htmlReport\report": Chỉ định đường dẫn thư mục nơi JMeter sẽ lưu các báo cáo HTML. Báo cáo này cung cấp các biểu đồ và thống kê chi tiết về kết quả kiểm thử trong định dạng dễ đọc.
+
+-----------------------------------------------------------------------------------------
+
+***Lesson 7 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

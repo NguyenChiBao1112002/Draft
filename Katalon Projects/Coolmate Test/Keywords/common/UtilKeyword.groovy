@@ -30,8 +30,11 @@ import org.openqa.selenium.Keys
 
 public class UtilKeyword {
 
+	/*
+	*Regarding authentication*
+	*/
 	@Keyword
-	def openURLAndAuthentication(String username, String password) {
+	static def openURLAndAuthentication(String username, String password) {
 		'Set up ChromeDriver with options'
 		String basePath = RunConfiguration.getProjectDir()
 		System.setProperty("webdriver.chrome.driver", basePath + "/Drivers/chromedriver131.exe")
@@ -48,6 +51,11 @@ public class UtilKeyword {
 		driver.get(GlobalVariable.url)
 		WebUI.waitForPageLoad(10)
 		WebUI.maximizeWindow()
+
+		'Handle Ads Popup if present'
+		if(WebUI.waitForElementVisible(findTestObject("Object Repository/home_page/ads_close_button"), 10)) {
+			WebUI.click(findTestObject("Object Repository/home_page/ads_close_button"))
+		}
 		WebUI.delay(3)
 
 		'Open Login Page'
@@ -64,10 +72,25 @@ public class UtilKeyword {
 		WebUI.click(findTestObject('Object Repository/common/button/button_class', [('class'):'login-btn']))
 		WebUI.waitForPageLoad(10)
 		WebUI.delay(3)
+		
+		'Handle pop-up elements or any other actions after login'
+		TestObject updateSizePopup = new TestObject()
+		updateSizePopup.addProperty("xpath", ConditionType.EQUALS, "//*[@id='popup-member'][1]/div[2]/span")
+		WebUI.waitForElementVisible(updateSizePopup, 10)
+		WebUI.delay(3)
+		WebUI.click(updateSizePopup)
+		WebUI.delay(3)
+		
+		TestObject newMemberPopup = new TestObject()
+		newMemberPopup.addProperty("xpath", ConditionType.EQUALS, "//*[@id='popup-member'][2]/div[2]/span")
+		WebUI.waitForElementVisible(newMemberPopup, 10)
+		WebUI.delay(3)
+		WebUI.click(newMemberPopup)
+		WebUI.delay(3)
 	}
 
 	@Keyword
-	def closePopupIfPresent() {
+	static def closePopupIfPresent() {
 		'Handle pop-up elements or any other actions after login'
 		TestObject updateSizePopup = new TestObject()
 		updateSizePopup.addProperty("xpath", ConditionType.EQUALS, "//*[@id='popup-member'][1]/div[2]/span")
@@ -85,7 +108,7 @@ public class UtilKeyword {
 	}
 
 	@Keyword
-	def openURL() {
+	 static def openURL() {
 		'Set up ChromeDriver with options'
 		String basePath = RunConfiguration.getProjectDir()
 		System.setProperty("webdriver.chrome.driver", basePath + "/Drivers/chromedriver131.exe")
@@ -102,6 +125,38 @@ public class UtilKeyword {
 		driver.get(GlobalVariable.url)
 		WebUI.waitForPageLoad(10)
 		WebUI.maximizeWindow()
+
+		'Handle Ads Popup if present'
+		if(WebUI.waitForElementVisible(findTestObject("Object Repository/home_page/ads_close_button"), 10)) {
+			WebUI.click(findTestObject("Object Repository/home_page/ads_close_button"))
+		}
 		WebUI.delay(3)
 	}
+	
+	@Keyword
+	static def logOut() {
+		WebUI.click(findTestObject('Object Repository/common/icon/user icon'))
+		WebUI.delay(3)
+		WebUI.click(findTestObject('Object Repository/common/properties/Text/contains_text', [('text'): 'Đi đến tài khoản']))
+		WebUI.waitForPageLoad(10)
+		
+		WebUI.scrollToElement(findTestObject('Object Repository/common/img/img_alt', [('alt'): 'Đăng xuất']), 10)
+		WebUI.delay(2)
+		
+	}
+	
+	@Keyword
+	static def logOutAndClose() {
+		WebUI.click(findTestObject('Object Repository/common/icon/user icon'))
+		WebUI.delay(3)
+		WebUI.click(findTestObject('Object Repository/common/properties/Text/contains_text', [('text'): 'Đi đến tài khoản']))
+		WebUI.waitForPageLoad(10)
+		
+		WebUI.scrollToElement(findTestObject('Object Repository/common/img/img_alt', [('alt'): 'Đăng xuất']), 10)
+		WebUI.delay(2)
+		WebUI.closeBrowser()
+		
+	}
+	
+	
 }
