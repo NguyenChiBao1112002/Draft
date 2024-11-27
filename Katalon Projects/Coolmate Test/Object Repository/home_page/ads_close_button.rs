@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;site-wrapper&quot;]/div[1]//button</value>
+         <value>//*[@id=&quot;site-wrapper&quot;]/div//button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;site-wrapper&quot;]/div[1]//button</value>
-      <webElementGuid>1432dfbc-9d15-46d2-a179-936ee41d8ce7</webElementGuid>
+      <value>//*[@id=&quot;site-wrapper&quot;]/div//button</value>
+      <webElementGuid>3bb253c6-e244-468a-9cfd-0a7cf5196276</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

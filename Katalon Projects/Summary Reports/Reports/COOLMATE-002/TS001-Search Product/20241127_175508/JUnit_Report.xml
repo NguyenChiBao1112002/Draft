@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS001-Search Product" time="722.626" tests="10" failures="0" errors="0">
+   <testsuite name="TS001-Search Product" tests="10" failures="0" errors="0" time="722.626" skipped="0" timestamp="27-11-2024T17:55:10" hostname="ncbao - ncbao.tma.com.vn" id="Test Suites/COOLMATE-002/TS001-Search Product">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ncbao\\Downloads\\Draft Repo On Github\\Draft\\Katalon Projects\\Coolmate Test\\Reports\\20241127_175508\\COOLMATE-002\\TS001-Search Product\\20241127_175508"/>
+         <property name="logFiles" value="C:\\Users\\ncbao\\Downloads\\Draft Repo On Github\\Draft\\Katalon Projects\\Coolmate Test\\Reports\\20241127_175508\\COOLMATE-002\\TS001-Search Product\\20241127_175508\\execution0.log"/>
+         <property name="attachments" value="C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_valid_search_27112024 175532.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_invalid_search_27112024 175554.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_valid_search_27112024 175625.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_invalid_search_27112024 175647.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_valid_search_27112024 175716.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_invalid_search_27112024 175750.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_valid_search_27112024 175819.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_invalid_search_27112024 175842.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_valid_search_27112024 175932.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_invalid_search_27112024 175954.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\authen_valid_search_27112024 180048.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\unauthen_invalid_search_27112024 180111.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\authen_valid_search_27112024 180214.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\unauthen_invalid_search_27112024 180236.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\authen_valid_search_27112024 180336.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\unauthen_invalid_search_27112024 180409.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\authen_valid_search_27112024 180512.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\unauthen_invalid_search_27112024 180534.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\authen_valid_search_27112024 180634.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\unauthen_invalid_search_27112024 180657.png"/>
+         <property name="hostName" value="ncbao - ncbao.tma.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.89.84"/>
+         <property name="sessionId" value="a8fa1b953121b389e2ec9805b36b8cdb"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user" time="52.662" classname="Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user" status="PASSED">
+         <system-out><![CDATA[27-11-2024T17:55:10 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user: Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user
+
+27-11-2024T17:55:10 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+27-11-2024T17:55:10 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+27-11-2024T17:55:10 - [TEST_STEP][PASSED] - common.UtilKeyword.openURL(): common.UtilKeyword.openURL is PASSED
+
+27-11-2024T17:55:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T17:55:14 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2024T17:55:14 - [MESSAGE][PASSED] - Object 'Object Repository/home_page/ads_close_button' is visible
+
+27-11-2024T17:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/home_page/ads_close_button' is clicked on
+
+27-11-2024T17:55:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T17:55:17 - [MESSAGE][PASSED] - common.UtilKeyword.openURL is PASSED
+
+27-11-2024T17:55:17 - [TEST_STEP][PASSED] - "==========================As an unauthenticated user,  entering  valid keys to search related products=========================": null
+
+27-11-2024T17:55:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:55:18 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T17:55:22 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T17:55:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), validSearchKeywords): Keys 'Ao thun' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:55:22 - [MESSAGE][PASSED] - Keys 'Ao thun' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:55:22 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T17:55:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T17:55:32 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("unauthen_valid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:55:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_valid_search_27112024 175532.png]]
+
+27-11-2024T17:55:32 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:55:32 - [TEST_STEP][PASSED] - searchResults = findWebElements(findTestObject("Object Repository/home_page/product_search_result"), 10): Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T17:55:32 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T17:55:32 - [TEST_STEP][PASSED] - searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:55:32 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:55:32 - [TEST_STEP][PASSED] - searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... }): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:55:32 - [MESSAGE][INFO] - Search result No.1: Áo thun Training Comfort
+
+27-11-2024T17:55:32 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:55:32 - [MESSAGE][INFO] - Search result No.2: Áo Thun Nam Love More
+
+27-11-2024T17:55:32 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:55:32 - [MESSAGE][INFO] - Search result No.3: Áo Thun Gym Powerfit
+
+27-11-2024T17:55:32 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:55:32 - [MESSAGE][INFO] - Search result No.4: Áo Thun oversize 84RISING trơn
+
+27-11-2024T17:55:32 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:55:32 - [TEST_STEP][PASSED] - markPassed("All results match the valid search keyword "searchKeywords""): All results match the valid search keyword "searchKeywords"
+
+27-11-2024T17:55:32 - [MESSAGE][PASSED] - All results match the valid search keyword "searchKeywords"
+
+27-11-2024T17:55:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T17:55:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T17:55:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:55:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T17:55:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T17:55:40 - [TEST_STEP][PASSED] - "===============================Entering invalid keys to search related products=================================": null
+
+27-11-2024T17:55:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:55:40 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T17:55:44 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T17:55:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), invalidSearchKeywords): Keys 'vay nu' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:55:44 - [MESSAGE][PASSED] - Keys 'vay nu' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:55:44 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T17:55:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T17:55:54 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("unauthen_invalid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:55:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_invalid_search_27112024 175554.png]]
+
+27-11-2024T17:55:55 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:55:55 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/properties/Text/contains_text", ["text":"Không tìm thấy kết quả phù hợp!"]), 10)): null
+
+27-11-2024T17:55:55 - [MESSAGE][PASSED] - Object 'Object Repository/common/properties/Text/contains_text' is visible
+
+27-11-2024T17:55:55 - [TEST_STEP][PASSED] - markPassed("The system showed the message: "Không tìm thấy kết quả phù hợp!""): The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T17:55:55 - [MESSAGE][PASSED] - The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T17:55:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T17:56:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T17:56:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:56:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T17:56:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T17:56:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-11-2024T17:56:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user" time="52.782" classname="Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user" status="PASSED">
+         <system-out><![CDATA[27-11-2024T17:56:03 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user: Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user
+
+27-11-2024T17:56:03 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+27-11-2024T17:56:03 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+27-11-2024T17:56:03 - [TEST_STEP][PASSED] - common.UtilKeyword.openURL(): common.UtilKeyword.openURL is PASSED
+
+27-11-2024T17:56:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T17:56:07 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2024T17:56:07 - [MESSAGE][PASSED] - Object 'Object Repository/home_page/ads_close_button' is visible
+
+27-11-2024T17:56:07 - [MESSAGE][PASSED] - Object: 'Object Repository/home_page/ads_close_button' is clicked on
+
+27-11-2024T17:56:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T17:56:10 - [MESSAGE][PASSED] - common.UtilKeyword.openURL is PASSED
+
+27-11-2024T17:56:10 - [TEST_STEP][PASSED] - "==========================As an unauthenticated user,  entering  valid keys to search related products=========================": null
+
+27-11-2024T17:56:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:56:10 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:56:10 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T17:56:15 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T17:56:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), validSearchKeywords): Keys 'Quan shorts' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:56:15 - [MESSAGE][PASSED] - Keys 'Quan shorts' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:56:15 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T17:56:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T17:56:25 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("unauthen_valid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:56:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_valid_search_27112024 175625.png]]
+
+27-11-2024T17:56:25 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:56:25 - [TEST_STEP][PASSED] - searchResults = findWebElements(findTestObject("Object Repository/home_page/product_search_result"), 10): Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T17:56:25 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T17:56:25 - [TEST_STEP][PASSED] - searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:56:25 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:56:25 - [TEST_STEP][PASSED] - searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... }): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:56:25 - [MESSAGE][INFO] - Search result No.1: Quần Shorts Nam Daily Short
+
+27-11-2024T17:56:25 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:56:25 - [MESSAGE][INFO] - Search result No.2: Quần Shorts Daily Casual
+
+27-11-2024T17:56:25 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:56:25 - [MESSAGE][INFO] - Search result No.3: Quần shorts ECC Ripstop
+
+27-11-2024T17:56:25 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:56:25 - [MESSAGE][INFO] - Search result No.4: Quần Shorts Nam Mặc Nhà
+
+27-11-2024T17:56:25 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:56:25 - [TEST_STEP][PASSED] - markPassed("All results match the valid search keyword "searchKeywords""): All results match the valid search keyword "searchKeywords"
+
+27-11-2024T17:56:25 - [MESSAGE][PASSED] - All results match the valid search keyword "searchKeywords"
+
+27-11-2024T17:56:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T17:56:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T17:56:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:56:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T17:56:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T17:56:33 - [TEST_STEP][PASSED] - "===============================Entering invalid keys to search related products=================================": null
+
+27-11-2024T17:56:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:56:33 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:56:33 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T17:56:37 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T17:56:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), invalidSearchKeywords): Keys 'non' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:56:37 - [MESSAGE][PASSED] - Keys 'non' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:56:37 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T17:56:47 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T17:56:47 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("unauthen_invalid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:56:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_invalid_search_27112024 175647.png]]
+
+27-11-2024T17:56:47 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:56:47 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/properties/Text/contains_text", ["text":"Không tìm thấy kết quả phù hợp!"]), 10)): null
+
+27-11-2024T17:56:47 - [MESSAGE][PASSED] - Object 'Object Repository/common/properties/Text/contains_text' is visible
+
+27-11-2024T17:56:47 - [TEST_STEP][PASSED] - markPassed("The system showed the message: "Không tìm thấy kết quả phù hợp!""): The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T17:56:47 - [MESSAGE][PASSED] - The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T17:56:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T17:56:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T17:56:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:56:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T17:56:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T17:56:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-11-2024T17:56:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user" time="62.575" classname="Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user" status="PASSED">
+         <system-out><![CDATA[27-11-2024T17:56:56 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user: Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user
+
+27-11-2024T17:56:56 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+27-11-2024T17:56:56 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+27-11-2024T17:56:56 - [TEST_STEP][PASSED] - common.UtilKeyword.openURL(): common.UtilKeyword.openURL is PASSED
+
+27-11-2024T17:56:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T17:56:59 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2024T17:56:59 - [MESSAGE][PASSED] - Object 'Object Repository/home_page/ads_close_button' is visible
+
+27-11-2024T17:56:59 - [MESSAGE][PASSED] - Object: 'Object Repository/home_page/ads_close_button' is clicked on
+
+27-11-2024T17:57:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T17:57:02 - [MESSAGE][PASSED] - common.UtilKeyword.openURL is PASSED
+
+27-11-2024T17:57:02 - [TEST_STEP][PASSED] - "==========================As an unauthenticated user,  entering  valid keys to search related products=========================": null
+
+27-11-2024T17:57:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:57:02 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:57:02 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T17:57:06 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T17:57:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), validSearchKeywords): Keys 'Giay' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:57:06 - [MESSAGE][PASSED] - Keys 'Giay' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:57:06 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T17:57:16 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T17:57:16 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("unauthen_valid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:57:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_valid_search_27112024 175716.png]]
+
+27-11-2024T17:57:16 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:57:16 - [TEST_STEP][PASSED] - searchResults = findWebElements(findTestObject("Object Repository/home_page/product_search_result"), 10): Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T17:57:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='spotlight-search-content__wrapper']//p[@class='product-grid__title']/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-11-2024T17:57:27 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T17:57:27 - [TEST_STEP][PASSED] - searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:57:27 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:57:27 - [TEST_STEP][PASSED] - searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... }): null
+
+27-11-2024T17:57:27 - [TEST_STEP][PASSED] - markPassed("All results match the valid search keyword "searchKeywords""): All results match the valid search keyword "searchKeywords"
+
+27-11-2024T17:57:27 - [MESSAGE][PASSED] - All results match the valid search keyword "searchKeywords"
+
+27-11-2024T17:57:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T17:57:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T17:57:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:57:33 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:57:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T17:57:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T17:57:36 - [TEST_STEP][PASSED] - "===============================Entering invalid keys to search related products=================================": null
+
+27-11-2024T17:57:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:57:36 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:57:36 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T17:57:40 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T17:57:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), invalidSearchKeywords): Keys 'asdf!@#$' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:57:40 - [MESSAGE][PASSED] - Keys 'asdf!@#$' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:57:40 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T17:57:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T17:57:50 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("unauthen_invalid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:57:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_invalid_search_27112024 175750.png]]
+
+27-11-2024T17:57:50 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:57:50 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/properties/Text/contains_text", ["text":"Không tìm thấy kết quả phù hợp!"]), 10)): null
+
+27-11-2024T17:57:50 - [MESSAGE][PASSED] - Object 'Object Repository/common/properties/Text/contains_text' is visible
+
+27-11-2024T17:57:50 - [TEST_STEP][PASSED] - markPassed("The system showed the message: "Không tìm thấy kết quả phù hợp!""): The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T17:57:50 - [MESSAGE][PASSED] - The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T17:57:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T17:57:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T17:57:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:57:55 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:57:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T17:57:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T17:57:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-11-2024T17:57:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user" time="51.858" classname="Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user" status="PASSED">
+         <system-out><![CDATA[27-11-2024T17:57:58 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user: Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user
+
+27-11-2024T17:57:58 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+27-11-2024T17:57:58 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+27-11-2024T17:57:58 - [TEST_STEP][PASSED] - common.UtilKeyword.openURL(): common.UtilKeyword.openURL is PASSED
+
+27-11-2024T17:58:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T17:58:02 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2024T17:58:02 - [MESSAGE][PASSED] - Object 'Object Repository/home_page/ads_close_button' is visible
+
+27-11-2024T17:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/home_page/ads_close_button' is clicked on
+
+27-11-2024T17:58:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T17:58:05 - [MESSAGE][PASSED] - common.UtilKeyword.openURL is PASSED
+
+27-11-2024T17:58:05 - [TEST_STEP][PASSED] - "==========================As an unauthenticated user,  entering  valid keys to search related products=========================": null
+
+27-11-2024T17:58:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:58:05 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T17:58:09 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T17:58:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), validSearchKeywords): Keys 'Thể thao' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:58:09 - [MESSAGE][PASSED] - Keys 'Thể thao' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:58:09 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T17:58:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T17:58:19 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("unauthen_valid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:58:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_valid_search_27112024 175819.png]]
+
+27-11-2024T17:58:19 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:58:19 - [TEST_STEP][PASSED] - searchResults = findWebElements(findTestObject("Object Repository/home_page/product_search_result"), 10): Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T17:58:19 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T17:58:19 - [TEST_STEP][PASSED] - searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:58:19 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:58:19 - [TEST_STEP][PASSED] - searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... }): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:58:19 - [MESSAGE][INFO] - Search result No.1: Headband thể thao
+
+27-11-2024T17:58:19 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:58:19 - [MESSAGE][INFO] - Search result No.2: Áo Sweatshirt Thể Thao Active
+
+27-11-2024T17:58:19 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:58:19 - [MESSAGE][INFO] - Search result No.3: Áo Thun Nam Thể Thao Jersey SofM
+
+27-11-2024T17:58:19 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:58:19 - [MESSAGE][INFO] - Search result No.4: Quần Jogger Thể Thao ExDry
+
+27-11-2024T17:58:19 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:58:19 - [TEST_STEP][PASSED] - markPassed("All results match the valid search keyword "searchKeywords""): All results match the valid search keyword "searchKeywords"
+
+27-11-2024T17:58:19 - [MESSAGE][PASSED] - All results match the valid search keyword "searchKeywords"
+
+27-11-2024T17:58:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T17:58:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T17:58:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:58:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T17:58:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T17:58:27 - [TEST_STEP][PASSED] - "===============================Entering invalid keys to search related products=================================": null
+
+27-11-2024T17:58:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:58:27 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:58:27 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T17:58:31 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T17:58:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), invalidSearchKeywords): Keys '499' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:58:32 - [MESSAGE][PASSED] - Keys '499' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:58:32 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T17:58:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T17:58:42 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("unauthen_invalid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:58:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_invalid_search_27112024 175842.png]]
+
+27-11-2024T17:58:42 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:58:42 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/properties/Text/contains_text", ["text":"Không tìm thấy kết quả phù hợp!"]), 10)): null
+
+27-11-2024T17:58:42 - [MESSAGE][PASSED] - Object 'Object Repository/common/properties/Text/contains_text' is visible
+
+27-11-2024T17:58:42 - [TEST_STEP][PASSED] - markPassed("The system showed the message: "Không tìm thấy kết quả phù hợp!""): The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T17:58:42 - [MESSAGE][PASSED] - The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T17:58:42 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T17:58:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T17:58:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:58:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T17:58:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T17:58:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-11-2024T17:58:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user" time="72.572" classname="Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user" status="PASSED">
+         <system-out><![CDATA[27-11-2024T17:58:50 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user: Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user
+
+27-11-2024T17:58:50 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+27-11-2024T17:58:50 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+27-11-2024T17:58:50 - [TEST_STEP][PASSED] - common.UtilKeyword.openURL(): common.UtilKeyword.openURL is PASSED
+
+27-11-2024T17:59:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T17:59:14 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2024T17:59:14 - [MESSAGE][PASSED] - Object 'Object Repository/home_page/ads_close_button' is visible
+
+27-11-2024T17:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/home_page/ads_close_button' is clicked on
+
+27-11-2024T17:59:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T17:59:18 - [MESSAGE][PASSED] - common.UtilKeyword.openURL is PASSED
+
+27-11-2024T17:59:18 - [TEST_STEP][PASSED] - "==========================As an unauthenticated user,  entering  valid keys to search related products=========================": null
+
+27-11-2024T17:59:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:59:18 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T17:59:22 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T17:59:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), validSearchKeywords): Keys 'Jeans' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:59:22 - [MESSAGE][PASSED] - Keys 'Jeans' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:59:22 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T17:59:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T17:59:32 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("unauthen_valid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:59:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_valid_search_27112024 175932.png]]
+
+27-11-2024T17:59:32 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:59:32 - [TEST_STEP][PASSED] - searchResults = findWebElements(findTestObject("Object Repository/home_page/product_search_result"), 10): Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T17:59:32 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T17:59:32 - [TEST_STEP][PASSED] - searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:59:32 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:59:32 - [TEST_STEP][PASSED] - searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... }): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:59:32 - [MESSAGE][INFO] - Search result No.1: Quần Jeans Nam siêu nhẹ
+
+27-11-2024T17:59:32 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:59:32 - [MESSAGE][INFO] - Search result No.2: Quần Jeans Nam Basics dáng Straight
+
+27-11-2024T17:59:32 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:59:32 - [MESSAGE][INFO] - Search result No.3: Áo Thun Nam phối Jeans
+
+27-11-2024T17:59:32 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:59:32 - [MESSAGE][INFO] - Search result No.4: Áo Polo Nam phối Jeans
+
+27-11-2024T17:59:32 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T17:59:32 - [TEST_STEP][PASSED] - markPassed("All results match the valid search keyword "searchKeywords""): All results match the valid search keyword "searchKeywords"
+
+27-11-2024T17:59:32 - [MESSAGE][PASSED] - All results match the valid search keyword "searchKeywords"
+
+27-11-2024T17:59:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T17:59:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T17:59:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:59:37 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:59:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T17:59:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T17:59:40 - [TEST_STEP][PASSED] - "===============================Entering invalid keys to search related products=================================": null
+
+27-11-2024T17:59:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T17:59:40 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T17:59:44 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T17:59:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), invalidSearchKeywords): Keys 'đầm nữ' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:59:44 - [MESSAGE][PASSED] - Keys 'đầm nữ' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T17:59:44 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T17:59:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T17:59:54 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("unauthen_invalid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:59:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC001-Searching products as an unauthenticated user\unauthen_invalid_search_27112024 175954.png]]
+
+27-11-2024T17:59:54 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T17:59:54 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/properties/Text/contains_text", ["text":"Không tìm thấy kết quả phù hợp!"]), 10)): null
+
+27-11-2024T17:59:54 - [MESSAGE][PASSED] - Object 'Object Repository/common/properties/Text/contains_text' is visible
+
+27-11-2024T17:59:54 - [TEST_STEP][PASSED] - markPassed("The system showed the message: "Không tìm thấy kết quả phù hợp!""): The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T17:59:54 - [MESSAGE][PASSED] - The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T17:59:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T17:59:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T17:59:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:59:59 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T17:59:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T18:00:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:00:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-11-2024T18:00:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user" time="84.546" classname="Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user" status="PASSED">
+         <system-out><![CDATA[27-11-2024T18:00:03 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user: Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user
+
+27-11-2024T18:00:03 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+27-11-2024T18:00:03 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+27-11-2024T18:00:03 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthentication(username_bao, password_bao): common.UtilKeyword.openURLAndAuthentication is PASSED
+
+27-11-2024T18:00:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T18:00:06 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2024T18:00:06 - [MESSAGE][PASSED] - Object 'Object Repository/home_page/ads_close_button' is visible
+
+27-11-2024T18:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/home_page/ads_close_button' is clicked on
+
+27-11-2024T18:00:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+27-11-2024T18:00:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:00:12 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+27-11-2024T18:00:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:00:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+27-11-2024T18:00:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+27-11-2024T18:00:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T18:00:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:00:22 - [MESSAGE][PASSED] - Object '' is visible
+
+27-11-2024T18:00:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:00:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+27-11-2024T18:00:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:00:28 - [MESSAGE][PASSED] - Object '' is visible
+
+27-11-2024T18:00:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:00:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+27-11-2024T18:00:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:00:34 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthentication is PASSED
+
+27-11-2024T18:00:34 - [TEST_STEP][PASSED] - "==========================As an unauthenticated user, entering valid keys to search related products=========================": null
+
+27-11-2024T18:00:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:00:34 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T18:00:38 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T18:00:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), validSearchKeywords): Keys 'Ao thun' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:00:38 - [MESSAGE][PASSED] - Keys 'Ao thun' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:00:38 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T18:00:48 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T18:00:48 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("authen_valid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:00:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\authen_valid_search_27112024 180048.png]]
+
+27-11-2024T18:00:49 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:00:49 - [TEST_STEP][PASSED] - searchResults = findWebElements(findTestObject("Object Repository/home_page/product_search_result"), 10): Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T18:00:49 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T18:00:49 - [TEST_STEP][PASSED] - searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:00:49 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:00:49 - [TEST_STEP][PASSED] - searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... }): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:00:49 - [MESSAGE][INFO] - Search result No.1: Áo thun Training Comfort
+
+27-11-2024T18:00:49 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:00:49 - [MESSAGE][INFO] - Search result No.2: Áo Thun Nam Love More
+
+27-11-2024T18:00:49 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:00:49 - [MESSAGE][INFO] - Search result No.3: Áo Thun Gym Powerfit
+
+27-11-2024T18:00:49 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:00:49 - [MESSAGE][INFO] - Search result No.4: Áo Thun oversize 84RISING trơn
+
+27-11-2024T18:00:49 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:00:49 - [TEST_STEP][PASSED] - markPassed("All results match the valid search keyword "searchKeywords""): All results match the valid search keyword "searchKeywords"
+
+27-11-2024T18:00:49 - [MESSAGE][PASSED] - All results match the valid search keyword "searchKeywords"
+
+27-11-2024T18:00:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T18:00:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T18:00:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:00:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T18:00:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:00:57 - [TEST_STEP][PASSED] - "===============================Entering invalid keys to search related products=================================": null
+
+27-11-2024T18:00:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:00:57 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T18:01:01 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T18:01:01 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), invalidSearchKeywords): Keys 'vay nu' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:01:01 - [MESSAGE][PASSED] - Keys 'vay nu' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:01:01 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T18:01:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T18:01:11 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("unauthen_invalid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:01:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\unauthen_invalid_search_27112024 180111.png]]
+
+27-11-2024T18:01:11 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:01:11 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/properties/Text/contains_text", ["text":"Không tìm thấy kết quả phù hợp!"]), 10)): null
+
+27-11-2024T18:01:11 - [MESSAGE][PASSED] - Object 'Object Repository/common/properties/Text/contains_text' is visible
+
+27-11-2024T18:01:11 - [TEST_STEP][PASSED] - markPassed("The system showed the message: "Không tìm thấy kết quả phù hợp!""): The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T18:01:11 - [MESSAGE][PASSED] - The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T18:01:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T18:01:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T18:01:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:01:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T18:01:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:01:19 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+27-11-2024T18:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+27-11-2024T18:01:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+27-11-2024T18:01:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T18:01:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+27-11-2024T18:01:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2024T18:01:27 - [MESSAGE][PASSED] - Browser is closed
+
+27-11-2024T18:01:27 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user" time="83.792" classname="Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user" status="PASSED">
+         <system-out><![CDATA[27-11-2024T18:01:27 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user: Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user
+
+27-11-2024T18:01:27 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+27-11-2024T18:01:27 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+27-11-2024T18:01:27 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthentication(username_bao, password_bao): common.UtilKeyword.openURLAndAuthentication is PASSED
+
+27-11-2024T18:01:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T18:01:30 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2024T18:01:30 - [MESSAGE][PASSED] - Object 'Object Repository/home_page/ads_close_button' is visible
+
+27-11-2024T18:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/home_page/ads_close_button' is clicked on
+
+27-11-2024T18:01:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+27-11-2024T18:01:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:01:36 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+27-11-2024T18:01:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:01:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+27-11-2024T18:01:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+27-11-2024T18:01:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T18:01:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:01:47 - [MESSAGE][PASSED] - Object '' is visible
+
+27-11-2024T18:01:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:01:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+27-11-2024T18:01:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:01:54 - [MESSAGE][PASSED] - Object '' is visible
+
+27-11-2024T18:01:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:01:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+27-11-2024T18:02:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:02:00 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthentication is PASSED
+
+27-11-2024T18:02:00 - [TEST_STEP][PASSED] - "==========================As an unauthenticated user, entering valid keys to search related products=========================": null
+
+27-11-2024T18:02:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:02:00 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:02:00 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T18:02:04 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T18:02:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), validSearchKeywords): Keys 'Quan shorts' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:02:04 - [MESSAGE][PASSED] - Keys 'Quan shorts' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:02:04 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T18:02:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T18:02:14 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("authen_valid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:02:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\authen_valid_search_27112024 180214.png]]
+
+27-11-2024T18:02:14 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:02:14 - [TEST_STEP][PASSED] - searchResults = findWebElements(findTestObject("Object Repository/home_page/product_search_result"), 10): Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T18:02:14 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T18:02:14 - [TEST_STEP][PASSED] - searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:02:14 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:02:14 - [TEST_STEP][PASSED] - searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... }): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:02:14 - [MESSAGE][INFO] - Search result No.1: Quần Shorts Nam Daily Short
+
+27-11-2024T18:02:14 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:02:14 - [MESSAGE][INFO] - Search result No.2: Quần shorts ECC Ripstop
+
+27-11-2024T18:02:14 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:02:14 - [MESSAGE][INFO] - Search result No.3: Quần Shorts Daily Casual
+
+27-11-2024T18:02:14 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:02:14 - [MESSAGE][INFO] - Search result No.4: Quần Shorts Nam Mặc Nhà
+
+27-11-2024T18:02:14 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:02:14 - [TEST_STEP][PASSED] - markPassed("All results match the valid search keyword "searchKeywords""): All results match the valid search keyword "searchKeywords"
+
+27-11-2024T18:02:14 - [MESSAGE][PASSED] - All results match the valid search keyword "searchKeywords"
+
+27-11-2024T18:02:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T18:02:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T18:02:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:02:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T18:02:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:02:22 - [TEST_STEP][PASSED] - "===============================Entering invalid keys to search related products=================================": null
+
+27-11-2024T18:02:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:02:22 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T18:02:26 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T18:02:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), invalidSearchKeywords): Keys 'non' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:02:26 - [MESSAGE][PASSED] - Keys 'non' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:02:26 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T18:02:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T18:02:36 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("unauthen_invalid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:02:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\unauthen_invalid_search_27112024 180236.png]]
+
+27-11-2024T18:02:37 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:02:37 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/properties/Text/contains_text", ["text":"Không tìm thấy kết quả phù hợp!"]), 10)): null
+
+27-11-2024T18:02:37 - [MESSAGE][PASSED] - Object 'Object Repository/common/properties/Text/contains_text' is visible
+
+27-11-2024T18:02:37 - [TEST_STEP][PASSED] - markPassed("The system showed the message: "Không tìm thấy kết quả phù hợp!""): The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T18:02:37 - [MESSAGE][PASSED] - The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T18:02:37 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T18:02:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T18:02:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:02:42 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:02:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T18:02:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:02:45 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+27-11-2024T18:02:45 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+27-11-2024T18:02:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+27-11-2024T18:02:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T18:02:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+27-11-2024T18:02:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2024T18:02:51 - [MESSAGE][PASSED] - Browser is closed
+
+27-11-2024T18:02:51 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user" time="94.163" classname="Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user" status="PASSED">
+         <system-out><![CDATA[27-11-2024T18:02:51 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user: Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user
+
+27-11-2024T18:02:51 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+27-11-2024T18:02:51 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+27-11-2024T18:02:51 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthentication(username_bao, password_bao): common.UtilKeyword.openURLAndAuthentication is PASSED
+
+27-11-2024T18:02:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T18:02:54 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2024T18:02:54 - [MESSAGE][PASSED] - Object 'Object Repository/home_page/ads_close_button' is visible
+
+27-11-2024T18:02:54 - [MESSAGE][PASSED] - Object: 'Object Repository/home_page/ads_close_button' is clicked on
+
+27-11-2024T18:02:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:02:57 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+27-11-2024T18:03:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:03:00 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+27-11-2024T18:03:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:03:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+27-11-2024T18:03:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:03:06 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+27-11-2024T18:03:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T18:03:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:03:10 - [MESSAGE][PASSED] - Object '' is visible
+
+27-11-2024T18:03:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:03:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+27-11-2024T18:03:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:03:16 - [MESSAGE][PASSED] - Object '' is visible
+
+27-11-2024T18:03:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:03:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+27-11-2024T18:03:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:03:22 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthentication is PASSED
+
+27-11-2024T18:03:22 - [TEST_STEP][PASSED] - "==========================As an unauthenticated user, entering valid keys to search related products=========================": null
+
+27-11-2024T18:03:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:03:22 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:03:22 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T18:03:26 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T18:03:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), validSearchKeywords): Keys 'Giay' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:03:26 - [MESSAGE][PASSED] - Keys 'Giay' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:03:26 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T18:03:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T18:03:36 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("authen_valid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:03:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\authen_valid_search_27112024 180336.png]]
+
+27-11-2024T18:03:36 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:03:36 - [TEST_STEP][PASSED] - searchResults = findWebElements(findTestObject("Object Repository/home_page/product_search_result"), 10): Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T18:03:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='spotlight-search-content__wrapper']//p[@class='product-grid__title']/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+27-11-2024T18:03:47 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T18:03:47 - [TEST_STEP][PASSED] - searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:03:47 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:03:47 - [TEST_STEP][PASSED] - searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... }): null
+
+27-11-2024T18:03:47 - [TEST_STEP][PASSED] - markPassed("All results match the valid search keyword "searchKeywords""): All results match the valid search keyword "searchKeywords"
+
+27-11-2024T18:03:47 - [MESSAGE][PASSED] - All results match the valid search keyword "searchKeywords"
+
+27-11-2024T18:03:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T18:03:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T18:03:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:03:52 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:03:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T18:03:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:03:55 - [TEST_STEP][PASSED] - "===============================Entering invalid keys to search related products=================================": null
+
+27-11-2024T18:03:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:03:55 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T18:03:59 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T18:03:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), invalidSearchKeywords): Keys 'asdf!@#$' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:03:59 - [MESSAGE][PASSED] - Keys 'asdf!@#$' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:03:59 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T18:04:09 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T18:04:09 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("unauthen_invalid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:04:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\unauthen_invalid_search_27112024 180409.png]]
+
+27-11-2024T18:04:09 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:04:09 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/properties/Text/contains_text", ["text":"Không tìm thấy kết quả phù hợp!"]), 10)): null
+
+27-11-2024T18:04:10 - [MESSAGE][PASSED] - Object 'Object Repository/common/properties/Text/contains_text' is visible
+
+27-11-2024T18:04:10 - [TEST_STEP][PASSED] - markPassed("The system showed the message: "Không tìm thấy kết quả phù hợp!""): The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T18:04:10 - [MESSAGE][PASSED] - The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T18:04:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T18:04:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T18:04:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:04:15 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:04:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T18:04:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:04:18 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+27-11-2024T18:04:18 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+27-11-2024T18:04:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:04:23 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+27-11-2024T18:04:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T18:04:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+27-11-2024T18:04:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2024T18:04:25 - [MESSAGE][PASSED] - Browser is closed
+
+27-11-2024T18:04:25 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user" time="84.155" classname="Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user" status="PASSED">
+         <system-out><![CDATA[27-11-2024T18:04:25 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user: Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user
+
+27-11-2024T18:04:25 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+27-11-2024T18:04:25 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+27-11-2024T18:04:25 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthentication(username_bao, password_bao): common.UtilKeyword.openURLAndAuthentication is PASSED
+
+27-11-2024T18:04:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T18:04:29 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2024T18:04:29 - [MESSAGE][PASSED] - Object 'Object Repository/home_page/ads_close_button' is visible
+
+27-11-2024T18:04:29 - [MESSAGE][PASSED] - Object: 'Object Repository/home_page/ads_close_button' is clicked on
+
+27-11-2024T18:04:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:04:32 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+27-11-2024T18:04:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:04:35 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+27-11-2024T18:04:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:04:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+27-11-2024T18:04:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:04:42 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+27-11-2024T18:04:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T18:04:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:04:46 - [MESSAGE][PASSED] - Object '' is visible
+
+27-11-2024T18:04:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:04:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+27-11-2024T18:04:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:04:52 - [MESSAGE][PASSED] - Object '' is visible
+
+27-11-2024T18:04:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:04:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+27-11-2024T18:04:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:04:58 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthentication is PASSED
+
+27-11-2024T18:04:58 - [TEST_STEP][PASSED] - "==========================As an unauthenticated user, entering valid keys to search related products=========================": null
+
+27-11-2024T18:04:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:04:58 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:04:58 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T18:05:02 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T18:05:02 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), validSearchKeywords): Keys 'Thể thao' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:05:02 - [MESSAGE][PASSED] - Keys 'Thể thao' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:05:02 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T18:05:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T18:05:12 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("authen_valid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:05:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\authen_valid_search_27112024 180512.png]]
+
+27-11-2024T18:05:12 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:05:12 - [TEST_STEP][PASSED] - searchResults = findWebElements(findTestObject("Object Repository/home_page/product_search_result"), 10): Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T18:05:12 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T18:05:12 - [TEST_STEP][PASSED] - searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:05:12 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:05:12 - [TEST_STEP][PASSED] - searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... }): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:05:12 - [MESSAGE][INFO] - Search result No.1: Headband thể thao
+
+27-11-2024T18:05:12 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:05:12 - [MESSAGE][INFO] - Search result No.2: Áo Sweatshirt Thể Thao Active
+
+27-11-2024T18:05:12 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:05:12 - [MESSAGE][INFO] - Search result No.3: Áo Thun Nam Thể Thao Jersey SofM
+
+27-11-2024T18:05:12 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:05:12 - [MESSAGE][INFO] - Search result No.4: Quần Jogger Thể Thao ExDry
+
+27-11-2024T18:05:12 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:05:12 - [TEST_STEP][PASSED] - markPassed("All results match the valid search keyword "searchKeywords""): All results match the valid search keyword "searchKeywords"
+
+27-11-2024T18:05:12 - [MESSAGE][PASSED] - All results match the valid search keyword "searchKeywords"
+
+27-11-2024T18:05:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T18:05:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T18:05:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:05:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T18:05:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:05:20 - [TEST_STEP][PASSED] - "===============================Entering invalid keys to search related products=================================": null
+
+27-11-2024T18:05:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:05:20 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:05:20 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T18:05:24 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T18:05:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), invalidSearchKeywords): Keys '499' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:05:24 - [MESSAGE][PASSED] - Keys '499' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:05:24 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T18:05:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T18:05:34 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("unauthen_invalid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:05:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\unauthen_invalid_search_27112024 180534.png]]
+
+27-11-2024T18:05:35 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:05:35 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/properties/Text/contains_text", ["text":"Không tìm thấy kết quả phù hợp!"]), 10)): null
+
+27-11-2024T18:05:35 - [MESSAGE][PASSED] - Object 'Object Repository/common/properties/Text/contains_text' is visible
+
+27-11-2024T18:05:35 - [TEST_STEP][PASSED] - markPassed("The system showed the message: "Không tìm thấy kết quả phù hợp!""): The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T18:05:35 - [MESSAGE][PASSED] - The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T18:05:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T18:05:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T18:05:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:05:40 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:05:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T18:05:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:05:43 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+27-11-2024T18:05:43 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+27-11-2024T18:05:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+27-11-2024T18:05:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T18:05:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+27-11-2024T18:05:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2024T18:05:49 - [MESSAGE][PASSED] - Browser is closed
+
+27-11-2024T18:05:49 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user" time="83.231" classname="Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user" status="PASSED">
+         <system-out><![CDATA[27-11-2024T18:05:49 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user: Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user
+
+27-11-2024T18:05:49 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+27-11-2024T18:05:49 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+27-11-2024T18:05:49 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthentication(username_bao, password_bao): common.UtilKeyword.openURLAndAuthentication is PASSED
+
+27-11-2024T18:05:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T18:05:52 - [MESSAGE][PASSED] - Current window maximized
+
+27-11-2024T18:05:52 - [MESSAGE][PASSED] - Object 'Object Repository/home_page/ads_close_button' is visible
+
+27-11-2024T18:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/home_page/ads_close_button' is clicked on
+
+27-11-2024T18:05:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+27-11-2024T18:05:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:05:59 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+27-11-2024T18:06:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:06:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+27-11-2024T18:06:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:06:05 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+27-11-2024T18:06:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T18:06:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:06:08 - [MESSAGE][PASSED] - Object '' is visible
+
+27-11-2024T18:06:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:06:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+27-11-2024T18:06:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:06:14 - [MESSAGE][PASSED] - Object '' is visible
+
+27-11-2024T18:06:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:06:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+27-11-2024T18:06:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:06:20 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthentication is PASSED
+
+27-11-2024T18:06:20 - [TEST_STEP][PASSED] - "==========================As an unauthenticated user, entering valid keys to search related products=========================": null
+
+27-11-2024T18:06:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:06:20 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T18:06:24 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T18:06:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), validSearchKeywords): Keys 'Jeans' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:06:24 - [MESSAGE][PASSED] - Keys 'Jeans' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:06:24 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T18:06:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T18:06:34 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("authen_valid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:06:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\authen_valid_search_27112024 180634.png]]
+
+27-11-2024T18:06:34 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:06:34 - [TEST_STEP][PASSED] - searchResults = findWebElements(findTestObject("Object Repository/home_page/product_search_result"), 10): Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T18:06:34 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/home_page/product_search_result
+
+27-11-2024T18:06:34 - [TEST_STEP][PASSED] - searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:06:34 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:06:34 - [TEST_STEP][PASSED] - searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... }): common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:06:34 - [MESSAGE][INFO] - Search result No.1: Quần Jeans Nam siêu nhẹ
+
+27-11-2024T18:06:34 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:06:34 - [MESSAGE][INFO] - Search result No.2: Quần Jeans Nam Basics dáng Straight
+
+27-11-2024T18:06:35 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:06:35 - [MESSAGE][INFO] - Search result No.3: Áo Thun Nam phối Jeans
+
+27-11-2024T18:06:35 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:06:35 - [MESSAGE][INFO] - Search result No.4: Áo Polo Nam phối Jeans
+
+27-11-2024T18:06:35 - [MESSAGE][PASSED] - common.TextUtilKeyword.removeAccents is PASSED
+
+27-11-2024T18:06:35 - [TEST_STEP][PASSED] - markPassed("All results match the valid search keyword "searchKeywords""): All results match the valid search keyword "searchKeywords"
+
+27-11-2024T18:06:35 - [MESSAGE][PASSED] - All results match the valid search keyword "searchKeywords"
+
+27-11-2024T18:06:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T18:06:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T18:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:06:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T18:06:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:06:43 - [TEST_STEP][PASSED] - "===============================Entering invalid keys to search related products=================================": null
+
+27-11-2024T18:06:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Id/id", ["id":"search-input"])): Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Id/id' is clicked on
+
+27-11-2024T18:06:43 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+27-11-2024T18:06:47 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+27-11-2024T18:06:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/properties/Id/id", ["id":"input-spotlight"]), invalidSearchKeywords): Keys 'đầm nữ' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:06:47 - [MESSAGE][PASSED] - Keys 'đầm nữ' sent to object: 'Object Repository/common/properties/Id/id'
+
+27-11-2024T18:06:47 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+27-11-2024T18:06:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+27-11-2024T18:06:57 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("unauthen_invalid_search"): common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:06:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-002\TS001-Search Product\TC002-Searching products as an authenticated user\unauthen_invalid_search_27112024 180657.png]]
+
+27-11-2024T18:06:57 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+27-11-2024T18:06:57 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/properties/Text/contains_text", ["text":"Không tìm thấy kết quả phù hợp!"]), 10)): null
+
+27-11-2024T18:06:57 - [MESSAGE][PASSED] - Object 'Object Repository/common/properties/Text/contains_text' is visible
+
+27-11-2024T18:06:57 - [TEST_STEP][PASSED] - markPassed("The system showed the message: "Không tìm thấy kết quả phù hợp!""): The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T18:06:57 - [MESSAGE][PASSED] - The system showed the message: "Không tìm thấy kết quả phù hợp!"
+
+27-11-2024T18:06:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+27-11-2024T18:07:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+27-11-2024T18:07:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/properties/Class/rel-script_and_contains_class", ["rel-script":"spotlight-search-close", "class":"homepage-search__submit"])): Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Class/rel-script_and_contains_class' is clicked on
+
+27-11-2024T18:07:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+27-11-2024T18:07:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:07:05 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+27-11-2024T18:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+27-11-2024T18:07:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+27-11-2024T18:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+27-11-2024T18:07:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+27-11-2024T18:07:10 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+27-11-2024T18:07:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-11-2024T18:07:13 - [MESSAGE][PASSED] - Browser is closed
+
+27-11-2024T18:07:13 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-11-2024T17:55:10 - [TEST_SUITE][PASSED] - TS001-Search Product: Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

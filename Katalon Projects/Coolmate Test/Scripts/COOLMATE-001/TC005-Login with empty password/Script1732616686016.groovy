@@ -37,6 +37,7 @@ WebUI.click(findTestObject('Object Repository/common/icon/user icon'))
 'Enter login credentials with empty password'
 WebUI.delay(3)
 WebUI.sendKeys(findTestObject('Object Repository/common/div/div_id_with_input_name', [('id'):'app', ('name'): 'username']), GlobalVariable.username_bao)
+CustomKeywords.'common.UtilKeyword.takeScreenShot'("empty_password_login")
 
 'Click login button and wait for page load'
 WebUI.delay(3)
@@ -47,6 +48,7 @@ WebUI.waitForPageLoad(10)
 if(WebUI.waitForElementVisible(findTestObject('Object Repository/common/span/span_class', [('class'): 'error-text']), 10)) {
 	String errorMessage = WebUI.getText(findTestObject('Object Repository/common/span/span_class', [('class'): 'error-text']))
 	KeywordUtil.logInfo("Error Message: " + errorMessage)
+	CustomKeywords.'common.UtilKeyword.takeScreenShot'("empty_pass_err_mess")
 }else {
 	KeywordUtil.markFailedAndStop("Error Message was displayed when entering invalid username")
 }

@@ -19,4 +19,14 @@
       <initValue>'https://www.coolmate.me'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>testCaseName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>testSuiteName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

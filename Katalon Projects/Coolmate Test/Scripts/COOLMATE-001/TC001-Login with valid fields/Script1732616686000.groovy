@@ -29,7 +29,6 @@ import org.openqa.selenium.chrome.ChromeDriver
 
 'Wait for elements to load before interaction'
 WebUI.delay(5)
-
 WebUI.click(findTestObject('Object Repository/common/icon/user icon'))
 
 'Enter login credentials'
@@ -37,6 +36,7 @@ WebUI.delay(3)
 WebUI.sendKeys(findTestObject('Object Repository/common/div/div_id_with_input_name', [('id'):'app', ('name'): 'username']), GlobalVariable.username_bao)
 WebUI.delay(3)
 WebUI.setEncryptedText(findTestObject('Object Repository/common/div/div_id_with_input_name', [('id'):'app', ('name'): 'password']), GlobalVariable.password_bao)
+CustomKeywords.'common.UtilKeyword.takeScreenShot'("valid_fields_login")
 
 'Click login button and wait for page load'
 WebUI.delay(3)
@@ -61,6 +61,7 @@ WebUI.delay(3)
 'Verify user is logged in and account info is present'
 WebUI.click(findTestObject('Object Repository/common/icon/user icon'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/common/div/div_class', [('class'): 'account-information__name']), 10)
+CustomKeywords.'common.UtilKeyword.takeScreenShot'("verify_logged_in")
 WebUI.delay(5)
 
 

@@ -23,11 +23,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class TextUtilKeyword {
-	
+
 	@Keyword
 	static String removeAccents(String str) {
 		// remove Vietnamese accents
 		return Normalizer.normalize(str, Normalizer.Form.NFD).replaceAll("\\p{InCombiningDiacriticalMarks}+", "")
 	}
-	
 }

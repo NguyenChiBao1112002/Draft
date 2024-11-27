@@ -40,6 +40,7 @@ WebUI.delay(4)
 'Enter valid search keywords'
 WebUI.sendKeys(findTestObject('Object Repository/common/properties/Id/id', [('id'): 'input-spotlight']), validSearchKeywords)
 WebUI.delay(10)
+CustomKeywords.'common.UtilKeyword.takeScreenShot'('unauthen_valid_search')
 
 
 'Verify that all results match the valid search keywords'
@@ -63,7 +64,7 @@ WebUI.click(findTestObject('Object Repository/common/properties/Class/rel-script
 WebUI.delay(3)
 
 
-'===============================Entering  invalid keys to search related products================================='
+'===============================Entering invalid keys to search related products================================='
 
 'Click on Search box one more time'
 WebUI.click(findTestObject('Object Repository/common/properties/Id/id', [('id'): 'search-input']))
@@ -72,6 +73,7 @@ WebUI.delay(4)
 'Enter invalid search keywords'
 WebUI.sendKeys(findTestObject('Object Repository/common/properties/Id/id', [('id'): 'input-spotlight']), invalidSearchKeywords)
 WebUI.delay(10)
+CustomKeywords.'common.UtilKeyword.takeScreenShot'('unauthen_invalid_search')
 
 'The system shows the message: "Không tìm thấy kết quả phù hợp!" when entering invalid search keywords'
 if(WebUI.waitForElementVisible(findTestObject('Object Repository/common/properties/Text/contains_text', [('text'): 'Không tìm thấy kết quả phù hợp!']), 10)) {
