@@ -1,0 +1,21 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1732597677401,578,LaunchWekipedia,200,OK,Thread Group 1-1,text,true,,27066,1369,4,4,https://en.wikipedia.org/wiki/Main_Page,472,0,415
+1732597677401,474,LaunchWekipedia-0,301,Moved Permanently,Thread Group 1-1,text,true,,1402,680,4,4,https://en.wikipedia.org/wiki/,472,0,415
+1732597677876,103,LaunchWekipedia-1,200,OK,Thread Group 1-1,text,true,,25664,689,4,4,https://en.wikipedia.org/wiki/Main_Page,63,0,0
+1732597677549,431,LaunchWekipedia,200,OK,Thread Group 1-2,text,true,,27066,1369,4,4,https://en.wikipedia.org/wiki/Main_Page,324,0,267
+1732597677549,326,LaunchWekipedia-0,301,Moved Permanently,Thread Group 1-2,text,true,,1402,680,4,4,https://en.wikipedia.org/wiki/,324,0,267
+1732597677876,104,LaunchWekipedia-1,200,OK,Thread Group 1-2,text,true,,25664,689,4,4,https://en.wikipedia.org/wiki/Main_Page,65,0,0
+1732597677981,51,searchInWekipedia,200,OK,Thread Group 1-1,text,true,,2190,600,4,4,https://en.wikipedia.org/w/rest.php/v1/search/title?q=Jmeter&limit=10,51,0,0
+1732597677981,52,searchInWekipedia,200,OK,Thread Group 1-2,text,true,,2190,600,4,4,https://en.wikipedia.org/w/rest.php/v1/search/title?q=Jmeter&limit=10,52,0,0
+1732597677746,325,LaunchWekipedia,200,OK,Thread Group 1-3,text,true,,27066,1369,2,2,https://en.wikipedia.org/wiki/Main_Page,218,0,164
+1732597677746,218,LaunchWekipedia-0,301,Moved Permanently,Thread Group 1-3,text,true,,1402,680,2,2,https://en.wikipedia.org/wiki/,218,0,164
+1732597677964,107,LaunchWekipedia-1,200,OK,Thread Group 1-3,text,true,,25664,689,2,2,https://en.wikipedia.org/wiki/Main_Page,65,0,0
+1732597678072,53,searchInWekipedia,200,OK,Thread Group 1-3,text,true,,2190,600,2,2,https://en.wikipedia.org/w/rest.php/v1/search/title?q=Jmeter&limit=10,53,0,0
+1732597677946,310,LaunchWekipedia,200,OK,Thread Group 1-4,text,true,,27066,1369,2,2,https://en.wikipedia.org/wiki/Main_Page,208,0,157
+1732597677946,208,LaunchWekipedia-0,301,Moved Permanently,Thread Group 1-4,text,true,,1402,680,2,2,https://en.wikipedia.org/wiki/,208,0,157
+1732597678154,102,LaunchWekipedia-1,200,OK,Thread Group 1-4,text,true,,25664,689,2,2,https://en.wikipedia.org/wiki/Main_Page,62,0,0
+1732597678257,50,searchInWekipedia,200,OK,Thread Group 1-4,text,true,,2190,600,2,2,https://en.wikipedia.org/w/rest.php/v1/search/title?q=Jmeter&limit=10,50,0,0
+1732597678145,307,LaunchWekipedia,200,OK,Thread Group 1-5,text,true,,27066,1369,1,1,https://en.wikipedia.org/wiki/Main_Page,205,0,155
+1732597678145,205,LaunchWekipedia-0,301,Moved Permanently,Thread Group 1-5,text,true,,1402,680,1,1,https://en.wikipedia.org/wiki/,205,0,155
+1732597678350,102,LaunchWekipedia-1,200,OK,Thread Group 1-5,text,true,,25664,689,1,1,https://en.wikipedia.org/wiki/Main_Page,61,0,0
+1732597678453,51,searchInWekipedia,200,OK,Thread Group 1-5,text,true,,2190,600,1,1,https://en.wikipedia.org/w/rest.php/v1/search/title?q=Jmeter&limit=10,51,0,0

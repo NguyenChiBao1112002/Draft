@@ -1,5 +1,0 @@
-{"testCaseName":"Test Cases/COOLMATE-001/TC001-Login with valid fields","testCaseId":"Test Cases/COOLMATE-001/TC001-Login with valid fields","iterationVariableName":""}
-{"testCaseName":"Test Cases/COOLMATE-001/TC002-Login with invalid username","testCaseId":"Test Cases/COOLMATE-001/TC002-Login with invalid username","iterationVariableName":""}
-{"testCaseName":"Test Cases/COOLMATE-001/TC003-Login with invalid password","testCaseId":"Test Cases/COOLMATE-001/TC003-Login with invalid password","iterationVariableName":""}
-{"testCaseName":"Test Cases/COOLMATE-001/TC004-Login with empty username","testCaseId":"Test Cases/COOLMATE-001/TC004-Login with empty username","iterationVariableName":""}
-{"testCaseName":"Test Cases/COOLMATE-001/TC005-Login with empty password","testCaseId":"Test Cases/COOLMATE-001/TC005-Login with empty password","iterationVariableName":""}

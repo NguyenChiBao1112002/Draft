@@ -15,8 +15,8 @@ For example:
 -> 4/2 - 2 sec to be up and running
 ----------------------------------------------------------------------------------------
 
-***Lesson 2 - How to create First JMeter Test | JMeter Sample Test-------------------------
------------------------------------------------------------------------------------------
+***Lesson 2 - How to create First JMeter Test | JMeter Sample Test----------------------
+----------------------------------------------------------------------------------------
 
 ***Lesson 3 - How to record test in JMeter | How to use Test Script Recorder in JMeter-----
 How to create: Add > Non-Test Elements > HTTP(S) Test Script Recorder (To Start: Need add certificate to the Browser + Use proxy)
@@ -64,20 +64,50 @@ Notes:
 
 -----------------------------------------------------------------------------------------
 
-***Lesson 7 - 
+***Lesson 7 - How to read data from CSV File | Parameterization in JMeter----------------
+
+-----------------------------------------------------------------------------------------
+
+***Lesson 8 - How to use Assertions | Assertion Examples | Response Assertion------------
+
+-----------------------------------------------------------------------------------------
+
+***Lesson 9 - How to debug in JMeter using Listeners, Log Viewer and Debug Sampler-------
+
+- Nếu muốn mở Log Viewer: Options Tab -> Check on Log Viewer
+- Nếu muốn xem debug: C1: Options Tab -> Log Level -> Debug
+		      C2: Add -> Sampler -> Debug Sampler
+
+-----------------------------------------------------------------------------------------
+
+***Lesson 10 - Handle Dynamic Value - Correlation (sự tương quan) | Regular Extractor - PostProcessor----
+
+. What is a dynamic value? -> Values generated in reponse that changes every time for each iterating requests
+
+E.x: 	
+		|req			|response
+launch app 	|			|session id (dynamic) - x or y
+login to app	|session id -x (fail)	|
 
 
+. How to handle dynamic value?
+1) Capture the dynamic value from the reponse
+2) Store (as a variable) the dynamic value from the reponse
+3) Use that captured and stored dynamic value (as variable) in the subsequent req
 
+E.x:
+	Set-Cookie: PHPSESSID=8ei14226073av86rrjpdp5k2kd; path=/ 
+	Set-Cookie: PHPSESSID=abc; path=/ 
+	Set-Cookie: PHPSESSID=xyz; path=/ 
+	-> Set-Cookie: PHPSESSID=(.+?); path=/ 	
+	-> Có thể dùng RE Extractor để kiểm tra + gán biến
+	-> Có thể dùng regexr.com để kiểm tra regular expression: 
 
-
-
-
-
-
-
-
-
-
+	Template trong RE Extractor (giống như JSON Extractor trích xuất dữ liệu từ JSON để gán cho biến): để trích dẫn dữ liệu từ RE khớp để gán cho biến
+	RE: "user_id":\s*"(\d+)" -> Tìm chuỗi "user_id": "12345" và trích xuất phần số
+	Template: $1$ -> Chỉ định rằng bạn muốn trích xuất nhóm đầu tiên, tức là 56789
+	Match No: 1 Trích xuất khớp đầu tiên (sẽ có nhiều chỗ khớp, muốn lấy chỗ nào)
+	
 
 
 

@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>As an unauthenticated user, entering valid and invalid keys to search related products&#xd;
-</description>
+   <description></description>
    <name>TC001-Searching products as an unauthenticated user</name>
-   <tag>S002; TS001-Search Product; Search Box</tag>
+   <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>4148852c-ea80-4686-aa5e-8d8ff9cb1ce6</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ff064086-c9c1-400c-982c-6ee84b5a21c7</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>36d9c99b-a0c2-4e4f-bb73-5808a918b359</variableId>
-   </variableLinks>
-   <variable>
-      <defaultValue>'Ao thun'</defaultValue>
-      <description></description>
-      <id>ff064086-c9c1-400c-982c-6ee84b5a21c7</id>
-      <masked>false</masked>
-      <name>validSearchKeywords</name>
-   </variable>
-   <variable>
-      <defaultValue>'asdf123!@#a3'</defaultValue>
-      <description></description>
-      <id>36d9c99b-a0c2-4e4f-bb73-5808a918b359</id>
-      <masked>false</masked>
-      <name>invalidSearchKeywords</name>
-   </variable>
+   <testCaseGuid>b7081ab9-1232-445b-9072-954939c62eaf</testCaseGuid>
 </TestCaseEntity>
