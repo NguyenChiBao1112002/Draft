@@ -1,0 +1,84 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS001-Login,Chrome 131.0.0.0,,,29-11-2024 18:29:48,29-11-2024 18:32:26,2m - 37.220s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-001/TC001-Login with valid fields,Chrome 131.0.0.0,,,29-11-2024 18:29:49,29-11-2024 18:30:51,1m - 2.279s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,29-11-2024 18:29:49,29-11-2024 18:29:49,0.013s,PASSED
+Start setup action : setupTestCase,Chrome 131.0.0.0,,,29-11-2024 18:29:49,29-11-2024 18:30:15,26.506s,PASSED
+"""======================Login to the Coolmate Page with valid fields========================""",Chrome 131.0.0.0,,,29-11-2024 18:30:15,29-11-2024 18:30:15,0.001s,PASSED
+delay(5),Chrome 131.0.0.0,Wait for elements to load before interaction,,29-11-2024 18:30:15,29-11-2024 18:30:20,5.028s,PASSED
+"click(findTestObject(""Object Repository/common/icon/user icon""))",Chrome 131.0.0.0,,,29-11-2024 18:30:20,29-11-2024 18:30:20,0.092s,PASSED
+delay(3),Chrome 131.0.0.0,Enter login credentials,,29-11-2024 18:30:20,29-11-2024 18:30:23,3.016s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/div/div_id_with_input_name"", [""id"":""app"", ""name"":""username""]), username_bao)",Chrome 131.0.0.0,,,29-11-2024 18:30:23,29-11-2024 18:30:24,0.150s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:30:24,29-11-2024 18:30:27,3.007s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/common/div/div_id_with_input_name"", [""id"":""app"", ""name"":""password""]), password_bao)",Chrome 131.0.0.0,,,29-11-2024 18:30:27,29-11-2024 18:30:27,0.085s,PASSED
+"common.UtilKeyword.takeScreenShot(""valid_fields_login"")",Chrome 131.0.0.0,,,29-11-2024 18:30:27,29-11-2024 18:30:27,0.306s,PASSED
+delay(3),Chrome 131.0.0.0,Click login button and wait for page load,,29-11-2024 18:30:27,29-11-2024 18:30:30,3.012s,PASSED
+"click(findTestObject(""Object Repository/common/button/button_class"", [""class"":""login-btn""]))",Chrome 131.0.0.0,,,29-11-2024 18:30:30,29-11-2024 18:30:30,0.057s,PASSED
+waitForPageLoad(10),Chrome 131.0.0.0,,,29-11-2024 18:30:30,29-11-2024 18:30:30,0.009s,PASSED
+"popUpElement = findTestObject(""Object Repository/component/close_popup_button"")",Chrome 131.0.0.0,Handle pop-up elements or any other actions after login,,29-11-2024 18:30:30,29-11-2024 18:30:30,0.003s,PASSED
+"while (waitForElementVisible(popUpElement, 10))",Chrome 131.0.0.0,,,29-11-2024 18:30:30,29-11-2024 18:30:51,20.683s,PASSED
+Start tear down : tearDownTestCase,Chrome 131.0.0.0,,,29-11-2024 18:30:51,29-11-2024 18:30:51,0.200s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-001/TC002-Login with invalid username,Chrome 131.0.0.0,,,29-11-2024 18:30:51,29-11-2024 18:31:11,19.967s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,29-11-2024 18:30:51,29-11-2024 18:30:51,0.001s,PASSED
+Start setup action : setupTestCase,Chrome 131.0.0.0,,,29-11-2024 18:30:51,29-11-2024 18:30:55,4.071s,PASSED
+"""=========================Login to the Coolmate Page with invalid username========================""",Chrome 131.0.0.0,,,29-11-2024 18:30:55,29-11-2024 18:30:55,0.001s,PASSED
+delay(5),Chrome 131.0.0.0,Wait for elements to load before interaction,,29-11-2024 18:30:55,29-11-2024 18:31:00,5.011s,PASSED
+"click(findTestObject(""Object Repository/common/icon/user icon""))",Chrome 131.0.0.0,,,29-11-2024 18:31:00,29-11-2024 18:31:00,0.075s,PASSED
+delay(3),Chrome 131.0.0.0,Enter login credentials with invalid username,,29-11-2024 18:31:00,29-11-2024 18:31:03,3.014s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/div/div_id_with_input_name"", [""id"":""app"", ""name"":""username""]), username_bao + ""Wrong Text"")",Chrome 131.0.0.0,,,29-11-2024 18:31:03,29-11-2024 18:31:03,0.074s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:31:03,29-11-2024 18:31:06,3.007s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/common/div/div_id_with_input_name"", [""id"":""app"", ""name"":""password""]), password_bao)",Chrome 131.0.0.0,,,29-11-2024 18:31:06,29-11-2024 18:31:06,0.073s,PASSED
+"common.UtilKeyword.takeScreenShot(""invalid_username_login"")",Chrome 131.0.0.0,,,29-11-2024 18:31:06,29-11-2024 18:31:07,0.245s,PASSED
+delay(3),Chrome 131.0.0.0,Click login button and wait for page load,,29-11-2024 18:31:07,29-11-2024 18:31:10,3.008s,PASSED
+"click(findTestObject(""Object Repository/common/button/button_class"", [""class"":""login-btn""]))",Chrome 131.0.0.0,,,29-11-2024 18:31:10,29-11-2024 18:31:10,0.052s,PASSED
+waitForPageLoad(10),Chrome 131.0.0.0,,,29-11-2024 18:31:10,29-11-2024 18:31:10,0.016s,PASSED
+"if (waitForElementVisible(findTestObject(""Object Repository/common/div/div_class"", [""class"":""login-error""]), 10))",Chrome 131.0.0.0,Verify error message,,29-11-2024 18:31:10,29-11-2024 18:31:11,1.045s,PASSED
+Start tear down : tearDownTestCase,Chrome 131.0.0.0,,,29-11-2024 18:31:11,29-11-2024 18:31:11,0.186s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-001/TC003-Login with invalid password,Chrome 131.0.0.0,,,29-11-2024 18:31:11,29-11-2024 18:31:51,40.204s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,29-11-2024 18:31:11,29-11-2024 18:31:11,0.000s,PASSED
+Start setup action : setupTestCase,Chrome 131.0.0.0,,,29-11-2024 18:31:11,29-11-2024 18:31:35,24.017s,PASSED
+"""=======================Login to the Coolmate Page with invalid password=============================""",Chrome 131.0.0.0,,,29-11-2024 18:31:35,29-11-2024 18:31:35,0.000s,PASSED
+delay(5),Chrome 131.0.0.0,Wait for elements to load before interaction,,29-11-2024 18:31:35,29-11-2024 18:31:40,5.005s,PASSED
+"click(findTestObject(""Object Repository/common/icon/user icon""))",Chrome 131.0.0.0,,,29-11-2024 18:31:40,29-11-2024 18:31:40,0.082s,PASSED
+delay(3),Chrome 131.0.0.0,Enter login credentials invalid password,,29-11-2024 18:31:40,29-11-2024 18:31:43,3.004s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/div/div_id_with_input_name"", [""id"":""app"", ""name"":""username""]), username_bao)",Chrome 131.0.0.0,,,29-11-2024 18:31:43,29-11-2024 18:31:43,0.087s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:31:43,29-11-2024 18:31:46,3.007s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/common/div/div_id_with_input_name"", [""id"":""app"", ""name"":""password""]), ""YsqIKzHWQwYX7jcwa8U8RQ=="")",Chrome 131.0.0.0,,,29-11-2024 18:31:46,29-11-2024 18:31:46,0.071s,PASSED
+"common.UtilKeyword.takeScreenShot(""invalid_password_login"")",Chrome 131.0.0.0,,,29-11-2024 18:31:46,29-11-2024 18:31:46,0.260s,PASSED
+delay(3),Chrome 131.0.0.0,Click login button and wait for page load,,29-11-2024 18:31:46,29-11-2024 18:31:49,3.012s,PASSED
+"click(findTestObject(""Object Repository/common/button/button_class"", [""class"":""login-btn""]))",Chrome 131.0.0.0,,,29-11-2024 18:31:49,29-11-2024 18:31:50,0.058s,PASSED
+waitForPageLoad(10),Chrome 131.0.0.0,,,29-11-2024 18:31:50,29-11-2024 18:31:50,0.007s,PASSED
+"if (waitForElementVisible(findTestObject(""Object Repository/common/div/div_class"", [""class"":""login-error""]), 10))",Chrome 131.0.0.0,Verify error message,,29-11-2024 18:31:50,29-11-2024 18:31:51,1.329s,PASSED
+Start tear down : tearDownTestCase,Chrome 131.0.0.0,,,29-11-2024 18:31:51,29-11-2024 18:31:51,0.188s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-001/TC004-Login with empty username,Chrome 131.0.0.0,,,29-11-2024 18:31:51,29-11-2024 18:32:09,18.292s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,29-11-2024 18:31:51,29-11-2024 18:31:51,0.000s,PASSED
+Start setup action : setupTestCase,Chrome 131.0.0.0,,,29-11-2024 18:31:51,29-11-2024 18:31:57,6.062s,PASSED
+"""==========================Login to the Coolmate Page with enpty username=============================""",Chrome 131.0.0.0,,,29-11-2024 18:31:57,29-11-2024 18:31:57,0.000s,PASSED
+delay(5),Chrome 131.0.0.0,Wait for elements to load before interaction,,29-11-2024 18:31:57,29-11-2024 18:32:02,5.013s,PASSED
+"click(findTestObject(""Object Repository/common/icon/user icon""))",Chrome 131.0.0.0,,,29-11-2024 18:32:02,29-11-2024 18:32:02,0.073s,PASSED
+delay(3),Chrome 131.0.0.0,Enter login credentials with empty username,,29-11-2024 18:32:02,29-11-2024 18:32:05,3.005s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/common/div/div_id_with_input_name"", [""id"":""app"", ""name"":""password""]), password_bao)",Chrome 131.0.0.0,,,29-11-2024 18:32:05,29-11-2024 18:32:05,0.078s,PASSED
+"common.UtilKeyword.takeScreenShot(""empty_username_login"")",Chrome 131.0.0.0,,,29-11-2024 18:32:05,29-11-2024 18:32:06,0.256s,PASSED
+delay(3),Chrome 131.0.0.0,Click login button and wait for page load,,29-11-2024 18:32:06,29-11-2024 18:32:09,3.003s,PASSED
+"click(findTestObject(""Object Repository/common/button/button_class"", [""class"":""login-btn""]))",Chrome 131.0.0.0,,,29-11-2024 18:32:09,29-11-2024 18:32:09,0.066s,PASSED
+waitForPageLoad(10),Chrome 131.0.0.0,,,29-11-2024 18:32:09,29-11-2024 18:32:09,0.018s,PASSED
+"if (waitForElementVisible(findTestObject(""Object Repository/common/span/span_class"", [""class"":""error-text""]), 10))",Chrome 131.0.0.0,Verify error message,,29-11-2024 18:32:09,29-11-2024 18:32:09,0.468s,PASSED
+Start tear down : tearDownTestCase,Chrome 131.0.0.0,,,29-11-2024 18:32:09,29-11-2024 18:32:09,0.194s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-001/TC005-Login with empty password,Chrome 131.0.0.0,,,29-11-2024 18:32:09,29-11-2024 18:32:26,16.234s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,29-11-2024 18:32:09,29-11-2024 18:32:09,0.000s,PASSED
+Start setup action : setupTestCase,Chrome 131.0.0.0,,,29-11-2024 18:32:09,29-11-2024 18:32:13,4.004s,PASSED
+"""=======================Login to the Coolmate Page with empty password==========================""",Chrome 131.0.0.0,,,29-11-2024 18:32:13,29-11-2024 18:32:13,0.001s,PASSED
+delay(5),Chrome 131.0.0.0,Wait for elements to load before interaction,,29-11-2024 18:32:13,29-11-2024 18:32:18,5.010s,PASSED
+"click(findTestObject(""Object Repository/common/icon/user icon""))",Chrome 131.0.0.0,,,29-11-2024 18:32:18,29-11-2024 18:32:18,0.071s,PASSED
+delay(3),Chrome 131.0.0.0,Enter login credentials with empty password,,29-11-2024 18:32:18,29-11-2024 18:32:21,3.003s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/div/div_id_with_input_name"", [""id"":""app"", ""name"":""username""]), username_bao)",Chrome 131.0.0.0,,,29-11-2024 18:32:21,29-11-2024 18:32:22,0.075s,PASSED
+"common.UtilKeyword.takeScreenShot(""empty_password_login"")",Chrome 131.0.0.0,,,29-11-2024 18:32:22,29-11-2024 18:32:22,0.257s,PASSED
+delay(3),Chrome 131.0.0.0,Click login button and wait for page load,,29-11-2024 18:32:22,29-11-2024 18:32:25,3.016s,PASSED
+"click(findTestObject(""Object Repository/common/button/button_class"", [""class"":""login-btn""]))",Chrome 131.0.0.0,,,29-11-2024 18:32:25,29-11-2024 18:32:25,0.062s,PASSED
+waitForPageLoad(10),Chrome 131.0.0.0,,,29-11-2024 18:32:25,29-11-2024 18:32:25,0.005s,PASSED
+"if (waitForElementVisible(findTestObject(""Object Repository/common/span/span_class"", [""class"":""error-text""]), 10))",Chrome 131.0.0.0,Handle error message,,29-11-2024 18:32:25,29-11-2024 18:32:25,0.484s,PASSED
+Start tear down : tearDownTestCase,Chrome 131.0.0.0,,,29-11-2024 18:32:25,29-11-2024 18:32:26,0.185s,PASSED

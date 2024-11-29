@@ -28,7 +28,7 @@ import org.openqa.selenium.WebElement as Keys
 //String invalidSearchKeywords = 'invalid_keyword_V1Tdm6pxAkdcLfg=='
 
 'Open Coolmate and authenticate'
-CustomKeywords.'common.UtilKeyword.openURLAndAuthentication'(GlobalVariable.username_bao, GlobalVariable.password_bao)
+CustomKeywords.'common.UtilKeyword.openURLAndAuthenticate'(GlobalVariable.username_bao, GlobalVariable.password_bao)
 
 '==========================As an authenticated user, entering valid keys to search related products========================='
 
@@ -43,7 +43,7 @@ CustomKeywords.'common.UtilKeyword.takeScreenShot'('authen_valid_search')
 
 
 'Verify that all results match the valid search keywords'
-List<WebElement> searchResults = WebUI.findWebElements(findTestObject('Object Repository/home_page/product_search_result'), 10)
+List<WebElement> searchResults = WebUI.findWebElements(findTestObject('Object Repository/pages/home_page/product_search_result'), 10)
 String searchKeywordsText = CustomKeywords.'common.TextUtilKeyword.removeAccents'(validSearchKeywords.toLowerCase())
 
 searchResults.eachWithIndex { WebElement element, int index ->

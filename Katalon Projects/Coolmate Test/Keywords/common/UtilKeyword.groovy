@@ -60,7 +60,7 @@ public class UtilKeyword {
 	 *Regarding authentication*
 	 */
 	@Keyword
-	static def openURLAndAuthentication(String username, String password) {
+	static def openURLAndAuthenticate(String username, String password) {
 		'Set up ChromeDriver with options'
 		String basePath = RunConfiguration.getProjectDir()
 		System.setProperty("webdriver.chrome.driver", basePath + "/Drivers/chromedriver131.exe")
@@ -79,8 +79,8 @@ public class UtilKeyword {
 		WebUI.maximizeWindow()
 
 		'Handle Ads Popup if present'
-		if(WebUI.waitForElementVisible(findTestObject('Object Repository/home_page/ads_close_button'), 10)) {
-			WebUI.click(findTestObject('Object Repository/home_page/ads_close_button'))
+		if(WebUI.waitForElementVisible(findTestObject('Object Repository/pages/home_page/ads_close_button'), 10)) {
+			WebUI.click(findTestObject('Object Repository/pages/home_page/ads_close_button'))
 		}
 		WebUI.delay(3)
 
@@ -100,19 +100,12 @@ public class UtilKeyword {
 		WebUI.delay(3)
 
 		'Handle pop-up elements or any other actions after login'
-		TestObject updateSizePopup = new TestObject()
-		updateSizePopup.addProperty("xpath", ConditionType.EQUALS, "//*[@id='popup-member'][1]/div[2]/span")
-		WebUI.waitForElementVisible(updateSizePopup, 10)
-		WebUI.delay(3)
-		WebUI.click(updateSizePopup)
-		WebUI.delay(3)
-
-		TestObject newMemberPopup = new TestObject()
-		newMemberPopup.addProperty("xpath", ConditionType.EQUALS, "//*[@id='popup-member'][2]/div[2]/span")
-		WebUI.waitForElementVisible(newMemberPopup, 10)
-		WebUI.delay(3)
-		WebUI.click(newMemberPopup)
-		WebUI.delay(3)
+		TestObject popUpElement = findTestObject('Object Repository/component/close_popup_button')
+		while(WebUI.waitForElementVisible(popUpElement, 10)) {
+			WebUI.delay(3)
+			WebUI.click(popUpElement)
+			WebUI.delay(3)
+		}
 	}
 
 	@Keyword
@@ -153,8 +146,8 @@ public class UtilKeyword {
 		WebUI.maximizeWindow()
 
 		'Handle Ads Popup if present'
-		if(WebUI.waitForElementVisible(findTestObject("Object Repository/home_page/ads_close_button"), 10)) {
-			WebUI.click(findTestObject("Object Repository/home_page/ads_close_button"))
+		if(WebUI.waitForElementVisible(findTestObject("Object Repository/pages/home_page/ads_close_button"), 10)) {
+			WebUI.click(findTestObject("Object Repository/pages/home_page/ads_close_button"))
 		}
 		WebUI.delay(3)
 	}
@@ -197,5 +190,14 @@ public class UtilKeyword {
 		Path p = baseDir.resolve(name + "_" + dateTime + ".png")
 
 		WebUI.takeScreenshot(p.toString())
+	}
+
+	/*
+	 *Regarding timer*
+	 */
+	@Keyword
+	static def waitForPageLoadAndDelay(int timeToLoad, int timeToDelay) {
+		WebUI.waitForPageLoad(timeToLoad)
+		WebUI.delay(timeToDelay)
 	}
 }

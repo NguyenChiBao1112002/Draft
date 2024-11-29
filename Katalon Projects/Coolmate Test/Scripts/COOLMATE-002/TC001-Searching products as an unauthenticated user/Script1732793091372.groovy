@@ -44,7 +44,7 @@ CustomKeywords.'common.UtilKeyword.takeScreenShot'('unauthen_valid_search')
 
 
 'Verify that all results match the valid search keywords'
-List<WebElement> searchResults = WebUI.findWebElements(findTestObject('Object Repository/home_page/product_search_result'), 10)
+List<WebElement> searchResults = WebUI.findWebElements(findTestObject('Object Repository/pages/home_page/product_search_result'), 10)
 String searchKeywordsText = CustomKeywords.'common.TextUtilKeyword.removeAccents'(validSearchKeywords.toLowerCase())
 
 searchResults.eachWithIndex { WebElement element, int index ->

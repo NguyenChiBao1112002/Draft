@@ -6,4 +6,18 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>b7081ab9-1232-445b-9072-954939c62eaf</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>97037274-8d72-4835-b134-cbf935f8335f</id>
+      <masked>false</masked>
+      <name>validSearchKeywords</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3b781ff0-097c-4c1f-8902-549bc37d9d0c</id>
+      <masked>false</masked>
+      <name>invalidSearchKeywords</name>
+   </variable>
 </TestCaseEntity>

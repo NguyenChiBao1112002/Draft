@@ -1,0 +1,282 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS001-Search Product,Chrome 131.0.0.0,,,29-11-2024 18:36:08,29-11-2024 18:48:59,12m - 51.172s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user,Chrome 131.0.0.0,,,29-11-2024 18:36:08,29-11-2024 18:37:04,55.365s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,29-11-2024 18:36:08,29-11-2024 18:36:08,0.012s,PASSED
+common.UtilKeyword.openURL(),Chrome 131.0.0.0,Open Coolmate,,29-11-2024 18:36:09,29-11-2024 18:36:18,9.813s,PASSED
+"""==========================As an unauthenticated user,  entering  valid keys to search related products=========================""",Chrome 131.0.0.0,,,29-11-2024 18:36:18,29-11-2024 18:36:18,0.001s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box,,29-11-2024 18:36:18,29-11-2024 18:36:18,0.091s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:36:18,29-11-2024 18:36:22,4.013s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), validSearchKeywords)",Chrome 131.0.0.0,Enter valid search keywords,,29-11-2024 18:36:22,29-11-2024 18:36:23,0.047s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:36:23,29-11-2024 18:36:33,10.009s,PASSED
+"common.UtilKeyword.takeScreenShot(""unauthen_valid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:36:33,29-11-2024 18:36:33,0.269s,PASSED
+"searchResults = findWebElements(findTestObject(""Object Repository/pages/home_page/product_search_result""), 10)",Chrome 131.0.0.0,Verify that all results match the valid search keywords,,29-11-2024 18:36:33,29-11-2024 18:36:33,0.023s,PASSED
+searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()),Chrome 131.0.0.0,,,29-11-2024 18:36:33,29-11-2024 18:36:33,0.012s,PASSED
+"searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... })",Chrome 131.0.0.0,,,29-11-2024 18:36:33,29-11-2024 18:36:33,0.065s,PASSED
+"markPassed(""All results match the valid search keyword ""searchKeywords"""")",Chrome 131.0.0.0,,,29-11-2024 18:36:33,29-11-2024 18:36:33,0.001s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:36:33,29-11-2024 18:36:38,5.015s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:36:38,29-11-2024 18:36:38,0.054s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:36:38,29-11-2024 18:36:41,3.016s,PASSED
+"""===============================Entering invalid keys to search related products=================================""",Chrome 131.0.0.0,,,29-11-2024 18:36:41,29-11-2024 18:36:41,0.001s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box one more time,,29-11-2024 18:36:41,29-11-2024 18:36:41,0.091s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:36:41,29-11-2024 18:36:45,4.017s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), invalidSearchKeywords)",Chrome 131.0.0.0,Enter invalid search keywords,,29-11-2024 18:36:45,29-11-2024 18:36:45,0.036s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:36:45,29-11-2024 18:36:55,10.015s,PASSED
+"common.UtilKeyword.takeScreenShot(""unauthen_invalid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:36:55,29-11-2024 18:36:55,0.260s,PASSED
+"if (waitForElementVisible(findTestObject(""Object Repository/common/properties/Text/contains_text"", [""text"":""Không tìm thấy kết quả phù hợp!""]), 10))",Chrome 131.0.0.0,"The system shows the message: ""Không tìm thấy kết quả phù hợp!"" when entering invalid search keywords",,29-11-2024 18:36:55,29-11-2024 18:36:55,0.030s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:36:55,29-11-2024 18:37:00,5.004s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:37:00,29-11-2024 18:37:01,0.049s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:37:01,29-11-2024 18:37:04,3.013s,PASSED
+closeBrowser(),Chrome 131.0.0.0,Close browser,,29-11-2024 18:37:04,29-11-2024 18:37:04,0.205s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user,Chrome 131.0.0.0,,,29-11-2024 18:37:04,29-11-2024 18:37:56,52.090s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,29-11-2024 18:37:04,29-11-2024 18:37:04,0.002s,PASSED
+common.UtilKeyword.openURL(),Chrome 131.0.0.0,Open Coolmate,,29-11-2024 18:37:04,29-11-2024 18:37:11,6.905s,PASSED
+"""==========================As an unauthenticated user,  entering  valid keys to search related products=========================""",Chrome 131.0.0.0,,,29-11-2024 18:37:11,29-11-2024 18:37:11,0.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box,,29-11-2024 18:37:11,29-11-2024 18:37:11,0.060s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:37:11,29-11-2024 18:37:15,4.011s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), validSearchKeywords)",Chrome 131.0.0.0,Enter valid search keywords,,29-11-2024 18:37:15,29-11-2024 18:37:15,0.037s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:37:15,29-11-2024 18:37:25,10.004s,PASSED
+"common.UtilKeyword.takeScreenShot(""unauthen_valid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:37:25,29-11-2024 18:37:25,0.213s,PASSED
+"searchResults = findWebElements(findTestObject(""Object Repository/pages/home_page/product_search_result""), 10)",Chrome 131.0.0.0,Verify that all results match the valid search keywords,,29-11-2024 18:37:25,29-11-2024 18:37:25,0.017s,PASSED
+searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()),Chrome 131.0.0.0,,,29-11-2024 18:37:25,29-11-2024 18:37:25,0.001s,PASSED
+"searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... })",Chrome 131.0.0.0,,,29-11-2024 18:37:25,29-11-2024 18:37:25,0.055s,PASSED
+"markPassed(""All results match the valid search keyword ""searchKeywords"""")",Chrome 131.0.0.0,,,29-11-2024 18:37:25,29-11-2024 18:37:25,0.001s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:37:25,29-11-2024 18:37:30,5.008s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:37:30,29-11-2024 18:37:30,0.074s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:37:30,29-11-2024 18:37:33,3.009s,PASSED
+"""===============================Entering invalid keys to search related products=================================""",Chrome 131.0.0.0,,,29-11-2024 18:37:33,29-11-2024 18:37:33,0.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box one more time,,29-11-2024 18:37:33,29-11-2024 18:37:33,0.064s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:37:33,29-11-2024 18:37:37,4.010s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), invalidSearchKeywords)",Chrome 131.0.0.0,Enter invalid search keywords,,29-11-2024 18:37:37,29-11-2024 18:37:37,0.030s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:37:37,29-11-2024 18:37:47,10.013s,PASSED
+"common.UtilKeyword.takeScreenShot(""unauthen_invalid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:37:47,29-11-2024 18:37:48,0.250s,PASSED
+"if (waitForElementVisible(findTestObject(""Object Repository/common/properties/Text/contains_text"", [""text"":""Không tìm thấy kết quả phù hợp!""]), 10))",Chrome 131.0.0.0,"The system shows the message: ""Không tìm thấy kết quả phù hợp!"" when entering invalid search keywords",,29-11-2024 18:37:48,29-11-2024 18:37:48,0.038s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:37:48,29-11-2024 18:37:53,5.011s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:37:53,29-11-2024 18:37:53,0.054s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:37:53,29-11-2024 18:37:56,3.014s,PASSED
+closeBrowser(),Chrome 131.0.0.0,Close browser,,29-11-2024 18:37:56,29-11-2024 18:37:56,0.193s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user,Chrome 131.0.0.0,,,29-11-2024 18:37:56,29-11-2024 18:39:19,1m - 23.171s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,29-11-2024 18:37:56,29-11-2024 18:37:56,0.001s,PASSED
+common.UtilKeyword.openURL(),Chrome 131.0.0.0,Open Coolmate,,29-11-2024 18:37:56,29-11-2024 18:38:23,27.025s,PASSED
+"""==========================As an unauthenticated user,  entering  valid keys to search related products=========================""",Chrome 131.0.0.0,,,29-11-2024 18:38:23,29-11-2024 18:38:23,0.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box,,29-11-2024 18:38:23,29-11-2024 18:38:23,0.079s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:38:23,29-11-2024 18:38:27,4.016s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), validSearchKeywords)",Chrome 131.0.0.0,Enter valid search keywords,,29-11-2024 18:38:27,29-11-2024 18:38:27,0.040s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:38:27,29-11-2024 18:38:37,10.006s,PASSED
+"common.UtilKeyword.takeScreenShot(""unauthen_valid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:38:37,29-11-2024 18:38:37,0.247s,PASSED
+"searchResults = findWebElements(findTestObject(""Object Repository/pages/home_page/product_search_result""), 10)",Chrome 131.0.0.0,Verify that all results match the valid search keywords,,29-11-2024 18:38:37,29-11-2024 18:38:48,11.007s,PASSED
+searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()),Chrome 131.0.0.0,,,29-11-2024 18:38:48,29-11-2024 18:38:48,0.000s,PASSED
+"searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... })",Chrome 131.0.0.0,,,29-11-2024 18:38:48,29-11-2024 18:38:48,0.003s,PASSED
+"markPassed(""All results match the valid search keyword ""searchKeywords"""")",Chrome 131.0.0.0,,,29-11-2024 18:38:48,29-11-2024 18:38:48,0.001s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:38:48,29-11-2024 18:38:53,5.008s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:38:53,29-11-2024 18:38:53,0.075s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:38:53,29-11-2024 18:38:56,3.010s,PASSED
+"""===============================Entering invalid keys to search related products=================================""",Chrome 131.0.0.0,,,29-11-2024 18:38:56,29-11-2024 18:38:56,0.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box one more time,,29-11-2024 18:38:56,29-11-2024 18:38:56,0.072s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:38:56,29-11-2024 18:39:00,4.006s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), invalidSearchKeywords)",Chrome 131.0.0.0,Enter invalid search keywords,,29-11-2024 18:39:00,29-11-2024 18:39:00,0.041s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:39:00,29-11-2024 18:39:11,10.013s,PASSED
+"common.UtilKeyword.takeScreenShot(""unauthen_invalid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:39:11,29-11-2024 18:39:11,0.244s,PASSED
+"if (waitForElementVisible(findTestObject(""Object Repository/common/properties/Text/contains_text"", [""text"":""Không tìm thấy kết quả phù hợp!""]), 10))",Chrome 131.0.0.0,"The system shows the message: ""Không tìm thấy kết quả phù hợp!"" when entering invalid search keywords",,29-11-2024 18:39:11,29-11-2024 18:39:11,0.026s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:39:11,29-11-2024 18:39:16,5.007s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:39:16,29-11-2024 18:39:16,0.048s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:39:16,29-11-2024 18:39:19,3.005s,PASSED
+closeBrowser(),Chrome 131.0.0.0,Close browser,,29-11-2024 18:39:19,29-11-2024 18:39:19,0.177s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user,Chrome 131.0.0.0,,,29-11-2024 18:39:19,29-11-2024 18:40:14,54.975s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,29-11-2024 18:39:19,29-11-2024 18:39:19,0.001s,PASSED
+common.UtilKeyword.openURL(),Chrome 131.0.0.0,Open Coolmate,,29-11-2024 18:39:19,29-11-2024 18:39:29,9.811s,PASSED
+"""==========================As an unauthenticated user,  entering  valid keys to search related products=========================""",Chrome 131.0.0.0,,,29-11-2024 18:39:29,29-11-2024 18:39:29,0.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box,,29-11-2024 18:39:29,29-11-2024 18:39:29,0.079s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:39:29,29-11-2024 18:39:33,4.002s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), validSearchKeywords)",Chrome 131.0.0.0,Enter valid search keywords,,29-11-2024 18:39:33,29-11-2024 18:39:33,0.059s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:39:33,29-11-2024 18:39:43,10.007s,PASSED
+"common.UtilKeyword.takeScreenShot(""unauthen_valid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:39:43,29-11-2024 18:39:43,0.229s,PASSED
+"searchResults = findWebElements(findTestObject(""Object Repository/pages/home_page/product_search_result""), 10)",Chrome 131.0.0.0,Verify that all results match the valid search keywords,,29-11-2024 18:39:43,29-11-2024 18:39:43,0.021s,PASSED
+searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()),Chrome 131.0.0.0,,,29-11-2024 18:39:43,29-11-2024 18:39:43,0.001s,PASSED
+"searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... })",Chrome 131.0.0.0,,,29-11-2024 18:39:43,29-11-2024 18:39:43,0.051s,PASSED
+"markPassed(""All results match the valid search keyword ""searchKeywords"""")",Chrome 131.0.0.0,,,29-11-2024 18:39:43,29-11-2024 18:39:43,0.000s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:39:43,29-11-2024 18:39:48,5.001s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:39:48,29-11-2024 18:39:48,0.062s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:39:48,29-11-2024 18:39:51,3.009s,PASSED
+"""===============================Entering invalid keys to search related products=================================""",Chrome 131.0.0.0,,,29-11-2024 18:39:51,29-11-2024 18:39:51,0.001s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box one more time,,29-11-2024 18:39:51,29-11-2024 18:39:51,0.076s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:39:51,29-11-2024 18:39:55,4.006s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), invalidSearchKeywords)",Chrome 131.0.0.0,Enter invalid search keywords,,29-11-2024 18:39:55,29-11-2024 18:39:55,0.030s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:39:55,29-11-2024 18:40:06,10.010s,PASSED
+"common.UtilKeyword.takeScreenShot(""unauthen_invalid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:40:06,29-11-2024 18:40:06,0.243s,PASSED
+"if (waitForElementVisible(findTestObject(""Object Repository/common/properties/Text/contains_text"", [""text"":""Không tìm thấy kết quả phù hợp!""]), 10))",Chrome 131.0.0.0,"The system shows the message: ""Không tìm thấy kết quả phù hợp!"" when entering invalid search keywords",,29-11-2024 18:40:06,29-11-2024 18:40:06,0.025s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:40:06,29-11-2024 18:40:11,5.007s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:40:11,29-11-2024 18:40:11,0.049s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:40:11,29-11-2024 18:40:14,3.006s,PASSED
+closeBrowser(),Chrome 131.0.0.0,Close browser,,29-11-2024 18:40:14,29-11-2024 18:40:14,0.176s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user,Chrome 131.0.0.0,,,29-11-2024 18:40:14,29-11-2024 18:41:27,1m - 12.956s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,29-11-2024 18:40:14,29-11-2024 18:40:14,0.000s,PASSED
+common.UtilKeyword.openURL(),Chrome 131.0.0.0,Open Coolmate,,29-11-2024 18:40:14,29-11-2024 18:40:41,27.459s,PASSED
+"""==========================As an unauthenticated user,  entering  valid keys to search related products=========================""",Chrome 131.0.0.0,,,29-11-2024 18:40:41,29-11-2024 18:40:41,0.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box,,29-11-2024 18:40:41,29-11-2024 18:40:42,0.074s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:40:42,29-11-2024 18:40:46,4.005s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), validSearchKeywords)",Chrome 131.0.0.0,Enter valid search keywords,,29-11-2024 18:40:46,29-11-2024 18:40:46,0.037s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:40:46,29-11-2024 18:40:56,10.008s,PASSED
+"common.UtilKeyword.takeScreenShot(""unauthen_valid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:40:56,29-11-2024 18:40:56,0.269s,PASSED
+"searchResults = findWebElements(findTestObject(""Object Repository/pages/home_page/product_search_result""), 10)",Chrome 131.0.0.0,Verify that all results match the valid search keywords,,29-11-2024 18:40:56,29-11-2024 18:40:56,0.287s,PASSED
+searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()),Chrome 131.0.0.0,,,29-11-2024 18:40:56,29-11-2024 18:40:56,0.000s,PASSED
+"searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... })",Chrome 131.0.0.0,,,29-11-2024 18:40:56,29-11-2024 18:40:56,0.093s,PASSED
+"markPassed(""All results match the valid search keyword ""searchKeywords"""")",Chrome 131.0.0.0,,,29-11-2024 18:40:56,29-11-2024 18:40:56,0.000s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:40:56,29-11-2024 18:41:01,5.005s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:41:01,29-11-2024 18:41:01,0.054s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:41:01,29-11-2024 18:41:04,3.002s,PASSED
+"""===============================Entering invalid keys to search related products=================================""",Chrome 131.0.0.0,,,29-11-2024 18:41:04,29-11-2024 18:41:04,0.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box one more time,,29-11-2024 18:41:04,29-11-2024 18:41:04,0.059s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:41:04,29-11-2024 18:41:08,4.008s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), invalidSearchKeywords)",Chrome 131.0.0.0,Enter invalid search keywords,,29-11-2024 18:41:08,29-11-2024 18:41:08,0.034s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:41:08,29-11-2024 18:41:18,10.005s,PASSED
+"common.UtilKeyword.takeScreenShot(""unauthen_invalid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:41:18,29-11-2024 18:41:19,0.256s,PASSED
+"if (waitForElementVisible(findTestObject(""Object Repository/common/properties/Text/contains_text"", [""text"":""Không tìm thấy kết quả phù hợp!""]), 10))",Chrome 131.0.0.0,"The system shows the message: ""Không tìm thấy kết quả phù hợp!"" when entering invalid search keywords",,29-11-2024 18:41:19,29-11-2024 18:41:19,0.022s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:41:19,29-11-2024 18:41:24,5.015s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:41:24,29-11-2024 18:41:24,0.047s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:41:24,29-11-2024 18:41:27,3.014s,PASSED
+closeBrowser(),Chrome 131.0.0.0,Close browser,,29-11-2024 18:41:27,29-11-2024 18:41:27,0.189s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user,Chrome 131.0.0.0,,,29-11-2024 18:41:27,29-11-2024 18:42:56,1m - 29.373s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,29-11-2024 18:41:27,29-11-2024 18:41:27,0.000s,PASSED
+"common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao)",Chrome 131.0.0.0,Open Coolmate and authenticate,,29-11-2024 18:41:27,29-11-2024 18:42:04,37.394s,PASSED
+"""==========================As an authenticated user, entering valid keys to search related products=========================""",Chrome 131.0.0.0,,,29-11-2024 18:42:04,29-11-2024 18:42:04,0.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box,,29-11-2024 18:42:04,29-11-2024 18:42:05,0.108s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:42:05,29-11-2024 18:42:09,4.015s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), validSearchKeywords)",Chrome 131.0.0.0,Enter valid search keywords,,29-11-2024 18:42:09,29-11-2024 18:42:09,0.037s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:42:09,29-11-2024 18:42:19,10.010s,PASSED
+"common.UtilKeyword.takeScreenShot(""authen_valid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:42:19,29-11-2024 18:42:19,0.223s,PASSED
+"searchResults = findWebElements(findTestObject(""Object Repository/pages/home_page/product_search_result""), 10)",Chrome 131.0.0.0,Verify that all results match the valid search keywords,,29-11-2024 18:42:19,29-11-2024 18:42:19,0.017s,PASSED
+searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()),Chrome 131.0.0.0,,,29-11-2024 18:42:19,29-11-2024 18:42:19,0.000s,PASSED
+"searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... })",Chrome 131.0.0.0,,,29-11-2024 18:42:19,29-11-2024 18:42:19,0.045s,PASSED
+"markPassed(""All results match the valid search keyword ""searchKeywords"""")",Chrome 131.0.0.0,,,29-11-2024 18:42:19,29-11-2024 18:42:19,0.001s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:42:19,29-11-2024 18:42:24,5.013s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:42:24,29-11-2024 18:42:24,0.061s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:42:24,29-11-2024 18:42:27,3.016s,PASSED
+"""===============================Entering invalid keys to search related products=================================""",Chrome 131.0.0.0,,,29-11-2024 18:42:27,29-11-2024 18:42:27,0.001s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box one more time,,29-11-2024 18:42:27,29-11-2024 18:42:27,0.060s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:42:27,29-11-2024 18:42:31,4.016s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), invalidSearchKeywords)",Chrome 131.0.0.0,Enter invalid search keywords,,29-11-2024 18:42:31,29-11-2024 18:42:31,0.036s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:42:31,29-11-2024 18:42:41,10.016s,PASSED
+"common.UtilKeyword.takeScreenShot(""unauthen_invalid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:42:41,29-11-2024 18:42:41,0.234s,PASSED
+"if (waitForElementVisible(findTestObject(""Object Repository/common/properties/Text/contains_text"", [""text"":""Không tìm thấy kết quả phù hợp!""]), 10))",Chrome 131.0.0.0,"The system shows the message: ""Không tìm thấy kết quả phù hợp!"" when entering invalid search keywords",,29-11-2024 18:42:41,29-11-2024 18:42:41,0.024s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:42:41,29-11-2024 18:42:46,5.009s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:42:46,29-11-2024 18:42:46,0.048s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:42:46,29-11-2024 18:42:49,3.014s,PASSED
+common.UtilKeyword.logOutAndClose(),Chrome 131.0.0.0,Logout and close browser,,29-11-2024 18:42:49,29-11-2024 18:42:56,6.892s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user,Chrome 131.0.0.0,,,29-11-2024 18:42:56,29-11-2024 18:44:23,1m - 26.932s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,29-11-2024 18:42:56,29-11-2024 18:42:56,0.001s,PASSED
+"common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao)",Chrome 131.0.0.0,Open Coolmate and authenticate,,29-11-2024 18:42:56,29-11-2024 18:43:32,35.219s,PASSED
+"""==========================As an authenticated user, entering valid keys to search related products=========================""",Chrome 131.0.0.0,,,29-11-2024 18:43:32,29-11-2024 18:43:32,0.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box,,29-11-2024 18:43:32,29-11-2024 18:43:32,0.084s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:43:32,29-11-2024 18:43:36,4.011s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), validSearchKeywords)",Chrome 131.0.0.0,Enter valid search keywords,,29-11-2024 18:43:36,29-11-2024 18:43:36,0.036s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:43:36,29-11-2024 18:43:46,10.012s,PASSED
+"common.UtilKeyword.takeScreenShot(""authen_valid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:43:46,29-11-2024 18:43:46,0.214s,PASSED
+"searchResults = findWebElements(findTestObject(""Object Repository/pages/home_page/product_search_result""), 10)",Chrome 131.0.0.0,Verify that all results match the valid search keywords,,29-11-2024 18:43:46,29-11-2024 18:43:46,0.017s,PASSED
+searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()),Chrome 131.0.0.0,,,29-11-2024 18:43:46,29-11-2024 18:43:46,0.000s,PASSED
+"searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... })",Chrome 131.0.0.0,,,29-11-2024 18:43:46,29-11-2024 18:43:46,0.043s,PASSED
+"markPassed(""All results match the valid search keyword ""searchKeywords"""")",Chrome 131.0.0.0,,,29-11-2024 18:43:46,29-11-2024 18:43:46,0.000s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:43:46,29-11-2024 18:43:51,5.010s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:43:51,29-11-2024 18:43:51,0.059s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:43:51,29-11-2024 18:43:54,3.001s,PASSED
+"""===============================Entering invalid keys to search related products=================================""",Chrome 131.0.0.0,,,29-11-2024 18:43:54,29-11-2024 18:43:54,0.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box one more time,,29-11-2024 18:43:54,29-11-2024 18:43:54,0.059s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:43:54,29-11-2024 18:43:58,4.005s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), invalidSearchKeywords)",Chrome 131.0.0.0,Enter invalid search keywords,,29-11-2024 18:43:58,29-11-2024 18:43:58,0.047s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:43:58,29-11-2024 18:44:08,10.009s,PASSED
+"common.UtilKeyword.takeScreenShot(""unauthen_invalid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:44:08,29-11-2024 18:44:08,0.244s,PASSED
+"if (waitForElementVisible(findTestObject(""Object Repository/common/properties/Text/contains_text"", [""text"":""Không tìm thấy kết quả phù hợp!""]), 10))",Chrome 131.0.0.0,"The system shows the message: ""Không tìm thấy kết quả phù hợp!"" when entering invalid search keywords",,29-11-2024 18:44:08,29-11-2024 18:44:08,0.024s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:44:08,29-11-2024 18:44:13,5.011s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:44:13,29-11-2024 18:44:14,0.047s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:44:14,29-11-2024 18:44:17,3.011s,PASSED
+common.UtilKeyword.logOutAndClose(),Chrome 131.0.0.0,Logout and close browser,,29-11-2024 18:44:17,29-11-2024 18:44:23,6.759s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user,Chrome 131.0.0.0,,,29-11-2024 18:44:23,29-11-2024 18:46:02,1m - 38.740s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,29-11-2024 18:44:23,29-11-2024 18:44:23,0.001s,PASSED
+"common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao)",Chrome 131.0.0.0,Open Coolmate and authenticate,,29-11-2024 18:44:23,29-11-2024 18:44:59,35.980s,PASSED
+"""==========================As an authenticated user, entering valid keys to search related products=========================""",Chrome 131.0.0.0,,,29-11-2024 18:44:59,29-11-2024 18:44:59,0.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box,,29-11-2024 18:44:59,29-11-2024 18:44:59,0.076s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:44:59,29-11-2024 18:45:03,4.002s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), validSearchKeywords)",Chrome 131.0.0.0,Enter valid search keywords,,29-11-2024 18:45:03,29-11-2024 18:45:03,0.031s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:45:03,29-11-2024 18:45:13,10.012s,PASSED
+"common.UtilKeyword.takeScreenShot(""authen_valid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:45:13,29-11-2024 18:45:14,0.247s,PASSED
+"searchResults = findWebElements(findTestObject(""Object Repository/pages/home_page/product_search_result""), 10)",Chrome 131.0.0.0,Verify that all results match the valid search keywords,,29-11-2024 18:45:14,29-11-2024 18:45:25,11.002s,PASSED
+searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()),Chrome 131.0.0.0,,,29-11-2024 18:45:25,29-11-2024 18:45:25,0.001s,PASSED
+"searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... })",Chrome 131.0.0.0,,,29-11-2024 18:45:25,29-11-2024 18:45:25,0.000s,PASSED
+"markPassed(""All results match the valid search keyword ""searchKeywords"""")",Chrome 131.0.0.0,,,29-11-2024 18:45:25,29-11-2024 18:45:25,0.000s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:45:25,29-11-2024 18:45:30,5.002s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:45:30,29-11-2024 18:45:30,0.068s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:45:30,29-11-2024 18:45:33,3.006s,PASSED
+"""===============================Entering invalid keys to search related products=================================""",Chrome 131.0.0.0,,,29-11-2024 18:45:33,29-11-2024 18:45:33,0.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box one more time,,29-11-2024 18:45:33,29-11-2024 18:45:33,0.131s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:45:33,29-11-2024 18:45:37,4.002s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), invalidSearchKeywords)",Chrome 131.0.0.0,Enter invalid search keywords,,29-11-2024 18:45:37,29-11-2024 18:45:37,0.041s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:45:37,29-11-2024 18:45:47,10.012s,PASSED
+"common.UtilKeyword.takeScreenShot(""unauthen_invalid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:45:47,29-11-2024 18:45:47,0.261s,PASSED
+"if (waitForElementVisible(findTestObject(""Object Repository/common/properties/Text/contains_text"", [""text"":""Không tìm thấy kết quả phù hợp!""]), 10))",Chrome 131.0.0.0,"The system shows the message: ""Không tìm thấy kết quả phù hợp!"" when entering invalid search keywords",,29-11-2024 18:45:47,29-11-2024 18:45:47,0.024s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:45:47,29-11-2024 18:45:52,5.016s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:45:52,29-11-2024 18:45:52,0.047s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:45:52,29-11-2024 18:45:55,3.011s,PASSED
+common.UtilKeyword.logOutAndClose(),Chrome 131.0.0.0,Logout and close browser,,29-11-2024 18:45:55,29-11-2024 18:46:02,6.757s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user,Chrome 131.0.0.0,,,29-11-2024 18:46:02,29-11-2024 18:47:30,1m - 27.564s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,29-11-2024 18:46:02,29-11-2024 18:46:02,0.001s,PASSED
+"common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao)",Chrome 131.0.0.0,Open Coolmate and authenticate,,29-11-2024 18:46:02,29-11-2024 18:46:38,36.111s,PASSED
+"""==========================As an authenticated user, entering valid keys to search related products=========================""",Chrome 131.0.0.0,,,29-11-2024 18:46:38,29-11-2024 18:46:38,0.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box,,29-11-2024 18:46:38,29-11-2024 18:46:38,0.067s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:46:38,29-11-2024 18:46:42,4.002s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), validSearchKeywords)",Chrome 131.0.0.0,Enter valid search keywords,,29-11-2024 18:46:42,29-11-2024 18:46:42,0.034s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:46:42,29-11-2024 18:46:52,10.015s,PASSED
+"common.UtilKeyword.takeScreenShot(""authen_valid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:46:52,29-11-2024 18:46:52,0.214s,PASSED
+"searchResults = findWebElements(findTestObject(""Object Repository/pages/home_page/product_search_result""), 10)",Chrome 131.0.0.0,Verify that all results match the valid search keywords,,29-11-2024 18:46:52,29-11-2024 18:46:52,0.016s,PASSED
+searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()),Chrome 131.0.0.0,,,29-11-2024 18:46:52,29-11-2024 18:46:52,0.000s,PASSED
+"searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... })",Chrome 131.0.0.0,,,29-11-2024 18:46:52,29-11-2024 18:46:53,0.043s,PASSED
+"markPassed(""All results match the valid search keyword ""searchKeywords"""")",Chrome 131.0.0.0,,,29-11-2024 18:46:53,29-11-2024 18:46:53,0.000s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:46:53,29-11-2024 18:46:58,5.014s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:46:58,29-11-2024 18:46:58,0.061s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:46:58,29-11-2024 18:47:01,3.006s,PASSED
+"""===============================Entering invalid keys to search related products=================================""",Chrome 131.0.0.0,,,29-11-2024 18:47:01,29-11-2024 18:47:01,0.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box one more time,,29-11-2024 18:47:01,29-11-2024 18:47:01,0.060s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:47:01,29-11-2024 18:47:05,4.006s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), invalidSearchKeywords)",Chrome 131.0.0.0,Enter invalid search keywords,,29-11-2024 18:47:05,29-11-2024 18:47:05,0.029s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:47:05,29-11-2024 18:47:15,10.002s,PASSED
+"common.UtilKeyword.takeScreenShot(""unauthen_invalid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:47:15,29-11-2024 18:47:15,0.241s,PASSED
+"if (waitForElementVisible(findTestObject(""Object Repository/common/properties/Text/contains_text"", [""text"":""Không tìm thấy kết quả phù hợp!""]), 10))",Chrome 131.0.0.0,"The system shows the message: ""Không tìm thấy kết quả phù hợp!"" when entering invalid search keywords",,29-11-2024 18:47:15,29-11-2024 18:47:15,0.033s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:47:15,29-11-2024 18:47:20,5.003s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:47:20,29-11-2024 18:47:20,0.045s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:47:20,29-11-2024 18:47:23,3.009s,PASSED
+common.UtilKeyword.logOutAndClose(),Chrome 131.0.0.0,Logout and close browser,,29-11-2024 18:47:23,29-11-2024 18:47:30,6.544s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user,Chrome 131.0.0.0,,,29-11-2024 18:47:30,29-11-2024 18:48:59,1m - 29.710s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,29-11-2024 18:47:30,29-11-2024 18:47:30,0.001s,PASSED
+"common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao)",Chrome 131.0.0.0,Open Coolmate and authenticate,,29-11-2024 18:47:30,29-11-2024 18:48:06,36.861s,PASSED
+"""==========================As an authenticated user, entering valid keys to search related products=========================""",Chrome 131.0.0.0,,,29-11-2024 18:48:06,29-11-2024 18:48:06,0.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box,,29-11-2024 18:48:06,29-11-2024 18:48:07,0.081s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:48:07,29-11-2024 18:48:11,4.004s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), validSearchKeywords)",Chrome 131.0.0.0,Enter valid search keywords,,29-11-2024 18:48:11,29-11-2024 18:48:11,0.032s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:48:11,29-11-2024 18:48:21,10.005s,PASSED
+"common.UtilKeyword.takeScreenShot(""authen_valid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:48:21,29-11-2024 18:48:21,0.200s,PASSED
+"searchResults = findWebElements(findTestObject(""Object Repository/pages/home_page/product_search_result""), 10)",Chrome 131.0.0.0,Verify that all results match the valid search keywords,,29-11-2024 18:48:21,29-11-2024 18:48:21,0.016s,PASSED
+searchKeywordsText = common.TextUtilKeyword.removeAccents(validSearchKeywords.toLowerCase()),Chrome 131.0.0.0,,,29-11-2024 18:48:21,29-11-2024 18:48:21,0.000s,PASSED
+"searchResults.eachWithIndex({ org.openqa.selenium.WebElement element, int index -> ... })",Chrome 131.0.0.0,,,29-11-2024 18:48:21,29-11-2024 18:48:21,0.044s,PASSED
+"markPassed(""All results match the valid search keyword ""searchKeywords"""")",Chrome 131.0.0.0,,,29-11-2024 18:48:21,29-11-2024 18:48:21,0.001s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:48:21,29-11-2024 18:48:26,5.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:48:26,29-11-2024 18:48:26,0.060s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:48:26,29-11-2024 18:48:29,3.010s,PASSED
+"""===============================Entering invalid keys to search related products=================================""",Chrome 131.0.0.0,,,29-11-2024 18:48:29,29-11-2024 18:48:29,0.000s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""search-input""]))",Chrome 131.0.0.0,Click on Search box one more time,,29-11-2024 18:48:29,29-11-2024 18:48:29,0.059s,PASSED
+delay(4),Chrome 131.0.0.0,,,29-11-2024 18:48:29,29-11-2024 18:48:33,4.013s,PASSED
+"sendKeys(findTestObject(""Object Repository/common/properties/Id/id"", [""id"":""input-spotlight""]), invalidSearchKeywords)",Chrome 131.0.0.0,Enter invalid search keywords,,29-11-2024 18:48:33,29-11-2024 18:48:33,0.032s,PASSED
+delay(10),Chrome 131.0.0.0,,,29-11-2024 18:48:33,29-11-2024 18:48:43,10.014s,PASSED
+"common.UtilKeyword.takeScreenShot(""unauthen_invalid_search"")",Chrome 131.0.0.0,,,29-11-2024 18:48:43,29-11-2024 18:48:43,0.241s,PASSED
+"if (waitForElementVisible(findTestObject(""Object Repository/common/properties/Text/contains_text"", [""text"":""Không tìm thấy kết quả phù hợp!""]), 10))",Chrome 131.0.0.0,"The system shows the message: ""Không tìm thấy kết quả phù hợp!"" when entering invalid search keywords",,29-11-2024 18:48:43,29-11-2024 18:48:43,0.024s,PASSED
+delay(5),Chrome 131.0.0.0,Return to Home Page,,29-11-2024 18:48:43,29-11-2024 18:48:48,5.009s,PASSED
+"click(findTestObject(""Object Repository/common/properties/Class/rel-script_and_contains_class"", [""rel-script"":""spotlight-search-close"", ""class"":""homepage-search__submit""]))",Chrome 131.0.0.0,,,29-11-2024 18:48:48,29-11-2024 18:48:48,0.046s,PASSED
+delay(3),Chrome 131.0.0.0,,,29-11-2024 18:48:48,29-11-2024 18:48:51,3.003s,PASSED
+common.UtilKeyword.logOutAndClose(),Chrome 131.0.0.0,Logout and close browser,,29-11-2024 18:48:51,29-11-2024 18:48:59,7.944s,PASSED

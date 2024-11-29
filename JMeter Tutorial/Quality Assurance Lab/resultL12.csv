@@ -1,0 +1,18 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1732856708571,314,LaunchWekipedia,200,OK,Thread Group 1-1,text,true,,27491,1369,1,1,https://en.wikipedia.org/wiki/Main_Page,211,0,159
+1732856708571,211,LaunchWekipedia-0,301,Moved Permanently,Thread Group 1-1,text,true,,1402,680,1,1,https://en.wikipedia.org/wiki/,211,0,159
+1732856708782,103,LaunchWekipedia-1,200,OK,Thread Group 1-1,text,true,,26089,689,1,1,https://en.wikipedia.org/wiki/Main_Page,62,0,0
+1732856708978,1811,searchInWekipedia,200,OK,Thread Group 1-1,text,false,Test failed: text expected not to contain /No results found/,18487,1821,1,1,https://en.wikipedia.org/wiki/Special:Search?go=Go&search=asdfws&ns0=1,428,0,177
+1732856708978,428,searchInWekipedia-0,302,Found,Thread Group 1-1,text,true,,1208,625,1,1,https://www.wikipedia.org/search-redirect.php?family=wikipedia&language=en&search=asdfws&go=Go,428,0,177
+1732856709407,272,searchInWekipedia-1,302,Found,Thread Group 1-1,text,true,,1402,595,1,1,https://en.wikipedia.org/wiki/Special:Search?search=asdfws&go=Go,272,0,0
+1732856709679,1110,searchInWekipedia-2,200,OK,Thread Group 1-1,text,true,,15877,601,1,1,https://en.wikipedia.org/wiki/Special:Search?go=Go&search=asdfws&ns0=1,1110,0,0
+1732856710823,0,Debug Sampler,200,OK,Thread Group 1-1,text,true,,20708,0,1,1,null,0,0,0
+1732856710872,119,LaunchWekipedia,200,OK,Thread Group 1-1,text,true,,27491,1369,1,1,https://en.wikipedia.org/wiki/Main_Page,51,0,0
+1732856710872,51,LaunchWekipedia-0,301,Moved Permanently,Thread Group 1-1,text,true,,1402,680,1,1,https://en.wikipedia.org/wiki/,51,0,0
+1732856710923,68,LaunchWekipedia-1,200,OK,Thread Group 1-1,text,true,,26089,689,1,1,https://en.wikipedia.org/wiki/Main_Page,62,0,0
+1732856711093,998,searchInWekipedia,200,OK,Thread Group 1-1,text,true,,209663,2388,1,1,https://en.wikipedia.org/wiki/Europe,251,0,0
+1732856711093,251,searchInWekipedia-0,302,Found,Thread Group 1-1,text,true,,1208,625,1,1,https://www.wikipedia.org/search-redirect.php?family=wikipedia&language=en&search=Europe&go=Go,251,0,0
+1732856711344,279,searchInWekipedia-1,302,Found,Thread Group 1-1,text,true,,1402,595,1,1,https://en.wikipedia.org/wiki/Special:Search?search=Europe&go=Go,279,0,0
+1732856711623,293,searchInWekipedia-2,302,Found,Thread Group 1-1,text,true,,1381,601,1,1,https://en.wikipedia.org/wiki/Special:Search?go=Go&search=Europe&ns0=1,293,0,0
+1732856711916,175,searchInWekipedia-3,200,OK,Thread Group 1-1,text,true,,205672,567,1,1,https://en.wikipedia.org/wiki/Europe,62,0,0
+1732856712137,0,Debug Sampler,200,OK,Thread Group 1-1,text,true,,20707,0,1,1,null,0,0,0

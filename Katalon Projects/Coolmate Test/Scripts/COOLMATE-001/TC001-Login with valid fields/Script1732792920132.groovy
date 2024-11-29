@@ -44,24 +44,11 @@ WebUI.click(findTestObject('Object Repository/common/button/button_class', [('cl
 WebUI.waitForPageLoad(10)
 
 'Handle pop-up elements or any other actions after login'
-TestObject updateSizePopup = new TestObject()
-updateSizePopup.addProperty("xpath", ConditionType.EQUALS, "//*[@id='popup-member'][1]/div[2]/span")
-WebUI.waitForElementVisible(updateSizePopup, 10)
-WebUI.delay(3)
-WebUI.click(updateSizePopup)
-WebUI.delay(3)
-
-TestObject newMemberPopup = new TestObject()
-newMemberPopup.addProperty("xpath", ConditionType.EQUALS, "//*[@id='popup-member'][2]/div[2]/span")
-WebUI.waitForElementVisible(newMemberPopup, 10)
-WebUI.delay(3)
-WebUI.click(newMemberPopup)
-WebUI.delay(3)
-
-'Verify user is logged in and account info is present'
-WebUI.click(findTestObject('Object Repository/common/icon/user icon'))
-WebUI.verifyElementPresent(findTestObject('Object Repository/common/div/div_class', [('class'): 'account-information__name']), 10)
-CustomKeywords.'common.UtilKeyword.takeScreenShot'("verify_logged_in")
-WebUI.delay(5)
+		TestObject popUpElement = findTestObject('Object Repository/component/close_popup_button')
+		while(WebUI.waitForElementVisible(popUpElement, 10)) {
+			WebUI.delay(3)
+			WebUI.click(popUpElement)
+			WebUI.delay(3)
+		}
 
 

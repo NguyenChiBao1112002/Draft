@@ -109,6 +109,88 @@ E.x:
 	Match No: 1 Trích xuất khớp đầu tiên (sẽ có nhiều chỗ khớp, muốn lấy chỗ nào)
 	
 
+-----------------------------------------------------------------------------------------
+***Lesson 11 - How to send email using SMTP Sampler in JMeter
+- How to create: Add -> Sampler -> SMTP Sampler
+
+- SMTP Sampler: được sử dụng để kiểm thử việc gửi email qua giao thức SMTP, giúp xác minh chức năng gửi email của ứng dụng
+
+- Server settings:
+	+ Gmail:
+		. SMTP server name: smtp.gmail.com
+		. SMTP username: your Gmail address
+		. SMTP password: your password
+		. SMTP port: SSL - 465/ StartTLS - 587
+	
+	+ Outlook:
+		. SMTP server name: smtp-mail.outlook.com
+		. SMTP username: Your full Outlook.com email address
+		. SMTP password: Your Outlook.com password
+		. SMTP port: 587
+		. SMTP TLS/SSL Encryption Required: Yes
+	
+	+ ...
+
+- Format Timestamp: ${__time(dd/MM/yyyy - HH:mm:ss,)} (nên thêm vào Subject của email để biết thời gian test)
+
+---> Đến bước này có thể gặp lỗi (Response Code: 500, Wrong username/password!) ---> Do gmail đã mặc định chuyển sang xác thực 2 bước, 
+										     outlook thì ko (outlook xác minh 2 bước là tùy chọn)
+
+
+---> *** How to enable 2 Step Vertification for gmail account | How to generate app password
+
+email - gmail (goolge account)
+
+
+
+issue: 
+password doesn't work 
+
+how to fix?
+1) enalbe 2 step verification - makes google account more secure by adding extra layer of security
+
+2) generate an app passwork: 16 digit passcode allows to access google account through applications
+(trong gmail của google: Security -> App Passwords): tức là khi cài đặt xong thì gmail cho phép app đã chỉ định truy cập nó
+
+3) Trong bất kỳ App nào đó (kiểm thử JMeter hay các Web) dùng:
+username
+password = "mật khẩu đã được tạo ra ở bước 2"
+
+(CHƯA THỰC HIỆN LÀM THEO)
+
+-------------------------------------------------------------------------------------------------------
+***Lesson 12 - Timer in JMeter | How to add Think Time | Constant Timer | Uniform Random Timer---------
+
+How to create:
+	Add -> Timer -> ...
+
+- Constant Timer: delay một thời gian nhất định
+- Uniform Random Timer:
+	Công thức: Thread Delay = 0.x*(random delay maximum) + (constant delay offset), x thay đổi từ 0 đến 9 (random)
+
+Ví dụ:
+	random delay maximum - 100
+	constant delay offset - 0
+	-> nếu x được random là 0 -> thread delay = 0.0*100 + 0 = 0
+	-> nếu x được random là 9 -> thread delay = 0.9*100 + 0 = 90 ms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

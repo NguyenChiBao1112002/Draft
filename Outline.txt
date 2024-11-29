@@ -11,49 +11,24 @@ Microservice
 ------
 Python (***)
 Selenium (***)
+Playwright
+TestNG
 JMeter
 Postman
 SQL (***)
 NoSQL
-Playwright
 ------
 English
 
 
-
-***Data Analyst RoadMap------------------------------------------------------------------------
+***ML Engineer RoadMap------------------------------------------------------------------------
 * Technical Skills:
-	1. Ngôn ngữ xử lý và phân tích dữ liệu
-		. Phổ biến nhất: SQL (*)
-		. Cao cấp hơn: Python (*), R
-
-	2. BI Tools để trực quan hóa dữ liệu
-		. Power BI (*)
-		. Taleau
-		. Qlik
-		. Google Data Studio
-	Or Excel (*)
-	
-	3. Làm việc được với Database (*)
-
-
-* Domain Knowledge:
-	1. Domain/Business knowledge: kiến thức chuyên môn về sản phẩm, về lĩnh vực bạn đang phụ trách phân tích
-		. Marketing, Risk, Finance,... (*)
-
-	2. Probability & Statistics: Xác suất và thống kê (*)
-		. Descriptive statistics & Inferential statistics
-
 * Soft Skill: (*)
-	. Communication: giao tiếp hiệu quả
-	. Problem Solving: giải quyết vấn đề
-	. Logical Thinking: tư duy logic
-	. Presentation & Storytelling: thuyết trình & kể chuyện
 
 ***Current--------------------------------------------------------------------------------------------
 At the Office (For Tester): Katalon, JMeter
 
-At Home (For Tester and Data Analyst): English, Selenium, Java, Python
+At Home (For Tester and ML Engineer): English, Selenium, Java, Python (for Playwright)
 
 
 

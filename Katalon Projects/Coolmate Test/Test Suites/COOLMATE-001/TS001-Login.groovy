@@ -71,8 +71,8 @@ def setupTestCase() {
 	WebUI.maximizeWindow()
 	
 	'Handle Popup if present'
-	if(WebUI.waitForElementVisible(findTestObject('Object Repository/home_page/ads_close_button'), 10)) {
-		WebUI.click(findTestObject('Object Repository/home_page/ads_close_button'))
+	if(WebUI.waitForElementVisible(findTestObject('Object Repository/pages/home_page/ads_close_button'), 10)) {
+		WebUI.click(findTestObject('Object Repository/pages/home_page/ads_close_button'))
 	}
 }
 
