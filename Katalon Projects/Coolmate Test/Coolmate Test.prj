@@ -3,7 +3,7 @@
    <description></description>
    <name>Coolmate Test</name>
    <tag></tag>
-   <UUID>4ebd24ce-077f-4b27-99c7-ee82c353f0e7</UUID>
+   <UUID>c5f52cf5-43ca-478b-a45d-87d465a63f40</UUID>
    <createdEdition>FREE</createdEdition>
    <createdVersion>10.0.0</createdVersion>
    <freeLicense>true</freeLicense>
@@ -11,7 +11,7 @@
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>10.0.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Coolmate Test.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Coolmate Test.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

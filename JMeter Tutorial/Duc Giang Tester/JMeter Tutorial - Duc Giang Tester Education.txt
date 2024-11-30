@@ -142,7 +142,7 @@ Lesson 05-------------------------------------------------*
 - Có rất nhiều mục, 4 mục chính cần quan tâm:
 	+ Apply to: Chọn phạm vi để check response
 	+ Field to test: Các trường cụ thể trong response muốn lấy giá trị để check
-	+ Pattern matching rules: Quy luật so sánh actual result và expected result: equal, contain, match, ....
+	+ Pattern matching rules: Quy luật so sánh actual result và expected result: equal, contains (tồn tại bất kỳ đâu trong response), match, substring....
 	+ Pattern to test: Là giá trị mong muốn, click add để điền, nếu nhiều giá trị thì add nhiều lần và chọn thêm OR
 	
 - Đề bài: 
@@ -155,15 +155,15 @@ Lesson 05-------------------------------------------------*
 		2. Check xem stt code trả về của api có bằng 200 không
 		3. Check xem url gửi đi có phải là: https://reqres.in/api/users?page=2 hay không
 
-	*** Lưu ý khi sử dụng Text Reponse: 
+	*** Lưu ý khi sử dụng Text Reponse (chỉ kiểm tra phần body): 
 		1. Chú ý khoảng trắng để view Text: ko có, JSON: có gõ theo JSON (có khoảng trắng) -> Fail
 		2. Chú ý các kí tự đặc biệt và sử dụng "\": ví dụ \? để dùng ?,...
-		3. thay vì dùng contains có thể dùng substring để kiểm tra reponse data có trả về chứa chuỗi gì đó ko
+		
 
 Lesson 06-------------------------------------------------*
 // JSON Extractor, Debug Sampler
 
-- Json Extractor (vừa có thể verify, vừa có thể đưa vào một API khác,...): Là 1 trong những loại Pót Processors (ta hiểu chúng dùng để xử lý data)
+- Json Extractor (vừa có thể verify, vừa có thể đưa vào một API khác,...): Là 1 trong những loại Post Processors (ta hiểu chúng dùng để xử lý data)
 (JSON Extractor: dùng để lấy ra một giá trị cần thiết của response API dạng json, (ko dùng JSON Asertion) vì trong một số trường hợp cần lấy giá trị của reponse API này
 để đặt vào một request cảu một API khác)
 - JSON Extractor dùng để lấy ra giá trị cần thiết từ trong reponse API dạng JSON
@@ -192,7 +192,7 @@ Lesson 06-------------------------------------------------*
 Lesson 07-------------------------------------------------*
 // JSR223 PostProcessor, Log info
 
-- JSR223 PostProcessor: Là 1 trong những loại Pót Processor (ta hiểu chúng dùng để xử lý dữ liệu)
+- JSR223 PostProcessor: Là 1 trong những loại Post Processor (ta hiểu chúng dùng để xử lý dữ liệu)
 - JSR223 PostProcessor: dùng để xử lý dữ liệu trước khi thao tác gì đó (ví dụ: trước khi verify data, trước khi update vào DB, trước khi truyền vào request API,...)
 - JSR223 PostProcessor: hoạt động bằng cách dùng các đoạn script để xử lý
 - Nó cần thiết trong hoạt động kiểm thử khi ta phải test API, xử lý data thành dạng ta mong đợi để tiến hành các bước đằng sau
