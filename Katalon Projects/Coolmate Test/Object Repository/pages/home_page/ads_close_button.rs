@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ads_close_button</name>
+   <tag></tag>
+   <elementGuidId>bedefe21-a075-4169-942f-16da820ed552</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;site-wrapper&quot;]/div//button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;site-wrapper&quot;]/div//button</value>
+      <webElementGuid>3bb253c6-e244-468a-9cfd-0a7cf5196276</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Login to the Coolmate Page with valid fields</description>
+   <description></description>
    <name>TC001-Login with valid fields</name>
-   <tag>S001; TS001-Login; Login Form;</tag>
+   <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>ef829711-9ea0-47ed-80d4-c139923297b9</testCaseGuid>
+   <testCaseGuid>97999c08-d377-46fb-8bc1-6839b875f858</testCaseGuid>
 </TestCaseEntity>

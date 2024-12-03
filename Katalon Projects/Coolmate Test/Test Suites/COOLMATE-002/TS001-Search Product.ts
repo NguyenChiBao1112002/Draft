@@ -12,13 +12,13 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>af9b3a42-dfe9-4e0e-892a-7a771eba37a6</testSuiteGuid>
    <testCaseLink>
-      <guid>0cde073d-e9f2-4422-8fae-b20bd34bacd0</guid>
+      <guid>78d5f9f9-2037-4a4e-a7ab-94d1479d8816</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>62d112aa-5f31-408d-9695-7ad260f005f6</id>
+         <id>0caae96c-567c-4717-810a-12b5b6df4374</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -27,26 +27,26 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>62d112aa-5f31-408d-9695-7ad260f005f6</testDataLinkId>
+         <testDataLinkId>0caae96c-567c-4717-810a-12b5b6df4374</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Valid Search Keywords</value>
-         <variableId>ff064086-c9c1-400c-982c-6ee84b5a21c7</variableId>
+         <variableId>97037274-8d72-4835-b134-cbf935f8335f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>62d112aa-5f31-408d-9695-7ad260f005f6</testDataLinkId>
+         <testDataLinkId>0caae96c-567c-4717-810a-12b5b6df4374</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Invalid Search Keywords</value>
-         <variableId>36d9c99b-a0c2-4e4f-bb73-5808a918b359</variableId>
+         <variableId>3b781ff0-097c-4c1f-8902-549bc37d9d0c</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ea6bea4a-fe92-46a6-b0b9-731767912f74</guid>
+      <guid>4d65ff5d-8081-4a40-9262-001e1c313be5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>591c724c-89d5-4daf-bce5-90befb2f2611</id>
+         <id>f64435ac-c449-46fb-8ee8-2013aa377c22</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -55,16 +55,16 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>591c724c-89d5-4daf-bce5-90befb2f2611</testDataLinkId>
+         <testDataLinkId>f64435ac-c449-46fb-8ee8-2013aa377c22</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Valid Search Keywords</value>
-         <variableId>800fb536-c8e7-46eb-944e-ab261cb8b290</variableId>
+         <variableId>2be425d1-e64d-47f6-93a1-aae239ec31a0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>591c724c-89d5-4daf-bce5-90befb2f2611</testDataLinkId>
+         <testDataLinkId>f64435ac-c449-46fb-8ee8-2013aa377c22</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Invalid Search Keywords</value>
-         <variableId>4e819061-7aaa-4e5c-8e2e-7311aa67483f</variableId>
+         <variableId>124c3f3e-cb62-4680-86b2-f81e7fdac523</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,81 @@
+*********Phân loại các Machine Learning Algorithms theo phương thức học***************
+
+1) Học có giám sát (Supervised Learning) (được sử dụng rỗng rãi hơn)
+	- Huấn luyện với dữ liệu được gắn nhãn (Ladeled)
+	- Được chia tiếp thành hai loại con:
+		+ Bài toán hồi quy (regression): dữ liệu liên tục: ví dụ dự đoán giá nhà, nhiệt độ ngoài trời
+		+ Bài toán phân lớp (classification): dữ liệu rời rạc: đoán một email có phải là mail spam hay không, dự đoán một người có ung thư hay không		
+	
+	- Các thuật toán giải quyết các bài toán trên:
+			. KNN (K-Nearest Neighbors): có thể  giải quyết cho cả classification và regression n phâng lớn là cho classification
+		          Một điểm đặc biệt: ko yêu cầu quá trình huấn luyện, quá trình "học" trong KNN thực chất gọi là quá trình "Tìm kiếm"
+			  Nguyên tác: nếu phân lớp: đa số; nếu hồi quy: tính giá trị trung bình các điểm dữ liệu gần nhất rồi gán giá trị này cho điểm dữ liệu mới
+			
+			. Naive Bayes: là một thuật toán cho bài toán phân loại, được xây dựng dựa trên định lý Bayes
+			  Nếu dữ liệu đầu vào có nhiều hơn một thuộc tính, ta giả sử các thuộc tính độc lập với nhau	 
+	
+			. Decision Tree: giải quyết cho cả bài toán classifisation và regression, về bản chất trả lời một loạt các câu hỏi có hoặc không
+			  Đặc điểm: trực quan, đơn giản, độ chính xác không quá cao, NHƯNG thường được làm nền tảng để xây dựng các thuật toán có độ mạnh mẽ, phức tạp, chính xác hơn
+
+			. Linear Regresion (Hồi quy tuyến tính): dự đoán giá trị của một biến phụ thuộc (biến đích/biến y), dựa trên một hoặc nhiều biến độc lập (biến dự đoán, biến x)
+			  Mục đích: tìm ra mối quan hệ tuyến tính (nghĩa là hàm bậc 1, ví dụ y = ax + b) để vẽ một đường thẳng tốt nhất đi qua dữ liệu (đường thẳng tốt nhất là: khoảng cách trung bình từ các điểm dữ liệu đến đường thẳng này là ngắn nhất )
+
+			. Logistic Regression (Hồi quy Logistic): LƯU Ý đây là thuật toán giải quyết bài toán classification mặc dù có chữ Regression
+			  Mục đích: phân loại các mẫu vào các lớp (ví dụ: 0 hoặc 1)
+			  Nó sẽ vẽ một đường cong với công thức sử dụng là hàm Sigmoid (Logistic Regression = Linear Regression + Sigmoid function)
+			  Bất kể giá trị đầu vào lớn đến mấy hay nhỏ đến mấy thì hàm sigmoid cũng trả ra kết quả là 1 giá trị từ 0 đến 1 (từ đó có thể phân lớp)
+			  Sử dụng hàm sigmoid: để ép output(biến y) từ âm vô cùng đến dương vô cùng thành từ 0 đến 1
+			  Tiếp tục, đích đến bài toán là 0 hoặc 1 (chứ ko phải giá trị trong khoảng 0->1) nên người ta đặt một giá trị ngưỡng, nếu > ngưỡng -> là 1, nếu < ngưỡng -> 0
+
+			. SVM: Đặc biệt: (thuật toán đặc biệt: ví dụ phân loại hổ và sư tử, sẽ tập trung phân loại những con hổ bị nhầm là sử tử và ngược lại)
+			  Support Vector Machine (SVM): là một thuật toán phổ biến dành cả cho bài toán phân loại (classification) và cả bài toán hồi quy (regression)
+						  nổi bật khi được áp dụng cho bài toán phân loại nhị phân (chỉ có hai lớp)
+			  Mục đích: tìm ra đường thằng phân tách dữ liệu để phân tách các lớp khác nhau phù hợp nhất, tốt nhất
+			  Trong quá trình tìm, có thể tìm ra nhiều  đường thằng thỏa mãn, ta sẽ tìm ra đường thẳng tối ưu (gọi là đường siêu phẳng: hyperplane)(là đường thẳng có khoảng cách (margin) giữa nó và các điểm dữ liệu gần nhất của hai lớp là lớn nhất. Các điểm gần nhất này gọi là support vectors.)
+
+			
+			
+		
+2) Học không giám sát (Unsupervised Learning)
+	- Huấn luyện với dữ liệu không được gắn nhãn (Unlabeled)
+	- Mô hình thuật toán học không giám sát được sử dụng phổ biến là K-Means Clustering
+	- K-Means Clustering: phân chia các điểm dữ liệu của chúng ta vào K cụm khác nhau sau cho các điểm trong cùng một cụm tương đồng nhau và những điểm dữ liệu trong cụm này khác những điểm dữ liệu trong cụm kia
+	- K-Means Clustering khác với các thuật toán giải quyết bài classification: K-Means Clustering các điểm dữ liệu KO được gán nhãn còn classification thì ngược lại
+	- Không thể giải thích được ý nghĩa của các cụm khi đã phân
+
+3) Học tăng cường (Reinforcement learning)
+
+
+***Các thuật ngữ:
+- Gắn nhãn (data labeling hoặc data annotation): là quá trình thực hiện gán nhãn cho dữ liệu (ảnh, văn bản) để biến dữ liệu từ không có thành có nhãn
+- Ensemble learning: là kỹ thuật kết hợp nhiều mô hình thuật toán lại với nhau để cải thiện hiệu suất dự đoán, chia làm 3 nhóm chính:
+	+ Bagging: các mô hình thuật toán chạy xong xong rồi sau đó tổng hợp lại để đưa ra kết luận, thuật toán Bagging phổ biến nhất là:
+		. Random Forest: ... cách thức để tổng hợp các mô hình là: phân lớp -> lấy đa số, hồi quy -> lấy trung bình
+	+ Boosting: các mô hình được chạy tuần tự
+	+ Stacking
+
+- Các ngành ứng dụng chính của AI: xử lý ngôn ngữ tự nhiên và thị giác máy tính (xử lý hình ảnh)
+- Các nội dung toán học cần học cho AI: Xác suất, Thống kê, Đại số tuyến tính, Giải tích
+
+***Road Map for Data Scientist:
+1. Toán 
+2. Cấu trúc dữ liệu và giải thuật (bổ trợ)
+3. Python (W3schools)
+4. Data Preprocessing (e.x: Data Collection - thu thập dữ liệu, Data Wrangling: sắp xếp dữ liệu, Data cleaning: làm sạch dữ liệu)
+   (tiền xử lý dữ liệu): ví dụ để lấy dữ liệu từ những nguồn không có API sẵn -> sử dụng Selenium hoặc Beautiful Soup
+ 			 ví dụ: pandas để đọc và xử lý dữ liệu
+5. Database (SQL): để lấy được dữ liệu cần sử dụng trong Database công ty (W3Schools)
+6. Machine Learning (CS229 của đại học Standford, freeCodeCamp)
+7. Kiến thức về Software Engineer: git, docker
+
+
+* Tài liệu: Practical Statistics for Data Scientists
+
+
+
+
+
+
+
+
+

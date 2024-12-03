@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS001-Login" time="157.22" tests="5" failures="0" errors="0">
+   <testsuite name="TS001-Login" tests="5" failures="0" errors="0" time="157.22" skipped="0" timestamp="29-11-2024T18:29:48" hostname="ncbao - ncbao.tma.com.vn" id="Test Suites/COOLMATE-001/TS001-Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ncbao\\Downloads\\Draft Repo On Github\\Draft\\Katalon Projects\\Coolmate Test\\Reports\\20241129_182944\\COOLMATE-001\\TS001-Login\\20241129_182944"/>
+         <property name="logFiles" value="C:\\Users\\ncbao\\Downloads\\Draft Repo On Github\\Draft\\Katalon Projects\\Coolmate Test\\Reports\\20241129_182944\\COOLMATE-001\\TS001-Login\\20241129_182944\\execution0.log"/>
+         <property name="attachments" value="C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC001-Login with valid fields\valid_fields_login_29112024 183027.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC002-Login with invalid username\invalid_username_login_29112024 183106.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC002-Login with invalid username\invalid_username_err_mess_29112024 183110.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC003-Login with invalid password\invalid_password_login_29112024 183146.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC003-Login with invalid password\invalid_pass_err_mess_29112024 183151.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC004-Login with empty username\empty_username_login_29112024 183205.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC004-Login with empty username\empty_username_err_mess_29112024 183209.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC005-Login with empty password\empty_password_login_29112024 183222.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC005-Login with empty password\empty_pass_err_mess_29112024 183225.png"/>
+         <property name="hostName" value="ncbao - ncbao.tma.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.89.84"/>
+         <property name="sessionId" value="f893f685ffc977ad1f4f4803ac9c5ccb"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/COOLMATE-001/TC001-Login with valid fields" time="62.279" classname="Test Cases/COOLMATE-001/TC001-Login with valid fields" status="PASSED">
+         <system-out><![CDATA[29-11-2024T18:29:49 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-001/TC001-Login with valid fields: Test Cases/COOLMATE-001/TC001-Login with valid fields
+
+29-11-2024T18:29:49 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+29-11-2024T18:29:49 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+29-11-2024T18:29:49 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-11-2024T18:29:49 - [TEST_STEP][PASSED] - basePath = getProjectDir(): null
+
+29-11-2024T18:29:49 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", basePath + "/Drivers/chromedriver131.exe"): null
+
+29-11-2024T18:29:49 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+29-11-2024T18:29:49 - [TEST_STEP][PASSED] - options.addArguments("--incognito"): null
+
+29-11-2024T18:29:49 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+29-11-2024T18:29:50 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+29-11-2024T18:29:50 - [TEST_STEP][PASSED] - driver.get(url): null
+
+29-11-2024T18:30:14 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+29-11-2024T18:30:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-11-2024T18:30:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-11-2024T18:30:15 - [MESSAGE][PASSED] - Current window maximized
+
+29-11-2024T18:30:15 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/pages/home_page/ads_close_button"), 10)): null
+
+29-11-2024T18:30:15 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/ads_close_button' is visible
+
+29-11-2024T18:30:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/ads_close_button")): Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+29-11-2024T18:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+29-11-2024T18:30:15 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-11-2024T18:30:15 - [TEST_STEP][PASSED] - "======================Login to the Coolmate Page with valid fields========================": null
+
+29-11-2024T18:30:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-11-2024T18:30:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-11-2024T18:30:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/icon/user icon")): Object: 'Object Repository/common/icon/user icon' is clicked on
+
+29-11-2024T18:30:20 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+29-11-2024T18:30:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-11-2024T18:30:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-11-2024T18:30:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/div/div_id_with_input_name", ["id":"app", "name":"username"]), username_bao): Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+29-11-2024T18:30:24 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+29-11-2024T18:30:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-11-2024T18:30:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-11-2024T18:30:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/common/div/div_id_with_input_name", ["id":"app", "name":"password"]), password_bao): Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+29-11-2024T18:30:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+29-11-2024T18:30:27 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("valid_fields_login"): common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:30:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC001-Login with valid fields\valid_fields_login_29112024 183027.png]]
+
+29-11-2024T18:30:27 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:30:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-11-2024T18:30:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-11-2024T18:30:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/button/button_class", ["class":"login-btn"])): Object: 'Object Repository/common/button/button_class' is clicked on
+
+29-11-2024T18:30:30 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+29-11-2024T18:30:30 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+29-11-2024T18:30:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-11-2024T18:30:30 - [TEST_STEP][PASSED] - popUpElement = findTestObject("Object Repository/component/close_popup_button"): null
+
+29-11-2024T18:30:30 - [TEST_STEP][PASSED] - while (waitForElementVisible(popUpElement, 10)): null
+
+29-11-2024T18:30:34 - [MESSAGE][PASSED] - Object 'Object Repository/component/close_popup_button' is visible
+
+29-11-2024T18:30:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-11-2024T18:30:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-11-2024T18:30:37 - [TEST_STEP][PASSED] - click(popUpElement): Object: 'Object Repository/component/close_popup_button' is clicked on
+
+29-11-2024T18:30:37 - [MESSAGE][PASSED] - Object: 'Object Repository/component/close_popup_button' is clicked on
+
+29-11-2024T18:30:37 - [TEST_STEP][PASSED] - delay(3): Object 'Object Repository/component/close_popup_button' is not visible after 10 second(s)
+
+29-11-2024T18:30:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-11-2024T18:30:51 - [MESSAGE][WARNING] - Object 'Object Repository/component/close_popup_button' is not visible after 10 second(s)
+
+29-11-2024T18:30:51 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+29-11-2024T18:30:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-11-2024T18:30:51 - [MESSAGE][PASSED] - Browser is closed
+
+29-11-2024T18:30:51 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-001/TC002-Login with invalid username" time="19.967" classname="Test Cases/COOLMATE-001/TC002-Login with invalid username" status="PASSED">
+         <system-out><![CDATA[29-11-2024T18:30:51 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-001/TC002-Login with invalid username: Test Cases/COOLMATE-001/TC002-Login with invalid username
+
+29-11-2024T18:30:51 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+29-11-2024T18:30:51 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+29-11-2024T18:30:51 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-11-2024T18:30:51 - [TEST_STEP][PASSED] - basePath = getProjectDir(): null
+
+29-11-2024T18:30:51 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", basePath + "/Drivers/chromedriver131.exe"): null
+
+29-11-2024T18:30:51 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+29-11-2024T18:30:51 - [TEST_STEP][PASSED] - options.addArguments("--incognito"): null
+
+29-11-2024T18:30:51 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+29-11-2024T18:30:52 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+29-11-2024T18:30:52 - [TEST_STEP][PASSED] - driver.get(url): null
+
+29-11-2024T18:30:55 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+29-11-2024T18:30:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-11-2024T18:30:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-11-2024T18:30:55 - [MESSAGE][PASSED] - Current window maximized
+
+29-11-2024T18:30:55 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/pages/home_page/ads_close_button"), 10)): null
+
+29-11-2024T18:30:55 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/ads_close_button' is visible
+
+29-11-2024T18:30:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/ads_close_button")): Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+29-11-2024T18:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+29-11-2024T18:30:55 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-11-2024T18:30:55 - [TEST_STEP][PASSED] - "=========================Login to the Coolmate Page with invalid username========================": null
+
+29-11-2024T18:30:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-11-2024T18:31:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-11-2024T18:31:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/icon/user icon")): Object: 'Object Repository/common/icon/user icon' is clicked on
+
+29-11-2024T18:31:00 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+29-11-2024T18:31:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-11-2024T18:31:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-11-2024T18:31:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/div/div_id_with_input_name", ["id":"app", "name":"username"]), username_bao + "Wrong Text"): Keys 'baob2012178@student.ctu.edu.vnWrong Text' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+29-11-2024T18:31:03 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vnWrong Text' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+29-11-2024T18:31:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-11-2024T18:31:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-11-2024T18:31:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/common/div/div_id_with_input_name", ["id":"app", "name":"password"]), password_bao): Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+29-11-2024T18:31:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+29-11-2024T18:31:06 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("invalid_username_login"): common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:31:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC002-Login with invalid username\invalid_username_login_29112024 183106.png]]
+
+29-11-2024T18:31:07 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:31:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-11-2024T18:31:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-11-2024T18:31:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/button/button_class", ["class":"login-btn"])): Object: 'Object Repository/common/button/button_class' is clicked on
+
+29-11-2024T18:31:10 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+29-11-2024T18:31:10 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+29-11-2024T18:31:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-11-2024T18:31:10 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/div/div_class", ["class":"login-error"]), 10)): null
+
+29-11-2024T18:31:10 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class' is visible
+
+29-11-2024T18:31:10 - [TEST_STEP][PASSED] - errorMessage = getText(findTestObject("Object Repository/common/div/div_class", ["class":"login-error"])): Text of object 'Object Repository/common/div/div_class' is: 'Hmmmm, Thông tin đăng nhập không chính xác.'
+
+29-11-2024T18:31:10 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class' is: 'Hmmmm, Thông tin đăng nhập không chính xác.'
+
+29-11-2024T18:31:10 - [TEST_STEP][PASSED] - logInfo("Error Message: " + errorMessage): Error Message: Hmmmm, Thông tin đăng nhập không chính xác.
+
+29-11-2024T18:31:10 - [MESSAGE][INFO] - Error Message: Hmmmm, Thông tin đăng nhập không chính xác.
+
+29-11-2024T18:31:10 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("invalid_username_err_mess"): common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:31:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC002-Login with invalid username\invalid_username_err_mess_29112024 183110.png]]
+
+29-11-2024T18:31:11 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:31:11 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+29-11-2024T18:31:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-11-2024T18:31:11 - [MESSAGE][PASSED] - Browser is closed
+
+29-11-2024T18:31:11 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-001/TC003-Login with invalid password" time="40.204" classname="Test Cases/COOLMATE-001/TC003-Login with invalid password" status="PASSED">
+         <system-out><![CDATA[29-11-2024T18:31:11 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-001/TC003-Login with invalid password: Test Cases/COOLMATE-001/TC003-Login with invalid password
+
+29-11-2024T18:31:11 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+29-11-2024T18:31:11 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+29-11-2024T18:31:11 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-11-2024T18:31:11 - [TEST_STEP][PASSED] - basePath = getProjectDir(): null
+
+29-11-2024T18:31:11 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", basePath + "/Drivers/chromedriver131.exe"): null
+
+29-11-2024T18:31:11 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+29-11-2024T18:31:11 - [TEST_STEP][PASSED] - options.addArguments("--incognito"): null
+
+29-11-2024T18:31:11 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+29-11-2024T18:31:12 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+29-11-2024T18:31:12 - [TEST_STEP][PASSED] - driver.get(url): null
+
+29-11-2024T18:31:34 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+29-11-2024T18:31:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-11-2024T18:31:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-11-2024T18:31:34 - [MESSAGE][PASSED] - Current window maximized
+
+29-11-2024T18:31:34 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/pages/home_page/ads_close_button"), 10)): null
+
+29-11-2024T18:31:35 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/ads_close_button' is visible
+
+29-11-2024T18:31:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/ads_close_button")): Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+29-11-2024T18:31:35 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+29-11-2024T18:31:35 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-11-2024T18:31:35 - [TEST_STEP][PASSED] - "=======================Login to the Coolmate Page with invalid password=============================": null
+
+29-11-2024T18:31:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-11-2024T18:31:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-11-2024T18:31:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/icon/user icon")): Object: 'Object Repository/common/icon/user icon' is clicked on
+
+29-11-2024T18:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+29-11-2024T18:31:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-11-2024T18:31:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-11-2024T18:31:43 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/div/div_id_with_input_name", ["id":"app", "name":"username"]), username_bao): Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+29-11-2024T18:31:43 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+29-11-2024T18:31:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-11-2024T18:31:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-11-2024T18:31:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/common/div/div_id_with_input_name", ["id":"app", "name":"password"]), "YsqIKzHWQwYX7jcwa8U8RQ=="): Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+29-11-2024T18:31:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+29-11-2024T18:31:46 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("invalid_password_login"): common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:31:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC003-Login with invalid password\invalid_password_login_29112024 183146.png]]
+
+29-11-2024T18:31:46 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:31:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-11-2024T18:31:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-11-2024T18:31:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/button/button_class", ["class":"login-btn"])): Object: 'Object Repository/common/button/button_class' is clicked on
+
+29-11-2024T18:31:50 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+29-11-2024T18:31:50 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+29-11-2024T18:31:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-11-2024T18:31:50 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/div/div_class", ["class":"login-error"]), 10)): null
+
+29-11-2024T18:31:51 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class' is visible
+
+29-11-2024T18:31:51 - [TEST_STEP][PASSED] - errorMessage = getText(findTestObject("Object Repository/common/div/div_class", ["class":"login-error"])): Text of object 'Object Repository/common/div/div_class' is: 'Hmmmm, Thông tin đăng nhập không chính xác.'
+
+29-11-2024T18:31:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class' is: 'Hmmmm, Thông tin đăng nhập không chính xác.'
+
+29-11-2024T18:31:51 - [TEST_STEP][PASSED] - logInfo("Error Message: " + errorMessage): Error Message: Hmmmm, Thông tin đăng nhập không chính xác.
+
+29-11-2024T18:31:51 - [MESSAGE][INFO] - Error Message: Hmmmm, Thông tin đăng nhập không chính xác.
+
+29-11-2024T18:31:51 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("invalid_pass_err_mess"): common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:31:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC003-Login with invalid password\invalid_pass_err_mess_29112024 183151.png]]
+
+29-11-2024T18:31:51 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:31:51 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+29-11-2024T18:31:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-11-2024T18:31:51 - [MESSAGE][PASSED] - Browser is closed
+
+29-11-2024T18:31:51 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-001/TC004-Login with empty username" time="18.292" classname="Test Cases/COOLMATE-001/TC004-Login with empty username" status="PASSED">
+         <system-out><![CDATA[29-11-2024T18:31:51 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-001/TC004-Login with empty username: Test Cases/COOLMATE-001/TC004-Login with empty username
+
+29-11-2024T18:31:51 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+29-11-2024T18:31:51 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+29-11-2024T18:31:51 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-11-2024T18:31:51 - [TEST_STEP][PASSED] - basePath = getProjectDir(): null
+
+29-11-2024T18:31:51 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", basePath + "/Drivers/chromedriver131.exe"): null
+
+29-11-2024T18:31:51 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+29-11-2024T18:31:51 - [TEST_STEP][PASSED] - options.addArguments("--incognito"): null
+
+29-11-2024T18:31:51 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+29-11-2024T18:31:52 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+29-11-2024T18:31:52 - [TEST_STEP][PASSED] - driver.get(url): null
+
+29-11-2024T18:31:56 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+29-11-2024T18:31:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-11-2024T18:31:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-11-2024T18:31:57 - [MESSAGE][PASSED] - Current window maximized
+
+29-11-2024T18:31:57 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/pages/home_page/ads_close_button"), 10)): null
+
+29-11-2024T18:31:57 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/ads_close_button' is visible
+
+29-11-2024T18:31:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/ads_close_button")): Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+29-11-2024T18:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+29-11-2024T18:31:57 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-11-2024T18:31:57 - [TEST_STEP][PASSED] - "==========================Login to the Coolmate Page with enpty username=============================": null
+
+29-11-2024T18:31:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-11-2024T18:32:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-11-2024T18:32:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/icon/user icon")): Object: 'Object Repository/common/icon/user icon' is clicked on
+
+29-11-2024T18:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+29-11-2024T18:32:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-11-2024T18:32:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-11-2024T18:32:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/common/div/div_id_with_input_name", ["id":"app", "name":"password"]), password_bao): Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+29-11-2024T18:32:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+29-11-2024T18:32:05 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("empty_username_login"): common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:32:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC004-Login with empty username\empty_username_login_29112024 183205.png]]
+
+29-11-2024T18:32:06 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:32:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-11-2024T18:32:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-11-2024T18:32:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/button/button_class", ["class":"login-btn"])): Object: 'Object Repository/common/button/button_class' is clicked on
+
+29-11-2024T18:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+29-11-2024T18:32:09 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+29-11-2024T18:32:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-11-2024T18:32:09 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/span/span_class", ["class":"error-text"]), 10)): null
+
+29-11-2024T18:32:09 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/span_class' is visible
+
+29-11-2024T18:32:09 - [TEST_STEP][PASSED] - errorMessage = getText(findTestObject("Object Repository/common/span/span_class", ["class":"error-text"])): Text of object 'Object Repository/common/span/span_class' is: 'Vui lòng nhập Email/SĐT của bạn'
+
+29-11-2024T18:32:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/span/span_class' is: 'Vui lòng nhập Email/SĐT của bạn'
+
+29-11-2024T18:32:09 - [TEST_STEP][PASSED] - logInfo("Error Message: " + errorMessage): Error Message: Vui lòng nhập Email/SĐT của bạn
+
+29-11-2024T18:32:09 - [MESSAGE][INFO] - Error Message: Vui lòng nhập Email/SĐT của bạn
+
+29-11-2024T18:32:09 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("empty_username_err_mess"): common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:32:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC004-Login with empty username\empty_username_err_mess_29112024 183209.png]]
+
+29-11-2024T18:32:09 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:32:09 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+29-11-2024T18:32:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-11-2024T18:32:09 - [MESSAGE][PASSED] - Browser is closed
+
+29-11-2024T18:32:09 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-001/TC005-Login with empty password" time="16.234" classname="Test Cases/COOLMATE-001/TC005-Login with empty password" status="PASSED">
+         <system-out><![CDATA[29-11-2024T18:32:09 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-001/TC005-Login with empty password: Test Cases/COOLMATE-001/TC005-Login with empty password
+
+29-11-2024T18:32:09 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+29-11-2024T18:32:09 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+29-11-2024T18:32:09 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-11-2024T18:32:09 - [TEST_STEP][PASSED] - basePath = getProjectDir(): null
+
+29-11-2024T18:32:09 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", basePath + "/Drivers/chromedriver131.exe"): null
+
+29-11-2024T18:32:09 - [TEST_STEP][PASSED] - options = new org.openqa.selenium.chrome.ChromeOptions(): null
+
+29-11-2024T18:32:09 - [TEST_STEP][PASSED] - options.addArguments("--incognito"): null
+
+29-11-2024T18:32:09 - [TEST_STEP][PASSED] - driver = new org.openqa.selenium.chrome.ChromeDriver(options): null
+
+29-11-2024T18:32:10 - [TEST_STEP][PASSED] - changeWebDriver(driver): null
+
+29-11-2024T18:32:10 - [TEST_STEP][PASSED] - driver.get(url): null
+
+29-11-2024T18:32:13 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+29-11-2024T18:32:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-11-2024T18:32:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-11-2024T18:32:13 - [MESSAGE][PASSED] - Current window maximized
+
+29-11-2024T18:32:13 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/pages/home_page/ads_close_button"), 10)): null
+
+29-11-2024T18:32:13 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/ads_close_button' is visible
+
+29-11-2024T18:32:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/ads_close_button")): Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+29-11-2024T18:32:13 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+29-11-2024T18:32:13 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-11-2024T18:32:13 - [TEST_STEP][PASSED] - "=======================Login to the Coolmate Page with empty password==========================": null
+
+29-11-2024T18:32:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-11-2024T18:32:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-11-2024T18:32:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/icon/user icon")): Object: 'Object Repository/common/icon/user icon' is clicked on
+
+29-11-2024T18:32:18 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+29-11-2024T18:32:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-11-2024T18:32:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-11-2024T18:32:21 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/common/div/div_id_with_input_name", ["id":"app", "name":"username"]), username_bao): Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+29-11-2024T18:32:22 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+29-11-2024T18:32:22 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("empty_password_login"): common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:32:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC005-Login with empty password\empty_password_login_29112024 183222.png]]
+
+29-11-2024T18:32:22 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:32:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+29-11-2024T18:32:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+29-11-2024T18:32:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/button/button_class", ["class":"login-btn"])): Object: 'Object Repository/common/button/button_class' is clicked on
+
+29-11-2024T18:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+29-11-2024T18:32:25 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+29-11-2024T18:32:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+29-11-2024T18:32:25 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/span/span_class", ["class":"error-text"]), 10)): null
+
+29-11-2024T18:32:25 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/span_class' is visible
+
+29-11-2024T18:32:25 - [TEST_STEP][PASSED] - errorMessage = getText(findTestObject("Object Repository/common/span/span_class", ["class":"error-text"])): Text of object 'Object Repository/common/span/span_class' is: 'Vui lòng nhập mật khẩu của bạn'
+
+29-11-2024T18:32:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/span/span_class' is: 'Vui lòng nhập mật khẩu của bạn'
+
+29-11-2024T18:32:25 - [TEST_STEP][PASSED] - logInfo("Error Message: " + errorMessage): Error Message: Vui lòng nhập mật khẩu của bạn
+
+29-11-2024T18:32:25 - [MESSAGE][INFO] - Error Message: Vui lòng nhập mật khẩu của bạn
+
+29-11-2024T18:32:25 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("empty_pass_err_mess"): common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:32:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-001\TS001-Login\TC005-Login with empty password\empty_pass_err_mess_29112024 183225.png]]
+
+29-11-2024T18:32:25 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+29-11-2024T18:32:25 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+29-11-2024T18:32:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+29-11-2024T18:32:26 - [MESSAGE][PASSED] - Browser is closed
+
+29-11-2024T18:32:26 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-11-2024T18:29:48 - [TEST_SUITE][PASSED] - TS001-Login: Test Cases/COOLMATE-001/TC005-Login with empty password]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
