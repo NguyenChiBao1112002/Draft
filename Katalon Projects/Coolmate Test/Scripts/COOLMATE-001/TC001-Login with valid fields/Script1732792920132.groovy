@@ -44,11 +44,11 @@ WebUI.click(findTestObject('Object Repository/common/button/button_class', [('cl
 WebUI.waitForPageLoad(10)
 
 'Handle pop-up elements or any other actions after login'
-		TestObject popUpElement = findTestObject('Object Repository/component/close_popup_button')
-		while(WebUI.waitForElementVisible(popUpElement, 10)) {
-			WebUI.delay(3)
-			WebUI.click(popUpElement)
-			WebUI.delay(3)
-		}
+TestObject popUpElement = findTestObject('Object Repository/component/close_popup_button')
+while(WebUI.waitForElementVisible(popUpElement, 10)) {
+	WebUI.delay(3)
+	WebUI.click(popUpElement)
+	WebUI.delay(3)
+}
 
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[@class='${class}']</value>
+         <value>//span[contains(@class,'${class}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[@class='${class}']</value>
-      <webElementGuid>90573fca-1478-4aeb-a425-86e25c2157fc</webElementGuid>
+      <value>//span[contains(@class,'${class}')]</value>
+      <webElementGuid>8c3ce392-3fbb-4f3b-ae91-9e12c5b2d819</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
