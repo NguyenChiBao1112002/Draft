@@ -79,8 +79,8 @@ public class UtilKeyword {
 		WebUI.maximizeWindow()
 
 		'Handle Ads Popup if present'
-		if(WebUI.waitForElementVisible(findTestObject('Object Repository/pages/home_page/ads_close_button'), 10)) {
-			WebUI.click(findTestObject('Object Repository/pages/home_page/ads_close_button'))
+		if(WebUI.waitForElementVisible(findTestObject('Object Repository/pages/home_page/ads_close_button'), 5, FailureHandling.OPTIONAL)) {
+			WebUI.enhancedClick(findTestObject('Object Repository/pages/home_page/ads_close_button'))
 		}
 		WebUI.delay(3)
 
