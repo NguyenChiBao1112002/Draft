@@ -6,12 +6,11 @@
    <elementGuidId>863386ef-635b-43e1-bf8c-314b7a839374</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@name='${name}']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='${phone}']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -28,19 +28,19 @@ import org.openqa.selenium.Keys as Keys
 CustomKeywords.'common.UtilKeyword.openURLAndAuthenticate'(GlobalVariable.username_bao, GlobalVariable.password_bao)
 
 'Go to account infomation page'
-WebUI.verifyElementPresent(findTestObject('Object Repository/common/div/div_class', [('class'): 'account-information__name']), 10)
-WebUI.click(findTestObject('Object Repository/common/div/div_class', [('class'): 'account-information__name']))
+WebUI.enhancedClick(findTestObject('Object Repository/common/icon/user icon'))
 WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/common/properties/Class/contains_class', [('class'): 'header-account-menu__button']))
+WebUI.verifyElementPresent(findTestObject('Object Repository/pages/home_page/go_to_account'), 10)
+WebUI.click(findTestObject('Object Repository/pages/home_page/go_to_account'))
 CustomKeywords.'common.UtilKeyword.waitForPageLoadAndDelay'(20, 3)
 
 'Update account with invalid phone number'
 WebUI.click(findTestObject('Object Repository/pages/account_page/update_acc_info_button'))
 WebUI.delay(2)
-WebUI.setText(findTestObject('Object Repository/common/input/input_name'), phoneNumber)
+//Some forms may require a special event (like focus or blur) to activate or allow input.
+WebUI.executeJavaScript("let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));", Arrays.asList(phoneNumber))
 WebUI.click(findTestObject('Object Repository/common/button/button_class', [('class'): 'btn account-info__btn account-info__btn--full']))
-
+WebUI.delay(2)
 
 TestObject errMessObject = findTestObject('Object Repository/common/span/span_class', [('class'): 'error-text'])
 

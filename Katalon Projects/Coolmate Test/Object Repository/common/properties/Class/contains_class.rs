@@ -6,12 +6,11 @@
    <elementGuidId>99eb9464-e912-4e72-ab8e-78c9cf3a58bc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[contains(@class, '${class}')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[contains(@class, ${class}]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
