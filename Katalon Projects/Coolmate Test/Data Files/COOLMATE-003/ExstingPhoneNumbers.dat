@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>03f25df7-55bf-4210-8d45-74a7c6de0b5b</dataFileGUID>
-   <dataSourceUrl>C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Data Files\COOLMATE-003\Exsiting Phone Numbers.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Data Files\COOLMATE-003\Exsiting Phone Numbers.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
