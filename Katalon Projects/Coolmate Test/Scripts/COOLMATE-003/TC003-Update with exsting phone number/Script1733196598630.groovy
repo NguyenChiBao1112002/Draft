@@ -40,7 +40,7 @@ WebUI.delay(2)
 //Some forms may require a special event (like focus or blur) to activate or allow input.
 WebUI.executeJavaScript("let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));", Arrays.asList(phoneNumber))
 WebUI.click(findTestObject('Object Repository/common/button/button_class', [('class'): 'btn account-info__btn account-info__btn--full']))
-
+WebUI.delay(2)
 
 TestObject errMessObject = findTestObject('Object Repository/common/span/span_class', [('class'): 'error-text'])
 
