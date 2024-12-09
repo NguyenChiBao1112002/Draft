@@ -40,13 +40,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6a15f304-9216-4a8b-ab5f-a1f5f694f0d7</guid>
+      <guid>7879766e-2c8d-494e-a018-6c8403e3eed3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/COOLMATE-003/TC003-Update with exsting phone number</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>a49ca4b7-11ef-48eb-aa6c-4d46ff8d2199</id>
+         <id>b142b911-d07f-4151-bc4d-53840518b8af</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -55,13 +55,13 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>a49ca4b7-11ef-48eb-aa6c-4d46ff8d2199</testDataLinkId>
+         <testDataLinkId>b142b911-d07f-4151-bc4d-53840518b8af</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Exsting Phone Number</value>
          <variableId>944b7164-1b88-4bb0-bfdb-d6d8b5c000b9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a49ca4b7-11ef-48eb-aa6c-4d46ff8d2199</testDataLinkId>
+         <testDataLinkId>b142b911-d07f-4151-bc4d-53840518b8af</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Expected Error Message</value>
          <variableId>84b474bd-e388-406a-ba54-fe084cf469b2</variableId>
