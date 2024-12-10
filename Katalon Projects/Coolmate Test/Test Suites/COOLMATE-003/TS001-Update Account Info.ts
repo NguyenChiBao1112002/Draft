@@ -43,25 +43,25 @@
       <guid>6a15f304-9216-4a8b-ab5f-a1f5f694f0d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/COOLMATE-003/TC003-Update with exsting phone number</testCaseId>
+      <testCaseId>Test Cases/COOLMATE-003/TC003-Update with existing phone number</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>a49ca4b7-11ef-48eb-aa6c-4d46ff8d2199</id>
+         <id>a5aa79e9-dbe2-4e5b-a594-b1719c602eee</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/COOLMATE-003/ExstingPhoneNumbers</testDataId>
+         <testDataId>Data Files/COOLMATE-003/ExistingPhoneNumbers</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>a49ca4b7-11ef-48eb-aa6c-4d46ff8d2199</testDataLinkId>
+         <testDataLinkId>a5aa79e9-dbe2-4e5b-a594-b1719c602eee</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Exsting Phone Number</value>
+         <value>Existing Phone Number</value>
          <variableId>944b7164-1b88-4bb0-bfdb-d6d8b5c000b9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>a49ca4b7-11ef-48eb-aa6c-4d46ff8d2199</testDataLinkId>
+         <testDataLinkId>a5aa79e9-dbe2-4e5b-a594-b1719c602eee</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Expected Error Message</value>
          <variableId>84b474bd-e388-406a-ba54-fe084cf469b2</variableId>
