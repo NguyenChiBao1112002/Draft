@@ -1,0 +1,171 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS001-Update Account Info,Chrome 131.0.0.0,,,10-12-2024 18:20:01,10-12-2024 18:27:45,7m - 44.202s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-003/TC002-Update with invalid phone number,Chrome 131.0.0.0,,,10-12-2024 18:20:01,10-12-2024 18:21:01,59.763s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,10-12-2024 18:20:01,10-12-2024 18:20:01,0.016s,PASSED
+"common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao)",Chrome 131.0.0.0,Open and authenticate,,10-12-2024 18:20:01,10-12-2024 18:20:44,42.551s,PASSED
+"enhancedClick(findTestObject(""Object Repository/common/icon/user icon""))",Chrome 131.0.0.0,Go to account infomation page,,10-12-2024 18:20:44,10-12-2024 18:20:44,0.083s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:20:44,10-12-2024 18:20:46,2.002s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/pages/home_page/go_to_account""), 10)",Chrome 131.0.0.0,,,10-12-2024 18:20:46,10-12-2024 18:20:46,0.022s,PASSED
+"click(findTestObject(""Object Repository/pages/home_page/go_to_account""))",Chrome 131.0.0.0,,,10-12-2024 18:20:46,10-12-2024 18:20:47,1.171s,PASSED
+"common.UtilKeyword.waitForPageLoadAndDelay(20, 3)",Chrome 131.0.0.0,,,10-12-2024 18:20:47,10-12-2024 18:20:50,3.016s,PASSED
+"click(findTestObject(""Object Repository/pages/account_page/update_acc_info_button""))",Chrome 131.0.0.0,Update account with invalid phone number,,10-12-2024 18:20:50,10-12-2024 18:20:50,0.060s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:20:50,10-12-2024 18:20:52,2.004s,PASSED
+"executeJavaScript(""let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));"", Arrays.asList(phoneNumber))",Chrome 131.0.0.0,,,10-12-2024 18:20:52,10-12-2024 18:20:52,0.022s,PASSED
+"click(findTestObject(""Object Repository/common/button/button_class"", [""class"":""btn account-info__btn account-info__btn--full""]))",Chrome 131.0.0.0,,,10-12-2024 18:20:52,10-12-2024 18:20:52,0.060s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:20:52,10-12-2024 18:20:54,2.003s,PASSED
+"errMessObject = findTestObject(""Object Repository/common/span/span_class"", [""class"":""error-text""])",Chrome 131.0.0.0,,,10-12-2024 18:20:54,10-12-2024 18:20:54,0.002s,PASSED
+verifyElementVisible(errMessObject),Chrome 131.0.0.0,,,10-12-2024 18:20:54,10-12-2024 18:20:54,0.023s,PASSED
+actualErrMess = getText(errMessObject),Chrome 131.0.0.0,,,10-12-2024 18:20:54,10-12-2024 18:20:54,0.023s,PASSED
+if (actualErrMess.equals(expectedErrMess)),Chrome 131.0.0.0,Verify error message for invalid phone number,,10-12-2024 18:20:54,10-12-2024 18:20:54,0.157s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,Return account information page,,10-12-2024 18:20:54,10-12-2024 18:20:55,0.019s,PASSED
+"click(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,,,10-12-2024 18:20:55,10-12-2024 18:20:55,0.041s,PASSED
+common.UtilKeyword.logOutAndClose(),Chrome 131.0.0.0,Logout and close,,10-12-2024 18:20:55,10-12-2024 18:21:01,6.307s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-003/TC002-Update with invalid phone number,Chrome 131.0.0.0,,,10-12-2024 18:21:01,10-12-2024 18:21:59,57.878s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,10-12-2024 18:21:01,10-12-2024 18:21:01,0.002s,PASSED
+"common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao)",Chrome 131.0.0.0,Open and authenticate,,10-12-2024 18:21:01,10-12-2024 18:21:42,41.067s,PASSED
+"enhancedClick(findTestObject(""Object Repository/common/icon/user icon""))",Chrome 131.0.0.0,Go to account infomation page,,10-12-2024 18:21:42,10-12-2024 18:21:42,0.062s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:21:42,10-12-2024 18:21:44,2.003s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/pages/home_page/go_to_account""), 10)",Chrome 131.0.0.0,,,10-12-2024 18:21:44,10-12-2024 18:21:44,0.017s,PASSED
+"click(findTestObject(""Object Repository/pages/home_page/go_to_account""))",Chrome 131.0.0.0,,,10-12-2024 18:21:44,10-12-2024 18:21:45,1.024s,PASSED
+"common.UtilKeyword.waitForPageLoadAndDelay(20, 3)",Chrome 131.0.0.0,,,10-12-2024 18:21:45,10-12-2024 18:21:48,3.021s,PASSED
+"click(findTestObject(""Object Repository/pages/account_page/update_acc_info_button""))",Chrome 131.0.0.0,Update account with invalid phone number,,10-12-2024 18:21:48,10-12-2024 18:21:48,0.058s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:21:48,10-12-2024 18:21:50,2.006s,PASSED
+"executeJavaScript(""let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));"", Arrays.asList(phoneNumber))",Chrome 131.0.0.0,,,10-12-2024 18:21:50,10-12-2024 18:21:50,0.012s,PASSED
+"click(findTestObject(""Object Repository/common/button/button_class"", [""class"":""btn account-info__btn account-info__btn--full""]))",Chrome 131.0.0.0,,,10-12-2024 18:21:50,10-12-2024 18:21:50,0.063s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:21:50,10-12-2024 18:21:52,2.009s,PASSED
+"errMessObject = findTestObject(""Object Repository/common/span/span_class"", [""class"":""error-text""])",Chrome 131.0.0.0,,,10-12-2024 18:21:52,10-12-2024 18:21:52,0.002s,PASSED
+verifyElementVisible(errMessObject),Chrome 131.0.0.0,,,10-12-2024 18:21:52,10-12-2024 18:21:52,0.019s,PASSED
+actualErrMess = getText(errMessObject),Chrome 131.0.0.0,,,10-12-2024 18:21:52,10-12-2024 18:21:52,0.014s,PASSED
+if (actualErrMess.equals(expectedErrMess)),Chrome 131.0.0.0,Verify error message for invalid phone number,,10-12-2024 18:21:52,10-12-2024 18:21:52,0.120s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,Return account information page,,10-12-2024 18:21:52,10-12-2024 18:21:52,0.017s,PASSED
+"click(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,,,10-12-2024 18:21:52,10-12-2024 18:21:52,0.041s,PASSED
+common.UtilKeyword.logOutAndClose(),Chrome 131.0.0.0,Logout and close,,10-12-2024 18:21:52,10-12-2024 18:21:59,6.309s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-003/TC002-Update with invalid phone number,Chrome 131.0.0.0,,,10-12-2024 18:21:59,10-12-2024 18:22:56,57.321s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,10-12-2024 18:21:59,10-12-2024 18:21:59,0.001s,PASSED
+"common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao)",Chrome 131.0.0.0,Open and authenticate,,10-12-2024 18:21:59,10-12-2024 18:22:39,40.541s,PASSED
+"enhancedClick(findTestObject(""Object Repository/common/icon/user icon""))",Chrome 131.0.0.0,Go to account infomation page,,10-12-2024 18:22:39,10-12-2024 18:22:39,0.057s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:22:39,10-12-2024 18:22:41,2.008s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/pages/home_page/go_to_account""), 10)",Chrome 131.0.0.0,,,10-12-2024 18:22:41,10-12-2024 18:22:41,0.015s,PASSED
+"click(findTestObject(""Object Repository/pages/home_page/go_to_account""))",Chrome 131.0.0.0,,,10-12-2024 18:22:41,10-12-2024 18:22:42,1.043s,PASSED
+"common.UtilKeyword.waitForPageLoadAndDelay(20, 3)",Chrome 131.0.0.0,,,10-12-2024 18:22:42,10-12-2024 18:22:45,3.010s,PASSED
+"click(findTestObject(""Object Repository/pages/account_page/update_acc_info_button""))",Chrome 131.0.0.0,Update account with invalid phone number,,10-12-2024 18:22:45,10-12-2024 18:22:46,0.058s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:22:46,10-12-2024 18:22:48,2.002s,PASSED
+"executeJavaScript(""let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));"", Arrays.asList(phoneNumber))",Chrome 131.0.0.0,,,10-12-2024 18:22:48,10-12-2024 18:22:48,0.012s,PASSED
+"click(findTestObject(""Object Repository/common/button/button_class"", [""class"":""btn account-info__btn account-info__btn--full""]))",Chrome 131.0.0.0,,,10-12-2024 18:22:48,10-12-2024 18:22:48,0.048s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:22:48,10-12-2024 18:22:50,2.015s,PASSED
+"errMessObject = findTestObject(""Object Repository/common/span/span_class"", [""class"":""error-text""])",Chrome 131.0.0.0,,,10-12-2024 18:22:50,10-12-2024 18:22:50,0.001s,PASSED
+verifyElementVisible(errMessObject),Chrome 131.0.0.0,,,10-12-2024 18:22:50,10-12-2024 18:22:50,0.017s,PASSED
+actualErrMess = getText(errMessObject),Chrome 131.0.0.0,,,10-12-2024 18:22:50,10-12-2024 18:22:50,0.015s,PASSED
+if (actualErrMess.equals(expectedErrMess)),Chrome 131.0.0.0,Verify error message for invalid phone number,,10-12-2024 18:22:50,10-12-2024 18:22:50,0.104s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,Return account information page,,10-12-2024 18:22:50,10-12-2024 18:22:50,0.016s,PASSED
+"click(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,,,10-12-2024 18:22:50,10-12-2024 18:22:50,0.039s,PASSED
+common.UtilKeyword.logOutAndClose(),Chrome 131.0.0.0,Logout and close,,10-12-2024 18:22:50,10-12-2024 18:22:56,6.304s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-003/TC002-Update with invalid phone number,Chrome 131.0.0.0,,,10-12-2024 18:22:56,10-12-2024 18:23:54,58.251s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,10-12-2024 18:22:56,10-12-2024 18:22:56,0.001s,PASSED
+"common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao)",Chrome 131.0.0.0,Open and authenticate,,10-12-2024 18:22:56,10-12-2024 18:23:37,41.114s,PASSED
+"enhancedClick(findTestObject(""Object Repository/common/icon/user icon""))",Chrome 131.0.0.0,Go to account infomation page,,10-12-2024 18:23:37,10-12-2024 18:23:37,0.060s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:23:37,10-12-2024 18:23:39,2.005s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/pages/home_page/go_to_account""), 10)",Chrome 131.0.0.0,,,10-12-2024 18:23:39,10-12-2024 18:23:39,0.016s,PASSED
+"click(findTestObject(""Object Repository/pages/home_page/go_to_account""))",Chrome 131.0.0.0,,,10-12-2024 18:23:39,10-12-2024 18:23:41,1.376s,PASSED
+"common.UtilKeyword.waitForPageLoadAndDelay(20, 3)",Chrome 131.0.0.0,,,10-12-2024 18:23:41,10-12-2024 18:23:44,3.010s,PASSED
+"click(findTestObject(""Object Repository/pages/account_page/update_acc_info_button""))",Chrome 131.0.0.0,Update account with invalid phone number,,10-12-2024 18:23:44,10-12-2024 18:23:44,0.058s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:23:44,10-12-2024 18:23:46,2.003s,PASSED
+"executeJavaScript(""let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));"", Arrays.asList(phoneNumber))",Chrome 131.0.0.0,,,10-12-2024 18:23:46,10-12-2024 18:23:46,0.012s,PASSED
+"click(findTestObject(""Object Repository/common/button/button_class"", [""class"":""btn account-info__btn account-info__btn--full""]))",Chrome 131.0.0.0,,,10-12-2024 18:23:46,10-12-2024 18:23:46,0.054s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:23:46,10-12-2024 18:23:48,2.009s,PASSED
+"errMessObject = findTestObject(""Object Repository/common/span/span_class"", [""class"":""error-text""])",Chrome 131.0.0.0,,,10-12-2024 18:23:48,10-12-2024 18:23:48,0.002s,PASSED
+verifyElementVisible(errMessObject),Chrome 131.0.0.0,,,10-12-2024 18:23:48,10-12-2024 18:23:48,0.017s,PASSED
+actualErrMess = getText(errMessObject),Chrome 131.0.0.0,,,10-12-2024 18:23:48,10-12-2024 18:23:48,0.015s,PASSED
+if (actualErrMess.equals(expectedErrMess)),Chrome 131.0.0.0,Verify error message for invalid phone number,,10-12-2024 18:23:48,10-12-2024 18:23:48,0.116s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,Return account information page,,10-12-2024 18:23:48,10-12-2024 18:23:48,0.016s,PASSED
+"click(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,,,10-12-2024 18:23:48,10-12-2024 18:23:48,0.041s,PASSED
+common.UtilKeyword.logOutAndClose(),Chrome 131.0.0.0,Logout and close,,10-12-2024 18:23:48,10-12-2024 18:23:54,6.317s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-003/TC002-Update with invalid phone number,Chrome 131.0.0.0,,,10-12-2024 18:23:54,10-12-2024 18:24:52,57.910s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,10-12-2024 18:23:54,10-12-2024 18:23:54,0.001s,PASSED
+"common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao)",Chrome 131.0.0.0,Open and authenticate,,10-12-2024 18:23:54,10-12-2024 18:24:35,40.927s,PASSED
+"enhancedClick(findTestObject(""Object Repository/common/icon/user icon""))",Chrome 131.0.0.0,Go to account infomation page,,10-12-2024 18:24:35,10-12-2024 18:24:35,0.076s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:24:35,10-12-2024 18:24:37,2.007s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/pages/home_page/go_to_account""), 10)",Chrome 131.0.0.0,,,10-12-2024 18:24:37,10-12-2024 18:24:37,0.015s,PASSED
+"click(findTestObject(""Object Repository/pages/home_page/go_to_account""))",Chrome 131.0.0.0,,,10-12-2024 18:24:37,10-12-2024 18:24:39,1.179s,PASSED
+"common.UtilKeyword.waitForPageLoadAndDelay(20, 3)",Chrome 131.0.0.0,,,10-12-2024 18:24:39,10-12-2024 18:24:42,3.014s,PASSED
+"click(findTestObject(""Object Repository/pages/account_page/update_acc_info_button""))",Chrome 131.0.0.0,Update account with invalid phone number,,10-12-2024 18:24:42,10-12-2024 18:24:42,0.064s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:24:42,10-12-2024 18:24:44,2.004s,PASSED
+"executeJavaScript(""let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));"", Arrays.asList(phoneNumber))",Chrome 131.0.0.0,,,10-12-2024 18:24:44,10-12-2024 18:24:44,0.013s,PASSED
+"click(findTestObject(""Object Repository/common/button/button_class"", [""class"":""btn account-info__btn account-info__btn--full""]))",Chrome 131.0.0.0,,,10-12-2024 18:24:44,10-12-2024 18:24:44,0.049s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:24:44,10-12-2024 18:24:46,2.009s,PASSED
+"errMessObject = findTestObject(""Object Repository/common/span/span_class"", [""class"":""error-text""])",Chrome 131.0.0.0,,,10-12-2024 18:24:46,10-12-2024 18:24:46,0.001s,PASSED
+verifyElementVisible(errMessObject),Chrome 131.0.0.0,,,10-12-2024 18:24:46,10-12-2024 18:24:46,0.016s,PASSED
+actualErrMess = getText(errMessObject),Chrome 131.0.0.0,,,10-12-2024 18:24:46,10-12-2024 18:24:46,0.016s,PASSED
+if (actualErrMess.equals(expectedErrMess)),Chrome 131.0.0.0,Verify error message for invalid phone number,,10-12-2024 18:24:46,10-12-2024 18:24:46,0.106s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,Return account information page,,10-12-2024 18:24:46,10-12-2024 18:24:46,0.019s,PASSED
+"click(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,,,10-12-2024 18:24:46,10-12-2024 18:24:46,0.050s,PASSED
+common.UtilKeyword.logOutAndClose(),Chrome 131.0.0.0,Logout and close,,10-12-2024 18:24:46,10-12-2024 18:24:52,6.336s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-003/TC002-Update with invalid phone number,Chrome 131.0.0.0,,,10-12-2024 18:24:52,10-12-2024 18:25:50,57.722s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,10-12-2024 18:24:52,10-12-2024 18:24:52,0.000s,PASSED
+"common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao)",Chrome 131.0.0.0,Open and authenticate,,10-12-2024 18:24:52,10-12-2024 18:25:33,40.842s,PASSED
+"enhancedClick(findTestObject(""Object Repository/common/icon/user icon""))",Chrome 131.0.0.0,Go to account infomation page,,10-12-2024 18:25:33,10-12-2024 18:25:33,0.075s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:25:33,10-12-2024 18:25:35,2.007s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/pages/home_page/go_to_account""), 10)",Chrome 131.0.0.0,,,10-12-2024 18:25:35,10-12-2024 18:25:35,0.015s,PASSED
+"click(findTestObject(""Object Repository/pages/home_page/go_to_account""))",Chrome 131.0.0.0,,,10-12-2024 18:25:35,10-12-2024 18:25:36,1.114s,PASSED
+"common.UtilKeyword.waitForPageLoadAndDelay(20, 3)",Chrome 131.0.0.0,,,10-12-2024 18:25:36,10-12-2024 18:25:39,3.011s,PASSED
+"click(findTestObject(""Object Repository/pages/account_page/update_acc_info_button""))",Chrome 131.0.0.0,Update account with invalid phone number,,10-12-2024 18:25:39,10-12-2024 18:25:39,0.061s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:25:39,10-12-2024 18:25:41,2.015s,PASSED
+"executeJavaScript(""let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));"", Arrays.asList(phoneNumber))",Chrome 131.0.0.0,,,10-12-2024 18:25:41,10-12-2024 18:25:41,0.013s,PASSED
+"click(findTestObject(""Object Repository/common/button/button_class"", [""class"":""btn account-info__btn account-info__btn--full""]))",Chrome 131.0.0.0,,,10-12-2024 18:25:41,10-12-2024 18:25:41,0.048s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:25:41,10-12-2024 18:25:43,2.012s,PASSED
+"errMessObject = findTestObject(""Object Repository/common/span/span_class"", [""class"":""error-text""])",Chrome 131.0.0.0,,,10-12-2024 18:25:43,10-12-2024 18:25:43,0.001s,PASSED
+verifyElementVisible(errMessObject),Chrome 131.0.0.0,,,10-12-2024 18:25:43,10-12-2024 18:25:44,0.017s,PASSED
+actualErrMess = getText(errMessObject),Chrome 131.0.0.0,,,10-12-2024 18:25:44,10-12-2024 18:25:44,0.015s,PASSED
+if (actualErrMess.equals(expectedErrMess)),Chrome 131.0.0.0,Verify error message for invalid phone number,,10-12-2024 18:25:44,10-12-2024 18:25:44,0.103s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,Return account information page,,10-12-2024 18:25:44,10-12-2024 18:25:44,0.014s,PASSED
+"click(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,,,10-12-2024 18:25:44,10-12-2024 18:25:44,0.045s,PASSED
+common.UtilKeyword.logOutAndClose(),Chrome 131.0.0.0,Logout and close,,10-12-2024 18:25:44,10-12-2024 18:25:50,6.304s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-003/TC002-Update with invalid phone number,Chrome 131.0.0.0,,,10-12-2024 18:25:50,10-12-2024 18:26:48,57.577s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,10-12-2024 18:25:50,10-12-2024 18:25:50,0.001s,PASSED
+"common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao)",Chrome 131.0.0.0,Open and authenticate,,10-12-2024 18:25:50,10-12-2024 18:26:31,40.682s,PASSED
+"enhancedClick(findTestObject(""Object Repository/common/icon/user icon""))",Chrome 131.0.0.0,Go to account infomation page,,10-12-2024 18:26:31,10-12-2024 18:26:31,0.088s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:26:31,10-12-2024 18:26:33,2.006s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/pages/home_page/go_to_account""), 10)",Chrome 131.0.0.0,,,10-12-2024 18:26:33,10-12-2024 18:26:33,0.015s,PASSED
+"click(findTestObject(""Object Repository/pages/home_page/go_to_account""))",Chrome 131.0.0.0,,,10-12-2024 18:26:33,10-12-2024 18:26:34,1.133s,PASSED
+"common.UtilKeyword.waitForPageLoadAndDelay(20, 3)",Chrome 131.0.0.0,,,10-12-2024 18:26:34,10-12-2024 18:26:37,3.008s,PASSED
+"click(findTestObject(""Object Repository/pages/account_page/update_acc_info_button""))",Chrome 131.0.0.0,Update account with invalid phone number,,10-12-2024 18:26:37,10-12-2024 18:26:37,0.056s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:26:37,10-12-2024 18:26:39,2.012s,PASSED
+"executeJavaScript(""let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));"", Arrays.asList(phoneNumber))",Chrome 131.0.0.0,,,10-12-2024 18:26:39,10-12-2024 18:26:39,0.011s,PASSED
+"click(findTestObject(""Object Repository/common/button/button_class"", [""class"":""btn account-info__btn account-info__btn--full""]))",Chrome 131.0.0.0,,,10-12-2024 18:26:39,10-12-2024 18:26:39,0.048s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:26:39,10-12-2024 18:26:41,2.005s,PASSED
+"errMessObject = findTestObject(""Object Repository/common/span/span_class"", [""class"":""error-text""])",Chrome 131.0.0.0,,,10-12-2024 18:26:41,10-12-2024 18:26:41,0.001s,PASSED
+verifyElementVisible(errMessObject),Chrome 131.0.0.0,,,10-12-2024 18:26:41,10-12-2024 18:26:41,0.017s,PASSED
+actualErrMess = getText(errMessObject),Chrome 131.0.0.0,,,10-12-2024 18:26:41,10-12-2024 18:26:41,0.015s,PASSED
+if (actualErrMess.equals(expectedErrMess)),Chrome 131.0.0.0,Verify error message for invalid phone number,,10-12-2024 18:26:41,10-12-2024 18:26:41,0.131s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,Return account information page,,10-12-2024 18:26:41,10-12-2024 18:26:41,0.015s,PASSED
+"click(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,,,10-12-2024 18:26:41,10-12-2024 18:26:41,0.040s,PASSED
+common.UtilKeyword.logOutAndClose(),Chrome 131.0.0.0,Logout and close,,10-12-2024 18:26:41,10-12-2024 18:26:48,6.284s,PASSED
+,,,,,,,
+Test Cases/COOLMATE-003/TC003-Update with existing phone number,Chrome 131.0.0.0,,,10-12-2024 18:26:48,10-12-2024 18:27:45,57.490s,PASSED
+Start listener action : beforeTestCase,Chrome 131.0.0.0,,,10-12-2024 18:26:48,10-12-2024 18:26:48,0.000s,PASSED
+"common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao)",Chrome 131.0.0.0,Open and authenticate,,10-12-2024 18:26:48,10-12-2024 18:27:28,40.533s,PASSED
+"enhancedClick(findTestObject(""Object Repository/common/icon/user icon""))",Chrome 131.0.0.0,Go to account infomation page,,10-12-2024 18:27:28,10-12-2024 18:27:28,0.056s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:27:28,10-12-2024 18:27:30,2.015s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/pages/home_page/go_to_account""), 10)",Chrome 131.0.0.0,,,10-12-2024 18:27:30,10-12-2024 18:27:30,0.016s,PASSED
+"click(findTestObject(""Object Repository/pages/home_page/go_to_account""))",Chrome 131.0.0.0,,,10-12-2024 18:27:30,10-12-2024 18:27:31,1.153s,PASSED
+"common.UtilKeyword.waitForPageLoadAndDelay(20, 3)",Chrome 131.0.0.0,,,10-12-2024 18:27:31,10-12-2024 18:27:34,3.015s,PASSED
+"click(findTestObject(""Object Repository/pages/account_page/update_acc_info_button""))",Chrome 131.0.0.0,Update account with invalid phone number,,10-12-2024 18:27:34,10-12-2024 18:27:35,0.059s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:27:35,10-12-2024 18:27:37,2.016s,PASSED
+"executeJavaScript(""let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));"", Arrays.asList(phoneNumber))",Chrome 131.0.0.0,,,10-12-2024 18:27:37,10-12-2024 18:27:37,0.013s,PASSED
+"click(findTestObject(""Object Repository/common/button/button_class"", [""class"":""btn account-info__btn account-info__btn--full""]))",Chrome 131.0.0.0,,,10-12-2024 18:27:37,10-12-2024 18:27:37,0.048s,PASSED
+delay(2),Chrome 131.0.0.0,,,10-12-2024 18:27:37,10-12-2024 18:27:39,2.014s,PASSED
+"errMessObject = findTestObject(""Object Repository/common/span/span_class"", [""class"":""error-text""])",Chrome 131.0.0.0,,,10-12-2024 18:27:39,10-12-2024 18:27:39,0.001s,PASSED
+verifyElementVisible(errMessObject),Chrome 131.0.0.0,,,10-12-2024 18:27:39,10-12-2024 18:27:39,0.016s,PASSED
+actualErrMess = getText(errMessObject),Chrome 131.0.0.0,,,10-12-2024 18:27:39,10-12-2024 18:27:39,0.016s,PASSED
+if (actualErrMess.equals(existingErrMess)),Chrome 131.0.0.0,Verify error message for exsting phone number,,10-12-2024 18:27:39,10-12-2024 18:27:39,0.100s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,Return account information page,,10-12-2024 18:27:39,10-12-2024 18:27:39,0.017s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,,,10-12-2024 18:27:39,10-12-2024 18:27:39,0.012s,PASSED
+"click(findTestObject(""Object Repository/common/span/span_class"", [""class"":""close-popup""]))",Chrome 131.0.0.0,,,10-12-2024 18:27:39,10-12-2024 18:27:39,0.041s,PASSED
+common.UtilKeyword.logOutAndClose(),Chrome 131.0.0.0,Logout and close,,10-12-2024 18:27:39,10-12-2024 18:27:45,6.279s,PASSED
