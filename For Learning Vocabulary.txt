@@ -10,16 +10,30 @@
 10. through (preposition, adv): qua, khắp, suốt
 11. regularly (adv): thường xuyên
 12. conveniently located: toạ lạc tại một vị trí thuận tiện
+--------------------------------------
 
-1. hàng hoá (n): goods = item = supply = merchandise = product
-2. expect -> V(ngoại) + cụm N: mong đợi, dự kiến
-3. south-facing (adj): hướng Nam
-4. south (n): phía Nam
-5. regulaly (adv): thường xuyên
-6. brighty (adv): sáng sủa, tươi sáng
-7. conveniently located: toạ lạc tại một vị trí thuận tiện
-8. through (pre, adv): qua, suốt, khắp
-9. collectively (adv): tập thể, cùng nhau
-10. cuộc hop (n): meeting = session = gathering
-11. giá cả, chi phí (n): fee = fare = price = rate = charge = expenditure = expense = cost  
-12. surround (v), surrounding(adj): vây quanh, bao quanh/ xung quanh
+
+1. conveniently located: toạ lạc tại một vị trí thuận tiện
+2. south (n): phía Nam
+3. south-facing (adj): hướng nam
+4. collectively (adv): tập thể, cùng nhau
+5. birghtly (adv): sáng sủa, tươi sáng
+6. hàng hoá (n): goods = product = item = supply = merchandise 
+7. through (pre, adv): thông qua, khắp, suốt
+8. giá cả, chi phí (n): price = charge = fee = fare = expenditure = cost  = expense = rate
+9. meeting = sesion = gathering (n): cuộc họp
+10. expect -> V(ngoại) + N
+11. regularly (adv): thường xuyên
+12. surround (v), surrounding (adj): bao quanh, vây quanh / xung quanh
+----------------------------------------
+
+13. delay (n, v): sự trì hoãn / trì hoãn
+14. so = hence = therefore = consequently = as a result (conj): do đó, vì vậy
+15. proper = suitable = appropriate (adj): thích hợp, hợp lý
+16. insure = ensure = guarantee (v): đảm bảo, chắc chắn
+17. In addition (conj): Ngoài ra, bên cạnh đó
+18. heat (v): đun, đốt, làm cho nóng
+19. heat (n): nhiệt đột, hơi nóng
+20. heating (n): máy sưởi, việc sưởi ấm
+
+
