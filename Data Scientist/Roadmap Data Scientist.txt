@@ -58,7 +58,7 @@
 - Các nội dung toán học cần học cho AI: Xác suất, Thống kê, Đại số tuyến tính, Giải tích
 
 ***Road Map for Data Scientist:
-1. Toán 
+1. Toán: Xác suất, Thống kê, Đại số tuyến tính, Giải tích
 2. Cấu trúc dữ liệu và giải thuật (bổ trợ)
 3. Python (W3schools)
 4. Data Preprocessing (e.x: Data Collection - thu thập dữ liệu, Data Wrangling: sắp xếp dữ liệu, Data cleaning: làm sạch dữ liệu)
