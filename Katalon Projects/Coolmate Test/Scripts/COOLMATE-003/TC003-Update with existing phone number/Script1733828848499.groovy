@@ -44,6 +44,7 @@ WebUI.delay(2)
 
 TestObject errMessObject = findTestObject('Object Repository/common/span/span_class', [('class'): 'error-text'])
 
+
 WebUI.verifyElementVisible(errMessObject)
 def actualErrMess = WebUI.getText(errMessObject)
 
@@ -56,7 +57,6 @@ if(actualErrMess.equals(existingErrMess)) {
 }	
 
 'Return account information page'
-WebUI.verifyElementVisible(findTestObject('Object Repository/common/span/span_class', [('class'): 'close-popup']))
 WebUI.verifyElementVisible(findTestObject('Object Repository/common/span/span_class', [('class'): 'close-popup']))
 WebUI.click(findTestObject('Object Repository/common/span/span_class', [('class'): 'close-popup']))
 

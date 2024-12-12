@@ -55,23 +55,43 @@
 	+ Stacking
 
 - Các ngành ứng dụng chính của AI: xử lý ngôn ngữ tự nhiên và thị giác máy tính (xử lý hình ảnh)
-- Các nội dung toán học cần học cho AI: Xác suất, Thống kê, Đại số tuyến tính, Giải tích
+- Các nội dung toán học cần học cho AI: Xác suất và thống kê: giáo trình xác suất thống kê ĐH Bách Khoa Hà Nội, khóa học Statistics and probability (Khan Academy )
+					Đại số tuyến tính: khóa học Linear algebra, kênh youtube 3Blue1Brown: Essence of linear algebra, kênh youtube The Bright Side of Mathematics: Linear Algebra
+					Giải tích: Calculus 1 của Khan Academy, kênh youtube 3Blue1Brown: Essence of calculus
+					Aman.ai: chứa các kiến thức cơ bản trọng yếu (không có thống kê) về toán để làm AI, có code để hiểu cách sử dụng trong Python
 
-***Road Map for Data Scientist:
-1. Toán: Xác suất, Thống kê, Đại số tuyến tính, Giải tích
+
+***********************Road Map for Data Scientist*******************************
+1. Toán (đã đề cập ở trên)
+
 2. Cấu trúc dữ liệu và giải thuật (bổ trợ)
-3. Python (W3schools)
+
+3. Python (Python for Data Science of freeCodeCamp, W3schools, nên chú tâm vào RegEx vì để ứng dụng trích lấy thông tin văn bản v.v..)
+(cần biết rõ các thư viện: Pandas, NumPy, Matplotlib của Python)
+
 4. Data Preprocessing (e.x: Data Collection - thu thập dữ liệu, Data Wrangling: sắp xếp dữ liệu, Data cleaning: làm sạch dữ liệu)
    (tiền xử lý dữ liệu): ví dụ để lấy dữ liệu từ những nguồn không có API sẵn -> sử dụng Selenium hoặc Beautiful Soup
  			 ví dụ: pandas để đọc và xử lý dữ liệu
+
 5. Database (SQL): để lấy được dữ liệu cần sử dụng trong Database công ty (W3Schools)
-6. Machine Learning (CS229 của đại học Standford, freeCodeCamp)
+
+6. Machine Learning 
+(Kiến thức cơ bản về Machine Learning: Learn Data Science in 10 Hours - Edureka Youtube - chỉ nên học 2/3 đầu của khóa này: từ đầu -> 6:16:17 K-Means Algorithm)
+(Công cụ: cần biết rõ Framework Scikit-Learn của Python: hỗ trợ xây dựng các mô hình Machine Learning)
+(Để học Scikit-Learn: Youtube FreeCodeCamp: Scikit-Learn Course - Machine Learning in Python Tutorial; Scikit-Learn Tutorial)
+(Tự học các mô hình thuật toán Machine Learning: ***Data Hacker)
+(CS229 của đại học Standford-đi sâu-GOOD, Machine Learning for Everybody - freeCodeCamp Youtube)
+(Deep Learning: Data Science ko sử dụng các kiến thức Deep Learning nhiều, nhưng để cạnh tranh khi xin việc)
+	. CS230 Deep Learning (Slide + Video) của Standford
+	. Sau khi học xong Deep Learning có hai hướng đi tiếp:
+		+ CS231n: Deep Learning for Computer Vision (Thị giác máy tính)
+		+ CS224N: Natural Language Processing with Deep Learning
+		+ Framework chuyên cho Deep Learning: cần làm quen ít nhất 1: Keras, TensorFlow, Pytorch (recommended)
+
 7. Kiến thức về Software Engineer: git, docker
 
 
-* Tài liệu: Practical Statistics for Data Scientists
-
-
+* Tài liệu về các khái niệm cần trong Data Science: Practical Statistics for Data Scientists
 
 
 

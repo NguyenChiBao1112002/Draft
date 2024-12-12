@@ -18,7 +18,7 @@
       <testCaseId>Test Cases/COOLMATE-002/TC001-Searching products as an unauthenticated user</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>0caae96c-567c-4717-810a-12b5b6df4374</id>
+         <id>e15aac9a-0b10-450e-a08c-3f06968d4c5b</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -27,13 +27,13 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>0caae96c-567c-4717-810a-12b5b6df4374</testDataLinkId>
+         <testDataLinkId>e15aac9a-0b10-450e-a08c-3f06968d4c5b</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Valid Search Keywords</value>
          <variableId>97037274-8d72-4835-b134-cbf935f8335f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0caae96c-567c-4717-810a-12b5b6df4374</testDataLinkId>
+         <testDataLinkId>e15aac9a-0b10-450e-a08c-3f06968d4c5b</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Invalid Search Keywords</value>
          <variableId>3b781ff0-097c-4c1f-8902-549bc37d9d0c</variableId>
@@ -46,7 +46,7 @@
       <testCaseId>Test Cases/COOLMATE-002/TC002-Searching products as an authenticated user</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>f64435ac-c449-46fb-8ee8-2013aa377c22</id>
+         <id>2b55d1b9-258e-45b2-a158-88b3190b2798</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -55,13 +55,13 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>f64435ac-c449-46fb-8ee8-2013aa377c22</testDataLinkId>
+         <testDataLinkId>2b55d1b9-258e-45b2-a158-88b3190b2798</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Valid Search Keywords</value>
          <variableId>2be425d1-e64d-47f6-93a1-aae239ec31a0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>f64435ac-c449-46fb-8ee8-2013aa377c22</testDataLinkId>
+         <testDataLinkId>2b55d1b9-258e-45b2-a158-88b3190b2798</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Invalid Search Keywords</value>
          <variableId>124c3f3e-cb62-4680-86b2-f81e7fdac523</variableId>
