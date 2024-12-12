@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Search Keywords</name>
+   <name>Existing Phone Numbers</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>fa44359e-e869-478f-8b64-57a7dc685ff9</dataFileGUID>
-   <dataSourceUrl>Data Files/COOLMATE-002/SearchKeywords.xlsx</dataSourceUrl>
+   <dataFileGUID>ad7fe5d2-be6b-4ffd-b99c-5a561c78b05c</dataFileGUID>
+   <dataSourceUrl>Data Files/COOLMATE-003/ExistingPhoneNumbers.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Search Keywords</sheetName>
+   <sheetName>Existing Phone Numbers</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

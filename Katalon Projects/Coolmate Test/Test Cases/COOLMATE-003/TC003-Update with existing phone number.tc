@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC003-Update with exsting phone number</name>
+   <name>TC003-Update with existing phone number</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
