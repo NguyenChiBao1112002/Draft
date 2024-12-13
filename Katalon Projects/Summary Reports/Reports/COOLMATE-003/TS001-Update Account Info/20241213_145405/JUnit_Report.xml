@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS001-Update Account Info" time="454.38" tests="8" failures="0" errors="0">
+   <testsuite name="TS001-Update Account Info" tests="8" failures="0" errors="0" time="454.38" skipped="0" timestamp="13-12-2024T14:54:10" hostname="ncbao - ncbao.tma.com.vn" id="Test Suites/COOLMATE-003/TS001-Update Account Info">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\ncbao\\Downloads\\Draft Repo On Github\\Draft\\Katalon Projects\\Coolmate Test\\Reports\\20241213_145404\\COOLMATE-003\\TS001-Update Account Info\\20241213_145405"/>
+         <property name="logFiles" value="C:\\Users\\ncbao\\Downloads\\Draft Repo On Github\\Draft\\Katalon Projects\\Coolmate Test\\Reports\\20241213_145404\\COOLMATE-003\\TS001-Update Account Info\\20241213_145405\\execution0.log"/>
+         <property name="attachments" value="C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-003\TS001-Update Account Info\TC002-Update with invalid phone number\invalid_phone_err_mess_13122024 145455.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-003\TS001-Update Account Info\TC002-Update with invalid phone number\invalid_phone_err_mess_13122024 145552.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-003\TS001-Update Account Info\TC002-Update with invalid phone number\invalid_phone_err_mess_13122024 145649.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-003\TS001-Update Account Info\TC002-Update with invalid phone number\invalid_phone_err_mess_13122024 145748.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-003\TS001-Update Account Info\TC002-Update with invalid phone number\invalid_phone_err_mess_13122024 145844.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-003\TS001-Update Account Info\TC002-Update with invalid phone number\invalid_phone_err_mess_13122024 145942.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-003\TS001-Update Account Info\TC002-Update with invalid phone number\invalid_phone_err_mess_13122024 150042.png, C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-003\TS001-Update Account Info\TC003-Update with existing phone number\invalid_phone_err_mess_13122024 150137.png"/>
+         <property name="hostName" value="ncbao - ncbao.tma.com.vn"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.89.84"/>
+         <property name="sessionId" value="ea39aecb2562f6b985494a7aa6098498"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/COOLMATE-003/TC002-Update with invalid phone number" time="59.72" classname="Test Cases/COOLMATE-003/TC002-Update with invalid phone number" status="PASSED">
+         <system-out><![CDATA[13-12-2024T14:54:10 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-003/TC002-Update with invalid phone number: Test Cases/COOLMATE-003/TC002-Update with invalid phone number
+
+13-12-2024T14:54:10 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-12-2024T14:54:10 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+13-12-2024T14:54:11 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao): common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+13-12-2024T14:54:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:54:15 - [MESSAGE][PASSED] - Current window maximized
+
+13-12-2024T14:54:16 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/ads_close_button' is visible
+
+13-12-2024T14:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+13-12-2024T14:54:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:54:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:54:23 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+13-12-2024T14:54:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:54:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+13-12-2024T14:54:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:54:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:54:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:54:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='popup-member']//div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-12-2024T14:54:43 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/component/close_popup_button' located by '//*[@id='popup-member']//div/span' not found
+
+13-12-2024T14:54:43 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+13-12-2024T14:54:43 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/common/icon/user icon")): Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:54:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:54:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:54:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/pages/home_page/go_to_account"), 10): Object 'Object Repository/pages/home_page/go_to_account' is present
+
+13-12-2024T14:54:45 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/go_to_account' is present
+
+13-12-2024T14:54:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/go_to_account")): Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+13-12-2024T14:54:48 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+13-12-2024T14:54:48 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+13-12-2024T14:54:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:54:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:54:51 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+13-12-2024T14:54:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/account_page/update_acc_info_button")): Object: 'Object Repository/pages/account_page/update_acc_info_button' is clicked on
+
+13-12-2024T14:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/account_page/update_acc_info_button' is clicked on
+
+13-12-2024T14:54:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:54:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:54:53 - [TEST_STEP][PASSED] - executeJavaScript("let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));", Arrays.asList(phoneNumber)): Execute JavaScript 'let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));' successfully
+
+13-12-2024T14:54:53 - [MESSAGE][PASSED] - Execute JavaScript 'let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));' successfully
+
+13-12-2024T14:54:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/button/button_class", ["class":"btn account-info__btn account-info__btn--full"])): Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:54:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:54:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:54:55 - [TEST_STEP][PASSED] - errMessObject = findTestObject("Object Repository/common/span/span_class", ["class":"error-text"]): null
+
+13-12-2024T14:54:55 - [TEST_STEP][PASSED] - verifyElementVisible(errMessObject): Object 'Object Repository/common/span/span_class' is visible
+
+13-12-2024T14:54:55 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/span_class' is visible
+
+13-12-2024T14:54:55 - [TEST_STEP][PASSED] - actualErrMess = getText(errMessObject): Text of object 'Object Repository/common/span/span_class' is: 'SĐT không hợp lệ'
+
+13-12-2024T14:54:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/span/span_class' is: 'SĐT không hợp lệ'
+
+13-12-2024T14:54:55 - [TEST_STEP][PASSED] - if (actualErrMess.equals(expectedErrMess)): common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:54:55 - [TEST_STEP][PASSED] - logInfo("The error message was correct as expected to be "" + expectedErrMess + """): The error message was correct as expected to be "SĐT không hợp lệ"
+
+13-12-2024T14:54:55 - [MESSAGE][INFO] - The error message was correct as expected to be "SĐT không hợp lệ"
+
+13-12-2024T14:54:55 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("invalid_phone_err_mess"): common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:54:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-003\TS001-Update Account Info\TC002-Update with invalid phone number\invalid_phone_err_mess_13122024 145455.png]]
+
+13-12-2024T14:54:55 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:54:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T14:54:55 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T14:54:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T14:54:55 - [MESSAGE][PASSED] - Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T14:54:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:54:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:54:57 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"]), 5, OPTIONAL)): Web element with id: 'Object Repository/common/span/id_span_class' located by '//*[@id='info-tab']//span[contains(@class,'close-popup')]' not found
+
+13-12-2024T14:55:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='info-tab']//span[contains(@class,'close-popup')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-12-2024T14:55:03 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/common/span/id_span_class' located by '//*[@id='info-tab']//span[contains(@class,'close-popup')]' not found
+
+13-12-2024T14:55:03 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+13-12-2024T14:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:55:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+13-12-2024T14:55:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:55:08 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+13-12-2024T14:55:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:55:10 - [MESSAGE][PASSED] - Browser is closed
+
+13-12-2024T14:55:10 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-003/TC002-Update with invalid phone number" time="58.006" classname="Test Cases/COOLMATE-003/TC002-Update with invalid phone number" status="PASSED">
+         <system-out><![CDATA[13-12-2024T14:55:10 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-003/TC002-Update with invalid phone number: Test Cases/COOLMATE-003/TC002-Update with invalid phone number
+
+13-12-2024T14:55:10 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-12-2024T14:55:10 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+13-12-2024T14:55:10 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao): common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+13-12-2024T14:55:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:55:14 - [MESSAGE][PASSED] - Current window maximized
+
+13-12-2024T14:55:14 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/ads_close_button' is visible
+
+13-12-2024T14:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+13-12-2024T14:55:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:55:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:55:21 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+13-12-2024T14:55:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:55:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+13-12-2024T14:55:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:55:27 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:55:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:55:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:55:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='popup-member']//div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-12-2024T14:55:41 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/component/close_popup_button' located by '//*[@id='popup-member']//div/span' not found
+
+13-12-2024T14:55:41 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+13-12-2024T14:55:41 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/common/icon/user icon")): Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:55:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:55:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:55:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/pages/home_page/go_to_account"), 10): Object 'Object Repository/pages/home_page/go_to_account' is present
+
+13-12-2024T14:55:43 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/go_to_account' is present
+
+13-12-2024T14:55:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/go_to_account")): Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+13-12-2024T14:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+13-12-2024T14:55:45 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+13-12-2024T14:55:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:55:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:55:48 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+13-12-2024T14:55:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/account_page/update_acc_info_button")): Object: 'Object Repository/pages/account_page/update_acc_info_button' is clicked on
+
+13-12-2024T14:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/account_page/update_acc_info_button' is clicked on
+
+13-12-2024T14:55:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:55:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:55:50 - [TEST_STEP][PASSED] - executeJavaScript("let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));", Arrays.asList(phoneNumber)): Execute JavaScript 'let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));' successfully
+
+13-12-2024T14:55:50 - [MESSAGE][PASSED] - Execute JavaScript 'let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));' successfully
+
+13-12-2024T14:55:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/button/button_class", ["class":"btn account-info__btn account-info__btn--full"])): Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:55:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:55:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:55:52 - [TEST_STEP][PASSED] - errMessObject = findTestObject("Object Repository/common/span/span_class", ["class":"error-text"]): null
+
+13-12-2024T14:55:52 - [TEST_STEP][PASSED] - verifyElementVisible(errMessObject): Object 'Object Repository/common/span/span_class' is visible
+
+13-12-2024T14:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/span_class' is visible
+
+13-12-2024T14:55:52 - [TEST_STEP][PASSED] - actualErrMess = getText(errMessObject): Text of object 'Object Repository/common/span/span_class' is: 'SĐT không hợp lệ'
+
+13-12-2024T14:55:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/span/span_class' is: 'SĐT không hợp lệ'
+
+13-12-2024T14:55:52 - [TEST_STEP][PASSED] - if (actualErrMess.equals(expectedErrMess)): common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:55:52 - [TEST_STEP][PASSED] - logInfo("The error message was correct as expected to be "" + expectedErrMess + """): The error message was correct as expected to be "SĐT không hợp lệ"
+
+13-12-2024T14:55:52 - [MESSAGE][INFO] - The error message was correct as expected to be "SĐT không hợp lệ"
+
+13-12-2024T14:55:52 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("invalid_phone_err_mess"): common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:55:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-003\TS001-Update Account Info\TC002-Update with invalid phone number\invalid_phone_err_mess_13122024 145552.png]]
+
+13-12-2024T14:55:52 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:55:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T14:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T14:55:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T14:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T14:55:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:55:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:55:54 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"]), 5, OPTIONAL)): Web element with id: 'Object Repository/common/span/id_span_class' located by '//*[@id='info-tab']//span[contains(@class,'close-popup')]' not found
+
+13-12-2024T14:56:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='info-tab']//span[contains(@class,'close-popup')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-12-2024T14:56:00 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/common/span/id_span_class' located by '//*[@id='info-tab']//span[contains(@class,'close-popup')]' not found
+
+13-12-2024T14:56:00 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+13-12-2024T14:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:56:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:56:06 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+13-12-2024T14:56:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:56:06 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+13-12-2024T14:56:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:56:08 - [MESSAGE][PASSED] - Browser is closed
+
+13-12-2024T14:56:08 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-003/TC002-Update with invalid phone number" time="57.36" classname="Test Cases/COOLMATE-003/TC002-Update with invalid phone number" status="PASSED">
+         <system-out><![CDATA[13-12-2024T14:56:08 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-003/TC002-Update with invalid phone number: Test Cases/COOLMATE-003/TC002-Update with invalid phone number
+
+13-12-2024T14:56:08 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-12-2024T14:56:08 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+13-12-2024T14:56:08 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao): common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+13-12-2024T14:56:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:56:12 - [MESSAGE][PASSED] - Current window maximized
+
+13-12-2024T14:56:12 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/ads_close_button' is visible
+
+13-12-2024T14:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+13-12-2024T14:56:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:56:15 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:56:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:56:19 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+13-12-2024T14:56:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:56:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+13-12-2024T14:56:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:56:25 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:56:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:56:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:56:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='popup-member']//div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-12-2024T14:56:39 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/component/close_popup_button' located by '//*[@id='popup-member']//div/span' not found
+
+13-12-2024T14:56:39 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+13-12-2024T14:56:39 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/common/icon/user icon")): Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:56:39 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:56:39 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:56:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:56:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/pages/home_page/go_to_account"), 10): Object 'Object Repository/pages/home_page/go_to_account' is present
+
+13-12-2024T14:56:41 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/go_to_account' is present
+
+13-12-2024T14:56:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/go_to_account")): Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+13-12-2024T14:56:42 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+13-12-2024T14:56:42 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+13-12-2024T14:56:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:56:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:56:45 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+13-12-2024T14:56:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/account_page/update_acc_info_button")): Object: 'Object Repository/pages/account_page/update_acc_info_button' is clicked on
+
+13-12-2024T14:56:45 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/account_page/update_acc_info_button' is clicked on
+
+13-12-2024T14:56:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:56:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:56:47 - [TEST_STEP][PASSED] - executeJavaScript("let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));", Arrays.asList(phoneNumber)): Execute JavaScript 'let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));' successfully
+
+13-12-2024T14:56:47 - [MESSAGE][PASSED] - Execute JavaScript 'let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));' successfully
+
+13-12-2024T14:56:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/button/button_class", ["class":"btn account-info__btn account-info__btn--full"])): Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:56:47 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:56:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:56:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:56:49 - [TEST_STEP][PASSED] - errMessObject = findTestObject("Object Repository/common/span/span_class", ["class":"error-text"]): null
+
+13-12-2024T14:56:49 - [TEST_STEP][PASSED] - verifyElementVisible(errMessObject): Object 'Object Repository/common/span/span_class' is visible
+
+13-12-2024T14:56:49 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/span_class' is visible
+
+13-12-2024T14:56:49 - [TEST_STEP][PASSED] - actualErrMess = getText(errMessObject): Text of object 'Object Repository/common/span/span_class' is: 'SĐT không hợp lệ'
+
+13-12-2024T14:56:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/span/span_class' is: 'SĐT không hợp lệ'
+
+13-12-2024T14:56:49 - [TEST_STEP][PASSED] - if (actualErrMess.equals(expectedErrMess)): common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:56:49 - [TEST_STEP][PASSED] - logInfo("The error message was correct as expected to be "" + expectedErrMess + """): The error message was correct as expected to be "SĐT không hợp lệ"
+
+13-12-2024T14:56:49 - [MESSAGE][INFO] - The error message was correct as expected to be "SĐT không hợp lệ"
+
+13-12-2024T14:56:49 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("invalid_phone_err_mess"): common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:56:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-003\TS001-Update Account Info\TC002-Update with invalid phone number\invalid_phone_err_mess_13122024 145649.png]]
+
+13-12-2024T14:56:49 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:56:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T14:56:49 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T14:56:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T14:56:49 - [MESSAGE][PASSED] - Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T14:56:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:56:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:56:51 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"]), 5, OPTIONAL)): Web element with id: 'Object Repository/common/span/id_span_class' located by '//*[@id='info-tab']//span[contains(@class,'close-popup')]' not found
+
+13-12-2024T14:56:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='info-tab']//span[contains(@class,'close-popup')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-12-2024T14:56:57 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/common/span/id_span_class' located by '//*[@id='info-tab']//span[contains(@class,'close-popup')]' not found
+
+13-12-2024T14:56:57 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+13-12-2024T14:56:57 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:57:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+13-12-2024T14:57:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:57:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+13-12-2024T14:57:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:57:05 - [MESSAGE][PASSED] - Browser is closed
+
+13-12-2024T14:57:05 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-003/TC002-Update with invalid phone number" time="57.737" classname="Test Cases/COOLMATE-003/TC002-Update with invalid phone number" status="PASSED">
+         <system-out><![CDATA[13-12-2024T14:57:05 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-003/TC002-Update with invalid phone number: Test Cases/COOLMATE-003/TC002-Update with invalid phone number
+
+13-12-2024T14:57:05 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-12-2024T14:57:05 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+13-12-2024T14:57:05 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao): common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+13-12-2024T14:57:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:57:10 - [MESSAGE][PASSED] - Current window maximized
+
+13-12-2024T14:57:10 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/ads_close_button' is visible
+
+13-12-2024T14:57:10 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+13-12-2024T14:57:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:57:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:57:16 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+13-12-2024T14:57:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:57:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+13-12-2024T14:57:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:57:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:57:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:57:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='popup-member']//div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-12-2024T14:57:36 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/component/close_popup_button' located by '//*[@id='popup-member']//div/span' not found
+
+13-12-2024T14:57:36 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+13-12-2024T14:57:36 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/common/icon/user icon")): Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:57:36 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:57:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:57:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:57:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/pages/home_page/go_to_account"), 10): Object 'Object Repository/pages/home_page/go_to_account' is present
+
+13-12-2024T14:57:38 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/go_to_account' is present
+
+13-12-2024T14:57:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/go_to_account")): Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+13-12-2024T14:57:41 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+13-12-2024T14:57:41 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+13-12-2024T14:57:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:57:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:57:44 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+13-12-2024T14:57:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/account_page/update_acc_info_button")): Object: 'Object Repository/pages/account_page/update_acc_info_button' is clicked on
+
+13-12-2024T14:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/account_page/update_acc_info_button' is clicked on
+
+13-12-2024T14:57:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:57:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:57:46 - [TEST_STEP][PASSED] - executeJavaScript("let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));", Arrays.asList(phoneNumber)): Execute JavaScript 'let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));' successfully
+
+13-12-2024T14:57:46 - [MESSAGE][PASSED] - Execute JavaScript 'let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));' successfully
+
+13-12-2024T14:57:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/button/button_class", ["class":"btn account-info__btn account-info__btn--full"])): Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:57:46 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:57:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:57:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:57:48 - [TEST_STEP][PASSED] - errMessObject = findTestObject("Object Repository/common/span/span_class", ["class":"error-text"]): null
+
+13-12-2024T14:57:48 - [TEST_STEP][PASSED] - verifyElementVisible(errMessObject): Object 'Object Repository/common/span/span_class' is visible
+
+13-12-2024T14:57:48 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/span_class' is visible
+
+13-12-2024T14:57:48 - [TEST_STEP][PASSED] - actualErrMess = getText(errMessObject): Text of object 'Object Repository/common/span/span_class' is: 'SĐT phải là 10 số'
+
+13-12-2024T14:57:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/span/span_class' is: 'SĐT phải là 10 số'
+
+13-12-2024T14:57:48 - [TEST_STEP][PASSED] - if (actualErrMess.equals(expectedErrMess)): common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:57:48 - [TEST_STEP][PASSED] - logInfo("The error message was correct as expected to be "" + expectedErrMess + """): The error message was correct as expected to be "SĐT phải là 10 số"
+
+13-12-2024T14:57:48 - [MESSAGE][INFO] - The error message was correct as expected to be "SĐT phải là 10 số"
+
+13-12-2024T14:57:48 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("invalid_phone_err_mess"): common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:57:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-003\TS001-Update Account Info\TC002-Update with invalid phone number\invalid_phone_err_mess_13122024 145748.png]]
+
+13-12-2024T14:57:49 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:57:49 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T14:57:49 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T14:57:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T14:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T14:57:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:57:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:57:51 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"]), 5, OPTIONAL)): Web element with id: 'Object Repository/common/span/id_span_class' located by '//*[@id='info-tab']//span[contains(@class,'close-popup')]' not found
+
+13-12-2024T14:57:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='info-tab']//span[contains(@class,'close-popup')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-12-2024T14:57:57 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/common/span/id_span_class' located by '//*[@id='info-tab']//span[contains(@class,'close-popup')]' not found
+
+13-12-2024T14:57:57 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+13-12-2024T14:57:57 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:58:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+13-12-2024T14:58:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:58:01 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+13-12-2024T14:58:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:58:03 - [MESSAGE][PASSED] - Browser is closed
+
+13-12-2024T14:58:03 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-003/TC002-Update with invalid phone number" time="55.288" classname="Test Cases/COOLMATE-003/TC002-Update with invalid phone number" status="PASSED">
+         <system-out><![CDATA[13-12-2024T14:58:03 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-003/TC002-Update with invalid phone number: Test Cases/COOLMATE-003/TC002-Update with invalid phone number
+
+13-12-2024T14:58:03 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-12-2024T14:58:03 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+13-12-2024T14:58:03 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao): common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+13-12-2024T14:58:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:58:06 - [MESSAGE][PASSED] - Current window maximized
+
+13-12-2024T14:58:06 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/ads_close_button' is visible
+
+13-12-2024T14:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+13-12-2024T14:58:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:58:10 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:58:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:58:13 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+13-12-2024T14:58:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:58:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+13-12-2024T14:58:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:58:19 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:58:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:58:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:58:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='popup-member']//div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-12-2024T14:58:33 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/component/close_popup_button' located by '//*[@id='popup-member']//div/span' not found
+
+13-12-2024T14:58:33 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+13-12-2024T14:58:33 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/common/icon/user icon")): Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:58:33 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:58:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:58:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:58:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/pages/home_page/go_to_account"), 10): Object 'Object Repository/pages/home_page/go_to_account' is present
+
+13-12-2024T14:58:35 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/go_to_account' is present
+
+13-12-2024T14:58:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/go_to_account")): Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+13-12-2024T14:58:37 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+13-12-2024T14:58:37 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+13-12-2024T14:58:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:58:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:58:40 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+13-12-2024T14:58:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/account_page/update_acc_info_button")): Object: 'Object Repository/pages/account_page/update_acc_info_button' is clicked on
+
+13-12-2024T14:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/account_page/update_acc_info_button' is clicked on
+
+13-12-2024T14:58:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:58:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:58:42 - [TEST_STEP][PASSED] - executeJavaScript("let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));", Arrays.asList(phoneNumber)): Execute JavaScript 'let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));' successfully
+
+13-12-2024T14:58:42 - [MESSAGE][PASSED] - Execute JavaScript 'let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));' successfully
+
+13-12-2024T14:58:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/button/button_class", ["class":"btn account-info__btn account-info__btn--full"])): Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:58:42 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:58:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:58:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:58:44 - [TEST_STEP][PASSED] - errMessObject = findTestObject("Object Repository/common/span/span_class", ["class":"error-text"]): null
+
+13-12-2024T14:58:44 - [TEST_STEP][PASSED] - verifyElementVisible(errMessObject): Object 'Object Repository/common/span/span_class' is visible
+
+13-12-2024T14:58:44 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/span_class' is visible
+
+13-12-2024T14:58:44 - [TEST_STEP][PASSED] - actualErrMess = getText(errMessObject): Text of object 'Object Repository/common/span/span_class' is: 'SĐT phải là 10 số'
+
+13-12-2024T14:58:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/span/span_class' is: 'SĐT phải là 10 số'
+
+13-12-2024T14:58:44 - [TEST_STEP][PASSED] - if (actualErrMess.equals(expectedErrMess)): common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:58:44 - [TEST_STEP][PASSED] - logInfo("The error message was correct as expected to be "" + expectedErrMess + """): The error message was correct as expected to be "SĐT phải là 10 số"
+
+13-12-2024T14:58:44 - [MESSAGE][INFO] - The error message was correct as expected to be "SĐT phải là 10 số"
+
+13-12-2024T14:58:44 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("invalid_phone_err_mess"): common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:58:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-003\TS001-Update Account Info\TC002-Update with invalid phone number\invalid_phone_err_mess_13122024 145844.png]]
+
+13-12-2024T14:58:44 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:58:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T14:58:44 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T14:58:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T14:58:44 - [MESSAGE][PASSED] - Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T14:58:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:58:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:58:46 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"]), 5, OPTIONAL)): Web element with id: 'Object Repository/common/span/id_span_class' located by '//*[@id='info-tab']//span[contains(@class,'close-popup')]' not found
+
+13-12-2024T14:58:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='info-tab']//span[contains(@class,'close-popup')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-12-2024T14:58:52 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/common/span/id_span_class' located by '//*[@id='info-tab']//span[contains(@class,'close-popup')]' not found
+
+13-12-2024T14:58:52 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+13-12-2024T14:58:52 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:58:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+13-12-2024T14:58:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:58:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+13-12-2024T14:58:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:58:58 - [MESSAGE][PASSED] - Browser is closed
+
+13-12-2024T14:58:58 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-003/TC002-Update with invalid phone number" time="58.642" classname="Test Cases/COOLMATE-003/TC002-Update with invalid phone number" status="PASSED">
+         <system-out><![CDATA[13-12-2024T14:58:58 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-003/TC002-Update with invalid phone number: Test Cases/COOLMATE-003/TC002-Update with invalid phone number
+
+13-12-2024T14:58:58 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-12-2024T14:58:58 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+13-12-2024T14:58:58 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao): common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+13-12-2024T14:59:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:59:02 - [MESSAGE][PASSED] - Current window maximized
+
+13-12-2024T14:59:02 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/ads_close_button' is visible
+
+13-12-2024T14:59:02 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+13-12-2024T14:59:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:59:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:59:09 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+13-12-2024T14:59:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:59:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+13-12-2024T14:59:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:59:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:59:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:59:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='popup-member']//div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-12-2024T14:59:29 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/component/close_popup_button' located by '//*[@id='popup-member']//div/span' not found
+
+13-12-2024T14:59:29 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+13-12-2024T14:59:29 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/common/icon/user icon")): Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:59:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:59:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:59:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/pages/home_page/go_to_account"), 10): Object 'Object Repository/pages/home_page/go_to_account' is present
+
+13-12-2024T14:59:31 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/go_to_account' is present
+
+13-12-2024T14:59:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/go_to_account")): Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+13-12-2024T14:59:35 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+13-12-2024T14:59:35 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+13-12-2024T14:59:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:59:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:59:38 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+13-12-2024T14:59:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/account_page/update_acc_info_button")): Object: 'Object Repository/pages/account_page/update_acc_info_button' is clicked on
+
+13-12-2024T14:59:38 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/account_page/update_acc_info_button' is clicked on
+
+13-12-2024T14:59:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:59:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:59:40 - [TEST_STEP][PASSED] - executeJavaScript("let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));", Arrays.asList(phoneNumber)): Execute JavaScript 'let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));' successfully
+
+13-12-2024T14:59:40 - [MESSAGE][PASSED] - Execute JavaScript 'let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));' successfully
+
+13-12-2024T14:59:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/button/button_class", ["class":"btn account-info__btn account-info__btn--full"])): Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T14:59:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:59:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:59:42 - [TEST_STEP][PASSED] - errMessObject = findTestObject("Object Repository/common/span/span_class", ["class":"error-text"]): null
+
+13-12-2024T14:59:42 - [TEST_STEP][PASSED] - verifyElementVisible(errMessObject): Object 'Object Repository/common/span/span_class' is visible
+
+13-12-2024T14:59:42 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/span_class' is visible
+
+13-12-2024T14:59:42 - [TEST_STEP][PASSED] - actualErrMess = getText(errMessObject): Text of object 'Object Repository/common/span/span_class' is: 'SĐT phải là 10 số'
+
+13-12-2024T14:59:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/span/span_class' is: 'SĐT phải là 10 số'
+
+13-12-2024T14:59:42 - [TEST_STEP][PASSED] - if (actualErrMess.equals(expectedErrMess)): common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:59:42 - [TEST_STEP][PASSED] - logInfo("The error message was correct as expected to be "" + expectedErrMess + """): The error message was correct as expected to be "SĐT phải là 10 số"
+
+13-12-2024T14:59:42 - [MESSAGE][INFO] - The error message was correct as expected to be "SĐT phải là 10 số"
+
+13-12-2024T14:59:42 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("invalid_phone_err_mess"): common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:59:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-003\TS001-Update Account Info\TC002-Update with invalid phone number\invalid_phone_err_mess_13122024 145942.png]]
+
+13-12-2024T14:59:42 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T14:59:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T14:59:42 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T14:59:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T14:59:42 - [MESSAGE][PASSED] - Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T14:59:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T14:59:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:59:45 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"]), 5, OPTIONAL)): Web element with id: 'Object Repository/common/span/id_span_class' located by '//*[@id='info-tab']//span[contains(@class,'close-popup')]' not found
+
+13-12-2024T14:59:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='info-tab']//span[contains(@class,'close-popup')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-12-2024T14:59:51 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/common/span/id_span_class' located by '//*[@id='info-tab']//span[contains(@class,'close-popup')]' not found
+
+13-12-2024T14:59:51 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+13-12-2024T14:59:51 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T14:59:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T14:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+13-12-2024T14:59:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T14:59:55 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+13-12-2024T14:59:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T14:59:57 - [MESSAGE][PASSED] - Browser is closed
+
+13-12-2024T14:59:57 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-003/TC002-Update with invalid phone number" time="59.219" classname="Test Cases/COOLMATE-003/TC002-Update with invalid phone number" status="PASSED">
+         <system-out><![CDATA[13-12-2024T14:59:57 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-003/TC002-Update with invalid phone number: Test Cases/COOLMATE-003/TC002-Update with invalid phone number
+
+13-12-2024T14:59:57 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-12-2024T14:59:57 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+13-12-2024T14:59:57 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao): common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+13-12-2024T15:00:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T15:00:02 - [MESSAGE][PASSED] - Current window maximized
+
+13-12-2024T15:00:02 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/ads_close_button' is visible
+
+13-12-2024T15:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+13-12-2024T15:00:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T15:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T15:00:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T15:00:08 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+13-12-2024T15:00:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T15:00:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+13-12-2024T15:00:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T15:00:14 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T15:00:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T15:00:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T15:00:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='popup-member']//div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-12-2024T15:00:28 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/component/close_popup_button' located by '//*[@id='popup-member']//div/span' not found
+
+13-12-2024T15:00:28 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+13-12-2024T15:00:28 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/common/icon/user icon")): Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T15:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T15:00:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T15:00:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T15:00:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/pages/home_page/go_to_account"), 10): Object 'Object Repository/pages/home_page/go_to_account' is present
+
+13-12-2024T15:00:31 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/go_to_account' is present
+
+13-12-2024T15:00:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/go_to_account")): Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+13-12-2024T15:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+13-12-2024T15:00:35 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+13-12-2024T15:00:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T15:00:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T15:00:38 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+13-12-2024T15:00:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/account_page/update_acc_info_button")): Object: 'Object Repository/pages/account_page/update_acc_info_button' is clicked on
+
+13-12-2024T15:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/account_page/update_acc_info_button' is clicked on
+
+13-12-2024T15:00:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T15:00:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T15:00:40 - [TEST_STEP][PASSED] - executeJavaScript("let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));", Arrays.asList(phoneNumber)): Execute JavaScript 'let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));' successfully
+
+13-12-2024T15:00:40 - [MESSAGE][PASSED] - Execute JavaScript 'let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));' successfully
+
+13-12-2024T15:00:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/button/button_class", ["class":"btn account-info__btn account-info__btn--full"])): Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T15:00:40 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T15:00:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T15:00:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T15:00:42 - [TEST_STEP][PASSED] - errMessObject = findTestObject("Object Repository/common/span/span_class", ["class":"error-text"]): null
+
+13-12-2024T15:00:42 - [TEST_STEP][PASSED] - verifyElementVisible(errMessObject): Object 'Object Repository/common/span/span_class' is visible
+
+13-12-2024T15:00:42 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/span_class' is visible
+
+13-12-2024T15:00:42 - [TEST_STEP][PASSED] - actualErrMess = getText(errMessObject): Text of object 'Object Repository/common/span/span_class' is: 'Không được để trống số điện thoại'
+
+13-12-2024T15:00:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/span/span_class' is: 'Không được để trống số điện thoại'
+
+13-12-2024T15:00:42 - [TEST_STEP][PASSED] - if (actualErrMess.equals(expectedErrMess)): common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T15:00:42 - [TEST_STEP][PASSED] - logInfo("The error message was correct as expected to be "" + expectedErrMess + """): The error message was correct as expected to be "Không được để trống số điện thoại"
+
+13-12-2024T15:00:42 - [MESSAGE][INFO] - The error message was correct as expected to be "Không được để trống số điện thoại"
+
+13-12-2024T15:00:42 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("invalid_phone_err_mess"): common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T15:00:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-003\TS001-Update Account Info\TC002-Update with invalid phone number\invalid_phone_err_mess_13122024 150042.png]]
+
+13-12-2024T15:00:42 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T15:00:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T15:00:42 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T15:00:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T15:00:42 - [MESSAGE][PASSED] - Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T15:00:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T15:00:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T15:00:44 - [TEST_STEP][PASSED] - if (waitForElementVisible(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"]), 5, OPTIONAL)): null
+
+13-12-2024T15:00:46 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T15:00:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T15:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T15:00:48 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+13-12-2024T15:00:50 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T15:00:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T15:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+13-12-2024T15:00:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T15:00:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+13-12-2024T15:00:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T15:00:56 - [MESSAGE][PASSED] - Browser is closed
+
+13-12-2024T15:00:56 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-003/TC003-Update with existing phone number" time="48.101" classname="Test Cases/COOLMATE-003/TC003-Update with existing phone number" status="PASSED">
+         <system-out><![CDATA[13-12-2024T15:00:56 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-003/TC003-Update with existing phone number: Test Cases/COOLMATE-003/TC003-Update with existing phone number
+
+13-12-2024T15:00:56 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+13-12-2024T15:00:56 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+13-12-2024T15:00:56 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao): common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+13-12-2024T15:01:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T15:01:00 - [MESSAGE][PASSED] - Current window maximized
+
+13-12-2024T15:01:00 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/ads_close_button' is visible
+
+13-12-2024T15:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/ads_close_button' is clicked on
+
+13-12-2024T15:01:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T15:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T15:01:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T15:01:06 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+13-12-2024T15:01:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T15:01:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+13-12-2024T15:01:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T15:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T15:01:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T15:01:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T15:01:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='popup-member']//div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+13-12-2024T15:01:26 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/component/close_popup_button' located by '//*[@id='popup-member']//div/span' not found
+
+13-12-2024T15:01:26 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+13-12-2024T15:01:26 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/common/icon/user icon")): Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T15:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T15:01:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T15:01:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T15:01:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/pages/home_page/go_to_account"), 10): Object 'Object Repository/pages/home_page/go_to_account' is present
+
+13-12-2024T15:01:28 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/go_to_account' is present
+
+13-12-2024T15:01:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/go_to_account")): Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+13-12-2024T15:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+13-12-2024T15:01:30 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+13-12-2024T15:01:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T15:01:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T15:01:33 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+13-12-2024T15:01:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/account_page/update_acc_info_button")): Object: 'Object Repository/pages/account_page/update_acc_info_button' is clicked on
+
+13-12-2024T15:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/account_page/update_acc_info_button' is clicked on
+
+13-12-2024T15:01:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T15:01:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T15:01:35 - [TEST_STEP][PASSED] - executeJavaScript("let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));", Arrays.asList(phoneNumber)): Execute JavaScript 'let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));' successfully
+
+13-12-2024T15:01:35 - [MESSAGE][PASSED] - Execute JavaScript 'let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));' successfully
+
+13-12-2024T15:01:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/button/button_class", ["class":"btn account-info__btn account-info__btn--full"])): Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T15:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+13-12-2024T15:01:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+13-12-2024T15:01:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T15:01:37 - [TEST_STEP][PASSED] - errMessObject = findTestObject("Object Repository/common/span/span_class", ["class":"error-text"]): null
+
+13-12-2024T15:01:37 - [TEST_STEP][PASSED] - verifyElementVisible(errMessObject): Object 'Object Repository/common/span/span_class' is visible
+
+13-12-2024T15:01:37 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/span_class' is visible
+
+13-12-2024T15:01:37 - [TEST_STEP][PASSED] - actualErrMess = getText(errMessObject): Text of object 'Object Repository/common/span/span_class' is: '*Số điện thoại này đã được sử dụng. Nếu thêm cần hỗ trợ vui lòng liên hệ bộ phận CSKH.'
+
+13-12-2024T15:01:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/span/span_class' is: '*Số điện thoại này đã được sử dụng. Nếu thêm cần hỗ trợ vui lòng liên hệ bộ phận CSKH.'
+
+13-12-2024T15:01:37 - [TEST_STEP][PASSED] - if (actualErrMess.equals(existingErrMess)): common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T15:01:37 - [TEST_STEP][PASSED] - logInfo("The error message was correct as expected to be "" + existingErrMess + """): The error message was correct as expected to be "*Số điện thoại này đã được sử dụng. Nếu thêm cần hỗ trợ vui lòng liên hệ bộ phận CSKH."
+
+13-12-2024T15:01:37 - [MESSAGE][INFO] - The error message was correct as expected to be "*Số điện thoại này đã được sử dụng. Nếu thêm cần hỗ trợ vui lòng liên hệ bộ phận CSKH."
+
+13-12-2024T15:01:37 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("invalid_phone_err_mess"): common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T15:01:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-003\TS001-Update Account Info\TC003-Update with existing phone number\invalid_phone_err_mess_13122024 150137.png]]
+
+13-12-2024T15:01:37 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+13-12-2024T15:01:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T15:01:37 - [MESSAGE][PASSED] - Object 'Object Repository/common/span/id_span_class' is visible
+
+13-12-2024T15:01:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/span/id_span_class", ["id":"info-tab", "class":"close-popup"])): Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T15:01:37 - [MESSAGE][PASSED] - Object: 'Object Repository/common/span/id_span_class' is clicked on
+
+13-12-2024T15:01:37 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+13-12-2024T15:01:37 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user icon' is clicked on
+
+13-12-2024T15:01:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+13-12-2024T15:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+13-12-2024T15:01:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+13-12-2024T15:01:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+13-12-2024T15:01:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+13-12-2024T15:01:44 - [MESSAGE][PASSED] - Browser is closed
+
+13-12-2024T15:01:44 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[13-12-2024T14:54:10 - [TEST_SUITE][PASSED] - TS001-Update Account Info: Test Cases/COOLMATE-003/TC003-Update with existing phone number]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
