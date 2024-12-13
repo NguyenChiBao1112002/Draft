@@ -5,8 +5,6 @@
       <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables">
         <collectionProp name="Arguments.arguments"/>
       </elementProp>
-      <boolProp name="TestPlan.functional_mode">false</boolProp>
-      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
     </TestPlan>
     <hashTree>
       <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Thread Group">
@@ -23,9 +21,9 @@
         <SmtpSampler guiclass="SmtpSamplerGui" testclass="SmtpSampler" testname="SMTP Sampler">
           <stringProp name="SMTPSampler.server">smtp.gmail.com</stringProp>
           <stringProp name="SMTPSampler.serverPort">587</stringProp>
-          <stringProp name="SMTPSampler.mailFrom">baob2012178@student.ctu.edu.vn</stringProp>
+          <stringProp name="SMTPSampler.mailFrom">nguyenchibao011102@gmail.com</stringProp>
           <stringProp name="SMTPSampler.replyTo"></stringProp>
-          <stringProp name="SMTPSampler.receiverTo">baob2012178@student.ctu.edu.vn</stringProp>
+          <stringProp name="SMTPSampler.receiverTo">nguyenchibao011102@gmail.com</stringProp>
           <stringProp name="SMTPSampler.receiverCC"></stringProp>
           <stringProp name="SMTPSampler.receiverBCC"></stringProp>
           <stringProp name="SMTPSampler.subject">Email for Test - ${__time(dd/MM/yyyy - HH:mm:ss,)}</stringProp>
@@ -46,8 +44,8 @@ JMeter Test started!</stringProp>
           <boolProp name="SMTPSampler.use_eml">false</boolProp>
           <stringProp name="SMTPSampler.emlMessageToSend"></stringProp>
           <stringProp name="SMTPSampler.useAuth">true</stringProp>
-          <stringProp name="SMTPSampler.password">uSUp8W4R</stringProp>
-          <stringProp name="SMTPSampler.username">baob2012178@student.ctu.edu.vn</stringProp>
+          <stringProp name="SMTPSampler.password">zsldnoyfwqofprbu</stringProp>
+          <stringProp name="SMTPSampler.username">nguyenchibao011102@gmail.com</stringProp>
           <stringProp name="SMTPSampler.messageSizeStatistics">false</stringProp>
           <stringProp name="SMTPSampler.enableDebug">false</stringProp>
           <collectionProp name="SMTPSampler.headerFields"/>

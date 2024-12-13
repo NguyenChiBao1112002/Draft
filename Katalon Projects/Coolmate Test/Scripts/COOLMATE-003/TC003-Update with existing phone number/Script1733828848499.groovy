@@ -57,8 +57,8 @@ if(actualErrMess.equals(existingErrMess)) {
 }	
 
 'Return account information page'
-WebUI.verifyElementVisible(findTestObject('Object Repository/common/span/span_class', [('class'): 'close-popup']))
-WebUI.click(findTestObject('Object Repository/common/span/span_class', [('class'): 'close-popup']))
+WebUI.verifyElementVisible(findTestObject('Object Repository/common/span/id_span_class', [('id'): 'info-tab', ('class'): 'close-popup']))
+WebUI.click(findTestObject('Object Repository/common/span/id_span_class', [('id'): 'info-tab', ('class'): 'close-popup']))
 
 'Logout and close'
 CustomKeywords.'common.UtilKeyword.logOutAndClose'()

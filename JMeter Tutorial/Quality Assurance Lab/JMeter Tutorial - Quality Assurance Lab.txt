@@ -150,13 +150,13 @@ how to fix?
 1) enalbe 2 step verification - makes google account more secure by adding extra layer of security
 
 2) generate an app passwork: 16 digit passcode allows to access google account through applications
-(trong gmail của google: Security -> App Passwords): tức là khi cài đặt xong thì gmail cho phép app đã chỉ định truy cập nó
+(trong quản lý gmail của google: Gõ tìm Mật khẩu ứng dụng hoặc App Passwords): tức là khi cài đặt xong thì gmail cho phép app đã chỉ định truy cập nó
 
 3) Trong bất kỳ App nào đó (kiểm thử JMeter hay các Web) dùng:
 username
 password = "mật khẩu đã được tạo ra ở bước 2"
 
-(CHƯA THỰC HIỆN LÀM THEO)
+(Đã thực hiện và thành công)
 
 -------------------------------------------------------------------------------------------------------
 ***Lesson 12 - Timer in JMeter | How to add Think Time | Constant Timer | Uniform Random Timer---------
@@ -174,8 +174,32 @@ Ví dụ:
 	-> nếu x được random là 0 -> thread delay = 0.0*100 + 0 = 0
 	-> nếu x được random là 9 -> thread delay = 0.9*100 + 0 = 90 ms
 
+-------------------------------------------------------------------------------------------------------
+***Lesson 13 - How to use Logic Controllers (là mục lớn cảu các controller khác) in JMeter | Module Controller | Include Controller
 
+- Simple Controller - used to group requests
 
+- Once Only Controller: place those request inside this controller which needs execution only one time
+
+- Module Controller + It is used to make the script modular
+		    + It has mechanism to substitute test plan fragments into the current test plan at run time
+		    + Test Scenario for Module Controller:
+	 		. Login and Search a product 
+	 		. Login and Order a product 
+			. Login and Cancel order
+
+- Include Controller: + The Include Controller is designed to use an external JMX file
+		      + Test Scenario for include controller
+				• login
+				• search a product
+				• order a product
+				• cancel order
+
++ Test Fragment: + The Test Fragment element is a special type of controller that exists on the Test Plan tree at the same level as the Thread Group element.
+	         + It is distinguished from a Thread Group in that it is not executed unless it is referenced by either a Module controller or an Include controller.
+
+---------------------------------------------------------------------------------------------------------
+***Lesson
 
 
 
