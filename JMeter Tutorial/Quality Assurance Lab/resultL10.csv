@@ -1,9 +1,5 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1732851657730,1598,SMTP Sampler,500,"AuthenticationFailedException: authentication failed - wrong username / password!
-javax.mail.AuthenticationFailedException: 534-5.7.9 Application-specific password required. For more information, go to
-534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d9443c01a7336-215219aa222sm21059565ad.227 - gsmtp
-",Thread Group 1-1,text,false,,194,0,1,1,null,0,0,0
-1732851659345,1440,SMTP Sampler,500,"AuthenticationFailedException: authentication failed - wrong username / password!
-javax.mail.AuthenticationFailedException: 534-5.7.9 Application-specific password required. For more information, go to
-534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor d9443c01a7336-21521966dc5sm21064745ad.135 - gsmtp
-",Thread Group 1-1,text,false,,194,0,1,1,null,0,0,0
+1734061970610,4576,SMTP Sampler,200,"Message successfully sent!
+",Thread Group 1-1,text,true,,194,0,1,1,null,0,0,0
+1734061975189,3513,SMTP Sampler,200,"Message successfully sent!
+",Thread Group 1-1,text,true,,196,0,1,1,null,0,0,0
