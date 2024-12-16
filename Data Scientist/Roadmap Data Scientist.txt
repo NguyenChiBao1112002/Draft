@@ -55,7 +55,7 @@
 	+ Stacking
 
 - Các ngành ứng dụng chính của AI: xử lý ngôn ngữ tự nhiên và thị giác máy tính (xử lý hình ảnh)
-- Các nội dung toán học cần học cho AI: Xác suất và thống kê: giáo trình xác suất thống kê ĐH Bách Khoa Hà Nội, khóa học Statistics and probability (Khan Academy )
+- Các nội dung toán học cần học cho AI: Xác suất và thống kê (kiểm định giả thuyết): giáo trình xác suất thống kê ĐH Bách Khoa Hà Nội, khóa học Statistics and probability (Khan Academy )
 					Đại số tuyến tính: khóa học Linear algebra, kênh youtube 3Blue1Brown: Essence of linear algebra, kênh youtube The Bright Side of Mathematics: Linear Algebra
 					Giải tích: Calculus 1 của Khan Academy, kênh youtube 3Blue1Brown: Essence of calculus
 					Aman.ai: chứa các kiến thức cơ bản trọng yếu (không có thống kê) về toán để làm AI, có code để hiểu cách sử dụng trong Python
