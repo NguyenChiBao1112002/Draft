@@ -199,12 +199,55 @@ Ví dụ:
 	         + It is distinguished from a Thread Group in that it is not executed unless it is referenced by either a Module controller or an Include controller.
 
 ---------------------------------------------------------------------------------------------------------
-***Lesson
+***Lesson 14 - How to test SOAP/REST APIs in JMeter
+- API - Application Programming Interface
 
+e.x: John <-..........phone(API)..............-> Nick
+Soem rules to use phone:
+	. It should be turned on
+	. There should be network/balance/data etc
 
+- API - used for communication between two software with some rule/protocol/codes
 
+- Webservices:
+	. SOAP (e.x: http://www.dneonline.com/calculator.asmx?op=Add)
+	. Restful webservices(REST) (e.x: https://reqres.in/api/users?page=2)
+		+ Tpyes of Methods:
+			. Get: retrieve data
+			. Post: to create new data to server
+			. Put: update data in server
+			. Delete: to delete data from the server 
 
+		+ e.x: https://reqres.in/api/users?page=2
+			. Server: reqres.in
+			. Path: /api/users
+			. Parameters: page = 2
+		
+---------------------------------------------------------------------------------------------------------
+***Lesson 15 - Database performance testing | How to create Database Test Plan | JDBC Request
 
+- Prerequisites: 
+	+ Database: 
+		. Server Name
+		. Port Number
+		. Username
+		. Password
+		. Permission to do action(create, update, delete etc) in db
+		. Add mysql connector jar to lib folder of JMeter (copy jar file and paste to lib folder of JMeter) and restart JMeter
+
+- Step to Test Database using JMeter
+	. Step 1: Make connection with database
+		+ Right Click on Test plan -> Select "JDBC Connection Configuration" to configure JMeter connection with database
+		+ Database url: jdbc:mysql://servername:portnumber/schemaName 
+		if use local database: jdbc:mysql://localhost:3306/schemaName 
+
+	. Step 2: Write sql query
+		+ Add JDBC Sampler Request
+
+	. Step 3: Execute the test
+
+---------------------------------------------------------------------------------------------------------
+***Lesson 16 - 		
 
 
 
