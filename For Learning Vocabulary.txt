@@ -156,22 +156,25 @@
 50. café ~ restaurant: nhà hàng, quán ăn
 ---------------------------------------------------------------
 
-51. stage (n): giai đoạn, sân khấu
-52. ....will...+ once/unless/until
+51. stage (n): sân khấu, giai đoạn
+52. ...will...+ once/until/unless
 53. durable (adj): bền
-54. helpful (adj): hữu ích 
-55. also (adv): cũng (vậy)
-56. even (adv): thậm chí
-57. apply (v): ứng/áp dụng, nộp, xin việc làm
-58. efficiency = productivity (n): năng suất, (mức độ) hiệu quả
-59. consumer (n): người tiêu dùng
-60. renew (v) -> renewal (n): gia hạn/ sự gia hạn
+54. also (adv): cũng (vậy)
+55. even (adv): thậm chí
+56. efficiency = productivity (n): năng suất, mức độ hiệu quả
+57. helpful (adj): hữu ích
+58.comsumer (n): người tiêu dùng
+59. renew (v) -> renewal (n): gia hạn/ sự gai hạn
+60.apply (v): ứng/áp dụng, nộp, xin việc làm
 ----------------------------------------------------
 
-
-
-
-
-
-
+61. fine lines: nếp nhăn, a fine line (idiom):ranh giới
+62. wrinkle (n): nếp nhăn
+63. consist of: bao gồm
+64. consistently (adv): nhất quán, liên tục, luôn
+65. restorative (adj): phục hồi
+66. giảm, suy sụp (v): reduce = fall = go down = decrease = decline = drop
+67. decline = refuse (v): từ chối
+69. ra mắt, phát hành (v): launch = introduce = display = expose = show = public = reveal = unveil = disclose
+70. record (v, n): ghi, thu/ thành tích, kỷ lục, hồ sơ, bản ghi
 

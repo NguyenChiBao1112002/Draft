@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ads_close_button</name>
+   <name>button_contains_text</name>
    <tag></tag>
-   <elementGuidId>bedefe21-a075-4169-942f-16da820ed552</elementGuidId>
+   <elementGuidId>93564e11-67f3-432a-801a-1fad69ab4ceb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;site-wrapper&quot;]/div//button</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
+         <value>//button[contains(text(), '${text}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;site-wrapper&quot;]/div//button</value>
-      <webElementGuid>e849f384-36a3-4ec8-a539-457829d00d64</webElementGuid>
+      <value>//button[contains(text(), '${text}')]</value>
+      <webElementGuid>c0566e43-3705-4f21-9a1c-c831ab0ba832</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
