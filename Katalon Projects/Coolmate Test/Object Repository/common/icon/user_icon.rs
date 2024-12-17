@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>user icon</name>
+   <name>user_icon</name>
    <tag></tag>
    <elementGuidId>d0bfc033-fccd-4dce-bbf9-d4b8a8459f5b</elementGuidId>
    <selectorCollection>

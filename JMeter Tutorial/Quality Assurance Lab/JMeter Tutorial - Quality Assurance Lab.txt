@@ -247,11 +247,29 @@ Soem rules to use phone:
 	. Step 3: Execute the test
 
 ---------------------------------------------------------------------------------------------------------
-***Lesson 16 - 		
+***Lesson 16 - FTP Request in JMeter | How to test FTP Server | FTP JMeter example
 
+- FTP Transfer Protocol: It is used to transfer files between two computers on internet
+  E.x: Client(local machine) <-----file transfer(FTP)-------> Server(FTP Server)
 
+- File can be - document/video/zip/ etc.
 
+- Web provides FTP Server: https://dlptest.com/ftp-test
+  Info: 
+       . FTP URL: ftp.dlptest.com or ftp://ftp.dlptest.com/
+       . FTP User: dlpuser
+       . Password: rNrKYTX9g7z3RgJRmxWuGHbeu
 
+- Cách để kết nối local machine và server machine
+	. C1: Dùng Command Line
+	. C2: GUI [FileZilla: phần mềm hỗ trợ truyền dữ liệu giữa máy tính cá nhân với máy chủ web thông qua internet bằng giao thức FTP]
+	      Link: https://filezilla-project.org/download.php?type=client
+
+-Use Binary Mode? -> dùng cho các tệp chứa dữ liệu nhị phân hoặc các dạng ko phải văn bản 
+như hình ảnh (.jpg, .png), video (.mp4), phần mềm (.exe) [mặc định ASCII cho các text files như: .txt, .html, .csv]
+ 
+---------------------------------------------------------------------------------------------------------
+***Lesson 17 - How to use Functions and Variables in JMeter
 
 
 

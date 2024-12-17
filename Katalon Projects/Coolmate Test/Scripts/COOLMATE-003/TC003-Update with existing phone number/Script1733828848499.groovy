@@ -28,7 +28,7 @@ import org.openqa.selenium.Keys as Keys
 CustomKeywords.'common.UtilKeyword.openURLAndAuthenticate'(GlobalVariable.username_bao, GlobalVariable.password_bao)
 
 'Go to account infomation page'
-WebUI.enhancedClick(findTestObject('Object Repository/common/icon/user icon'))
+WebUI.enhancedClick(findTestObject('Object Repository/common/icon/user_icon'))
 WebUI.delay(2)
 WebUI.verifyElementPresent(findTestObject('Object Repository/pages/home_page/go_to_account'), 10)
 WebUI.click(findTestObject('Object Repository/pages/home_page/go_to_account'))
