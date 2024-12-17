@@ -81,7 +81,7 @@ CustomKeywords.'common.UtilKeyword.takeScreenShot'("Added second product to cart
 WebUI.click(findTestObject('Object Repository/common/icon/cart_icon'))
 CustomKeywords.'common.UtilKeyword.waitForPageLoadAndDelay'(20, 3)
 
-'Verify added products in cart'
+'Verify added first product in cart'
 TestObject addedProduct = new TestObject()
 addedProduct.addProperty('xpath', ConditionType.EQUALS, "//*[*[text()='" + selectedProductInfoFisrt.get("name") + "']]/following-sibling::div")
 
@@ -89,15 +89,34 @@ WebUI.verifyElementVisible(addedProduct)
 KeywordUtil.logInfo(WebUI.getText(addedProduct))
 
 
+if(WebUI.getText(addedProduct).contains(selectedProductInfoFisrt.get("color") + " / " + selectedProductInfoFisrt.get("size"))) {
+	KeywordUtil.logInfo("Add first product to cart successfully")
+}else {
+	KeywordUtil.markFailedAndStop("Add product to cart failed")
+}
 
-//if(WebUI.getText(addedProduct).contains(selectedProductInfoFisrt.get("color") + " / " + selectedProductInfoFisrt.get("size"))) {
-//	
-//}
+'Verify added second product in cart'
+addedProduct.addProperty('xpath', ConditionType.EQUALS, "//*[*[text()='" + selectedProductInfoSecond.get("name") + "']]/following-sibling::div")
 
-//List<WebElement> allProducts = WebUI.findWebElements(findTestObject('Object Repository/common/div/div_class', [('class'): 'group-item']), 10)
+WebUI.verifyElementVisible(addedProduct)
+KeywordUtil.logInfo(WebUI.getText(addedProduct))
 
+if(WebUI.getText(addedProduct).contains(selectedProductInfoSecond.get("color") + " / " + selectedProductInfoSecond.get("size"))) {
+	KeywordUtil.logInfo("Add second product to cart successfully")
+	'Take screenshot'
+	CustomKeywords.'common.UtilKeyword.takeScreenShot'("Verify added products in product detail page successfully")
+}else {
+	KeywordUtil.markFailedAndStop("Add product to cart failed")
+}
 
+'Clear all products in cart'
+WebUI.click(findTestObject('Object Repository/common/span/span_contains_text', [('text'): 'Xóa tất cả']))
+WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/common/button/button_contains_text', [('text'): 'Đồng ý']))
+WebUI.delay(3)
 
+'Logout and close browser'
+CustomKeywords.'common.UtilKeyword.logOutAndClose'()
 
 
 
