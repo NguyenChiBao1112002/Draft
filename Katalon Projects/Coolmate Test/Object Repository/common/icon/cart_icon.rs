@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ads_close_button</name>
+   <name>cart_icon</name>
    <tag></tag>
-   <elementGuidId>bedefe21-a075-4169-942f-16da820ed552</elementGuidId>
+   <elementGuidId>e4ebc8cb-a93c-48f2-a50a-7add70a65bb2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;site-wrapper&quot;]/div//button</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
+         <value>//*[@class='header']//*[@alt='Icon mini cart']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;site-wrapper&quot;]/div//button</value>
-      <webElementGuid>e849f384-36a3-4ec8-a539-457829d00d64</webElementGuid>
+      <value>//*[@class='header']//*[@alt='Icon mini cart']</value>
+      <webElementGuid>21d9acb9-2987-4475-a5eb-2fe27ce2bd98</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

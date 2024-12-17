@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>product_size_option_pos</name>
+   <tag></tag>
+   <elementGuidId>a764b6df-cb3f-4b0e-bdc8-3a01bc41903e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class='homepage-products'][${section-pos}]//*[@data-slick-index='${index-pro-pos}']//*[@data-option-id='size']/label[${size-pos}]/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class='homepage-products'][${section-pos}]//*[@data-slick-index='${index-pro-pos}']//*[@data-option-id='size']/label[${size-pos}]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class='homepage-products'][${section-pos}]//*[@data-slick-index='${index-pro-pos}']//*[@data-option-id='size']/label[${size-pos}]/span</value>
+      <webElementGuid>77976943-f977-4542-b089-27396c1c98a8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

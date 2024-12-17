@@ -50,7 +50,7 @@ import org.openqa.selenium.chrome.ChromeDriver
 
 'Wait for elements to load before interaction'
 WebUI.delay(5)
-WebUI.click(findTestObject('Object Repository/common/icon/user icon'))
+WebUI.click(findTestObject('Object Repository/common/icon/user_icon'))
 
 'Enter login credentials with invalid username'
 WebUI.delay(3)
