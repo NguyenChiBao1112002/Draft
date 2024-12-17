@@ -85,26 +85,26 @@ public class UtilKeyword {
 		WebUI.delay(3)
 
 		'Open Login Page'
-		WebUI.click(findTestObject('Object Repository/common/icon/user icon'))
+		WebUI.click(findTestObject('Object Repository/common/icon/user_icon'))
 
 		'Enter login credentials'
-		WebUI.delay(3)
+		WebUI.delay(2)
 		WebUI.sendKeys(findTestObject('Object Repository/common/div/div_id_with_input_name', [('id'):'app', ('name'): 'username']), GlobalVariable.username_bao)
-		WebUI.delay(3)
+		WebUI.delay(2)
 		WebUI.setEncryptedText(findTestObject('Object Repository/common/div/div_id_with_input_name', [('id'):'app', ('name'): 'password']), GlobalVariable.password_bao)
 
 		'Click login button and wait for page load'
-		WebUI.delay(3)
+		WebUI.delay(2)
 		WebUI.click(findTestObject('Object Repository/common/button/button_class', [('class'):'login-btn']))
 		WebUI.waitForPageLoad(10)
-		WebUI.delay(3)
+		WebUI.delay(2)
 
 		'Handle pop-up elements or any other actions after login'
 		TestObject popUpElement = findTestObject('Object Repository/component/close_popup_button')
 		while(WebUI.waitForElementVisible(popUpElement, 10)) {
-			WebUI.delay(3)
+			WebUI.delay(2)
 			WebUI.click(popUpElement)
-			WebUI.delay(3)
+			WebUI.delay(2)
 		}
 	}
 
@@ -154,7 +154,7 @@ public class UtilKeyword {
 
 	@Keyword
 	static def logOut() {
-		WebUI.click(findTestObject('Object Repository/common/icon/user icon'))
+		WebUI.click(findTestObject('Object Repository/common/icon/user_icon'))
 		WebUI.delay(3)
 		WebUI.click(findTestObject('Object Repository/common/properties/Text/contains_text', [('text'): 'Đi đến tài khoản']))
 		WebUI.waitForPageLoad(10)
@@ -165,7 +165,7 @@ public class UtilKeyword {
 
 	@Keyword
 	static def logOutAndClose() {
-		WebUI.click(findTestObject('Object Repository/common/icon/user icon'))
+		WebUI.click(findTestObject('Object Repository/common/icon/user_icon'))
 		WebUI.delay(3)
 		WebUI.click(findTestObject('Object Repository/common/properties/Text/contains_text', [('text'): 'Đi đến tài khoản']))
 		WebUI.waitForPageLoad(10)
@@ -190,6 +190,18 @@ public class UtilKeyword {
 		Path p = baseDir.resolve(name + "_" + dateTime + ".png")
 
 		WebUI.takeScreenshot(p.toString())
+	}
+
+	@Keyword
+	static def handleToastMessage(String expectedMessage, int timeout) {
+		Boolean isDisplayedMessage =  WebUI.waitForElementVisible(findTestObject('Object Repository/common/div/div_class_contains_class', [('class_1'): 'notify', ('class_2'): 'notify__message']), timeout)
+		String actualMessage = WebUI.getText(findTestObject('Object Repository/common/div/div_class_contains_class', [('class_1'): 'notify', ('class_2'): 'notify__message']))
+
+		if(expectedMessage.equals(actualMessage) && isDisplayedMessage) {
+			KeywordUtil.logInfo("Hanlde Toast Message successfully: " + actualMessage)
+		}else {
+			KeywordUtil.markFailedAndStop("Expected Message: \"" + expectedMessage + "\"" + "not matches Actual Message: \"" + actualMessage + "\"")
+		}
 	}
 
 	/*
