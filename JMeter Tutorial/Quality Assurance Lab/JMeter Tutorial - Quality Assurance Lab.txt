@@ -271,6 +271,50 @@ như hình ảnh (.jpg, .png), video (.mp4), phần mềm (.exe) [mặc định 
 ---------------------------------------------------------------------------------------------------------
 ***Lesson 17 - How to use Functions and Variables in JMeter
 
+- Functions:
+	. Values that can populate fields of any sapmpler or other test element in test tree
+	. Syntax: ${__functionName(par1, par2...)}, ${__functionName}
+	. Parameters are passed to the function when the function is called
+	. Functions are case sensitive (case sensitive: phân biệt chữ hoa chữ thường)
+
+- Variables:
+	. Container to store values
+	. variables are local to a thread group
+	. Case sensitive
+	. Syntax: ${variableName}
+
+- Function names:
+	+ Log - used to log a message
+	  Syntax: ${__log("Hello JMeter")}
+
+	+ BeanShell - it evaluates the script passed to it and returns the result
+	  Syntax: ${__BeanShell(1234*678,)}
+
+	+ Time - returns current time in various formats
+	  Syntax: ${__time(dd/MM/yyyy,)
+
+	+ Counter - generates a new number each time it is called, starting from 1, and it gét incremented every time by +1
+	 Syntax: ${__counter(,)}
+
+
+- To show function dashboard: Tool -> Function Helper Dialog (to show detail of the funtion: select function -> Help)
+
+---------------------------------------------------------------------------------------------------------
+***Lesson 18 - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
