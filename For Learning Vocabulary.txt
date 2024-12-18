@@ -166,15 +166,49 @@
 58.comsumer (n): người tiêu dùng
 59. renew (v) -> renewal (n): gia hạn/ sự gai hạn
 60.apply (v): ứng/áp dụng, nộp, xin việc làm
-----------------------------------------------------
+---------------------------------------------------------------
 
 61. fine lines: nếp nhăn, a fine line (idiom):ranh giới
 62. wrinkle (n): nếp nhăn
 63. consist of: bao gồm
 64. consistently (adv): nhất quán, liên tục, luôn
 65. restorative (adj): phục hồi
-66. giảm, suy sụp (v): reduce = fall = go down = decrease = decline = drop
-67. decline = refuse (v): từ chối
-69. ra mắt, phát hành (v): launch = introduce = display = expose = show = public = reveal = unveil = disclose
+66. giảm, suy sụp (v): drop = reduce = go down = drop = decline
+67. decline = refuse(v): từ chối
+69. ra mắt, phát hành (v): display = show = public = introduce = launch = expose = disclose = unveil = reveal = release
 70. record (v, n): ghi, thu/ thành tích, kỷ lục, hồ sơ, bản ghi
+----------------------------------------------------------------
+
+71. as soon as = when = after = once
+72. volume (n): lượng, tuyển (tập)
+73. economy (n): kinh tế
+74. edition (n): phiên bản, ấn bản
+75. complete (adj, v): hoàn thành, hoàn toàn
+76. completely (adv): hoàn toàn
+77. arise (v): nảy sinh
+78. exert (v): cố gắng, gắng sức, sử dung, áp dụng
+79. until (pre, conj): cho đến khi
+80. facilitate (v): tạo điều kiện
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
