@@ -173,7 +173,7 @@
 63. consist of: bao gồm
 64. consistently (adv): nhất quán, liên tục, luôn
 65. restorative (adj): phục hồi
-66. giảm, suy sụp (v): drop = reduce = go down = drop = decline
+66. giảm, suy sụp (v): drop = reduce = go down = decrease = decline = fall
 67. decline = refuse(v): từ chối
 69. ra mắt, phát hành (v): display = show = public = introduce = launch = expose = disclose = unveil = reveal = release
 70. record (v, n): ghi, thu/ thành tích, kỷ lục, hồ sơ, bản ghi
@@ -186,16 +186,31 @@
 75. complete (adj, v): hoàn thành, hoàn toàn
 76. completely (adv): hoàn toàn
 77. arise (v): nảy sinh
-78. exert (v): cố gắng, gắng sức, sử dung, áp dụng
+78. exert (v): cố gắng, gắng sức, sử dụng, áp dụng
 79. until (pre, conj): cho đến khi
 80. facilitate (v): tạo điều kiện
+----------------------------------------------------------------
 
-
-
-
-
-
-
+61. wrinkle (n): nếp nhăn
+62. fine lines: nếp nhăn, a fine line (idiom): ranh giới
+63. consist of: bao gồm
+64. consistently (adv): liên tục, nhất quán, luôn
+65. exert (v): cố gắng, gắng sức, sử/áp dụng
+66. complete (adj, v): hoàn toàn, hoàn thành
+67. completely (adv): hoàn toàn
+68. giảm, suy sụp (v): reduce = go down = fall = decline = decrease = drop
+69. decline = refuse: từ chối
+70. when = after = as soon as = once
+71. ra mắt, phát hành (v): unveil = reveal = introduce = launch = show = public = display = release = expose = disclose 
+72. record (v, n): ghi, thu/ bản ghi, thành tích, hồ sơ, kỷ lục
+73. facilitate (v): tạo điều kiện
+74. edition (n): ấn bản, phiên bản
+75. until (pre, conj): cho đến khi
+76. economy (n): kinh tế
+77. restorative (adj): phục hồi
+78. volume (n): lượng, tuyển (tập)
+79. when, after, before -> Ving (rút gọn chủ động), V3ed (rút gọn bị động) [rút gọn khi 2S#], MĐ (S+V)
+80. arise (v): nảy sinh
 
 
 
