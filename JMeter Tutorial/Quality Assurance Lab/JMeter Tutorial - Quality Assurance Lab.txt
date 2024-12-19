@@ -332,7 +332,7 @@ như hình ảnh (.jpg, .png), video (.mp4), phần mềm (.exe) [mặc định 
 		  https://jmeter-plugins.org/wiki/PerfMon/ (unzip -> click on startAgent.bat to start)
 
 ---------------------------------------------------------------------------------------------------------
-***Lesson 19 - 
+***Lesson 19 - How to perform Remote/Distribute Testing JMeter | Master Slave Mechanism
 
 
 
