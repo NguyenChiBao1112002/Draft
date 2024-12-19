@@ -300,23 +300,39 @@ như hình ảnh (.jpg, .png), video (.mp4), phần mềm (.exe) [mặc định 
 - To show function dashboard: Tool -> Function Helper Dialog (to show detail of the funtion: select function -> Help)
 
 ---------------------------------------------------------------------------------------------------------
-***Lesson 18 - 
+***Lesson 18 - How to monitor server health using Perfmon (Performance Monitor) Plugin | GUI Mode
 
+- Server - machine where AUT is hosted
 
+- Why to monitor server health? 
+	+ Developed Test Script
+	+ Performed the execution
+	+ Test results: 
+		. Result parameters:
+		. Response times:
+		. Min 
+		. Max
+		. Average(expected: 5 sec, actual: 30 sec)
+		. Median
+		. 90% line
+		. etc
+	-> To analyze the issue if we have any on the server side
+	   Parameters:
+		. CPU usage
+		. Memory
+		. Disk IO
 
+- How to use JMeter perfmon:
+	. Metrics collector listener
+	. Server agent
+	. Step-by-step:
+		+ Download perfmon - https://jmeter-plugins.org/wiki/PerfMon/
+		+ Download plugin manager - https://jmeter-plugins.org/wiki/PluginsManager/
+		+ Server agent – need to be installed on the server where application under test is hosted
+		  https://jmeter-plugins.org/wiki/PerfMon/ (unzip -> click on startAgent.bat to start)
 
-
-
-
-
-
-
-
-
-
-
-
-
+---------------------------------------------------------------------------------------------------------
+***Lesson 19 - 
 
 
 
