@@ -1,0 +1,122 @@
+2024-12-20 11:39:32,650 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-12-20 11:39:32,659 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-12-20 11:39:32,660 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-12-20 11:39:32,663 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-12-20 11:39:32,663 INFO o.a.j.JMeter: Version 5.6.3
+2024-12-20 11:39:32,663 INFO o.a.j.JMeter: java.version=1.8.0_121
+2024-12-20 11:39:32,664 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-12-20 11:39:32,664 INFO o.a.j.JMeter: os.name=Windows 10
+2024-12-20 11:39:32,664 INFO o.a.j.JMeter: os.arch=amd64
+2024-12-20 11:39:32,664 INFO o.a.j.JMeter: os.version=10.0
+2024-12-20 11:39:32,664 INFO o.a.j.JMeter: file.encoding=Cp1252
+2024-12-20 11:39:32,664 INFO o.a.j.JMeter: java.awt.headless=true
+2024-12-20 11:39:32,664 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-12-20 11:39:32,664 INFO o.a.j.JMeter: Available Processors =16
+2024-12-20 11:39:32,666 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-12-20 11:39:32,666 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-12-20 11:39:32,666 INFO o.a.j.JMeter: JMeterHome=C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2024-12-20 11:39:32,666 INFO o.a.j.JMeter: user.dir  =C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2024-12-20 11:39:32,667 INFO o.a.j.JMeter: PWD       =C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2024-12-20 11:39:32,667 INFO o.a.j.JMeter: IP: 192.168.89.84 Name: ncbao FullName: ncbao.tma.com.vn
+2024-12-20 11:39:32,678 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-12-20 11:39:32,678 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-12-20 11:39:32,746 INFO o.a.j.e.RemoteJMeterEngineImpl: Starting backing engine on 1099
+2024-12-20 11:39:32,746 INFO o.a.j.r.RmiUtils: System property 'java.rmi.server.hostname' is not defined, using localHost address
+2024-12-20 11:39:32,746 INFO o.a.j.r.RmiUtils: Local IP address=192.168.89.84
+2024-12-20 11:39:32,746 INFO o.a.j.e.RemoteJMeterEngineImpl: IP address is a site-local address; this may cause problems with remote access.
+	Can be overridden by defining the system property 'java.rmi.server.hostname' - see jmeter-server script file
+2024-12-20 11:39:32,746 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating RMI registry (server.rmi.create=true)
+2024-12-20 11:39:32,746 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-12-20 11:39:32,746 INFO o.a.j.r.RmiUtils: Disabling SSL for RMI as server.rmi.ssl.disable is set to 'true'
+2024-12-20 11:39:32,748 INFO o.a.j.e.RemoteJMeterEngineImpl: Bound to RMI registry on port 1099
+2024-12-20 11:43:01,874 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-20 11:43:01,903 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-20 11:43:01,903 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-20 11:43:01,903 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-20 11:43:01,903 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-20 11:43:01,903 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-12-20 11:43:01,903 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-12-20 11:43:01,908 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2024-12-20 11:43:01,908 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2024-12-20 11:43:01,917 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 192.168.89.84 base '.'
+2024-12-20 11:43:01,917 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.89.84
+2024-12-20 11:43:01,919 INFO o.a.j.s.FileServer: Default base='C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin'
+2024-12-20 11:43:01,920 INFO o.a.j.s.FileServer: Set new base='.'
+2024-12-20 11:43:01,923 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2024-12-20 11:43:01,923 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2024-12-20 11:43:01,927 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-20 11:43:01,927 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-20 11:43:01,930 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-12-20 11:43:01,930 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-12-20 11:43:02,099 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-20 11:43:02,108 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-20 11:43:02,203 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-20 11:43:02,203 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Thread Group.
+2024-12-20 11:43:02,203 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-20 11:43:02,204 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=1 delayedStart=false
+2024-12-20 11:43:02,208 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-20 11:43:02,208 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-20 11:43:02,210 INFO o.a.j.t.JMeterThread: Thread started: 192.168.89.84-Thread Group 1-1
+2024-12-20 11:43:02,221 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ncbao
+2024-12-20 11:43:02,225 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-12-20 11:43:02,226 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-12-20 11:43:02,226 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-12-20 11:43:02,226 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-12-20 11:43:02,226 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-12-20 11:43:02,408 INFO o.a.j.t.JMeterThread: Thread started: 192.168.89.84-Thread Group 1-2
+2024-12-20 11:43:02,608 INFO o.a.j.t.JMeterThread: Thread started: 192.168.89.84-Thread Group 1-3
+2024-12-20 11:43:02,807 INFO o.a.j.t.JMeterThread: Thread started: 192.168.89.84-Thread Group 1-4
+2024-12-20 11:43:02,898 INFO o.a.j.t.JMeterThread: Thread is done: 192.168.89.84-Thread Group 1-1
+2024-12-20 11:43:02,898 INFO o.a.j.t.JMeterThread: Thread finished: 192.168.89.84-Thread Group 1-1
+2024-12-20 11:43:02,960 INFO o.a.j.t.JMeterThread: Thread is done: 192.168.89.84-Thread Group 1-2
+2024-12-20 11:43:02,960 INFO o.a.j.t.JMeterThread: Thread finished: 192.168.89.84-Thread Group 1-2
+2024-12-20 11:43:03,007 INFO o.a.j.t.JMeterThread: Thread started: 192.168.89.84-Thread Group 1-5
+2024-12-20 11:43:03,145 INFO o.a.j.t.JMeterThread: Thread is done: 192.168.89.84-Thread Group 1-3
+2024-12-20 11:43:03,145 INFO o.a.j.t.JMeterThread: Thread finished: 192.168.89.84-Thread Group 1-3
+2024-12-20 11:43:03,406 INFO o.a.j.t.JMeterThread: Thread is done: 192.168.89.84-Thread Group 1-4
+2024-12-20 11:43:03,406 INFO o.a.j.t.JMeterThread: Thread finished: 192.168.89.84-Thread Group 1-4
+2024-12-20 11:43:03,518 INFO o.a.j.t.JMeterThread: Thread is done: 192.168.89.84-Thread Group 1-5
+2024-12-20 11:43:03,518 INFO o.a.j.t.JMeterThread: Thread finished: 192.168.89.84-Thread Group 1-5
+2024-12-20 11:43:03,518 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-20 11:43:03,518 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 192.168.89.84
+2024-12-20 11:43:03,518 INFO o.a.j.s.BatchSampleSender: Test Ended on 192.168.89.84
+2024-12-20 11:43:03,523 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 192.168.89.84 
+2024-12-20 11:48:47,145 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2024-12-20 11:48:47,146 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2024-12-20 11:48:47,146 INFO o.a.j.s.BatchSampleSender: Using batching for this run. Thresholds: num=100, time=60000
+2024-12-20 11:48:47,146 INFO o.a.j.s.DataStrippingSampleSender: Using DataStrippingSampleSender for this run with stripAlsoOnError: true
+2024-12-20 11:48:47,149 INFO o.a.j.e.RemoteJMeterEngineImpl: Creating JMeter engine on host 192.168.89.84 base '.'
+2024-12-20 11:48:47,149 INFO o.a.j.e.RemoteJMeterEngineImpl: Remote client host: 192.168.89.84
+2024-12-20 11:48:47,150 INFO o.a.j.s.FileServer: Set new base='.'
+2024-12-20 11:48:47,151 INFO o.a.j.e.RemoteJMeterEngineImpl: Cleaning previously set properties: {}
+2024-12-20 11:48:47,151 INFO o.a.j.e.StandardJMeterEngine: Applying properties {}
+2024-12-20 11:48:47,151 INFO o.a.j.e.RemoteJMeterEngineImpl: Running test
+2024-12-20 11:48:47,152 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-20 11:48:47,152 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-20 11:48:47,185 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-20 11:48:47,185 INFO o.a.j.e.StandardJMeterEngine: Starting 5 threads for group Thread Group.
+2024-12-20 11:48:47,186 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-20 11:48:47,186 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=5 ramp-up=1 delayedStart=false
+2024-12-20 11:48:47,187 INFO o.a.j.t.JMeterThread: Thread started: 192.168.89.84-Thread Group 1-1
+2024-12-20 11:48:47,188 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-20 11:48:47,188 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-20 11:48:47,397 INFO o.a.j.t.JMeterThread: Thread started: 192.168.89.84-Thread Group 1-2
+2024-12-20 11:48:47,586 INFO o.a.j.t.JMeterThread: Thread started: 192.168.89.84-Thread Group 1-3
+2024-12-20 11:48:47,787 INFO o.a.j.t.JMeterThread: Thread started: 192.168.89.84-Thread Group 1-4
+2024-12-20 11:48:47,987 INFO o.a.j.t.JMeterThread: Thread started: 192.168.89.84-Thread Group 1-5
+2024-12-20 11:48:48,035 INFO o.a.j.t.JMeterThread: Thread is done: 192.168.89.84-Thread Group 1-3
+2024-12-20 11:48:48,035 INFO o.a.j.t.JMeterThread: Thread finished: 192.168.89.84-Thread Group 1-3
+2024-12-20 11:48:48,038 INFO o.a.j.t.JMeterThread: Thread is done: 192.168.89.84-Thread Group 1-2
+2024-12-20 11:48:48,038 INFO o.a.j.t.JMeterThread: Thread finished: 192.168.89.84-Thread Group 1-2
+2024-12-20 11:48:48,221 INFO o.a.j.t.JMeterThread: Thread is done: 192.168.89.84-Thread Group 1-4
+2024-12-20 11:48:48,221 INFO o.a.j.t.JMeterThread: Thread finished: 192.168.89.84-Thread Group 1-4
+2024-12-20 11:48:48,364 INFO o.a.j.t.JMeterThread: Thread is done: 192.168.89.84-Thread Group 1-1
+2024-12-20 11:48:48,364 INFO o.a.j.t.JMeterThread: Thread finished: 192.168.89.84-Thread Group 1-1
+2024-12-20 11:48:48,803 INFO o.a.j.t.JMeterThread: Thread is done: 192.168.89.84-Thread Group 1-5
+2024-12-20 11:48:48,804 INFO o.a.j.t.JMeterThread: Thread finished: 192.168.89.84-Thread Group 1-5
+2024-12-20 11:48:48,804 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-20 11:48:48,804 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 192.168.89.84
+2024-12-20 11:48:48,804 INFO o.a.j.s.BatchSampleSender: Test Ended on 192.168.89.84
+2024-12-20 11:48:48,808 INFO o.a.j.s.DataStrippingSampleSender: Test Ended on 192.168.89.84
+2024-12-20 11:48:48,808 INFO o.a.j.s.BatchSampleSender: Test Ended on 192.168.89.84
+2024-12-20 11:48:48,814 INFO o.a.j.e.StandardJMeterEngine: Test has ended on host 192.168.89.84 
