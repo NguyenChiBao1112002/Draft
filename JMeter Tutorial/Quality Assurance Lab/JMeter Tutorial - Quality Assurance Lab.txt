@@ -332,7 +332,47 @@ như hình ảnh (.jpg, .png), video (.mp4), phần mềm (.exe) [mặc định 
 		  https://jmeter-plugins.org/wiki/PerfMon/ (unzip -> click on startAgent.bat to start)
 
 ---------------------------------------------------------------------------------------------------------
-***Lesson 19 - How to perform Remote/Distribute Testing JMeter | Master Slave Mechanism
+***Lesson 19 - How to perform Remote(Distribute) Testing JMeter | Master Slave Mechanism
+
+- Why? 
+	1. To simulate user load which JMeter client machine is not not able to handle due to infrastructure or hardware limitations
+	2. To generate user load from different geographies to get realistic result parameter - response time
+
+- Architecture: Works on master slave mechanism
+
+- Prerequisite: 
+	. Master and Slave machine must have JMeter installed on them (similar version)
+	. Master and Slave machine must have Java installed on them (prefer to use similar version)
+	. Master and Slave machine must connect to each other (same subnet)
+
+- Configurations:
+	Step 1:
+		• Navigate to JMeter/bin folder
+		• Open jmeter properties file
+		• provide the IP address of remote hosts in JMeter properties file (là những máy làm Slave có thể nhiều máy cách nhau = dấu "phẩy")
+
+	Step 2:
+		• Navigate to JMeter/bin folder
+		• Run create-rmi-keystore file and provide answer to the questions
+		• rmi_keystore.jks file will be created
+		• paste this file to remote hosts JMeter/bin folder
+
+	Step 3:
+		• Navigate to JMeter/bin folder
+		• Run jmeter-server file 
+---------------------------------------------------------------------------------------------------------
+***Lesson 20 - BeanShell Script Part-1 | Introduction to Variable | Beanshell Sampler| PreProcessor
+
+
+
+
+
+
+
+
+
+
+
 
 
 

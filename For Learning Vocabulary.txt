@@ -211,6 +211,21 @@
 78. volume (n): lượng, tuyển (tập)
 79. when, after, before -> Ving (rút gọn chủ động), V3ed (rút gọn bị động) [rút gọn khi 2S#], MĐ (S+V)
 80. arise (v): nảy sinh
+--------------------------------------------
+81. yet : /jet/ (adv), HTTH***: chưa (trong câu phủ định) + đứng cuối | (conj): nhưng vẫn, vẫn còn
+82. installation : (n), /ˌɪn.stəˈleɪ.ʃən/, (sự/việc) cài đặt, lắp đặt
+83. workstation : (n), /ˈwɝːkˌsteɪ.ʃən/ máy trạm
+84. vendor : (n), /ˈven.dɚ/, nhà cung cấp, nhà bán
+85. coordinate : (v), /koʊˈɔːr.dən.eɪt/, điều phối 
+86. upgrade : (v), /ʌpˈɡreɪd/, nâng cấp
+87. substitution : (n), /ˌsʌb.stəˈtuː.ʃən/, sự thay thế
+88. menu substitution : (học thuộc), thực đơn thay thế
+89. substitute : (v), /ˈsʌb.stə.tuːt/, thay thế
+90. Cuối câu có thể là loại từ nào? : adv hoặc N
+91. explicit : (adj), /ɪkˈsplɪs.ɪt/, rõ ràng
+92. regarding /rɪˈɡɑːr.dɪŋ/ (pre) = concerning /kənˈsɝː.nɪŋ/ (pre) = about (pre): về  
+93. inform /ɪnˈfɔːrm/ + người: thông báo với ai
+94. estimate : (v),  /ˈes.tə.meɪt/, ước lượng, đánh giá
 
 
 
