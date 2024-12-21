@@ -225,7 +225,11 @@
 91. explicit : (adj), /ɪkˈsplɪs.ɪt/, rõ ràng
 92. regarding /rɪˈɡɑːr.dɪŋ/ (pre) = concerning /kənˈsɝː.nɪŋ/ (pre) = about (pre): về  
 93. inform /ɪnˈfɔːrm/ + người: thông báo với ai
-94. estimate : (v),  /ˈes.tə.meɪt/, ước lượng, đánh giá
+94. estimate : (v), /ˈes.tə.meɪt/, ước lượng, đánh giá
+95. majority: (n), /məˈdʒɔː.rə.t̬i/, số đông, đa số
+96. administrative: (adj), /ædˈmɪn.ɪˌstreɪ.t̬ɪv/, hành chính, thuộc về quản lý
+97. significant: (adj), /sɪɡˈnɪf.ə.kənt/, quan trọng, ý nghĩa ~ important
+
 
 
 
