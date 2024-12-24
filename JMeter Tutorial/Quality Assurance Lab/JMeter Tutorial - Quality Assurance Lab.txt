@@ -360,16 +360,31 @@ như hình ảnh (.jpg, .png), video (.mp4), phần mềm (.exe) [mặc định 
 	Step 3:
 		• Navigate to JMeter/bin folder
 		• Run jmeter-server file 
+
 ---------------------------------------------------------------------------------------------------------
 ***Lesson 20 - BeanShell Script Part-1 | Introduction to Variable | Beanshell Sampler| PreProcessor
 
 
+- What is bean Shell?
+	. Scripting language developed in Java
+	. It can dynamically execute standard java syntax
+	. Scripting features-loose type (variable are declared without any type), command, etc.
 
+- Why beanShell scripting required in JMeter?
+ 	. To customize our script in our own way
 
+ + Beanshell Sampler
+ + Beanshell pre processor
+ + Beanshell post processor
 
+ . BeanShell Sampler - It has provided predefined list of variables which we can use in our script
+   vars.put("link", "www.google.com"); - to set the value of a variable
+   var x = vars.get("link"); - to get value of a variable
+   log.info("Value of x is " + x); - to print inside the logs
+   ctx.getThread().getThreadName(); - to get thread name
 
-
-
+--------------------------------------------------------------------------------------------------------
+**Lesson 21 - 
 
 
 
