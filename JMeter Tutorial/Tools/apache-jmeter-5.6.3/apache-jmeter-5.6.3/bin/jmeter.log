@@ -1,186 +1,496 @@
-2024-12-23 10:01:48,513 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
-2024-12-23 10:01:48,524 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2024-12-23 10:01:48,525 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2024-12-23 10:01:48,530 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
-2024-12-23 10:01:48,530 INFO o.a.j.JMeter: Version 5.6.3
-2024-12-23 10:01:48,530 INFO o.a.j.JMeter: java.version=1.8.0_121
-2024-12-23 10:01:48,530 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2024-12-23 10:01:48,531 INFO o.a.j.JMeter: os.name=Windows 10
-2024-12-23 10:01:48,531 INFO o.a.j.JMeter: os.arch=amd64
-2024-12-23 10:01:48,531 INFO o.a.j.JMeter: os.version=10.0
-2024-12-23 10:01:48,531 INFO o.a.j.JMeter: file.encoding=Cp1252
-2024-12-23 10:01:48,531 INFO o.a.j.JMeter: java.awt.headless=null
-2024-12-23 10:01:48,531 INFO o.a.j.JMeter: Max memory     =5672796160
-2024-12-23 10:01:48,531 INFO o.a.j.JMeter: Available Processors =16
-2024-12-23 10:01:48,533 INFO o.a.j.JMeter: Default Locale=English (United States)
-2024-12-23 10:01:48,534 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
-2024-12-23 10:01:48,534 INFO o.a.j.JMeter: JMeterHome=C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3
-2024-12-23 10:01:48,534 INFO o.a.j.JMeter: user.dir  =C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
-2024-12-23 10:01:48,534 INFO o.a.j.JMeter: PWD       =C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
-2024-12-23 10:01:48,535 INFO o.a.j.JMeter: IP: 192.168.89.84 Name: ncbao FullName: ncbao.tma.com.vn
-2024-12-23 10:01:48,545 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2024-12-23 10:01:48,651 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
-2024-12-23 10:01:49,248 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 10:01:49,257 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 10:01:49,378 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 10:01:49,379 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 10:01:52,058 INFO o.j.r.PluginManager: Plugins Status: [jpgc-perfmon=2.1, jpgc-plugins-manager=0.20, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
-2024-12-23 10:01:52,059 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
-2024-12-23 10:24:32,881 INFO o.a.j.s.FileServer: Default base='C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin'
-2024-12-23 10:24:32,882 INFO o.a.j.g.a.Load: Loading file: C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab\L20 - BeanShell Script.jmx
-2024-12-23 10:24:32,883 INFO o.a.j.s.FileServer: Set new base='C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab'
-2024-12-23 10:24:32,958 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2024-12-23 10:24:32,961 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2024-12-23 10:24:32,962 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2024-12-23 10:24:32,963 INFO o.a.j.s.SaveService: Loading file: C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab\L20 - BeanShell Script.jmx
-2024-12-23 10:24:33,028 INFO o.a.j.s.FileServer: Set new base='C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab'
-2024-12-23 10:37:34,620 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2024-12-23 10:37:34,621 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2024-12-23 10:37:34,621 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2024-12-23 10:37:34,621 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2024-12-23 10:37:34,621 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2024-12-23 10:37:34,621 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2024-12-23 10:38:16,385 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2024-12-23 10:38:16,385 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
-2024-12-23 10:38:16,385 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2024-12-23 10:38:16,385 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2024-12-23 10:38:16,542 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 10:38:16,543 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 10:38:16,553 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 10:38:16,554 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 10:39:44,190 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2024-12-23 10:39:44,191 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2024-12-23 10:39:44,191 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2024-12-23 10:39:44,191 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2024-12-23 10:39:44,191 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2024-12-23 10:39:44,337 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 10:39:44,338 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 10:39:44,342 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2024-12-23 10:39:44,459 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2024-12-23 10:39:44,459 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2024-12-23 10:39:44,459 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2024-12-23 10:39:44,459 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2024-12-23 10:39:44,464 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2024-12-23 10:39:44,465 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2024-12-23 10:39:44,466 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2024-12-23 10:39:44,474 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ncbao
-2024-12-23 10:39:44,477 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2024-12-23 10:39:45,148 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2024-12-23 10:39:45,148 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2024-12-23 10:39:45,149 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2024-12-23 10:39:45,149 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2024-12-23 10:52:01,502 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2024-12-23 10:52:01,502 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2024-12-23 10:52:01,503 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2024-12-23 10:52:01,616 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2024-12-23 10:52:01,616 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2024-12-23 10:52:01,616 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2024-12-23 10:52:01,616 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2024-12-23 10:52:01,620 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2024-12-23 10:52:01,620 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2024-12-23 10:52:01,622 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2024-12-23 10:52:01,624 INFO o.a.j.u.BeanShellTestElement: Value of x is www.google.com
-2024-12-23 10:52:02,212 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2024-12-23 10:52:02,212 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2024-12-23 10:52:02,212 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2024-12-23 10:52:02,212 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2024-12-23 11:06:59,650 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 11:06:59,651 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 11:06:59,659 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 11:06:59,660 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 11:07:17,167 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2024-12-23 11:07:17,167 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2024-12-23 11:07:17,170 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2024-12-23 11:07:17,294 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2024-12-23 11:07:17,295 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2024-12-23 11:07:17,295 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2024-12-23 11:07:17,295 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2024-12-23 11:07:17,298 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2024-12-23 11:07:17,298 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2024-12-23 11:07:17,299 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2024-12-23 11:07:17,581 INFO o.a.j.u.BeanShellTestElement: *****************RC IS*************** : 200
-2024-12-23 11:07:17,581 INFO o.a.j.u.BeanShellTestElement: *****************RM IS*************** : OK
-2024-12-23 11:07:17,829 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
-2024-12-23 11:07:17,830 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
-2024-12-23 11:07:17,830 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
-2024-12-23 11:07:17,884 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
-2024-12-23 11:07:17,884 INFO o.a.j.u.SSLManager: KeyStore created OK
-2024-12-23 11:07:17,884 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
-2024-12-23 11:07:18,311 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2024-12-23 11:07:18,311 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2024-12-23 11:07:18,311 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2024-12-23 11:07:18,311 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2024-12-23 11:08:12,793 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2024-12-23 11:08:12,793 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2024-12-23 11:08:12,795 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2024-12-23 11:08:12,917 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2024-12-23 11:08:12,917 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2024-12-23 11:08:12,917 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2024-12-23 11:08:12,917 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2024-12-23 11:08:12,920 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2024-12-23 11:08:12,920 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2024-12-23 11:08:12,921 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2024-12-23 11:08:12,924 INFO o.a.j.u.BeanShellTestElement: *****************RC IS*************** : Non HTTP response code: org.apache.http.client.ClientProtocolException
-2024-12-23 11:08:12,924 INFO o.a.j.u.BeanShellTestElement: *****************RM IS*************** : Non HTTP response message: URI does not specify a valid host name: http:/
-2024-12-23 11:08:13,410 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2024-12-23 11:08:13,410 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2024-12-23 11:08:13,410 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2024-12-23 11:08:13,410 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2024-12-23 11:13:02,066 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2024-12-23 11:13:02,067 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2024-12-23 11:13:02,070 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2024-12-23 11:13:02,141 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2024-12-23 11:13:02,141 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2024-12-23 11:13:02,141 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2024-12-23 11:13:02,141 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2024-12-23 11:13:02,145 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2024-12-23 11:13:02,145 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2024-12-23 11:13:02,147 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2024-12-23 11:13:02,149 INFO o.a.j.u.BeanShellTestElement: *****************RC IS*************** : Non HTTP response code: org.apache.http.client.ClientProtocolException
-2024-12-23 11:13:02,149 INFO o.a.j.u.BeanShellTestElement: *****************RM IS*************** : Non HTTP response message: URI does not specify a valid host name: http:/
-2024-12-23 11:13:02,153 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``var rc = prev.getResponseCode(); var rm = prev.getResponseMessage();  log.info(" . . . '' Encountered "}" at line 9, column 1.
+2024-12-24 10:11:15,709 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2024-12-24 10:11:15,720 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-12-24 10:11:15,721 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-12-24 10:11:15,725 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-12-24 10:11:15,725 INFO o.a.j.JMeter: Version 5.6.3
+2024-12-24 10:11:15,725 INFO o.a.j.JMeter: java.version=1.8.0_121
+2024-12-24 10:11:15,725 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-12-24 10:11:15,725 INFO o.a.j.JMeter: os.name=Windows 10
+2024-12-24 10:11:15,725 INFO o.a.j.JMeter: os.arch=amd64
+2024-12-24 10:11:15,725 INFO o.a.j.JMeter: os.version=10.0
+2024-12-24 10:11:15,725 INFO o.a.j.JMeter: file.encoding=Cp1252
+2024-12-24 10:11:15,725 INFO o.a.j.JMeter: java.awt.headless=null
+2024-12-24 10:11:15,725 INFO o.a.j.JMeter: Max memory     =5672796160
+2024-12-24 10:11:15,725 INFO o.a.j.JMeter: Available Processors =16
+2024-12-24 10:11:15,728 INFO o.a.j.JMeter: Default Locale=English (United States)
+2024-12-24 10:11:15,728 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2024-12-24 10:11:15,728 INFO o.a.j.JMeter: JMeterHome=C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2024-12-24 10:11:15,728 INFO o.a.j.JMeter: user.dir  =C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2024-12-24 10:11:15,728 INFO o.a.j.JMeter: PWD       =C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2024-12-24 10:11:15,729 INFO o.a.j.JMeter: IP: 192.168.89.84 Name: ncbao FullName: ncbao.tma.com.vn
+2024-12-24 10:11:15,740 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-12-24 10:11:15,835 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-12-24 10:11:16,453 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:11:16,466 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:11:16,610 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:11:16,611 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:11:19,438 INFO o.j.r.PluginManager: Plugins Status: [jpgc-perfmon=2.1, jpgc-plugins-manager=0.20, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
+2024-12-24 10:11:19,439 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
+2024-12-24 10:11:39,838 INFO o.a.j.s.FileServer: Default base='C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin'
+2024-12-24 10:11:39,839 INFO o.a.j.g.a.Load: Loading file: C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab\L21 - BeanShell Script p2.jmx
+2024-12-24 10:11:39,839 INFO o.a.j.s.FileServer: Set new base='C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab'
+2024-12-24 10:11:39,933 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-12-24 10:11:39,936 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-12-24 10:11:39,937 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-12-24 10:11:39,938 INFO o.a.j.s.SaveService: Loading file: C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab\L21 - BeanShell Script p2.jmx
+2024-12-24 10:11:40,011 INFO o.a.j.s.FileServer: Set new base='C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab'
+2024-12-24 10:25:31,693 INFO o.a.j.g.a.Load: Loading file: C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab\L21 - BeanShell Script p2.jmx
+2024-12-24 10:25:31,693 INFO o.a.j.s.FileServer: Set new base='C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab'
+2024-12-24 10:25:31,693 INFO o.a.j.s.SaveService: Loading file: C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab\L21 - BeanShell Script p2.jmx
+2024-12-24 10:25:31,707 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-24 10:25:31,707 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-24 10:25:31,707 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-24 10:25:31,707 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-24 10:25:31,707 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-12-24 10:25:31,707 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-12-24 10:25:31,837 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-12-24 10:25:31,837 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-12-24 10:25:31,837 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-12-24 10:25:31,837 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-12-24 10:25:32,021 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:25:32,022 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:25:32,033 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:25:32,034 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:25:32,102 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:25:32,103 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:25:32,110 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:25:32,111 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:25:32,131 INFO o.a.j.s.FileServer: Set new base='C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab'
+2024-12-24 10:26:31,488 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:26:31,489 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:26:31,497 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:26:31,499 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:26:31,518 INFO o.a.j.g.a.Load: Loading file: C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab\L21 - BeanShell Script p2.jmx
+2024-12-24 10:26:31,518 INFO o.a.j.s.FileServer: Set new base='C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab'
+2024-12-24 10:26:31,518 INFO o.a.j.s.SaveService: Loading file: C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab\L21 - BeanShell Script p2.jmx
+2024-12-24 10:26:31,534 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:26:31,535 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:26:31,544 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:26:31,545 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:26:31,570 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:26:31,571 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:26:31,580 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:26:31,581 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:26:31,602 INFO o.a.j.s.FileServer: Set new base='C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab'
+2024-12-24 10:45:05,070 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:45:05,072 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:45:05,080 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:45:05,081 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:45:13,757 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 10:45:13,757 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 10:45:13,757 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 10:45:13,758 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-12-24 10:45:13,758 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-12-24 10:45:13,937 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:45:13,938 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:45:13,944 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 10:45:14,078 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 10:45:14,078 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 10:45:14,078 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 10:45:14,078 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 10:45:14,093 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 10:45:14,093 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 10:45:14,094 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 10:45:14,098 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ncbao
+2024-12-24 10:45:14,102 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-12-24 10:45:14,761 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  File f = new File("\\data\\TestResult_L21.csv"); FileWriter f . . . '' : Typed variable declaration : Object constructor
+2024-12-24 10:45:14,761 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  File f = new File("\\data\\TestResult_L21.csv"); FileWriter f . . . '' : Typed variable declaration : Object constructor
+2024-12-24 10:45:14,761 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 10:45:14,761 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 10:45:14,762 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 10:45:14,762 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 10:45:35,509 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:45:35,510 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:45:38,290 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:45:38,290 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-24 10:52:11,120 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 10:52:11,120 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 10:52:11,122 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 10:52:11,287 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 10:52:11,289 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 10:52:11,289 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 10:52:11,290 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 10:52:11,293 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 10:52:11,293 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 10:52:11,294 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 10:52:11,956 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  File f = new File("data\\TestResult_L21.csv"); FileWriter fw  . . . '' : Typed variable declaration : Object constructor
+2024-12-24 10:52:11,956 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  File f = new File("data\\TestResult_L21.csv"); FileWriter fw  . . . '' : Typed variable declaration : Object constructor
+2024-12-24 10:52:11,956 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 10:52:11,956 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 10:52:11,956 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 10:52:11,956 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 10:53:47,958 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 10:53:47,959 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 10:53:47,961 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 10:53:48,030 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 10:53:48,030 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 10:53:48,030 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 10:53:48,031 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 10:53:48,034 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 10:53:48,034 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 10:53:48,036 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 10:53:48,408 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  File f = new File("data\\TestResult_L21.csv"); FileWriter fw  . . . '' : Typed variable declaration : Object constructor
+2024-12-24 10:53:48,408 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  File f = new File("data\\TestResult_L21.csv"); FileWriter fw  . . . '' : Typed variable declaration : Object constructor
+2024-12-24 10:53:48,408 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 10:53:48,408 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 10:53:48,409 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 10:53:48,409 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 10:58:11,903 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 10:58:11,904 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 10:58:11,905 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 10:58:11,968 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 10:58:11,968 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 10:58:11,968 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 10:58:11,968 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 10:58:11,971 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 10:58:11,971 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 10:58:11,973 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 10:58:12,285 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  File f = new File("data\\TestResult_L21.csv"); FileWriter fw  . . . '' : Typed variable declaration : Object constructor
+2024-12-24 10:58:12,285 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  File f = new File("data\\TestResult_L21.csv"); FileWriter fw  . . . '' : Typed variable declaration : Object constructor
+2024-12-24 10:58:12,285 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 10:58:12,285 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 10:58:12,285 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 10:58:12,285 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:00:29,557 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:00:29,557 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:00:29,559 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:00:29,640 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:00:29,640 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:00:29,640 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:00:29,640 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:00:29,643 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:00:29,643 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:00:29,644 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:00:31,486 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:00:31,487 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:00:31,487 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:00:31,487 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:01:54,124 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:01:54,124 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:01:54,126 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:01:54,182 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:01:54,182 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:01:54,182 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:01:54,182 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:01:54,185 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:01:54,185 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:01:54,186 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:01:54,741 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:01:54,741 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:01:54,741 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:01:54,741 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:01:54,741 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:01:54,741 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:02:04,161 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:02:04,161 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:02:04,164 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:02:04,219 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:02:04,219 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:02:04,219 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:02:04,219 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:02:04,222 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:02:04,222 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:02:04,223 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:02:05,920 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:02:05,920 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:02:05,920 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:02:05,920 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:02:05,921 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:02:05,921 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:02:12,657 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:02:12,657 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:02:12,658 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:02:12,715 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:02:12,715 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:02:12,715 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:02:12,715 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:02:12,718 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:02:12,718 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:02:12,719 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:02:13,956 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:02:13,956 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:02:13,956 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:02:13,956 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:02:13,956 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:02:13,957 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:02:23,919 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:02:23,919 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:02:23,919 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:02:23,972 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:02:23,972 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:02:23,972 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:02:23,972 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:02:23,975 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:02:23,975 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:02:23,975 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:02:24,610 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:02:24,610 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:02:24,611 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:02:24,611 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:02:55,019 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:02:55,019 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:02:55,019 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:02:55,071 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:02:55,071 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:02:55,071 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:02:55,071 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:02:55,074 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:02:55,074 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:02:55,074 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:02:55,426 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:02:55,426 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:02:55,426 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:02:55,426 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:05:03,002 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:05:03,003 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:05:03,003 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:05:03,057 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:05:03,058 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:05:03,058 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:05:03,058 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:05:03,061 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:05:03,061 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:05:03,061 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:05:03,804 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:05:03,804 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:05:03,805 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:05:03,805 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:05:03,805 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:05:03,805 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:05:14,155 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:05:14,155 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:05:14,155 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:05:14,227 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:05:14,228 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:05:14,228 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:05:14,228 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:05:14,230 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:05:14,231 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:05:14,231 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:05:14,570 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:05:14,570 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:05:14,570 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:05:14,570 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:05:14,571 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:05:14,571 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:06:08,233 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:06:08,233 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:06:08,233 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:06:08,284 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:06:08,284 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:06:08,284 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:06:08,284 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:06:08,287 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:06:08,287 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:06:08,287 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:06:08,952 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' Encountered "FileWriter" at line 7, column 1.
 
-2024-12-23 11:13:02,153 WARN o.a.j.m.BeanShellPreProcessor: Problem in BeanShell script. org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``var rc = prev.getResponseCode(); var rm = prev.getResponseMessage();  log.info(" . . . '' Encountered "}" at line 9, column 1.
+2024-12-24 11:06:08,952 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' Encountered "FileWriter" at line 7, column 1.
 
-2024-12-23 11:13:02,681 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2024-12-23 11:13:02,681 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2024-12-23 11:13:02,681 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2024-12-23 11:13:02,681 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2024-12-23 11:14:14,334 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2024-12-23 11:14:14,334 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2024-12-23 11:14:14,336 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2024-12-23 11:14:14,419 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2024-12-23 11:14:14,419 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2024-12-23 11:14:14,419 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2024-12-23 11:14:14,419 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2024-12-23 11:14:14,423 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2024-12-23 11:14:14,423 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2024-12-23 11:14:14,425 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2024-12-23 11:14:14,427 INFO o.a.j.u.BeanShellTestElement: *****************RC IS*************** : Non HTTP response code: org.apache.http.client.ClientProtocolException
-2024-12-23 11:14:14,428 INFO o.a.j.u.BeanShellTestElement: *****************RM IS*************** : Non HTTP response message: URI does not specify a valid host name: http:/
-2024-12-23 11:14:14,439 INFO o.a.j.t.JMeterThread: Stopping: Thread Group 1-1
-2024-12-23 11:14:14,439 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2024-12-23 11:14:14,439 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2024-12-23 11:14:14,439 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2024-12-23 11:14:14,440 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2024-12-23 11:15:53,091 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2024-12-23 11:15:53,091 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2024-12-23 11:15:53,092 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2024-12-23 11:15:53,141 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2024-12-23 11:15:53,142 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2024-12-23 11:15:53,142 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2024-12-23 11:15:53,142 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2024-12-23 11:15:53,145 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2024-12-23 11:15:53,145 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2024-12-23 11:15:53,147 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2024-12-23 11:15:53,714 INFO o.a.j.u.BeanShellTestElement: *****************RC IS*************** : 200
-2024-12-23 11:15:53,715 INFO o.a.j.u.BeanShellTestElement: *****************RM IS*************** : OK
-2024-12-23 11:15:54,171 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2024-12-23 11:15:54,172 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2024-12-23 11:15:54,172 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2024-12-23 11:15:54,172 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2024-12-23 11:18:32,625 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 11:18:32,626 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 11:18:32,634 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 11:18:32,635 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2024-12-23 11:19:14,554 INFO o.a.j.s.FileServer: Set new base='C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Quality Assurance Lab'
+2024-12-24 11:06:08,952 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:06:08,952 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:06:08,952 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:06:08,952 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:06:26,800 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:06:26,800 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:06:26,800 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:06:26,858 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:06:26,858 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:06:26,858 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:06:26,858 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:06:26,861 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:06:26,861 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:06:26,861 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:06:27,471 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	In file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' Encountered "FileWriter" at line 7, column 1.
+
+2024-12-24 11:06:27,471 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	In file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' Encountered "FileWriter" at line 7, column 1.
+
+2024-12-24 11:06:27,471 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:06:27,471 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:06:27,471 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:06:27,471 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:07:20,919 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:07:20,919 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:07:20,919 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:07:21,010 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:07:21,010 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:07:21,010 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:07:21,010 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:07:21,013 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:07:21,014 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:07:21,014 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:07:21,598 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Error in method invocation: Method info( java.io.File ) not found in class'org.apache.logging.slf4j.Log4jLogger'
+2024-12-24 11:07:21,598 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Error in method invocation: Method info( java.io.File ) not found in class'org.apache.logging.slf4j.Log4jLogger'
+2024-12-24 11:07:21,598 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:07:21,598 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:07:21,599 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:07:21,599 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:08:12,030 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:08:12,030 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:08:12,030 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:08:12,094 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:08:12,095 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:08:12,095 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:08:12,095 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:08:12,097 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:08:12,097 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:08:12,098 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:08:12,706 INFO o.a.j.u.BeanShellTestElement: ..\data\TestResult_L21.csv
+2024-12-24 11:08:12,707 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:08:12,707 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:08:12,707 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:08:12,707 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:08:12,707 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:08:12,707 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:08:43,950 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:08:43,950 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:08:43,951 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:08:43,995 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:08:43,995 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:08:43,995 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:08:43,995 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:08:43,998 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:08:43,998 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:08:43,998 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:08:44,621 INFO o.a.j.u.BeanShellTestElement: C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\..\data\TestResult_L21.csv
+2024-12-24 11:08:44,621 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:08:44,621 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:08:44,621 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:08:44,622 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:08:44,622 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:08:44,622 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:10:14,677 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:10:14,677 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:10:14,678 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:10:14,716 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:10:14,716 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:10:14,717 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:10:14,717 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:10:14,719 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:10:14,719 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:10:14,720 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:10:15,055 INFO o.a.j.u.BeanShellTestElement: C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\..
+2024-12-24 11:10:15,055 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:10:15,055 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:10:15,055 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:10:15,055 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:10:15,055 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:10:15,056 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:10:24,926 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:10:24,926 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:10:24,926 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:10:24,968 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:10:24,969 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:10:24,969 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:10:24,969 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:10:24,971 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:10:24,971 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:10:24,971 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:10:25,298 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Constructor error: Can't find default constructor for: class java.io.File
+2024-12-24 11:10:25,298 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  //File f = new File("data\\TestResult_L21.csv"); File f = new . . . '' : Typed variable declaration : Constructor error: Can't find default constructor for: class java.io.File
+2024-12-24 11:10:25,298 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:10:25,298 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:10:25,298 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:10:25,298 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:11:51,717 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:11:51,718 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:11:51,718 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:11:51,760 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:11:51,760 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:11:51,760 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:11:51,760 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:11:51,763 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:11:51,763 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:11:51,763 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:11:52,098 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:11:52,098 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:11:52,098 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:11:52,098 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:12:29,975 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:12:29,975 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:12:29,976 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:12:30,030 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:12:30,030 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:12:30,030 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:12:30,030 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:12:30,033 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:12:30,033 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:12:30,033 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:12:30,385 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:12:30,385 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:12:30,385 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:12:30,385 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:13:18,604 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:13:18,604 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:13:18,604 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:13:18,684 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:13:18,684 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:13:18,684 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:13:18,684 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:13:18,688 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:13:18,688 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:13:18,688 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:13:18,728 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  File f = new File("C:\\Users\\ncbao\\Downloads\\Draft Repo On . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:13:18,728 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  File f = new File("C:\\Users\\ncbao\\Downloads\\Draft Repo On . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:13:18,728 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:13:18,728 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:13:18,728 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:13:18,728 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:14:15,021 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:14:15,021 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:14:15,021 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:14:15,089 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:14:15,089 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:14:15,089 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:14:15,089 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:14:15,091 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:14:15,091 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:14:15,093 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:14:15,098 ERROR o.a.j.u.BeanShellInterpreter: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  File f = new File("C:\\Users\\ncbao\\Downloads\\Draft Repo On . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:14:15,098 WARN o.a.j.e.BeanShellPostProcessor: Problem in BeanShell script: org.apache.jorphan.util.JMeterException: Error invoking bsh method: eval	Sourced file: inline evaluation of: ``import java.io.*;  File f = new File("C:\\Users\\ncbao\\Downloads\\Draft Repo On . . . '' : Typed variable declaration : Object constructor
+2024-12-24 11:14:15,098 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:14:15,098 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:14:15,098 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:14:15,098 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:14:51,557 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:14:51,557 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:14:51,557 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:14:51,598 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:14:51,598 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:14:51,598 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:14:51,598 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:14:51,601 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:14:51,601 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:14:51,601 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:14:51,607 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:14:51,607 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:14:51,607 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:14:51,607 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:15:07,315 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:15:07,316 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:15:07,316 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:15:07,354 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:15:07,354 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:15:07,354 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:15:07,354 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:15:07,356 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:15:07,356 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:15:07,356 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:15:08,016 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:15:08,016 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:15:08,016 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:15:08,016 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-12-24 11:15:35,179 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-12-24 11:15:35,179 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-12-24 11:15:35,179 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-12-24 11:15:35,229 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-12-24 11:15:35,229 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-12-24 11:15:35,229 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-12-24 11:15:35,229 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-12-24 11:15:35,232 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-12-24 11:15:35,232 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-12-24 11:15:35,232 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-12-24 11:15:35,238 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-12-24 11:15:35,238 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-12-24 11:15:35,238 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-12-24 11:15:35,238 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
