@@ -33,9 +33,7 @@
 			  Mục đích: tìm ra đường thằng phân tách dữ liệu để phân tách các lớp khác nhau phù hợp nhất, tốt nhất
 			  Trong quá trình tìm, có thể tìm ra nhiều  đường thằng thỏa mãn, ta sẽ tìm ra đường thẳng tối ưu (gọi là đường siêu phẳng: hyperplane)(là đường thẳng có khoảng cách (margin) giữa nó và các điểm dữ liệu gần nhất của hai lớp là lớn nhất. Các điểm gần nhất này gọi là support vectors.)
 
-			
-			
-		
+					
 2) Học không giám sát (Unsupervised Learning)
 	- Huấn luyện với dữ liệu không được gắn nhãn (Unlabeled)
 	- Mô hình thuật toán học không giám sát được sử dụng phổ biến là K-Means Clustering
@@ -89,7 +87,6 @@
 		+ Framework chuyên cho Deep Learning: cần làm quen ít nhất 1: Keras, TensorFlow, Pytorch (recommended)
 
 7. Kiến thức về Software Engineer: git, docker
-
 
 * Tài liệu về các khái niệm cần trong Data Science: Practical Statistics for Data Scientists
 
