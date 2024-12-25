@@ -177,7 +177,7 @@ if(!rc.equals(&quot;200&quot;)){
       </ThreadGroup>
       <hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request">
-          <stringProp name="HTTPSampler.domain">www.google</stringProp>
+          <stringProp name="HTTPSampler.domain">www.google.com</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <stringProp name="HTTPSampler.method">GET</stringProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -193,8 +193,9 @@ if(!rc.equals(&quot;200&quot;)){
             <boolProp name="resetInterpreter">false</boolProp>
             <stringProp name="script">import java.io.*;
 
-File f = new File(&quot;C:\\Users\\ncbao\\Downloads\\Draft Repo On Github\\Draft\\JMeter Tutorial\\Quality Assurance Lab\\data\\TestResult_L21.csv&quot;);
-//log.info(f.getAbsolutePath());
+//File f = new File(&quot;data\\TestResult_L21.csv&quot;);
+File f = new File(&quot;..\\data\\TestResult_L21.csv&quot;);
+log.info(f.toString());
 
 FileWriter fw = new FileWriter(f);
 BufferedWriter bw = new BufferedWriter(fw);
