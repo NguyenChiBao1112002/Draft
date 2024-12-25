@@ -384,7 +384,29 @@ như hình ảnh (.jpg, .png), video (.mp4), phần mềm (.exe) [mặc định 
    ctx.getThread().getThreadName(); - to get thread name
 
 --------------------------------------------------------------------------------------------------------
-**Lesson 21 - 
+**Lesson 21 - BeanShell Script Part-2 | Write data to CSV file | BeanShell PostProcessor
+
+import java.io.*;
+
+File f = new File("C:\\Users\\ncbao\\Downloads\\Draft Repo On Github\\Draft\\JMeter Tutorial\\Quality Assurance Lab\\data\\TestResult_L21.csv");
+//log.info(f.getAbsolutePath());
+
+FileWriter fw = new FileWriter(f);
+BufferedWriter bw = new BufferedWriter(fw);
+
+var rc = prev.getResponseCode();
+
+if(rc.equals("200")){
+	bw.write("Test is passed!");
+}else{
+	bw.write("Test is failed!");
+}
+
+bw.close();
+fw.close();
+
+--------------------------------------------------------------------------------------------------------
+**Lesson 22 - How to monitor server health using Perfmon Plugin | Non GUI Mode
 
 
 
