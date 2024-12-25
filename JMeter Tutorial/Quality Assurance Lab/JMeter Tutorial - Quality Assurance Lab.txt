@@ -408,8 +408,14 @@ fw.close();
 --------------------------------------------------------------------------------------------------------
 **Lesson 22 - How to monitor server health using Perfmon Plugin | Non GUI Mode
 
+- Step 1: create test script
+- Step 2: provide file name in perform metrics collector listener
+- Step 3: start server agent on the server
+- Step 4: open command line terminal and do the execution
+- Step 5: load the result file in the perform metrics collector listener and analyse the metrics - cpu, memory, etc,...
 
-
+--------------------------------------------------------------------------------------------------------
+**Lesson 23 - JMeter Interview Questions - Part-1 | Performance Testing Interview Questions
 
 
 
