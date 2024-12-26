@@ -4,3 +4,35 @@ Machine Learning
 Done: 
 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 JMeter
 
+import java.util.HashMap;
+import java.util.regex.Pattern;
+
+public class Main {
+    public static void main(String[] args) {
+        // Khởi tạo HashMap đầu tiên (Pattern)
+        HashMap<String, Pattern> hashMap1 = new HashMap<>();
+        hashMap1.put("key1", Pattern.compile("^SAS$"));
+        hashMap1.put("key2", Pattern.compile("^\\d+(\\.\\d+)*$"));
+        
+        // Khởi tạo HashMap thứ hai (String)
+        HashMap<String, String> hashMap2 = new HashMap<>();
+        hashMap2.put("key1", "SAS");
+        hashMap2.put("key2", "9.4.4");
+
+        // Kiểm tra xem các giá trị trong hashMap2 có khớp với các Pattern trong hashMap1 không
+        for (String key : hashMap2.keySet()) {
+            // Lấy giá trị từ hashMap2
+            String value = hashMap2.get(key);
+            
+            // Lấy Pattern tương ứng từ hashMap1
+            Pattern pattern = hashMap1.get(key);
+            
+            // Kiểm tra nếu Pattern có khớp với giá trị từ hashMap2
+            if (pattern != null && pattern.matcher(value).matches()) {
+                System.out.println("Khớp: " + key + " -> " + value);
+            } else {
+                System.out.println("Không khớp: " + key + " -> " + value);
+            }
+        }
+    }
+}
