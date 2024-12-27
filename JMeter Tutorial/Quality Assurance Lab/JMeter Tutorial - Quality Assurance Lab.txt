@@ -490,6 +490,59 @@ Some common performance bottlenecks include:
 --------------------------------------------------------------------------------------------------------
 **Lesson 24 - JMeter Interview Questions - Part-1 | Performance Testing Interview Questions
 
+7. What is JMeter? How it works?
+	. Open source performance testing tool
+	. It can be used to simulate a heavy load on a server or group of servers to analyze the overall performance
+	. 100% pure Java application
+	. It can work with different protocols or technologies - Web HTTP protocol, API, FTP, Database
+
+Process: Identify Testcase -> Create Test Script -> Enhancement Parameterize Correlation -> Execution -> Result and reports
+
+8. What is a TestPlan in JMeter?
+	. A Test Plan describes a series of steps required for JMeter test execution
+	. A complete test plan will consist of one or more Thread Groups, Samplers, Logic Controllers, Listeners,
+	Timers, Assertions, and configuration elements
+
+9. What is a Thread Group?
+	. Thread Group element controls the number of threads(virtual users) JMeter will use to execute the test
+	. Thread group elements are the beginning points of any test plan
+	. All samplers and controllers must be under a thread group
+
+10. What is a Sampler?
+	. Sampler is an element in Jmeter to send requests to a server.
+	
+	Type of JMeter Samplers:
+		. FTP Request
+		. HTTP Request (can be used for SOAP or REST Webservice also)
+		. JDBC Request
+		. LDAP Request
+		. SMTP Request (to test email)
+		. TCP Request
+
+11. Explain the settings required to use HTTP(s) Test Script Recorder.
+	. Set the port - Set the port where JMeter proxy server will run. Configure the browser as well to run on that port
+	. Install JMeter root certificate in the browser
+	. Select the Target Controller - Select the element where the requests will be recorded. Eg - Recording Controller, HTTP(s) Test Script Recorder
+
+12. What is parameterization? Why Parameterization is required?
+Parameterization is the process of creating multiple test data for single/multiple users in a test script
+
+Let's say (Giả sử) You have the task to load test the search functionality of the application - Wikipedia.
+Since, it is a load test, you cannot test it with a single search. In this case, you need to test it with multiple test data
+and hence you nedd to use the concept of parameterization.
+
+13. How to parameterize deta in JMeter?
+- Step 1: Add your test data to CSV file
+- Step 2: Add Config Element: CSV dataset config in the test plan
+- Step 3: Provide the details in CSV Dataset Config
+- Step 4: Replace the hard-coded value in the test script by variable
+- Step 5: All done! Click on Start and do the execution
+
+14. What are listeners? Types of listeners in JMeter?
+	. A listener is a component that shows the results of the test execution
+	. The results can be shown in a tree, tables, graphs or simply written to a log file
+
+*** Why is it recommended to run test from command line? Command to run test from command line?
 
 
 
