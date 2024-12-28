@@ -30,8 +30,7 @@ import org.openqa.selenium.WebElement as Keys
 'Open Coolmate'
 CustomKeywords.'common.UtilKeyword.openURL'()
 
-
-'==========================As an unauthenticated user,  entering  valid keys to search related products========================='
+'==========================As an unauthenticated user, entering valid keys to search related products========================='
 
 'Click on Search box'
 WebUI.click(findTestObject('Object Repository/common/properties/Id/id', [('id'): 'search-input']))

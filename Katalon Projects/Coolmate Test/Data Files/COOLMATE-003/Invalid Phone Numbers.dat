@@ -7,9 +7,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>79b0c42e-94e3-43b1-b339-b18fdf3f2302</dataFileGUID>
-   <dataSourceUrl>C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Data Files\COOLMATE-003\InvalidPhoneNumbers.xlsx</dataSourceUrl>
+   <dataSourceUrl>Data Files/COOLMATE-003/InvalidPhoneNumbers.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Invalid Phone Number</sheetName>
