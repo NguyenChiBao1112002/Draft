@@ -41,7 +41,7 @@ import internal.GlobalVariable
 import junit.framework.TestListener
 
 import org.openqa.selenium.Keys
-
+import org.openqa.selenium.JavascriptExecutor
 
 public class UtilKeyword {
 
@@ -77,12 +77,23 @@ public class UtilKeyword {
 		driver.get(GlobalVariable.url)
 		WebUI.waitForPageLoad(10)
 		WebUI.maximizeWindow()
+		WebUI.delay(3)
 
+//		'Disable advertisement or other popups if present'
+//		JavascriptExecutor js = (JavascriptExecutor) driver
+//		String script = """
+//		    var popups = document.querySelectorAll('[id^="popup-member"]');
+//		    popups.forEach(function(popup) {
+//		        popup.style.display = 'none';
+//		    });
+//		"""
+//		js.executeScript(script)
+//		WebUI.delay(3)
+		
 		'Handle Ads Popup if present'
 		if(WebUI.waitForElementVisible(findTestObject('Object Repository/pages/home_page/ads_close_button'), 5, FailureHandling.OPTIONAL)) {
 			WebUI.enhancedClick(findTestObject('Object Repository/pages/home_page/ads_close_button'))
 		}
-		WebUI.delay(3)
 
 		'Open Login Page'
 		WebUI.click(findTestObject('Object Repository/common/icon/user_icon'))
@@ -99,12 +110,21 @@ public class UtilKeyword {
 		WebUI.waitForPageLoad(10)
 		WebUI.delay(2)
 
+//		'Disable advertisement or other popups if present'
+//		js.executeScript(script)
+		
 		'Handle pop-up elements or any other actions after login'
 		TestObject popUpElement = findTestObject('Object Repository/component/close_popup_button')
-		while(WebUI.waitForElementVisible(popUpElement, 10)) {
+		TestObject adPopUpElement = findTestObject('Object Repository/pages/home_page/ads_close_button')
+		while(WebUI.waitForElementVisible(popUpElement, 10) ) {
 			WebUI.delay(2)
 			WebUI.click(popUpElement)
 			WebUI.delay(2)
+			while(WebUI.waitForElementVisible(adPopUpElement, 10) ) {
+				WebUI.delay(2)
+				WebUI.click(adPopUpElement)
+				WebUI.delay(2)
+			}
 		}
 	}
 
@@ -140,16 +160,28 @@ public class UtilKeyword {
 		WebDriver driver = new ChromeDriver(options)
 		DriverFactory.changeWebDriver(driver)
 
+
+
 		'Open the Coolmate website'
 		driver.get(GlobalVariable.url)
 		WebUI.waitForPageLoad(10)
 		WebUI.maximizeWindow()
-
-		'Handle Ads Popup if present'
-		if(WebUI.waitForElementVisible(findTestObject("Object Repository/pages/home_page/ads_close_button"), 10)) {
-			WebUI.click(findTestObject("Object Repository/pages/home_page/ads_close_button"))
-		}
 		WebUI.delay(3)
+
+//		'Disable advertisement or other popups if present'
+//		JavascriptExecutor js = (JavascriptExecutor) driver
+//		String script = """
+//		    var popups = document.querySelectorAll('[id^="popup-member"]');
+//		    popups.forEach(function(popup) {
+//		        popup.style.display = 'none';
+//		    });
+//		"""
+//		js.executeScript(script)
+		'Handle Ads Popup if present'
+		if(WebUI.waitForElementVisible(findTestObject('Object Repository/pages/home_page/ads_close_button'), 5, FailureHandling.OPTIONAL)) {
+			WebUI.enhancedClick(findTestObject('Object Repository/pages/home_page/ads_close_button'))
+		}
+		
 	}
 
 	@Keyword

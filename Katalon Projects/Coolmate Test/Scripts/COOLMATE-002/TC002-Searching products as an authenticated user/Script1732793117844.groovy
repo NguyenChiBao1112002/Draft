@@ -24,8 +24,6 @@ import org.openqa.selenium.Keys
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebElement as Keys
 
-//String validSearchKeywords = 'Ao thun'
-//String invalidSearchKeywords = 'invalid_keyword_V1Tdm6pxAkdcLfg=='
 
 'Open Coolmate and authenticate'
 CustomKeywords.'common.UtilKeyword.openURLAndAuthenticate'(GlobalVariable.username_bao, GlobalVariable.password_bao)

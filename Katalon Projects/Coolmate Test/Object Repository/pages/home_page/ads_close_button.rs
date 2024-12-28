@@ -6,18 +6,17 @@
    <elementGuidId>bedefe21-a075-4169-942f-16da820ed552</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;site-wrapper&quot;]/div//button</value>
-      </entry>
-      <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>IMAGE</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;popup-member&quot;]/div//button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +27,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;site-wrapper&quot;]/div//button</value>
-      <webElementGuid>e849f384-36a3-4ec8-a539-457829d00d64</webElementGuid>
+      <value>//*[@id=&quot;popup-member&quot;]/div//button</value>
+      <webElementGuid>9c045818-bfc9-4bed-ad13-3a630bb3127f</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
