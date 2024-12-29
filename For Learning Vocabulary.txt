@@ -276,8 +276,37 @@ ETS 2022 Test 1 Part 6
 19. former: (adj, n), /ˈfɔːr.mɚ/, trước đây, cựu/ người (sự vật) trước
 20. temporary: (adj), /ˈtem.pə.rer.i/, tạm thời
 21. superb: (adj), /suːˈpɝːb/, tuyệt vời, xuất sắc
-23. quickness: (n), quickness, sự nhanh chóng
-24. quicken :(v), /ˈkwɪk.ən/, đẩy mạnh, làm cho nhanh hơn
+22. quickness: (n), /ˈkwɪk.nəs/, sự nhanh chóng
+23. quicken :(v), /ˈkwɪk.ən/, đẩy mạnh, làm cho nhanh hơn
+-----------------------------------------------------------------
+
+24. enclose: (v), /ɪnˈkloʊz/, đính kèm
+25. cheese-making: (v), làm phô mai
+26. beekeeping: nuôi ong
+27. There are no exceptions: không có sự ngoại lệ nào
+28. legal: (adj), /ˈliː.ɡəl/, pháp luật, pháp lý, hợp pháp
+29. artistic: (adj), /ɑːrˈtɪs.tɪk/, nghệ thuật
+30. dental: (adj), /ˈden.t̬əl/, nha khoa, răng miệng
+31. professional: (adj, n), /prəˈfeʃ.ən.əl/, chuyên nghiệp/chuyên gia
+32. general: (adj), /ˈdʒen.ər.əl/, chung, tổng quát
+33. cosmetic: (adj), /kɑːzˈmet̬.ɪk/, mỹ phẩm
+34. pride: (n), /praɪd/, sự tự hào
+35. pround, proundly: (adj, adv), tự hào
+36. patient: (n, adj), /ˈpeɪ.ʃənt/, bệnh nhân/ kiên trì, nhẫn nại
+37. athletic: (adj), /æθˈlet̬.ɪk/, thể thao
+38. play: (v, n), chơi/ trò chơi, cuộc chơi, trận đấu, vở kịch
+39. treatment: (n), /ˈtriːt.mənt/, việc, cư xử, sự điều trị, cách xử lý
+40. practice: (n), /ˈpræk.tɪs/, thực hiện
+
+
+
+
+
+
+
+
+
+
 
 
 
