@@ -543,6 +543,32 @@ and hence you nedd to use the concept of parameterization.
 	. The results can be shown in a tree, tables, graphs or simply written to a log file
 
 *** Why is it recommended to run test from command line? Command to run test from command line?
+	. Improves performance by removing GUI overhead.
+	. Supports automation in CI/CD pipelines and batch processes.
+	. Optimizes resource usage with lower memory consumption.
+	. Offers flexibility in configuring test parameters and outputs.
+	. Simplifies distributed testing across multiple machines.
+--------------------------------------------------------------------------------------------------
+**Lesson 25 - JSON Extractor Post Processor | JSON Path Expression | Extract Multiple Values
+
+. What is JSON? 
+	- Stands for JavaScript Object Notation
+	- Lightweight (nhẹ) format for storing and transporting (vận chuyển) data
+	- Most of the Rest API uses JSON as exchange data format(REST APIs receive JSON Response from Server)
+
+. JSON Extractor:
+	- Used to extract data from JSON Response
+	- Those variables are used in subsequent requests (các yêu cầu tiếp theo)
+
+
+
+*** Able to use codebeautify.org to see beautifull format JSON
+
+--------------------------------------------------------------------------------------------------
+** Lesson 26 - Basic Authentication | HTTP Authorization Manager | HTTP Header Manager | Base64Encod
+
+
+
 
 
 
