@@ -79,17 +79,17 @@ public class UtilKeyword {
 		WebUI.maximizeWindow()
 		WebUI.delay(3)
 
-//		'Disable advertisement or other popups if present'
-//		JavascriptExecutor js = (JavascriptExecutor) driver
-//		String script = """
-//		    var popups = document.querySelectorAll('[id^="popup-member"]');
-//		    popups.forEach(function(popup) {
-//		        popup.style.display = 'none';
-//		    });
-//		"""
-//		js.executeScript(script)
-//		WebUI.delay(3)
-		
+		//		'Disable advertisement or other popups if present'
+		//		JavascriptExecutor js = (JavascriptExecutor) driver
+		//		String script = """
+		//		    var popups = document.querySelectorAll('[id^="popup-member"]');
+		//		    popups.forEach(function(popup) {
+		//		        popup.style.display = 'none';
+		//		    });
+		//		"""
+		//		js.executeScript(script)
+		//		WebUI.delay(3)
+
 		'Handle Ads Popup if present'
 		if(WebUI.waitForElementVisible(findTestObject('Object Repository/pages/home_page/ads_close_button'), 5, FailureHandling.OPTIONAL)) {
 			WebUI.enhancedClick(findTestObject('Object Repository/pages/home_page/ads_close_button'))
@@ -110,9 +110,9 @@ public class UtilKeyword {
 		WebUI.waitForPageLoad(10)
 		WebUI.delay(2)
 
-//		'Disable advertisement or other popups if present'
-//		js.executeScript(script)
-		
+		//		'Disable advertisement or other popups if present'
+		//		js.executeScript(script)
+
 		'Handle pop-up elements or any other actions after login'
 		TestObject popUpElement = findTestObject('Object Repository/component/close_popup_button')
 		TestObject adPopUpElement = findTestObject('Object Repository/pages/home_page/ads_close_button')
@@ -168,20 +168,19 @@ public class UtilKeyword {
 		WebUI.maximizeWindow()
 		WebUI.delay(3)
 
-//		'Disable advertisement or other popups if present'
-//		JavascriptExecutor js = (JavascriptExecutor) driver
-//		String script = """
-//		    var popups = document.querySelectorAll('[id^="popup-member"]');
-//		    popups.forEach(function(popup) {
-//		        popup.style.display = 'none';
-//		    });
-//		"""
-//		js.executeScript(script)
+		//		'Disable advertisement or other popups if present'
+		//		JavascriptExecutor js = (JavascriptExecutor) driver
+		//		String script = """
+		//		    var popups = document.querySelectorAll('[id^="popup-member"]');
+		//		    popups.forEach(function(popup) {
+		//		        popup.style.display = 'none';
+		//		    });
+		//		"""
+		//		js.executeScript(script)
 		'Handle Ads Popup if present'
 		if(WebUI.waitForElementVisible(findTestObject('Object Repository/pages/home_page/ads_close_button'), 5, FailureHandling.OPTIONAL)) {
 			WebUI.enhancedClick(findTestObject('Object Repository/pages/home_page/ads_close_button'))
 		}
-		
 	}
 
 	@Keyword

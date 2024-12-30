@@ -6,17 +6,17 @@
    <elementGuidId>bedefe21-a075-4169-942f-16da820ed552</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-      </entry>
-      <entry>
          <key>IMAGE</key>
       </entry>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;popup-member&quot;]/div//button</value>
+         <value>//*[contains(@class,&quot;popup&quot;)]/div//button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,7 +27,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;popup-member&quot;]/div//button</value>
-      <webElementGuid>9c045818-bfc9-4bed-ad13-3a630bb3127f</webElementGuid>
+      <value>//*[contains(@class,&quot;popup&quot;)]/div//button</value>
+      <webElementGuid>20ac137d-d5c6-4b7e-8b26-206d1bb8ee1a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
