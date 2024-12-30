@@ -296,7 +296,7 @@ ETS 2022 Test 1 Part 6
 37. athletic: (adj), /æθˈlet̬.ɪk/, thể thao
 38. play: (v, n), chơi/ trò chơi, cuộc chơi, trận đấu, vở kịch
 39. treatment: (n), /ˈtriːt.mənt/, việc, cư xử, sự điều trị, cách xử lý
-40. practice: (n), /ˈpræk.tɪs/, thực hiện
+40. practice: (n, v), /ˈpræk.tɪs/, thực tiễn, thói quen, sự luyện tập/ luyện tập
 
 
 
