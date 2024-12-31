@@ -29,13 +29,13 @@ public class ProductDetail {
 	}
 	
 	@Keyword
-	static def getProductColorWithPosition(int pos) {
-		return WebUI.getText(findTestObject('Object Repository/pages/product_detail_page/color_with_pos', [('pos'): pos]))
+	static def getProductColorWithPosition() {
+		return WebUI.getText(findTestObject('Object Repository/pages/product_detail_page/color_title'))
 	}
 	
 	@Keyword
-	static def getProductSizeWithPosition(int pos) {
-		return WebUI.getText(findTestObject('Object Repository/pages/product_detail_page/size_with_pos', [('pos'): pos]))
+	static def getProductSizeWithPosition() {
+		return WebUI.getText(findTestObject('Object Repository/pages/product_detail_page/size_title'))
 	}
 
 	@Keyword
