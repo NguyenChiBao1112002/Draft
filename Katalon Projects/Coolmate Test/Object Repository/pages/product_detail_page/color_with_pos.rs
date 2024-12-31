@@ -6,12 +6,11 @@
    <elementGuidId>6183075b-2b9a-417c-841f-af3f708b97fb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//main[contains(@class, 'product-single')]//div[@data-option-index=&quot;1&quot;]/label[${pos}]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//main[contains(@class, 'product-single')]//div[@data-option-index=&quot;1&quot;]/label[${pos}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

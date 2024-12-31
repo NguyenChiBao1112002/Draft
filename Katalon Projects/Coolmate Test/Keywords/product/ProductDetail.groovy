@@ -27,6 +27,16 @@ public class ProductDetail {
 	static def getProductName(){
 		return WebUI.getText(findTestObject('Object Repository/pages/product_detail_page/product_name')).split("\n")[0]
 	}
+	
+	@Keyword
+	static def getProductColorWithPosition(int pos) {
+		return WebUI.getText(findTestObject('Object Repository/pages/product_detail_page/color_with_pos', [('pos'): pos]))
+	}
+	
+	@Keyword
+	static def getProductSizeWithPosition(int pos) {
+		return WebUI.getText(findTestObject('Object Repository/pages/product_detail_page/size_with_pos', [('pos'): pos]))
+	}
 
 	@Keyword
 	static def selectProductColorWithPosition(int pos) {

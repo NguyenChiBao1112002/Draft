@@ -51,7 +51,7 @@ WebUI.click(findTestObject('Object Repository/pages/home_page/product_size_optio
 
 
 CustomKeywords.'common.UtilKeyword.handleToastMessage'("Đã thêm vào giỏ hàng!", 60)
-CustomKeywords.'common.UtilKeyword.takeScreenShot'("Added first product successfully")
+CustomKeywords.'common.UtilKeyword.takeScreenShot'("added_first_product")
 
 '============Go to the product detail page to add product to cart of the same color and size that was previously added and verify added product information in cart=========='
 'Go to product detail page'
@@ -77,7 +77,7 @@ WebUI.click(findTestObject('Object Repository/pages/product_detail_page/add_to_c
 CustomKeywords.'common.UtilKeyword.handleToastMessage'("Đã thêm vào giỏ hàng!", 60)
 
 'Take screenshot'
-CustomKeywords.'common.UtilKeyword.takeScreenShot'('Adding from product detail page successfully')
+CustomKeywords.'common.UtilKeyword.takeScreenShot'('added_from_product_detail_page')
 
 'Go to cart'
 WebUI.click(findTestObject('Object Repository/common/icon/cart_icon'))
@@ -103,7 +103,7 @@ String actualQuantity = WebUI.getAttribute(findTestObject('Object Repository/pag
 if(actualQuantity.equals(totalAddedQuantity)) {
 	KeywordUtil.logInfo("Quantity of added products is correctly updated in cart")
 	'Take screenshot'
-	CustomKeywords.'common.UtilKeyword.takeScreenShot'("Information added products matches in cart")
+	CustomKeywords.'common.UtilKeyword.takeScreenShot'("info_added_product_matches_in_cart")
 	
 }else {
 	KeywordUtil.markFailedAndStop("Quantity of added products is incorrectly updated in cart")

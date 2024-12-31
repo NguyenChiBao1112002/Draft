@@ -17,32 +17,30 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys
-import org.openqa.selenium.WebElement as Keys
+import org.openqa.selenium.Keys as Keys
 
 'Go to Coolmate website and authenticate'
 CustomKeywords.'common.UtilKeyword.openURLAndAuthenticate'(GlobalVariable.username_bao, GlobalVariable.password_bao)
 
-'===============Add products from the product page to cart and verify added products in cart==============='
-
-HashMap<String, String> selectedProductInfoFisrt = new HashMap()
-
+'=============Add a product with many color and size pairs from the product page and verify added product in cart==================='
 'Scroll to the product'
 WebUI.scrollToElement(findTestObject('Object Repository/pages/home_page/product_section_index', [('section-pos'): 1, ('index'): 2]), 10)
 WebUI.delay(3)
 
-'Collect the first selected product infomation that will be added to cart'
+'Collect the first option that will be added to cart'
+HashMap<String, String> selectedFirstOption = new HashMap()
+
 String productName = WebUI.getText(findTestObject('Object Repository/pages/home_page/product_name_section_index', [('section-pos'): 1, ('index'): 2]))
-selectedProductInfoFisrt.put('name', productName)
+selectedFirstOption.put('name', productName)
 
 WebUI.click(findTestObject('Object Repository/pages/home_page/product_color_option_pos', [('section-pos'): 1, ('index-pro-pos'): 2, ('color-pos'): 1]))
 String selectedColor = WebUI.getAttribute(findTestObject('Object Repository/pages/home_page/product_color_option_pos', [('section-pos'): 1, ('index-pro-pos'): 2, ('color-pos'): 1]), 'title')
-selectedProductInfoFisrt.put('color', selectedColor)
+selectedFirstOption.put('color', selectedColor)
 
 String selectedSize = WebUI.getAttribute(findTestObject('Object Repository/pages/home_page/product_size_option_pos', [('section-pos'): 1, ('index-pro-pos'): 2, ('size-pos'): 1]), 'innerText')
-selectedProductInfoFisrt.put('size', selectedSize)
+selectedFirstOption.put('size', selectedSize)
 
-KeywordUtil.logInfo(selectedProductInfoFisrt.toString())
+KeywordUtil.logInfo(selectedFirstOption.toString())
 
 'Add first product to cart'
 WebUI.mouseOver(findTestObject('Object Repository/pages/home_page/product_section_index', [('section-pos'): 1, ('index'): 2]))
@@ -51,62 +49,62 @@ WebUI.click(findTestObject('Object Repository/pages/home_page/product_size_optio
 
 
 CustomKeywords.'common.UtilKeyword.handleToastMessage'("Đã thêm vào giỏ hàng!", 60)
-CustomKeywords.'common.UtilKeyword.takeScreenShot'("added_first_product")
+CustomKeywords.'common.UtilKeyword.takeScreenShot'("added_first_option")
+WebUI.delay(3)
 
-'Collect the second selected product infomation that will be added to cart'
-HashMap<String, String> selectedProductInfoSecond = new HashMap()
+'Collect the second option that will be added to cart'
+HashMap<String, String> selectedSecondOption = new HashMap()
 
-'Collect the second selected product infomation that will be added to cart'
-productName = WebUI.getText(findTestObject('Object Repository/pages/home_page/product_name_section_index', [('section-pos'): 1, ('index'): 3]))
-selectedProductInfoSecond.put('name', productName)
+'Collect the second option that will be added to cart'
+selectedSecondOption.put('name', productName)
 
-WebUI.click(findTestObject('Object Repository/pages/home_page/product_color_option_pos', [('section-pos'): 1, ('index-pro-pos'): 3, ('color-pos'): 1]))
-selectedColor = WebUI.getAttribute(findTestObject('Object Repository/pages/home_page/product_color_option_pos', [('section-pos'): 1, ('index-pro-pos'): 3, ('color-pos'): 1]), 'title')
-selectedProductInfoSecond.put('color', selectedColor)
+WebUI.click(findTestObject('Object Repository/pages/home_page/product_color_option_pos', [('section-pos'): 1, ('index-pro-pos'): 2, ('color-pos'): 2]))
+selectedColor = WebUI.getAttribute(findTestObject('Object Repository/pages/home_page/product_color_option_pos', [('section-pos'): 1, ('index-pro-pos'): 2, ('color-pos'): 2]), 'title')
+selectedSecondOption.put('color', selectedColor)
 
-selectedSize = WebUI.getAttribute(findTestObject('Object Repository/pages/home_page/product_size_option_pos', [('section-pos'): 1, ('index-pro-pos'): 3, ('size-pos'): 1]), 'innerText')
-selectedProductInfoSecond.put('size', selectedSize)
+selectedSize = WebUI.getAttribute(findTestObject('Object Repository/pages/home_page/product_size_option_pos', [('section-pos'): 1, ('index-pro-pos'): 2, ('size-pos'): 2]), 'innerText')
+selectedSecondOption.put('size', selectedSize)
 
-KeywordUtil.logInfo(selectedProductInfoSecond.toString())
+KeywordUtil.logInfo(selectedSecondOption.toString())
 
 'Add second product to cart'
-WebUI.mouseOver(findTestObject('Object Repository/pages/home_page/product_section_index', [('section-pos'): 1, ('index'): 3]))
+WebUI.mouseOver(findTestObject('Object Repository/pages/home_page/product_section_index', [('section-pos'): 1, ('index'): 2]))
 WebUI.delay(5)
-WebUI.click(findTestObject('Object Repository/pages/home_page/product_size_option_pos', [('section-pos'): 1, ('index-pro-pos'): 3, ('size-pos'): 1]))
+WebUI.click(findTestObject('Object Repository/pages/home_page/product_size_option_pos', [('section-pos'): 1, ('index-pro-pos'): 2, ('size-pos'): 2]))
 
 CustomKeywords.'common.UtilKeyword.handleToastMessage'("Đã thêm vào giỏ hàng!", 60)
-CustomKeywords.'common.UtilKeyword.takeScreenShot'("added_second_product")
+CustomKeywords.'common.UtilKeyword.takeScreenShot'("added_second_option")
 
 'Go to cart'
 WebUI.click(findTestObject('Object Repository/common/icon/cart_icon'))
 CustomKeywords.'common.UtilKeyword.waitForPageLoadAndDelay'(20, 3)
 
-'Verify added first product in cart'
+'Verify the product that selected with first option is added in cart'
 TestObject addedProduct = new TestObject()
-addedProduct.addProperty('xpath', ConditionType.EQUALS, "//*[*[text()='" + selectedProductInfoFisrt.get("name") + "']]/following-sibling::div")
+addedProduct.addProperty('xpath', ConditionType.EQUALS, "//*[*[text()='" + selectedFirstOption.get("name") + "']]/following-sibling::div")
 
 WebUI.verifyElementVisible(addedProduct)
 KeywordUtil.logInfo(WebUI.getText(addedProduct))
 
 
-if(WebUI.getText(addedProduct).contains(selectedProductInfoFisrt.get("color") + " / " + selectedProductInfoFisrt.get("size"))) {
-	KeywordUtil.logInfo("Add first product to cart successfully")
+if(WebUI.getText(addedProduct).contains(selectedFirstOption.get("color") + " / " + selectedFirstOption.get("size"))) {
+	KeywordUtil.markPassed("Add product with first option to cart successfully")
 }else {
-	KeywordUtil.markFailedAndStop("Add product to cart failed")
+	KeywordUtil.markFailedAndStop("Add product with first option to cart failed")
 }
 
-'Verify added second product in cart'
-addedProduct.addProperty('xpath', ConditionType.EQUALS, "//*[*[text()='" + selectedProductInfoSecond.get("name") + "']]/following-sibling::div")
+'Verify the product that selected with second option is added in cart'
+addedProduct.addProperty('xpath', ConditionType.EQUALS, "(//*[*[text()='" + selectedSecondOption.get("name") + "']]/following-sibling::div)[2]")
 
 WebUI.verifyElementVisible(addedProduct)
 KeywordUtil.logInfo(WebUI.getText(addedProduct))
 
-if(WebUI.getText(addedProduct).contains(selectedProductInfoSecond.get("color") + " / " + selectedProductInfoSecond.get("size"))) {
-	KeywordUtil.logInfo("Add second product to cart successfully")
+if(WebUI.getText(addedProduct).contains(selectedSecondOption.get("color") + " / " + selectedSecondOption.get("size"))) {
+	KeywordUtil.logInfo("Add product with second option to cart successfully")
 	'Take screenshot'
-	CustomKeywords.'common.UtilKeyword.takeScreenShot'("verified_product_detail_page")
+	CustomKeywords.'common.UtilKeyword.takeScreenShot'("added_product_multi_option")
 }else {
-	KeywordUtil.markFailedAndStop("Add product to cart failed")
+	KeywordUtil.markFailedAndStop("Add product with second option to cart failed")
 }
 
 'Remove all products in cart'
