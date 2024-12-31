@@ -567,6 +567,45 @@ and hence you nedd to use the concept of parameterization.
 --------------------------------------------------------------------------------------------------
 ** Lesson 26 - Basic Authentication | HTTP Authorization Manager | HTTP Header Manager | Base64Encod
 
+- Basic Authentication Requirement:
+	+ Web application requires user to authenticate before launching the application:
+		. Step 1: When user tries to access application URL
+		. Step 2: Then, Browser generates a pop-up window 
+		. Step 3: And, Asks for username and password to authenticate
+
+- Basic Authentication:
+	+ Method for an HTTP user agent to provide username and password when making a request
+	+ Way to handle Basic Authentication:
+		. HTTP Authorization Manager
+			
+		. HTTP Header Manager with Beanshell Preprocessor (for multiple users)	
+			+ HTTP : Header Manager - Config Element To add headers
+				. Name: Authorization
+				. Value: Basic base64Encode(user:passwd)
+				. JMeter does not have base64 function
+
+- Beanshell Preprocessor to create script to Encode user:passwd
+
+- Demo Data:	
+	. https://httpbin.org/basic-auth/user/passwd
+	. Username: user
+	. Password: passwd
+
+--------------------------------------------------------------------------------------------------
+** Lesson 27 - Real Time Project
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

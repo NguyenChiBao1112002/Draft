@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004-Add product to cart from product detail page with many options</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ae65bf30-5496-4244-b53b-75cee55e197d</testCaseGuid>
+</TestCaseEntity>
