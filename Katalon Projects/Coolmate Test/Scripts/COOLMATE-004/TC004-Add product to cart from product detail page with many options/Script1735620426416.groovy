@@ -78,6 +78,7 @@ selectedSecondOption.put('size', CustomKeywords.'product.ProductDetail.getProduc
 
 'Go to cart'
 WebUI.scrollToPosition(0, 0)
+WebUI.delay(5)
 WebUI.click(findTestObject('Object Repository/common/icon/cart_icon'))
 CustomKeywords.'common.UtilKeyword.waitForPageLoadAndDelay'(20, 3)
 
