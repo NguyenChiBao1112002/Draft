@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS001-Add Product To Cart" time="363.046" tests="4" failures="0" errors="0">
+   <testsuite name="TS001-Add Product To Cart" tests="4" failures="0" errors="0" time="363.046" skipped="0" timestamp="02-01-2025T21:15:52" hostname="FPT SHOP - LAPTOP-KSFR9P2B" id="Test Suites/COOLMATE-004/TS001-Add Product To Cart">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\BaoNguyen\\OneDrive\\M\u00E1y t\u00EDnh\\Draft Repo On Github\\Draft\\Katalon Projects\\Coolmate Test\\Reports\\20250102_211542\\COOLMATE-004\\TS001-Add Product To Cart\\20250102_211542"/>
+         <property name="logFiles" value="C:\\Users\\BaoNguyen\\OneDrive\\M\u00E1y t\u00EDnh\\Draft Repo On Github\\Draft\\Katalon Projects\\Coolmate Test\\Reports\\20250102_211542\\COOLMATE-004\\TS001-Add Product To Cart\\20250102_211542\\execution0.log"/>
+         <property name="attachments" value="C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC001\added_first_product_02012025 211643.png, C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC001\added_second_product_02012025 211652.png, C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC001\verified_product_detail_page_02012025 211704.png, C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC002\added_first_product_02012025 211805.png, C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC002\added_from_product_detail_page_02012025 211820.png, C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC002\info_added_product_matches_in_cart_02012025 211832.png, C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC003\added_first_option_02012025 211934.png, C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC003\added_second_option_02012025 211946.png, C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC003\added_product_multi_option_02012025 211957.png, C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC004\added_product_first_option_02012025 212114.png, C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC004\added_product_second_option_02012025 212124.png, C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC004\added_product_multi_option_02012025 212139.png"/>
+         <property name="hostName" value="FPT SHOP - LAPTOP-KSFR9P2B"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="178d2f4413078333e4469c3e8b3ab97f"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/COOLMATE-004/TC001-Add product to cart the product page" time="86.837" classname="Test Cases/COOLMATE-004/TC001-Add product to cart the product page" status="PASSED">
+         <system-out><![CDATA[02-01-2025T21:15:52 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-004/TC001-Add product to cart the product page: Test Cases/COOLMATE-004/TC001-Add product to cart the product page
+
+02-01-2025T21:15:52 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+02-01-2025T21:15:52 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+02-01-2025T21:15:53 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao): common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+02-01-2025T21:16:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:16:02 - [MESSAGE][PASSED] - Current window maximized
+
+02-01-2025T21:16:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:16:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[contains(@class,"popup")]/div//button'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-01-2025T21:16:11 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/pages/home_page/ads_close_button' located by '//*[contains(@class,"popup")]/div//button' not found
+
+02-01-2025T21:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+02-01-2025T21:16:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:16:14 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+02-01-2025T21:16:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:16:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+02-01-2025T21:16:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:16:18 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+02-01-2025T21:16:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:16:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:16:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='popup-member']//div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-01-2025T21:16:31 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/component/close_popup_button' located by '//*[@id='popup-member']//div/span' not found
+
+02-01-2025T21:16:31 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+02-01-2025T21:16:31 - [TEST_STEP][PASSED] - selectedProductInfoFisrt = new java.util.HashMap(): null
+
+02-01-2025T21:16:31 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/pages/home_page/product_section_index", ["section-pos":1, "index":2]), 10): Scroll to object 'Object Repository/pages/home_page/product_section_index' successfully
+
+02-01-2025T21:16:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/pages/home_page/product_section_index' successfully
+
+02-01-2025T21:16:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+02-01-2025T21:16:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:16:35 - [TEST_STEP][PASSED] - productName = getText(findTestObject("Object Repository/pages/home_page/product_name_section_index", ["section-pos":1, "index":2])): Text of object 'Object Repository/pages/home_page/product_name_section_index' is: 'Quần Jogger Essential Fleece'
+
+02-01-2025T21:16:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/pages/home_page/product_name_section_index' is: 'Quần Jogger Essential Fleece'
+
+02-01-2025T21:16:35 - [TEST_STEP][PASSED] - selectedProductInfoFisrt.put("name", productName): null
+
+02-01-2025T21:16:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/product_color_option_pos", ["section-pos":1, "index-pro-pos":2, "color-pos":1])): Object: 'Object Repository/pages/home_page/product_color_option_pos' is clicked on
+
+02-01-2025T21:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_color_option_pos' is clicked on
+
+02-01-2025T21:16:35 - [TEST_STEP][PASSED] - selectedColor = getAttribute(findTestObject("Object Repository/pages/home_page/product_color_option_pos", ["section-pos":1, "index-pro-pos":2, "color-pos":1]), "title"): Attribute 'title' of object 'Object Repository/pages/home_page/product_color_option_pos' is: 'Đen'
+
+02-01-2025T21:16:35 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/pages/home_page/product_color_option_pos' is: 'Đen'
+
+02-01-2025T21:16:35 - [TEST_STEP][PASSED] - selectedProductInfoFisrt.put("color", selectedColor): null
+
+02-01-2025T21:16:35 - [TEST_STEP][PASSED] - selectedSize = getAttribute(findTestObject("Object Repository/pages/home_page/product_size_option_pos", ["section-pos":1, "index-pro-pos":2, "size-pos":1]), "innerText"): Attribute 'innerText' of object 'Object Repository/pages/home_page/product_size_option_pos' is: 'S'
+
+02-01-2025T21:16:35 - [MESSAGE][PASSED] - Attribute 'innerText' of object 'Object Repository/pages/home_page/product_size_option_pos' is: 'S'
+
+02-01-2025T21:16:35 - [TEST_STEP][PASSED] - selectedProductInfoFisrt.put("size", selectedSize): null
+
+02-01-2025T21:16:35 - [TEST_STEP][PASSED] - logInfo(selectedProductInfoFisrt.toString()): [color:Đen, size:S, name:Quần Jogger Essential Fleece]
+
+02-01-2025T21:16:35 - [MESSAGE][INFO] - [color:Đen, size:S, name:Quần Jogger Essential Fleece]
+
+02-01-2025T21:16:35 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/pages/home_page/product_section_index", ["section-pos":1, "index":2])): Object: 'Object Repository/pages/home_page/product_section_index' is hovered
+
+02-01-2025T21:16:35 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_section_index' is hovered
+
+02-01-2025T21:16:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+02-01-2025T21:16:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+02-01-2025T21:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/product_size_option_pos", ["section-pos":1, "index-pro-pos":2, "size-pos":1])): Object: 'Object Repository/pages/home_page/product_size_option_pos' is clicked on
+
+02-01-2025T21:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_size_option_pos' is clicked on
+
+02-01-2025T21:16:41 - [TEST_STEP][PASSED] - common.UtilKeyword.handleToastMessage("Đã thêm vào giỏ hàng!", 60): common.UtilKeyword.handleToastMessage is PASSED
+
+02-01-2025T21:16:42 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class_contains_class' is visible
+
+02-01-2025T21:16:42 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class_contains_class' is: 'Đã thêm vào giỏ hàng!'
+
+02-01-2025T21:16:42 - [MESSAGE][INFO] - Hanlde Toast Message successfully: Đã thêm vào giỏ hàng!
+
+02-01-2025T21:16:42 - [MESSAGE][PASSED] - common.UtilKeyword.handleToastMessage is PASSED
+
+02-01-2025T21:16:42 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("added_first_product"): common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:16:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC001\added_first_product_02012025 211643.png]]
+
+02-01-2025T21:16:43 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:16:43 - [TEST_STEP][PASSED] - selectedProductInfoSecond = new java.util.HashMap(): null
+
+02-01-2025T21:16:43 - [TEST_STEP][PASSED] - productName = getText(findTestObject("Object Repository/pages/home_page/product_name_section_index", ["section-pos":1, "index":3])): Text of object 'Object Repository/pages/home_page/product_name_section_index' is: 'Áo Sweater French Terry Oversize'
+
+02-01-2025T21:16:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/pages/home_page/product_name_section_index' is: 'Áo Sweater French Terry Oversize'
+
+02-01-2025T21:16:43 - [TEST_STEP][PASSED] - selectedProductInfoSecond.put("name", productName): null
+
+02-01-2025T21:16:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/product_color_option_pos", ["section-pos":1, "index-pro-pos":3, "color-pos":1])): Object: 'Object Repository/pages/home_page/product_color_option_pos' is clicked on
+
+02-01-2025T21:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_color_option_pos' is clicked on
+
+02-01-2025T21:16:43 - [TEST_STEP][PASSED] - selectedColor = getAttribute(findTestObject("Object Repository/pages/home_page/product_color_option_pos", ["section-pos":1, "index-pro-pos":3, "color-pos":1]), "title"): Attribute 'title' of object 'Object Repository/pages/home_page/product_color_option_pos' is: 'Đen'
+
+02-01-2025T21:16:44 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/pages/home_page/product_color_option_pos' is: 'Đen'
+
+02-01-2025T21:16:44 - [TEST_STEP][PASSED] - selectedProductInfoSecond.put("color", selectedColor): null
+
+02-01-2025T21:16:44 - [TEST_STEP][PASSED] - selectedSize = getAttribute(findTestObject("Object Repository/pages/home_page/product_size_option_pos", ["section-pos":1, "index-pro-pos":3, "size-pos":1]), "innerText"): Attribute 'innerText' of object 'Object Repository/pages/home_page/product_size_option_pos' is: 'S'
+
+02-01-2025T21:16:44 - [MESSAGE][PASSED] - Attribute 'innerText' of object 'Object Repository/pages/home_page/product_size_option_pos' is: 'S'
+
+02-01-2025T21:16:44 - [TEST_STEP][PASSED] - selectedProductInfoSecond.put("size", selectedSize): null
+
+02-01-2025T21:16:44 - [TEST_STEP][PASSED] - logInfo(selectedProductInfoSecond.toString()): [color:Đen, size:S, name:Áo Sweater French Terry Oversize]
+
+02-01-2025T21:16:44 - [MESSAGE][INFO] - [color:Đen, size:S, name:Áo Sweater French Terry Oversize]
+
+02-01-2025T21:16:44 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/pages/home_page/product_section_index", ["section-pos":1, "index":3])): Object: 'Object Repository/pages/home_page/product_section_index' is hovered
+
+02-01-2025T21:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_section_index' is hovered
+
+02-01-2025T21:16:44 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+02-01-2025T21:16:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+02-01-2025T21:16:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/product_size_option_pos", ["section-pos":1, "index-pro-pos":3, "size-pos":1])): Object: 'Object Repository/pages/home_page/product_size_option_pos' is clicked on
+
+02-01-2025T21:16:49 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_size_option_pos' is clicked on
+
+02-01-2025T21:16:49 - [TEST_STEP][PASSED] - common.UtilKeyword.handleToastMessage("Đã thêm vào giỏ hàng!", 60): common.UtilKeyword.handleToastMessage is PASSED
+
+02-01-2025T21:16:52 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class_contains_class' is visible
+
+02-01-2025T21:16:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class_contains_class' is: 'Đã thêm vào giỏ hàng!'
+
+02-01-2025T21:16:52 - [MESSAGE][INFO] - Hanlde Toast Message successfully: Đã thêm vào giỏ hàng!
+
+02-01-2025T21:16:52 - [MESSAGE][PASSED] - common.UtilKeyword.handleToastMessage is PASSED
+
+02-01-2025T21:16:52 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("added_second_product"): common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:16:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC001\added_second_product_02012025 211652.png]]
+
+02-01-2025T21:16:52 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:16:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/icon/cart_icon")): Object: 'Object Repository/common/icon/cart_icon' is clicked on
+
+02-01-2025T21:17:00 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/cart_icon' is clicked on
+
+02-01-2025T21:17:00 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+02-01-2025T21:17:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:17:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:17:03 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+02-01-2025T21:17:03 - [TEST_STEP][PASSED] - addedProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+02-01-2025T21:17:03 - [TEST_STEP][PASSED] - addedProduct.addProperty("xpath", EQUALS, "//*[*[text()='" + selectedProductInfoFisrt.get("name") + "']]/following-sibling::div"): null
+
+02-01-2025T21:17:03 - [TEST_STEP][PASSED] - verifyElementVisible(addedProduct): Object '' is visible
+
+02-01-2025T21:17:03 - [MESSAGE][PASSED] - Object '' is visible
+
+02-01-2025T21:17:03 - [TEST_STEP][PASSED] - logInfo(getText(addedProduct)): Đen / S
+
+02-01-2025T21:17:03 - [MESSAGE][PASSED] - Text of object '' is: 'Đen / S'
+
+02-01-2025T21:17:03 - [MESSAGE][INFO] - Đen / S
+
+02-01-2025T21:17:03 - [TEST_STEP][PASSED] - if (getText(addedProduct).contains(selectedProductInfoFisrt.get("color") + " / " + selectedProductInfoFisrt.get("size"))): null
+
+02-01-2025T21:17:03 - [MESSAGE][PASSED] - Text of object '' is: 'Đen / S'
+
+02-01-2025T21:17:03 - [TEST_STEP][PASSED] - logInfo("Add first product to cart successfully"): Add first product to cart successfully
+
+02-01-2025T21:17:03 - [MESSAGE][INFO] - Add first product to cart successfully
+
+02-01-2025T21:17:03 - [TEST_STEP][PASSED] - addedProduct.addProperty("xpath", EQUALS, "//*[*[text()='" + selectedProductInfoSecond.get("name") + "']]/following-sibling::div"): null
+
+02-01-2025T21:17:03 - [TEST_STEP][PASSED] - verifyElementVisible(addedProduct): Object '' is visible
+
+02-01-2025T21:17:03 - [MESSAGE][PASSED] - Object '' is visible
+
+02-01-2025T21:17:03 - [TEST_STEP][PASSED] - logInfo(getText(addedProduct)): Đen / S
+
+02-01-2025T21:17:04 - [MESSAGE][PASSED] - Text of object '' is: 'Đen / S'
+
+02-01-2025T21:17:04 - [MESSAGE][INFO] - Đen / S
+
+02-01-2025T21:17:04 - [TEST_STEP][PASSED] - if (getText(addedProduct).contains(selectedProductInfoSecond.get("color") + " / " + selectedProductInfoSecond.get("size"))): null
+
+02-01-2025T21:17:04 - [MESSAGE][PASSED] - Text of object '' is: 'Đen / S'
+
+02-01-2025T21:17:04 - [TEST_STEP][PASSED] - logInfo("Add second product to cart successfully"): Add second product to cart successfully
+
+02-01-2025T21:17:04 - [MESSAGE][INFO] - Add second product to cart successfully
+
+02-01-2025T21:17:04 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("verified_product_detail_page"): common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:17:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC001\verified_product_detail_page_02012025 211704.png]]
+
+02-01-2025T21:17:04 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:17:04 - [TEST_STEP][PASSED] - product.ProductDetail.removeAllProductFromCart(): product.ProductDetail.removeAllProductFromCart is PASSED
+
+02-01-2025T21:17:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:17:06 - [MESSAGE][PASSED] - Object: 'Object Repository/common/span/span_contains_text' is clicked on
+
+02-01-2025T21:17:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_contains_text' is clicked on
+
+02-01-2025T21:17:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:17:11 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class_contains_class' is visible
+
+02-01-2025T21:17:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class_contains_class' is: 'Đã xóa giỏ hàng!'
+
+02-01-2025T21:17:11 - [MESSAGE][INFO] - Hanlde Toast Message successfully: Đã xóa giỏ hàng!
+
+02-01-2025T21:17:11 - [MESSAGE][PASSED] - product.ProductDetail.removeAllProductFromCart is PASSED
+
+02-01-2025T21:17:11 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+02-01-2025T21:17:11 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+02-01-2025T21:17:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:17:16 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+02-01-2025T21:17:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:17:17 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+02-01-2025T21:17:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:17:19 - [MESSAGE][PASSED] - Browser is closed
+
+02-01-2025T21:17:19 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-004/TC002-Add product to cart the product detail page" time="87.761" classname="Test Cases/COOLMATE-004/TC002-Add product to cart the product detail page" status="PASSED">
+         <system-out><![CDATA[02-01-2025T21:17:19 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-004/TC002-Add product to cart the product detail page: Test Cases/COOLMATE-004/TC002-Add product to cart the product detail page
+
+02-01-2025T21:17:19 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+02-01-2025T21:17:19 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+02-01-2025T21:17:19 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao): common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+02-01-2025T21:17:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:17:25 - [MESSAGE][PASSED] - Current window maximized
+
+02-01-2025T21:17:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:17:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[contains(@class,"popup")]/div//button'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-01-2025T21:17:34 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/pages/home_page/ads_close_button' located by '//*[contains(@class,"popup")]/div//button' not found
+
+02-01-2025T21:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+02-01-2025T21:17:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:17:37 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+02-01-2025T21:17:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:17:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+02-01-2025T21:17:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+02-01-2025T21:17:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:17:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:17:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='popup-member']//div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-01-2025T21:17:54 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/component/close_popup_button' located by '//*[@id='popup-member']//div/span' not found
+
+02-01-2025T21:17:54 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+02-01-2025T21:17:54 - [TEST_STEP][PASSED] - selectedProduct = new java.util.HashMap(): null
+
+02-01-2025T21:17:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/pages/home_page/product_section_index", ["section-pos":1, "index":2]), 10): Scroll to object 'Object Repository/pages/home_page/product_section_index' successfully
+
+02-01-2025T21:17:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/pages/home_page/product_section_index' successfully
+
+02-01-2025T21:17:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+02-01-2025T21:17:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:17:57 - [TEST_STEP][PASSED] - productName = getText(findTestObject("Object Repository/pages/home_page/product_name_section_index", ["section-pos":1, "index":2])): Text of object 'Object Repository/pages/home_page/product_name_section_index' is: 'Quần Jogger Essential Fleece'
+
+02-01-2025T21:17:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/pages/home_page/product_name_section_index' is: 'Quần Jogger Essential Fleece'
+
+02-01-2025T21:17:58 - [TEST_STEP][PASSED] - selectedProduct.put("name", productName): null
+
+02-01-2025T21:17:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/product_color_option_pos", ["section-pos":1, "index-pro-pos":2, "color-pos":1])): Object: 'Object Repository/pages/home_page/product_color_option_pos' is clicked on
+
+02-01-2025T21:17:58 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_color_option_pos' is clicked on
+
+02-01-2025T21:17:58 - [TEST_STEP][PASSED] - selectedColor = getAttribute(findTestObject("Object Repository/pages/home_page/product_color_option_pos", ["section-pos":1, "index-pro-pos":2, "color-pos":1]), "title"): Attribute 'title' of object 'Object Repository/pages/home_page/product_color_option_pos' is: 'Đen'
+
+02-01-2025T21:17:58 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/pages/home_page/product_color_option_pos' is: 'Đen'
+
+02-01-2025T21:17:58 - [TEST_STEP][PASSED] - selectedProduct.put("color", selectedColor): null
+
+02-01-2025T21:17:58 - [TEST_STEP][PASSED] - selectedSize = getAttribute(findTestObject("Object Repository/pages/home_page/product_size_option_pos", ["section-pos":1, "index-pro-pos":2, "size-pos":1]), "innerText"): Attribute 'innerText' of object 'Object Repository/pages/home_page/product_size_option_pos' is: 'S'
+
+02-01-2025T21:17:58 - [MESSAGE][PASSED] - Attribute 'innerText' of object 'Object Repository/pages/home_page/product_size_option_pos' is: 'S'
+
+02-01-2025T21:17:58 - [TEST_STEP][PASSED] - selectedProduct.put("size", selectedSize): null
+
+02-01-2025T21:17:58 - [TEST_STEP][PASSED] - logInfo(selectedProduct.toString()): [color:Đen, size:S, name:Quần Jogger Essential Fleece]
+
+02-01-2025T21:17:58 - [MESSAGE][INFO] - [color:Đen, size:S, name:Quần Jogger Essential Fleece]
+
+02-01-2025T21:17:58 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/pages/home_page/product_section_index", ["section-pos":1, "index":2])): Object: 'Object Repository/pages/home_page/product_section_index' is hovered
+
+02-01-2025T21:17:58 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_section_index' is hovered
+
+02-01-2025T21:17:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+02-01-2025T21:18:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+02-01-2025T21:18:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/product_size_option_pos", ["section-pos":1, "index-pro-pos":2, "size-pos":1])): Object: 'Object Repository/pages/home_page/product_size_option_pos' is clicked on
+
+02-01-2025T21:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_size_option_pos' is clicked on
+
+02-01-2025T21:18:04 - [TEST_STEP][PASSED] - common.UtilKeyword.handleToastMessage("Đã thêm vào giỏ hàng!", 60): common.UtilKeyword.handleToastMessage is PASSED
+
+02-01-2025T21:18:05 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class_contains_class' is visible
+
+02-01-2025T21:18:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class_contains_class' is: 'Đã thêm vào giỏ hàng!'
+
+02-01-2025T21:18:05 - [MESSAGE][INFO] - Hanlde Toast Message successfully: Đã thêm vào giỏ hàng!
+
+02-01-2025T21:18:05 - [MESSAGE][PASSED] - common.UtilKeyword.handleToastMessage is PASSED
+
+02-01-2025T21:18:05 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("added_first_product"): common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:18:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC002\added_first_product_02012025 211805.png]]
+
+02-01-2025T21:18:05 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:18:05 - [TEST_STEP][PASSED] - "============Go to the product detail page to add product to cart of the same color and size that was previously added and verify added product information in cart==========": null
+
+02-01-2025T21:18:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/product_section_index", ["section-pos":1, "index":2])): Object: 'Object Repository/pages/home_page/product_section_index' is clicked on
+
+02-01-2025T21:18:10 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_section_index' is clicked on
+
+02-01-2025T21:18:10 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+02-01-2025T21:18:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:18:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:18:13 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+02-01-2025T21:18:13 - [TEST_STEP][PASSED] - logInfo(product.ProductDetail.getProductName()): Quần Jogger Essential Fleece
+
+02-01-2025T21:18:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/pages/product_detail_page/product_name' is: 'Quần Jogger Essential Fleece
+Mềm mại và Ấm áp'
+
+02-01-2025T21:18:13 - [MESSAGE][PASSED] - product.ProductDetail.getProductName is PASSED
+
+02-01-2025T21:18:13 - [MESSAGE][INFO] - Quần Jogger Essential Fleece
+
+02-01-2025T21:18:13 - [TEST_STEP][PASSED] - logInfo(selectedProduct.get("name")): Quần Jogger Essential Fleece
+
+02-01-2025T21:18:13 - [MESSAGE][INFO] - Quần Jogger Essential Fleece
+
+02-01-2025T21:18:13 - [TEST_STEP][PASSED] - if (get("name").equals(product.ProductDetail.getProductName())): null
+
+02-01-2025T21:18:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/pages/product_detail_page/product_name' is: 'Quần Jogger Essential Fleece
+Mềm mại và Ấm áp'
+
+02-01-2025T21:18:13 - [MESSAGE][PASSED] - product.ProductDetail.getProductName is PASSED
+
+02-01-2025T21:18:13 - [TEST_STEP][PASSED] - logInfo("The product is previously added product"): The product is previously added product
+
+02-01-2025T21:18:13 - [MESSAGE][INFO] - The product is previously added product
+
+02-01-2025T21:18:13 - [TEST_STEP][PASSED] - product.ProductDetail.selectProductColorWithPosition(1): product.ProductDetail.selectProductColorWithPosition is PASSED
+
+02-01-2025T21:18:13 - [MESSAGE][PASSED] - Object 'Object Repository/pages/product_detail_page/color_with_pos' is visible
+
+02-01-2025T21:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/product_detail_page/color_with_pos' is clicked on
+
+02-01-2025T21:18:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:18:16 - [MESSAGE][PASSED] - product.ProductDetail.selectProductColorWithPosition is PASSED
+
+02-01-2025T21:18:16 - [TEST_STEP][PASSED] - product.ProductDetail.selectProductSizeWithPosition(1): product.ProductDetail.selectProductSizeWithPosition is PASSED
+
+02-01-2025T21:18:16 - [MESSAGE][PASSED] - Object 'Object Repository/pages/product_detail_page/size_with_pos' is visible
+
+02-01-2025T21:18:16 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/product_detail_page/size_with_pos' is clicked on
+
+02-01-2025T21:18:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:18:18 - [MESSAGE][PASSED] - product.ProductDetail.selectProductSizeWithPosition is PASSED
+
+02-01-2025T21:18:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/product_detail_page/add_to_cart_button")): Object: 'Object Repository/pages/product_detail_page/add_to_cart_button' is clicked on
+
+02-01-2025T21:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/product_detail_page/add_to_cart_button' is clicked on
+
+02-01-2025T21:18:19 - [TEST_STEP][PASSED] - common.UtilKeyword.handleToastMessage("Đã thêm vào giỏ hàng!", 60): common.UtilKeyword.handleToastMessage is PASSED
+
+02-01-2025T21:18:20 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class_contains_class' is visible
+
+02-01-2025T21:18:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class_contains_class' is: 'Đã thêm vào giỏ hàng!'
+
+02-01-2025T21:18:20 - [MESSAGE][INFO] - Hanlde Toast Message successfully: Đã thêm vào giỏ hàng!
+
+02-01-2025T21:18:20 - [MESSAGE][PASSED] - common.UtilKeyword.handleToastMessage is PASSED
+
+02-01-2025T21:18:20 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("added_from_product_detail_page"): common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:18:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC002\added_from_product_detail_page_02012025 211820.png]]
+
+02-01-2025T21:18:20 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:18:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/icon/cart_icon")): Object: 'Object Repository/common/icon/cart_icon' is clicked on
+
+02-01-2025T21:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/cart_icon' is clicked on
+
+02-01-2025T21:18:28 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+02-01-2025T21:18:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:18:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:18:31 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+02-01-2025T21:18:31 - [TEST_STEP][PASSED] - addedProductProperties = new com.kms.katalon.core.testobject.TestObject(): null
+
+02-01-2025T21:18:31 - [TEST_STEP][PASSED] - addedProductProperties.addProperty("xpath", EQUALS, "//*[*[text()='" + selectedProduct.get("name") + "']]/following-sibling::div"): null
+
+02-01-2025T21:18:31 - [TEST_STEP][PASSED] - verifyElementVisible(addedProductProperties): Object '' is visible
+
+02-01-2025T21:18:31 - [MESSAGE][PASSED] - Object '' is visible
+
+02-01-2025T21:18:31 - [TEST_STEP][PASSED] - logInfo(getText(addedProductProperties)): Đen / S
+
+02-01-2025T21:18:31 - [MESSAGE][PASSED] - Text of object '' is: 'Đen / S'
+
+02-01-2025T21:18:31 - [MESSAGE][INFO] - Đen / S
+
+02-01-2025T21:18:31 - [TEST_STEP][PASSED] - if (getText(addedProductProperties).contains(selectedProduct.get("color") + " / " + selectedProduct.get("size"))): null
+
+02-01-2025T21:18:32 - [MESSAGE][PASSED] - Text of object '' is: 'Đen / S'
+
+02-01-2025T21:18:32 - [TEST_STEP][PASSED] - logInfo("Add first product to cart successfully"): Add first product to cart successfully
+
+02-01-2025T21:18:32 - [MESSAGE][INFO] - Add first product to cart successfully
+
+02-01-2025T21:18:32 - [TEST_STEP][PASSED] - totalAddedQuantity = 2: null
+
+02-01-2025T21:18:32 - [TEST_STEP][PASSED] - actualQuantity = getAttribute(findTestObject("Object Repository/pages/product_detail_page/quantity_product", ["product-name":selectedProduct.get("name"), "same-product-order":1]), "_value"): Attribute '_value' of object 'Object Repository/pages/product_detail_page/quantity_product' is: '2'
+
+02-01-2025T21:18:32 - [MESSAGE][PASSED] - Attribute '_value' of object 'Object Repository/pages/product_detail_page/quantity_product' is: '2'
+
+02-01-2025T21:18:32 - [TEST_STEP][PASSED] - if (actualQuantity.equals(totalAddedQuantity)): common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:18:32 - [TEST_STEP][PASSED] - logInfo("Quantity of added products is correctly updated in cart"): Quantity of added products is correctly updated in cart
+
+02-01-2025T21:18:32 - [MESSAGE][INFO] - Quantity of added products is correctly updated in cart
+
+02-01-2025T21:18:32 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("info_added_product_matches_in_cart"): common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:18:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC002\info_added_product_matches_in_cart_02012025 211832.png]]
+
+02-01-2025T21:18:32 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:18:32 - [TEST_STEP][PASSED] - product.ProductDetail.removeAllProductFromCart(): product.ProductDetail.removeAllProductFromCart is PASSED
+
+02-01-2025T21:18:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:18:34 - [MESSAGE][PASSED] - Object: 'Object Repository/common/span/span_contains_text' is clicked on
+
+02-01-2025T21:18:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:18:36 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_contains_text' is clicked on
+
+02-01-2025T21:18:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:18:38 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class_contains_class' is visible
+
+02-01-2025T21:18:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class_contains_class' is: 'Đã xóa giỏ hàng!'
+
+02-01-2025T21:18:38 - [MESSAGE][INFO] - Hanlde Toast Message successfully: Đã xóa giỏ hàng!
+
+02-01-2025T21:18:38 - [MESSAGE][PASSED] - product.ProductDetail.removeAllProductFromCart is PASSED
+
+02-01-2025T21:18:38 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+02-01-2025T21:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+02-01-2025T21:18:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+02-01-2025T21:18:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:18:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+02-01-2025T21:18:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:18:47 - [MESSAGE][PASSED] - Browser is closed
+
+02-01-2025T21:18:47 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-004/TC003-Add product to cart from product page with many options" time="86.462" classname="Test Cases/COOLMATE-004/TC003-Add product to cart from product page with many options" status="PASSED">
+         <system-out><![CDATA[02-01-2025T21:18:47 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-004/TC003-Add product to cart from product page with many options: Test Cases/COOLMATE-004/TC003-Add product to cart from product page with many options
+
+02-01-2025T21:18:47 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+02-01-2025T21:18:47 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+02-01-2025T21:18:47 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao): common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+02-01-2025T21:18:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:18:53 - [MESSAGE][PASSED] - Current window maximized
+
+02-01-2025T21:18:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:19:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[contains(@class,"popup")]/div//button'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-01-2025T21:19:02 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/pages/home_page/ads_close_button' located by '//*[contains(@class,"popup")]/div//button' not found
+
+02-01-2025T21:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+02-01-2025T21:19:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:19:05 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+02-01-2025T21:19:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:19:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+02-01-2025T21:19:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:19:10 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+02-01-2025T21:19:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:19:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:19:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='popup-member']//div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-01-2025T21:19:23 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/component/close_popup_button' located by '//*[@id='popup-member']//div/span' not found
+
+02-01-2025T21:19:23 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+02-01-2025T21:19:23 - [TEST_STEP][PASSED] - "=============Add a product with many color and size pairs from the product page and verify added product in cart===================": null
+
+02-01-2025T21:19:23 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/pages/home_page/product_section_index", ["section-pos":1, "index":2]), 10): Scroll to object 'Object Repository/pages/home_page/product_section_index' successfully
+
+02-01-2025T21:19:23 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/pages/home_page/product_section_index' successfully
+
+02-01-2025T21:19:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+02-01-2025T21:19:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:19:26 - [TEST_STEP][PASSED] - selectedFirstOption = new java.util.HashMap(): null
+
+02-01-2025T21:19:26 - [TEST_STEP][PASSED] - productName = getText(findTestObject("Object Repository/pages/home_page/product_name_section_index", ["section-pos":1, "index":2])): Text of object 'Object Repository/pages/home_page/product_name_section_index' is: 'Quần Jogger Essential Fleece'
+
+02-01-2025T21:19:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/pages/home_page/product_name_section_index' is: 'Quần Jogger Essential Fleece'
+
+02-01-2025T21:19:26 - [TEST_STEP][PASSED] - selectedFirstOption.put("name", productName): null
+
+02-01-2025T21:19:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/product_color_option_pos", ["section-pos":1, "index-pro-pos":2, "color-pos":1])): Object: 'Object Repository/pages/home_page/product_color_option_pos' is clicked on
+
+02-01-2025T21:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_color_option_pos' is clicked on
+
+02-01-2025T21:19:26 - [TEST_STEP][PASSED] - selectedColor = getAttribute(findTestObject("Object Repository/pages/home_page/product_color_option_pos", ["section-pos":1, "index-pro-pos":2, "color-pos":1]), "title"): Attribute 'title' of object 'Object Repository/pages/home_page/product_color_option_pos' is: 'Đen'
+
+02-01-2025T21:19:27 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/pages/home_page/product_color_option_pos' is: 'Đen'
+
+02-01-2025T21:19:27 - [TEST_STEP][PASSED] - selectedFirstOption.put("color", selectedColor): null
+
+02-01-2025T21:19:27 - [TEST_STEP][PASSED] - selectedSize = getAttribute(findTestObject("Object Repository/pages/home_page/product_size_option_pos", ["section-pos":1, "index-pro-pos":2, "size-pos":1]), "innerText"): Attribute 'innerText' of object 'Object Repository/pages/home_page/product_size_option_pos' is: 'S'
+
+02-01-2025T21:19:27 - [MESSAGE][PASSED] - Attribute 'innerText' of object 'Object Repository/pages/home_page/product_size_option_pos' is: 'S'
+
+02-01-2025T21:19:27 - [TEST_STEP][PASSED] - selectedFirstOption.put("size", selectedSize): null
+
+02-01-2025T21:19:27 - [TEST_STEP][PASSED] - logInfo(selectedFirstOption.toString()): [color:Đen, size:S, name:Quần Jogger Essential Fleece]
+
+02-01-2025T21:19:27 - [MESSAGE][INFO] - [color:Đen, size:S, name:Quần Jogger Essential Fleece]
+
+02-01-2025T21:19:27 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/pages/home_page/product_section_index", ["section-pos":1, "index":2])): Object: 'Object Repository/pages/home_page/product_section_index' is hovered
+
+02-01-2025T21:19:27 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_section_index' is hovered
+
+02-01-2025T21:19:27 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+02-01-2025T21:19:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+02-01-2025T21:19:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/product_size_option_pos", ["section-pos":1, "index-pro-pos":2, "size-pos":1])): Object: 'Object Repository/pages/home_page/product_size_option_pos' is clicked on
+
+02-01-2025T21:19:32 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_size_option_pos' is clicked on
+
+02-01-2025T21:19:32 - [TEST_STEP][PASSED] - common.UtilKeyword.handleToastMessage("Đã thêm vào giỏ hàng!", 60): common.UtilKeyword.handleToastMessage is PASSED
+
+02-01-2025T21:19:34 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class_contains_class' is visible
+
+02-01-2025T21:19:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class_contains_class' is: 'Đã thêm vào giỏ hàng!'
+
+02-01-2025T21:19:34 - [MESSAGE][INFO] - Hanlde Toast Message successfully: Đã thêm vào giỏ hàng!
+
+02-01-2025T21:19:34 - [MESSAGE][PASSED] - common.UtilKeyword.handleToastMessage is PASSED
+
+02-01-2025T21:19:34 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("added_first_option"): common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:19:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC003\added_first_option_02012025 211934.png]]
+
+02-01-2025T21:19:34 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:19:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+02-01-2025T21:19:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:19:37 - [TEST_STEP][PASSED] - selectedSecondOption = new java.util.HashMap(): null
+
+02-01-2025T21:19:37 - [TEST_STEP][PASSED] - selectedSecondOption.put("name", productName): null
+
+02-01-2025T21:19:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/product_color_option_pos", ["section-pos":1, "index-pro-pos":2, "color-pos":2])): Object: 'Object Repository/pages/home_page/product_color_option_pos' is clicked on
+
+02-01-2025T21:19:37 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_color_option_pos' is clicked on
+
+02-01-2025T21:19:37 - [TEST_STEP][PASSED] - selectedColor = getAttribute(findTestObject("Object Repository/pages/home_page/product_color_option_pos", ["section-pos":1, "index-pro-pos":2, "color-pos":2]), "title"): Attribute 'title' of object 'Object Repository/pages/home_page/product_color_option_pos' is: 'Xám nhạt'
+
+02-01-2025T21:19:38 - [MESSAGE][PASSED] - Attribute 'title' of object 'Object Repository/pages/home_page/product_color_option_pos' is: 'Xám nhạt'
+
+02-01-2025T21:19:38 - [TEST_STEP][PASSED] - selectedSecondOption.put("color", selectedColor): null
+
+02-01-2025T21:19:38 - [TEST_STEP][PASSED] - selectedSize = getAttribute(findTestObject("Object Repository/pages/home_page/product_size_option_pos", ["section-pos":1, "index-pro-pos":2, "size-pos":2]), "innerText"): Attribute 'innerText' of object 'Object Repository/pages/home_page/product_size_option_pos' is: 'M'
+
+02-01-2025T21:19:38 - [MESSAGE][PASSED] - Attribute 'innerText' of object 'Object Repository/pages/home_page/product_size_option_pos' is: 'M'
+
+02-01-2025T21:19:38 - [TEST_STEP][PASSED] - selectedSecondOption.put("size", selectedSize): null
+
+02-01-2025T21:19:38 - [TEST_STEP][PASSED] - logInfo(selectedSecondOption.toString()): [color:Xám nhạt, size:M, name:Quần Jogger Essential Fleece]
+
+02-01-2025T21:19:38 - [MESSAGE][INFO] - [color:Xám nhạt, size:M, name:Quần Jogger Essential Fleece]
+
+02-01-2025T21:19:38 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/pages/home_page/product_section_index", ["section-pos":1, "index":2])): Object: 'Object Repository/pages/home_page/product_section_index' is hovered
+
+02-01-2025T21:19:38 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_section_index' is hovered
+
+02-01-2025T21:19:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+02-01-2025T21:19:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+02-01-2025T21:19:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/product_size_option_pos", ["section-pos":1, "index-pro-pos":2, "size-pos":2])): Object: 'Object Repository/pages/home_page/product_size_option_pos' is clicked on
+
+02-01-2025T21:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_size_option_pos' is clicked on
+
+02-01-2025T21:19:43 - [TEST_STEP][PASSED] - common.UtilKeyword.handleToastMessage("Đã thêm vào giỏ hàng!", 60): common.UtilKeyword.handleToastMessage is PASSED
+
+02-01-2025T21:19:46 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class_contains_class' is visible
+
+02-01-2025T21:19:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class_contains_class' is: 'Đã thêm vào giỏ hàng!'
+
+02-01-2025T21:19:46 - [MESSAGE][INFO] - Hanlde Toast Message successfully: Đã thêm vào giỏ hàng!
+
+02-01-2025T21:19:46 - [MESSAGE][PASSED] - common.UtilKeyword.handleToastMessage is PASSED
+
+02-01-2025T21:19:46 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("added_second_option"): common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:19:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC003\added_second_option_02012025 211946.png]]
+
+02-01-2025T21:19:46 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:19:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/icon/cart_icon")): Object: 'Object Repository/common/icon/cart_icon' is clicked on
+
+02-01-2025T21:19:54 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/cart_icon' is clicked on
+
+02-01-2025T21:19:54 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+02-01-2025T21:19:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:19:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:19:57 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+02-01-2025T21:19:57 - [TEST_STEP][PASSED] - addedProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+02-01-2025T21:19:57 - [TEST_STEP][PASSED] - addedProduct.addProperty("xpath", EQUALS, "//*[*[text()='" + selectedFirstOption.get("name") + "']]/following-sibling::div"): null
+
+02-01-2025T21:19:57 - [TEST_STEP][PASSED] - verifyElementVisible(addedProduct): Object '' is visible
+
+02-01-2025T21:19:57 - [MESSAGE][PASSED] - Object '' is visible
+
+02-01-2025T21:19:57 - [TEST_STEP][PASSED] - logInfo(getText(addedProduct)): Đen / S
+
+02-01-2025T21:19:57 - [MESSAGE][PASSED] - Text of object '' is: 'Đen / S'
+
+02-01-2025T21:19:57 - [MESSAGE][INFO] - Đen / S
+
+02-01-2025T21:19:57 - [TEST_STEP][PASSED] - if (getText(addedProduct).contains(selectedFirstOption.get("color") + " / " + selectedFirstOption.get("size"))): null
+
+02-01-2025T21:19:57 - [MESSAGE][PASSED] - Text of object '' is: 'Đen / S'
+
+02-01-2025T21:19:57 - [TEST_STEP][PASSED] - markPassed("Add product with first option to cart successfully"): Add product with first option to cart successfully
+
+02-01-2025T21:19:57 - [MESSAGE][PASSED] - Add product with first option to cart successfully
+
+02-01-2025T21:19:57 - [TEST_STEP][PASSED] - addedProduct.addProperty("xpath", EQUALS, "(//*[*[text()='" + selectedSecondOption.get("name") + "']]/following-sibling::div)[2]"): null
+
+02-01-2025T21:19:57 - [TEST_STEP][PASSED] - verifyElementVisible(addedProduct): Object '' is visible
+
+02-01-2025T21:19:57 - [MESSAGE][PASSED] - Object '' is visible
+
+02-01-2025T21:19:57 - [TEST_STEP][PASSED] - logInfo(getText(addedProduct)): Xám nhạt / M
+
+02-01-2025T21:19:57 - [MESSAGE][PASSED] - Text of object '' is: 'Xám nhạt / M'
+
+02-01-2025T21:19:57 - [MESSAGE][INFO] - Xám nhạt / M
+
+02-01-2025T21:19:57 - [TEST_STEP][PASSED] - if (getText(addedProduct).contains(selectedSecondOption.get("color") + " / " + selectedSecondOption.get("size"))): null
+
+02-01-2025T21:19:57 - [MESSAGE][PASSED] - Text of object '' is: 'Xám nhạt / M'
+
+02-01-2025T21:19:57 - [TEST_STEP][PASSED] - logInfo("Add product with second option to cart successfully"): Add product with second option to cart successfully
+
+02-01-2025T21:19:57 - [MESSAGE][INFO] - Add product with second option to cart successfully
+
+02-01-2025T21:19:57 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("added_product_multi_option"): common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:19:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC003\added_product_multi_option_02012025 211957.png]]
+
+02-01-2025T21:19:58 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:19:58 - [TEST_STEP][PASSED] - product.ProductDetail.removeAllProductFromCart(): product.ProductDetail.removeAllProductFromCart is PASSED
+
+02-01-2025T21:20:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:20:00 - [MESSAGE][PASSED] - Object: 'Object Repository/common/span/span_contains_text' is clicked on
+
+02-01-2025T21:20:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_contains_text' is clicked on
+
+02-01-2025T21:20:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:20:04 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class_contains_class' is visible
+
+02-01-2025T21:20:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class_contains_class' is: 'Đã xóa giỏ hàng!'
+
+02-01-2025T21:20:04 - [MESSAGE][INFO] - Hanlde Toast Message successfully: Đã xóa giỏ hàng!
+
+02-01-2025T21:20:04 - [MESSAGE][PASSED] - product.ProductDetail.removeAllProductFromCart is PASSED
+
+02-01-2025T21:20:04 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+02-01-2025T21:20:05 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+02-01-2025T21:20:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+02-01-2025T21:20:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:20:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+02-01-2025T21:20:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:20:13 - [MESSAGE][PASSED] - Browser is closed
+
+02-01-2025T21:20:13 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-004/TC004-Add product to cart from product detail page with many options" time="101.48" classname="Test Cases/COOLMATE-004/TC004-Add product to cart from product detail page with many options" status="PASSED">
+         <system-out><![CDATA[02-01-2025T21:20:13 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-004/TC004-Add product to cart from product detail page with many options: Test Cases/COOLMATE-004/TC004-Add product to cart from product detail page with many options
+
+02-01-2025T21:20:13 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+02-01-2025T21:20:13 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+02-01-2025T21:20:13 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao): common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+02-01-2025T21:20:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:20:24 - [MESSAGE][PASSED] - Current window maximized
+
+02-01-2025T21:20:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:20:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[contains(@class,"popup")]/div//button'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-01-2025T21:20:33 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/pages/home_page/ads_close_button' located by '//*[contains(@class,"popup")]/div//button' not found
+
+02-01-2025T21:20:34 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+02-01-2025T21:20:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:20:36 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+02-01-2025T21:20:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:20:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+02-01-2025T21:20:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:20:41 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+02-01-2025T21:20:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:20:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:20:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id='popup-member']//div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+02-01-2025T21:20:54 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/component/close_popup_button' located by '//*[@id='popup-member']//div/span' not found
+
+02-01-2025T21:20:54 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+02-01-2025T21:20:54 - [TEST_STEP][PASSED] - "=============Add a product with many color and size pairs from the product detail page and verify added product in cart=================": null
+
+02-01-2025T21:20:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/pages/home_page/product_section_index", ["section-pos":1, "index":2]), 10): Scroll to object 'Object Repository/pages/home_page/product_section_index' successfully
+
+02-01-2025T21:20:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/pages/home_page/product_section_index' successfully
+
+02-01-2025T21:20:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+02-01-2025T21:20:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:20:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/product_section_index", ["section-pos":1, "index":2])): Object: 'Object Repository/pages/home_page/product_section_index' is clicked on
+
+02-01-2025T21:21:05 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/product_section_index' is clicked on
+
+02-01-2025T21:21:05 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+02-01-2025T21:21:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:21:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:21:08 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+02-01-2025T21:21:08 - [TEST_STEP][PASSED] - product.ProductDetail.selectProductColorWithPosition(1): product.ProductDetail.selectProductColorWithPosition is PASSED
+
+02-01-2025T21:21:08 - [MESSAGE][PASSED] - Object 'Object Repository/pages/product_detail_page/color_with_pos' is visible
+
+02-01-2025T21:21:08 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/product_detail_page/color_with_pos' is clicked on
+
+02-01-2025T21:21:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:21:10 - [MESSAGE][PASSED] - product.ProductDetail.selectProductColorWithPosition is PASSED
+
+02-01-2025T21:21:10 - [TEST_STEP][PASSED] - product.ProductDetail.selectProductSizeWithPosition(1): product.ProductDetail.selectProductSizeWithPosition is PASSED
+
+02-01-2025T21:21:10 - [MESSAGE][PASSED] - Object 'Object Repository/pages/product_detail_page/size_with_pos' is visible
+
+02-01-2025T21:21:11 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/product_detail_page/size_with_pos' is clicked on
+
+02-01-2025T21:21:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:21:13 - [MESSAGE][PASSED] - product.ProductDetail.selectProductSizeWithPosition is PASSED
+
+02-01-2025T21:21:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/product_detail_page/add_to_cart_button")): Object: 'Object Repository/pages/product_detail_page/add_to_cart_button' is clicked on
+
+02-01-2025T21:21:13 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/product_detail_page/add_to_cart_button' is clicked on
+
+02-01-2025T21:21:13 - [TEST_STEP][PASSED] - common.UtilKeyword.handleToastMessage("Đã thêm vào giỏ hàng!", 60): common.UtilKeyword.handleToastMessage is PASSED
+
+02-01-2025T21:21:14 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class_contains_class' is visible
+
+02-01-2025T21:21:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class_contains_class' is: 'Đã thêm vào giỏ hàng!'
+
+02-01-2025T21:21:14 - [MESSAGE][INFO] - Hanlde Toast Message successfully: Đã thêm vào giỏ hàng!
+
+02-01-2025T21:21:14 - [MESSAGE][PASSED] - common.UtilKeyword.handleToastMessage is PASSED
+
+02-01-2025T21:21:14 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("added_product_first_option"): common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:21:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC004\added_product_first_option_02012025 212114.png]]
+
+02-01-2025T21:21:14 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:21:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+02-01-2025T21:21:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:21:18 - [TEST_STEP][PASSED] - selectedFirstOption = new java.util.HashMap(): null
+
+02-01-2025T21:21:18 - [TEST_STEP][PASSED] - selectedFirstOption.put("name", product.ProductDetail.getProductName()): product.ProductDetail.getProductName is PASSED
+
+02-01-2025T21:21:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/pages/product_detail_page/product_name' is: 'Quần Jogger Essential Fleece
+Mềm mại và Ấm áp'
+
+02-01-2025T21:21:18 - [MESSAGE][PASSED] - product.ProductDetail.getProductName is PASSED
+
+02-01-2025T21:21:18 - [TEST_STEP][PASSED] - selectedFirstOption.put("color", product.ProductDetail.getProductColorWithPosition()): product.ProductDetail.getProductColorWithPosition is PASSED
+
+02-01-2025T21:21:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/pages/product_detail_page/color_title' is: 'Đen'
+
+02-01-2025T21:21:18 - [MESSAGE][PASSED] - product.ProductDetail.getProductColorWithPosition is PASSED
+
+02-01-2025T21:21:18 - [TEST_STEP][PASSED] - selectedFirstOption.put("size", product.ProductDetail.getProductSizeWithPosition()): product.ProductDetail.getProductSizeWithPosition is PASSED
+
+02-01-2025T21:21:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/pages/product_detail_page/size_title' is: 'S'
+
+02-01-2025T21:21:18 - [MESSAGE][PASSED] - product.ProductDetail.getProductSizeWithPosition is PASSED
+
+02-01-2025T21:21:18 - [TEST_STEP][PASSED] - product.ProductDetail.selectProductColorWithPosition(2): product.ProductDetail.selectProductColorWithPosition is PASSED
+
+02-01-2025T21:21:18 - [MESSAGE][PASSED] - Object 'Object Repository/pages/product_detail_page/color_with_pos' is visible
+
+02-01-2025T21:21:18 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/product_detail_page/color_with_pos' is clicked on
+
+02-01-2025T21:21:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:21:20 - [MESSAGE][PASSED] - product.ProductDetail.selectProductColorWithPosition is PASSED
+
+02-01-2025T21:21:20 - [TEST_STEP][PASSED] - product.ProductDetail.selectProductSizeWithPosition(2): product.ProductDetail.selectProductSizeWithPosition is PASSED
+
+02-01-2025T21:21:20 - [MESSAGE][PASSED] - Object 'Object Repository/pages/product_detail_page/size_with_pos' is visible
+
+02-01-2025T21:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/product_detail_page/size_with_pos' is clicked on
+
+02-01-2025T21:21:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:21:23 - [MESSAGE][PASSED] - product.ProductDetail.selectProductSizeWithPosition is PASSED
+
+02-01-2025T21:21:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/product_detail_page/add_to_cart_button")): Object: 'Object Repository/pages/product_detail_page/add_to_cart_button' is clicked on
+
+02-01-2025T21:21:23 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/product_detail_page/add_to_cart_button' is clicked on
+
+02-01-2025T21:21:23 - [TEST_STEP][PASSED] - common.UtilKeyword.handleToastMessage("Đã thêm vào giỏ hàng!", 60): common.UtilKeyword.handleToastMessage is PASSED
+
+02-01-2025T21:21:24 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class_contains_class' is visible
+
+02-01-2025T21:21:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class_contains_class' is: 'Đã thêm vào giỏ hàng!'
+
+02-01-2025T21:21:24 - [MESSAGE][INFO] - Hanlde Toast Message successfully: Đã thêm vào giỏ hàng!
+
+02-01-2025T21:21:24 - [MESSAGE][PASSED] - common.UtilKeyword.handleToastMessage is PASSED
+
+02-01-2025T21:21:24 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("added_product_second_option"): common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:21:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC004\added_product_second_option_02012025 212124.png]]
+
+02-01-2025T21:21:24 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:21:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+02-01-2025T21:21:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:21:27 - [TEST_STEP][PASSED] - selectedSecondOption = new java.util.HashMap(): null
+
+02-01-2025T21:21:27 - [TEST_STEP][PASSED] - selectedSecondOption.put("name", product.ProductDetail.getProductName()): product.ProductDetail.getProductName is PASSED
+
+02-01-2025T21:21:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/pages/product_detail_page/product_name' is: 'Quần Jogger Essential Fleece
+Mềm mại và Ấm áp'
+
+02-01-2025T21:21:27 - [MESSAGE][PASSED] - product.ProductDetail.getProductName is PASSED
+
+02-01-2025T21:21:27 - [TEST_STEP][PASSED] - selectedSecondOption.put("color", product.ProductDetail.getProductColorWithPosition()): product.ProductDetail.getProductColorWithPosition is PASSED
+
+02-01-2025T21:21:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/pages/product_detail_page/color_title' is: 'Xám nhạt'
+
+02-01-2025T21:21:27 - [MESSAGE][PASSED] - product.ProductDetail.getProductColorWithPosition is PASSED
+
+02-01-2025T21:21:27 - [TEST_STEP][PASSED] - selectedSecondOption.put("size", product.ProductDetail.getProductSizeWithPosition()): product.ProductDetail.getProductSizeWithPosition is PASSED
+
+02-01-2025T21:21:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/pages/product_detail_page/size_title' is: 'M'
+
+02-01-2025T21:21:28 - [MESSAGE][PASSED] - product.ProductDetail.getProductSizeWithPosition is PASSED
+
+02-01-2025T21:21:28 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+02-01-2025T21:21:28 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+02-01-2025T21:21:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+02-01-2025T21:21:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+02-01-2025T21:21:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/icon/cart_icon")): Object: 'Object Repository/common/icon/cart_icon' is clicked on
+
+02-01-2025T21:21:35 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/cart_icon' is clicked on
+
+02-01-2025T21:21:35 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+02-01-2025T21:21:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:21:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:21:38 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+02-01-2025T21:21:38 - [TEST_STEP][PASSED] - addedProduct = new com.kms.katalon.core.testobject.TestObject(): null
+
+02-01-2025T21:21:38 - [TEST_STEP][PASSED] - addedProduct.addProperty("xpath", EQUALS, "//*[*[text()='" + selectedFirstOption.get("name") + "']]/following-sibling::div"): null
+
+02-01-2025T21:21:38 - [TEST_STEP][PASSED] - verifyElementVisible(addedProduct): Object '' is visible
+
+02-01-2025T21:21:38 - [MESSAGE][PASSED] - Object '' is visible
+
+02-01-2025T21:21:38 - [TEST_STEP][PASSED] - if (getText(addedProduct).contains(selectedFirstOption.get("color") + " / " + selectedFirstOption.get("size"))): null
+
+02-01-2025T21:21:39 - [MESSAGE][PASSED] - Text of object '' is: 'Đen / S'
+
+02-01-2025T21:21:39 - [TEST_STEP][PASSED] - markPassed("Add product with first option to cart successfully"): Add product with first option to cart successfully
+
+02-01-2025T21:21:39 - [MESSAGE][PASSED] - Add product with first option to cart successfully
+
+02-01-2025T21:21:39 - [TEST_STEP][PASSED] - addedProduct.addProperty("xpath", EQUALS, "(//*[*[text()='" + selectedSecondOption.get("name") + "']]/following-sibling::div)[2]"): null
+
+02-01-2025T21:21:39 - [TEST_STEP][PASSED] - verifyElementVisible(addedProduct): Object '' is visible
+
+02-01-2025T21:21:39 - [MESSAGE][PASSED] - Object '' is visible
+
+02-01-2025T21:21:39 - [TEST_STEP][PASSED] - logInfo(getText(addedProduct)): Xám nhạt / M
+
+02-01-2025T21:21:39 - [MESSAGE][PASSED] - Text of object '' is: 'Xám nhạt / M'
+
+02-01-2025T21:21:39 - [MESSAGE][INFO] - Xám nhạt / M
+
+02-01-2025T21:21:39 - [TEST_STEP][PASSED] - if (getText(addedProduct).contains(selectedSecondOption.get("color") + " / " + selectedSecondOption.get("size"))): null
+
+02-01-2025T21:21:39 - [MESSAGE][PASSED] - Text of object '' is: 'Xám nhạt / M'
+
+02-01-2025T21:21:39 - [TEST_STEP][PASSED] - logInfo("Add product with second option to cart successfully"): Add product with second option to cart successfully
+
+02-01-2025T21:21:39 - [MESSAGE][INFO] - Add product with second option to cart successfully
+
+02-01-2025T21:21:39 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("added_product_multi_option"): common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:21:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-004\TS001-Add Product To Cart\TC004\added_product_multi_option_02012025 212139.png]]
+
+02-01-2025T21:21:40 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+02-01-2025T21:21:40 - [TEST_STEP][PASSED] - product.ProductDetail.removeAllProductFromCart(): product.ProductDetail.removeAllProductFromCart is PASSED
+
+02-01-2025T21:21:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/common/span/span_contains_text' is clicked on
+
+02-01-2025T21:21:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:21:44 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_contains_text' is clicked on
+
+02-01-2025T21:21:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:21:46 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class_contains_class' is visible
+
+02-01-2025T21:21:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class_contains_class' is: 'Đã xóa giỏ hàng!'
+
+02-01-2025T21:21:46 - [MESSAGE][INFO] - Hanlde Toast Message successfully: Đã xóa giỏ hàng!
+
+02-01-2025T21:21:46 - [MESSAGE][PASSED] - product.ProductDetail.removeAllProductFromCart is PASSED
+
+02-01-2025T21:21:46 - [TEST_STEP][PASSED] - common.UtilKeyword.logOutAndClose(): common.UtilKeyword.logOutAndClose is PASSED
+
+02-01-2025T21:21:47 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+02-01-2025T21:21:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+02-01-2025T21:21:52 - [MESSAGE][PASSED] - Object: 'Object Repository/common/properties/Text/contains_text' is clicked on
+
+02-01-2025T21:21:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+02-01-2025T21:21:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/img/img_alt' successfully
+
+02-01-2025T21:21:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+02-01-2025T21:21:55 - [MESSAGE][PASSED] - Browser is closed
+
+02-01-2025T21:21:55 - [MESSAGE][PASSED] - common.UtilKeyword.logOutAndClose is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-01-2025T21:15:52 - [TEST_SUITE][PASSED] - TS001-Add Product To Cart: Test Cases/COOLMATE-004/TC004-Add product to cart from product detail page with many options]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
