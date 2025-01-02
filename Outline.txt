@@ -29,5 +29,11 @@ At the Office (For Tester): Katalon, JMeter
 At Home (For Tester and ML Engineer): English, Selenium, Java, Python (for Playwright)
 
 
-
+------------------------
+Need to do:
+	. Tạo các repo riêng trên Github lấy từ Draft
+	. Thực hiện các yêu cầu để lấy chứng chỉ của Katalon
+	. Tạo CV
+	. Tạo portfolio
+	. Tạo profile Linkedin
 
