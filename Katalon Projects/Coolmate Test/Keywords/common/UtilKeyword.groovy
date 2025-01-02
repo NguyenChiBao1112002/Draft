@@ -160,8 +160,6 @@ public class UtilKeyword {
 		WebDriver driver = new ChromeDriver(options)
 		DriverFactory.changeWebDriver(driver)
 
-
-
 		'Open the Coolmate website'
 		driver.get(GlobalVariable.url)
 		WebUI.waitForPageLoad(10)
@@ -213,7 +211,7 @@ public class UtilKeyword {
 	@Keyword
 	static def takeScreenShot(String name) {
 		Path projectDir = Paths.get(RunConfiguration.getProjectDir())
-		Path baseDir = projectDir.resolve("Screenshots").resolve(GlobalVariable.testSuiteName).resolve(GlobalVariable.testCaseName)
+		Path baseDir = projectDir.resolve("Screenshots").resolve(GlobalVariable.testSuiteName).resolve(GlobalVariable.testCaseName.toString().split("-")[0])
 		Files.createDirectories(baseDir)
 
 		LocalDateTime now = LocalDateTime.now(vnZoneOffset)
