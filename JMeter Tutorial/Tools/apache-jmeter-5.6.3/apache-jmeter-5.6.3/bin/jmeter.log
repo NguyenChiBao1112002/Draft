@@ -1,109 +1,28 @@
-2025-01-02 22:04:44,849 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
-2025-01-02 22:04:44,881 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2025-01-02 22:04:44,881 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2025-01-02 22:04:44,897 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
-2025-01-02 22:04:44,897 INFO o.a.j.JMeter: Version 5.6.3
-2025-01-02 22:04:44,897 INFO o.a.j.JMeter: java.version=17
-2025-01-02 22:04:44,897 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2025-01-02 22:04:44,897 INFO o.a.j.JMeter: os.name=Windows 10
-2025-01-02 22:04:44,897 INFO o.a.j.JMeter: os.arch=amd64
-2025-01-02 22:04:44,897 INFO o.a.j.JMeter: os.version=10.0
-2025-01-02 22:04:44,897 INFO o.a.j.JMeter: file.encoding=Cp1252
-2025-01-02 22:04:44,897 INFO o.a.j.JMeter: java.awt.headless=null
-2025-01-02 22:04:44,897 INFO o.a.j.JMeter: Max memory     =2103443456
-2025-01-02 22:04:44,897 INFO o.a.j.JMeter: Available Processors =8
-2025-01-02 22:04:44,913 INFO o.a.j.JMeter: Default Locale=English (United States)
-2025-01-02 22:04:44,913 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
-2025-01-02 22:04:44,913 INFO o.a.j.JMeter: JMeterHome=C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3
-2025-01-02 22:04:44,913 INFO o.a.j.JMeter: user.dir  =C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
-2025-01-02 22:04:44,913 INFO o.a.j.JMeter: PWD       =C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
-2025-01-02 22:04:44,913 INFO o.a.j.JMeter: IP: 192.168.1.6 Name: LAPTOP-KSFR9P2B FullName: LAPTOP-KSFR9P2B
-2025-01-02 22:04:44,932 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2025-01-02 22:04:45,149 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
-2025-01-02 22:04:46,340 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-01-02 22:04:46,452 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-01-02 22:04:46,558 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-01-02 22:04:46,567 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-01-02 22:04:50,236 INFO o.j.r.PluginManager: Plugins Status: [jpgc-perfmon=2.1, jpgc-plugins-manager=0.20, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
-2025-01-02 22:04:50,236 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]
-2025-01-02 22:05:07,834 INFO o.a.j.s.FileServer: Default base='C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin'
-2025-01-02 22:05:07,845 INFO o.a.j.g.a.Load: Loading file: C:\Users\BaoNguyen\Downloads\Thread Group.jmx
-2025-01-02 22:05:07,845 INFO o.a.j.s.FileServer: Set new base='C:\Users\BaoNguyen\Downloads'
-2025-01-02 22:05:08,059 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2025-01-02 22:05:08,073 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2025-01-02 22:05:08,073 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2025-01-02 22:05:08,073 INFO o.a.j.s.SaveService: Loading file: C:\Users\BaoNguyen\Downloads\Thread Group.jmx
-2025-01-02 22:05:08,273 INFO o.a.j.s.FileServer: Set new base='C:\Users\BaoNguyen\Downloads'
-2025-01-02 22:05:10,654 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2025-01-02 22:05:10,656 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-01-02 22:05:10,656 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-01-02 22:05:10,656 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2025-01-02 22:05:10,656 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2025-01-02 22:05:10,806 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-01-02 22:05:10,806 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
-2025-01-02 22:05:10,817 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2025-01-02 22:05:10,849 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2025-01-02 22:05:10,849 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2025-01-02 22:05:10,849 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2025-01-02 22:05:10,849 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2025-01-02 22:05:10,849 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2025-01-02 22:05:10,849 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2025-01-02 22:05:10,849 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2025-01-02 22:05:10,849 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2025-01-02 22:05:10,849 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2025-01-02 22:05:10,849 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2025-01-02 22:05:10,849 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2025-01-02 22:05:12,010 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2025-01-02 22:05:12,010 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-01-02 22:05:12,010 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2025-01-02 22:05:12,076 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2025-01-02 22:05:12,076 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2025-01-02 22:05:12,076 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2025-01-02 22:05:12,076 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2025-01-02 22:05:12,076 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2025-01-02 22:05:12,076 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2025-01-02 22:05:12,076 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2025-01-02 22:05:12,089 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2025-01-02 22:05:12,089 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2025-01-02 22:05:12,089 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2025-01-02 22:05:12,089 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2025-01-02 22:05:20,997 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-01-02 22:05:20,997 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-01-02 22:05:20,997 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-01-02 22:05:21,002 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2025-01-02 22:05:21,002 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2025-01-02 22:05:21,002 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2025-01-02 22:05:23,002 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2025-01-02 22:05:23,007 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-01-02 22:05:23,007 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2025-01-02 22:05:23,081 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2025-01-02 22:05:23,081 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2025-01-02 22:05:23,090 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2025-01-02 22:05:23,090 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2025-01-02 22:05:23,090 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2025-01-02 22:05:23,090 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2025-01-02 22:05:23,092 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2025-01-02 22:05:23,106 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-KSFR9P2B
-2025-01-02 22:05:23,136 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2025-01-02 22:05:23,139 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2025-01-02 22:05:23,139 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
-2025-01-02 22:05:23,139 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2025-01-02 22:05:23,139 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2025-01-02 22:05:23,208 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2025-01-02 22:05:23,208 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2025-01-02 22:05:23,208 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2025-01-02 22:05:23,208 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2025-01-02 22:05:23,640 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2025-01-02 22:05:23,640 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2025-01-02 22:05:23,650 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2025-01-02 22:05:23,730 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
-2025-01-02 22:05:23,730 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
-2025-01-02 22:05:23,730 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2025-01-02 22:05:23,730 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2025-01-02 22:05:23,746 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2025-01-02 22:05:23,746 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2025-01-02 22:05:23,746 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
-2025-01-02 22:05:23,746 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
-2025-01-02 22:05:23,746 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
-2025-01-02 22:05:23,746 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2025-01-02 22:05:23,746 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2025-01-03 15:46:14,497 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2025-01-03 15:46:14,508 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2025-01-03 15:46:14,508 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2025-01-03 15:46:14,512 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-01-03 15:46:14,512 INFO o.a.j.JMeter: Version 5.6.3
+2025-01-03 15:46:14,512 INFO o.a.j.JMeter: java.version=1.8.0_121
+2025-01-03 15:46:14,512 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-01-03 15:46:14,512 INFO o.a.j.JMeter: os.name=Windows 10
+2025-01-03 15:46:14,512 INFO o.a.j.JMeter: os.arch=amd64
+2025-01-03 15:46:14,512 INFO o.a.j.JMeter: os.version=10.0
+2025-01-03 15:46:14,512 INFO o.a.j.JMeter: file.encoding=Cp1252
+2025-01-03 15:46:14,512 INFO o.a.j.JMeter: java.awt.headless=null
+2025-01-03 15:46:14,512 INFO o.a.j.JMeter: Max memory     =5672796160
+2025-01-03 15:46:14,512 INFO o.a.j.JMeter: Available Processors =16
+2025-01-03 15:46:14,515 INFO o.a.j.JMeter: Default Locale=English (United States)
+2025-01-03 15:46:14,515 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2025-01-03 15:46:14,515 INFO o.a.j.JMeter: JMeterHome=C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2025-01-03 15:46:14,515 INFO o.a.j.JMeter: user.dir  =C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2025-01-03 15:46:14,515 INFO o.a.j.JMeter: PWD       =C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2025-01-03 15:46:14,516 INFO o.a.j.JMeter: IP: 192.168.89.84 Name: ncbao FullName: ncbao.tma.com.vn
+2025-01-03 15:46:14,526 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2025-01-03 15:46:14,618 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2025-01-03 15:46:15,155 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-01-03 15:46:15,165 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-01-03 15:46:15,286 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-perfmon-2.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-01-03 15:46:15,288 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\ncbao\Downloads\Draft Repo On Github\Draft\JMeter Tutorial\Tools\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-0.20.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2025-01-03 15:46:17,927 INFO o.j.r.PluginManager: Plugins Status: [jpgc-perfmon=2.1, jpgc-plugins-manager=0.20, jmeter-core=5.6.3, jmeter-ftp=5.6.3, jmeter-http=5.6.3, jmeter-jdbc=5.6.3, jmeter-jms=5.6.3, jmeter-junit=5.6.3, jmeter-java=5.6.3, jmeter-ldap=5.6.3, jmeter-mail=5.6.3, jmeter-mongodb=5.6.3, jmeter-native=5.6.3, jmeter-tcp=5.6.3, jmeter-components=5.6.3]
+2025-01-03 15:46:17,927 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [jpgc-plugins-manager]

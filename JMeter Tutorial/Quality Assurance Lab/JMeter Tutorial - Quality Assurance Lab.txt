@@ -595,13 +595,27 @@ and hence you nedd to use the concept of parameterization.
 ** Lesson 27 - Real Time Project
 
 - Website for demo: https://demo.guru99.com/test/newtours/
+
 ---------------------------------------------------------------------------------------------------
+** Lesson 28 - Regular Expression (Regex)
 
+. What is RE?
+	+ Sequence of characters which define a search pattern, used to match character combinations in a text
+	
+	+ Supported in all the scripting languages (such as Perl, Python, PHP, and JavaScript); as well as programming language (Java);
+	  and word processor (Word)
 
+	+ Regular expressions are used in search engines, search and replace dialogs of word porcessors and text editors etc.
 
+. Character Classes
 
+. Quantifers
 
+. Anchors
 
+. Lookaround
+
+-------The End---------------------------------------------------------------------------------
 
 
 
