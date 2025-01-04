@@ -49,7 +49,6 @@ WebUI.mouseOver(findTestObject('Object Repository/pages/home_page/product_sectio
 WebUI.delay(5)
 WebUI.click(findTestObject('Object Repository/pages/home_page/product_size_option_pos', [('section-pos'): 1, ('index-pro-pos'): 2, ('size-pos'): 1]))
 
-
 CustomKeywords.'common.UtilKeyword.handleToastMessage'("Đã thêm vào giỏ hàng!", 60)
 CustomKeywords.'common.UtilKeyword.takeScreenShot'("added_first_product")
 
@@ -87,7 +86,6 @@ addedProduct.addProperty('xpath', ConditionType.EQUALS, "//*[*[text()='" + selec
 
 WebUI.verifyElementVisible(addedProduct)
 KeywordUtil.logInfo(WebUI.getText(addedProduct))
-
 
 if(WebUI.getText(addedProduct).contains(selectedProductInfoFisrt.get("color") + " / " + selectedProductInfoFisrt.get("size"))) {
 	KeywordUtil.logInfo("Add first product to cart successfully")

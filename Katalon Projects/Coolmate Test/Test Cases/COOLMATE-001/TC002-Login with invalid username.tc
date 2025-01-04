@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Login with invalid username</description>
    <name>TC002-Login with invalid username</name>
-   <tag></tag>
+   <tag>COOLMATE-001; TC002; Login</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>f6e92458-db65-459c-be76-dbf7afb40ea8</testCaseGuid>

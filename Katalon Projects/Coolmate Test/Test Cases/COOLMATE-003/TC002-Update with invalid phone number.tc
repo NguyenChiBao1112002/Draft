@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Update user info with invalid phone number</description>
    <name>TC002-Update with invalid phone number</name>
-   <tag></tag>
+   <tag>COOLMATE-003; TC001; User Info</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>04d0c93f-4106-43e8-a802-db35778293c0</testCaseGuid>

@@ -6,12 +6,11 @@
    <elementGuidId>f845e4e1-018b-426a-bb1f-2c0b3e5f0fd1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@class='homepage-products'][${section-pos}]//*[@data-slick-index='${index}']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@class='homepage-products'][${section-pos}]//*[@data-slick-index='${index}']//p[@class='product-grid__title']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

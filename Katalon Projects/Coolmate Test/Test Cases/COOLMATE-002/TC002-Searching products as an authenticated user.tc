@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Searching products as an unauthenticated user</description>
    <name>TC002-Searching products as an authenticated user</name>
-   <tag></tag>
+   <tag>COOLMATE-002; TC002; Search Product</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>eb019eb5-61b6-4d06-97fa-3a3d234efb29</testCaseGuid>
