@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Update user info with existing phone number</description>
    <name>TC003-Update with existing phone number</name>
-   <tag></tag>
+   <tag>COOLMATE003; TC003; User Info</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>0a32bafa-2779-4ea6-a3fc-c3b361e16fdc</testCaseGuid>

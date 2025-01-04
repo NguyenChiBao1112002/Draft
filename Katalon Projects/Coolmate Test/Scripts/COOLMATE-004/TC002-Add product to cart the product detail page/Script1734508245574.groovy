@@ -24,7 +24,6 @@ import org.openqa.selenium.WebElement as Keys
 CustomKeywords.'common.UtilKeyword.openURLAndAuthenticate'(GlobalVariable.username_bao, GlobalVariable.password_bao)
 
 '======================Add a product from the product page================================='
-
 HashMap<String, String> selectedProduct = new HashMap()
 
 'Scroll to the product'
@@ -55,7 +54,8 @@ CustomKeywords.'common.UtilKeyword.takeScreenShot'("added_first_product")
 
 '============Go to the product detail page to add product to cart of the same color and size that was previously added and verify added product information in cart=========='
 'Go to product detail page'
-WebUI.click(findTestObject('Object Repository/pages/home_page/product_section_index', [('section-pos'): 1, ('index'): 2]))
+WebUI.delay(10)
+WebUI.doubleClick(findTestObject('Object Repository/pages/home_page/product_section_index', [('section-pos'): 1, ('index'): 2]))
 CustomKeywords.'common.UtilKeyword.waitForPageLoadAndDelay'(20, 3)
 
 'Check if the product in product detail page is previously added product'
