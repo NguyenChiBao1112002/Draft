@@ -24,7 +24,6 @@ import org.openqa.selenium.WebElement as Keys
 CustomKeywords.'common.UtilKeyword.openURLAndAuthenticate'(GlobalVariable.username_bao, GlobalVariable.password_bao)
 
 '======================Add a product from the product page================================='
-
 HashMap<String, String> selectedProduct = new HashMap()
 
 'Scroll to the product'
