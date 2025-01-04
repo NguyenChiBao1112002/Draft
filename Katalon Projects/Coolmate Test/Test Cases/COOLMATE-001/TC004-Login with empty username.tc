@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Login with empty username</description>
    <name>TC004-Login with empty username</name>
-   <tag></tag>
+   <tag>COOLMATE-001;  TC004; Login</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>1ccbbe34-f56a-4d48-ac4d-013da4fcee7c</testCaseGuid>
