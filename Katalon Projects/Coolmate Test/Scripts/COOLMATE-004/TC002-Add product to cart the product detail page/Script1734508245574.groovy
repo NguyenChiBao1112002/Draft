@@ -54,10 +54,10 @@ CustomKeywords.'common.UtilKeyword.takeScreenShot'("added_first_product")
 
 '============Go to the product detail page to add product to cart of the same color and size that was previously added and verify added product information in cart=========='
 'Go to product detail page'
-//WebUI.delay(3)
-//WebUI.refresh()
-//WebUI.waitForPageLoad(10)
-//WebUI.scrollToElement(findTestObject('Object Repository/pages/home_page/product_section_index', [('section-pos'): 1, ('index'): 2]), 10)
+WebUI.delay(3)
+WebUI.refresh()
+WebUI.waitForPageLoad(10)
+WebUI.scrollToElement(findTestObject('Object Repository/pages/home_page/product_section_index', [('section-pos'): 1, ('index'): 2]), 10)
 
 WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/pages/home_page/product_title_index_section', [('section-pos'): 1, ('index'): 2]))
