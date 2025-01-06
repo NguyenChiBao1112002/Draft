@@ -36,4 +36,4 @@ Need to do:
 	. Tạo CV
 	. Tạo portfolio
 	. Tạo profile Linkedin
-
+	. Try applying AI labeling work
