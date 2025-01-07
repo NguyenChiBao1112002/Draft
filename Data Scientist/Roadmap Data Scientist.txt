@@ -41,8 +41,8 @@
 	- K-Means Clustering khác với các thuật toán giải quyết bài classification: K-Means Clustering các điểm dữ liệu KO được gán nhãn còn classification thì ngược lại
 	- Không thể giải thích được ý nghĩa của các cụm khi đã phân
 
-3) Học tăng cường (Reinforcement learning)
-
+3) Học bán giám sát (Semi-Supervised Learning)
+4) Học tăng cường (Reinforcement learning)
 
 ***Các thuật ngữ:
 - Gắn nhãn (data labeling hoặc data annotation): là quá trình thực hiện gán nhãn cho dữ liệu (ảnh, văn bản) để biến dữ liệu từ không có thành có nhãn
