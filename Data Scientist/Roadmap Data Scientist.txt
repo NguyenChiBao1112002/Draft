@@ -17,8 +17,8 @@
 			. Decision Tree: giải quyết cho cả bài toán classifisation và regression, về bản chất trả lời một loạt các câu hỏi có hoặc không
 			  Đặc điểm: trực quan, đơn giản, độ chính xác không quá cao, NHƯNG thường được làm nền tảng để xây dựng các thuật toán có độ mạnh mẽ, phức tạp, chính xác hơn
 
-			. Linear Regresion (Hồi quy tuyến tính): dự đoán giá trị của một biến phụ thuộc (biến đích/biến y), dựa trên một hoặc nhiều biến độc lập (biến dự đoán, biến x)
-			  Mục đích: tìm ra mối quan hệ tuyến tính (nghĩa là hàm bậc 1, ví dụ y = ax + b) để vẽ một đường thẳng tốt nhất đi qua dữ liệu (đường thẳng tốt nhất là: khoảng cách trung bình từ các điểm dữ liệu đến đường thẳng này là ngắn nhất )
+			. Linear Regression (Hồi quy tuyến tính): dự đoán giá trị của một biến phụ thuộc (biến đích/biến y), dựa trên một hoặc nhiều biến độc lập (biến dự đoán, biến x)
+			  Mục đích: tìm ra mối quan hệ tuyến tính (nghĩa là hàm bậc 1 (nếu đơn biến), ví dụ y = ax + b) để vẽ một đường thẳng tốt nhất đi qua dữ liệu (đường thẳng tốt nhất là: khoảng cách trung bình từ các điểm dữ liệu đến đường thẳng này là ngắn nhất )
 
 			. Logistic Regression (Hồi quy Logistic): LƯU Ý đây là thuật toán giải quyết bài toán classification mặc dù có chữ Regression
 			  Mục đích: phân loại các mẫu vào các lớp (ví dụ: 0 hoặc 1)
@@ -36,7 +36,7 @@
 					
 2) Học không giám sát (Unsupervised Learning)
 	- Huấn luyện với dữ liệu không được gắn nhãn (Unlabeled)
-	- Mô hình thuật toán học không giám sát được sử dụng phổ biến là K-Means Clustering
+	- Mô hình thuật toán học không giám sát được sử dụng phổ biến là K-Means Clustering, Dimensionality Reduction (Giảm chiều dữ liệu)
 	- K-Means Clustering: phân chia các điểm dữ liệu của chúng ta vào K cụm khác nhau sau cho các điểm trong cùng một cụm tương đồng nhau và những điểm dữ liệu trong cụm này khác những điểm dữ liệu trong cụm kia
 	- K-Means Clustering khác với các thuật toán giải quyết bài classification: K-Means Clustering các điểm dữ liệu KO được gán nhãn còn classification thì ngược lại
 	- Không thể giải thích được ý nghĩa của các cụm khi đã phân
@@ -78,7 +78,7 @@
 (Công cụ: cần biết rõ Framework Scikit-Learn của Python: hỗ trợ xây dựng các mô hình Machine Learning)
 (Để học Scikit-Learn: Youtube FreeCodeCamp: Scikit-Learn Course - Machine Learning in Python Tutorial; Scikit-Learn Tutorial)
 (Tự học các mô hình thuật toán Machine Learning: ***Data Hacker)
-(CS229 của đại học Standford-đi sâu-GOOD, Machine Learning for Everybody - freeCodeCamp Youtube)
+(CS229 của đại học Standford-đi sâu-GOOD, Machine Learning for Everybody (Time-3:53:52)-freeCodeCamp Youtube)
 (Deep Learning: Data Science ko sử dụng các kiến thức Deep Learning nhiều, nhưng để cạnh tranh khi xin việc)
 	. CS230 Deep Learning (Slide + Video) của Standford
 	. Sau khi học xong Deep Learning có hai hướng đi tiếp:
