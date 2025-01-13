@@ -212,6 +212,7 @@
 79. when, after, before -> Ving (rút gọn chủ động), V3ed (rút gọn bị động) [rút gọn khi 2S#], MĐ (S+V)
 80. arise (v): nảy sinh
 --------------------------------------------
+
 81. yet : /jet/ (adv), HTTH***: chưa (trong câu phủ định) + đứng cuối | (conj): nhưng vẫn, vẫn còn
 82. installation : (n), /ˌɪn.stəˈleɪ.ʃən/, (sự/việc) cài đặt, lắp đặt
 83. workstation : (n), /ˈwɝːkˌsteɪ.ʃən/ máy trạm
@@ -251,8 +252,8 @@
 115. at last: cuối cùng
 116. accordingly: (adv), /əˈkɔːr.dɪŋ.li/, phù hợp
 ------------------------------------------------------------
-ETS 2022 Test 1 Part 6
 
+***ETS 2022 Test 1 Part 6
 1. notice: (n, v), /ˈnoʊ.t̬ɪs/, thông báo, chú ý, để ý
 2. statement: (n), /ˈsteɪt.mənt/, tuyên bố, (lời) phát biểu
 3. sentence: (n), /ˈsen.təns/, câu
@@ -298,8 +299,8 @@ ETS 2022 Test 1 Part 6
 39. treatment: (n), /ˈtriːt.mənt/, việc, cư xử, sự điều trị, cách xử lý
 40. practice: (n, v), /ˈpræk.tɪs/, thực tiễn, thói quen, sự luyện tập/ luyện tập
 -------------------------------------------------------------
-ETS 2022 Test 1 Part 7
 
+***ETS 2022 Test 1 Part 7
 1. as many of: như nhiều điều
 2. airways: (n), (đường) hàng không
 3. airline : (n), /ˈeəweɪz/, hãng hàng không
