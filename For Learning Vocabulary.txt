@@ -395,12 +395,11 @@
 84. detector: (n), /dɪˈtek.tɚ/, máy phát hiện, máy dò
 85. detect: (v), /dɪˈtekt/, phát hiện, nhận ra, tìm ra
 86. in the knowledge : khi biết
-87. activate :(v), kích hoạt 
+87. activate :(v), /ˈæk.tə.veɪt/, kích hoạt 
 88. sleep soundly: ngủ ngon
-89. integrated: (adj), tích hợp
-90. residential :(adj), thuộc nhà riêng/ở, dân cư
-91. disturbance :(n), sự rối loạn/nhiễu loạn, sự xáo trộn
-
+89. integrated: (adj), /ˈɪn.t̬ə.ɡreɪ.t̬ɪd/, tích hợp
+90. residential :(adj), /ˌrez.əˈden.ʃəl/, thuộc nhà riêng/ở, dân cư
+91. disturbance :(n), /dɪˈstɝː.bəns/, sự xáo trộn, sự rối loạn/nhiễu loạn
 
 
 
