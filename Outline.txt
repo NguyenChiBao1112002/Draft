@@ -26,7 +26,7 @@ English
 ***Current--------------------------------------------------------------------------------------------
 At the Office (For Tester): Katalon, JMeter, C#.NET
 
-At Home (For Tester and ML Engineer): English, Selenium, Java, C#.NET, Python (for Playwright)
+At Home (For Tester and ML Engineer): English, Selenium, Java, C#.NET, Angular, Python (for Playwright)
 ------------------------
 Need to do:
 	. Tạo các repo riêng trên Github lấy từ Draft
