@@ -30,8 +30,7 @@ At Home (For Tester and ML Engineer): English, Selenium, Java, C#.NET, Angular, 
 ------------------------
 Need to do:
 	. Tạo các repo riêng trên Github lấy từ Draft
-	. Thực hiện các yêu cầu để lấy chứng chỉ của Katalon
+	. Thực hiện các yêu cầu để lấy chứng chỉ Expert của Katalon
 	. Tạo CV
 	. Tạo portfolio
-	. Tạo profile Linkedin
-	. Try applying AI labeling work
+	. Tạo profile Linkedin -> update link cho profile trên github
