@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001-Add new address and set default</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c6f8fa92-acb1-4934-9644-69a235d84b82</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>deed0cb2-3bbe-4ad9-99a2-820f7a3399d7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e0df3bd1-43f4-4415-8564-1bfe17bad8c5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Phường Đa Kao'</defaultValue>
+      <description></description>
+      <id>deed0cb2-3bbe-4ad9-99a2-820f7a3399d7</id>
+      <masked>false</masked>
+      <name>suggestedAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Phường Đa Kao, Quận 1, Thành phố Hồ Chí Minh'</defaultValue>
+      <description></description>
+      <id>e0df3bd1-43f4-4415-8564-1bfe17bad8c5</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+</TestCaseEntity>
