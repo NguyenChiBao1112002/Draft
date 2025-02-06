@@ -37,6 +37,7 @@ CustomKeywords.'common.UtilKeyword.waitForPageLoadAndDelay'(20, 3)
 'Update account with invalid phone number'
 WebUI.click(findTestObject('Object Repository/pages/account_page/update_acc_info_button'))
 WebUI.delay(2)
+
 //Some forms may require a special event (like focus or blur) to activate or allow input.
 WebUI.executeJavaScript("let input = document.getElementsByName('phone')[0]; input.focus(); input.value = arguments[0]; input.dispatchEvent(new Event('input'));", Arrays.asList(phoneNumber))
 WebUI.click(findTestObject('Object Repository/common/button/button_class', [('class'): 'btn account-info__btn account-info__btn--full']))
