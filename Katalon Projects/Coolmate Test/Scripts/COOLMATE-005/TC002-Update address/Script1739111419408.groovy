@@ -32,25 +32,25 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/common/a/a_text', [('text'): 'Sổ địa chỉ']))
 WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Object Repository/common/button/button_contains_text', [('text'): 'thêm địa chỉ mới']), 10)
-WebUI.click(findTestObject('Object Repository/common/button/button_contains_text', [('text'): 'thêm địa chỉ mới']))
+WebUI.scrollToElement(findTestObject('Object Repository/common/button/button_contains_text', [('text'): 'Cập nhật']), 10)
+WebUI.click(findTestObject('Object Repository/common/button/button_contains_text', [('text'): 'Cập nhật']))
 
-'=============Add a new address to the address book with all valid information and set it as default==========='
+'==========Update a address with all valid information in the address book========'
 WebUI.waitForElementVisible(findTestObject('Object Repository/common/div/div_class', [('class'): 'address-book-form']), 10)
 
-'Enter address and wait for other data fields to be automatically filled'
+'Update address fields'
 WebUI.setText(findTestObject('Object Repository/common/input/input_name', [('name'): 'address']), suggestedAddress)
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/common/div/div_text', [('text'): address]))
+WebUI.click(findTestObject('Object Repository/common/div/div_text', [('text'): updatedAddress]))
 WebUI.delay(3)
-WebUI.click(findTestObject('Object Repository/common/span/span_contains_text', [('text'): 'Thêm']))
+WebUI.click(findTestObject('Object Repository/common/span/span_contains_text', [('text'): 'Lưu']))
 
 'Handle Toast Message'
-CustomKeywords.'common.UtilKeyword.handleToastMessage'("Lưu địa chỉ thành công!", 10)
+CustomKeywords.'common.UtilKeyword.handleToastMessage'("Cập nhật địa chỉ thành công!", 10)
 
 'Take Screenshot'
-CustomKeywords.'common.UtilKeyword.takeScreenShot'("add_address_successfully")
+CustomKeywords.'common.UtilKeyword.takeScreenShot'("update_address_successfully")
 
 'Close browser'
 WebUI.closeBrowser()

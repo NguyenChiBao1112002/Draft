@@ -18,6 +18,9 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
+'Go to Coolmate Web and authenticate'
+CustomKeywords.'common.UtilKeyword.openURLAndAuthenticate'(GlobalVariable.username_bao, GlobalVariable.password_bao)
+
 'Go to address book'
 WebUI.enhancedClick(findTestObject('Object Repository/common/icon/user_icon'))
 WebUI.delay(2)
@@ -30,31 +33,17 @@ WebUI.scrollToElement(findTestObject('Object Repository/common/a/a_text', [('tex
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/common/a/a_text', [('text'): 'Sổ địa chỉ']))
-WebUI.delay(2)
-
-WebUI.scrollToElement(findTestObject('Object Repository/common/button/button_contains_text', [('text'): 'thêm địa chỉ mới']), 10)
-WebUI.click(findTestObject('Object Repository/common/button/button_contains_text', [('text'): 'thêm địa chỉ mới']))
-
-'=============Add a new address to the address book with all valid information and set it as default==========='
-WebUI.waitForElementVisible(findTestObject('Object Repository/common/div/div_class', [('class'): 'address-book-form']), 10)
-
-'Enter address and wait for other data fields to be automatically filled'
-WebUI.setText(findTestObject('Object Repository/common/input/input_name', [('name'): 'address']), suggestedAddress)
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/common/div/div_text', [('text'): address]))
-WebUI.delay(3)
-WebUI.click(findTestObject('Object Repository/common/span/span_contains_text', [('text'): 'Thêm']))
+'==========Delete an address in the address book========'
+WebUI.scrollToElement(findTestObject('Object Repository/common/button/button_contains_text', [('text'): 'Xóa']), 10)
+WebUI.click(findTestObject('Object Repository/common/button/button_contains_text', [('text'): 'Xóa']))
 
 'Handle Toast Message'
-CustomKeywords.'common.UtilKeyword.handleToastMessage'("Lưu địa chỉ thành công!", 10)
+CustomKeywords.'common.UtilKeyword.handleToastMessage'("Xoá địa chỉ thành công!", 10)
 
 'Take Screenshot'
-CustomKeywords.'common.UtilKeyword.takeScreenShot'("add_address_successfully")
+CustomKeywords.'common.UtilKeyword.takeScreenShot'("delete_address_successfully")
 
 'Close browser'
 WebUI.closeBrowser()
-
-
-
-

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC002-Update address</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6e12b730-f3b9-4241-80bc-59fbfa3be914</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe1423ba-c69f-4f79-ab52-3dbb8f559fcc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a5fa3d8e-3b47-4928-a933-16723fdf4374</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Phường 4, Thành phố Cà Mau'</defaultValue>
+      <description></description>
+      <id>fe1423ba-c69f-4f79-ab52-3dbb8f559fcc</id>
+      <masked>false</masked>
+      <name>suggestedAddress</name>
+   </variable>
+   <variable>
+      <defaultValue>'Phường 4, Thành phố Cà Mau, Tỉnh Cà Mau'</defaultValue>
+      <description></description>
+      <id>a5fa3d8e-3b47-4928-a933-16723fdf4374</id>
+      <masked>false</masked>
+      <name>updatedAddress</name>
+   </variable>
+</TestCaseEntity>
