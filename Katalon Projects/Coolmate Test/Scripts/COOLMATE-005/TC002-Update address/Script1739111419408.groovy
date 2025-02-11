@@ -53,8 +53,7 @@ CustomKeywords.'common.UtilKeyword.handleToastMessage'("Cập nhật địa ch�
 CustomKeywords.'common.UtilKeyword.takeScreenShot'("update_address_successfully")
 
 'Close browser'
+WebUI.delay(2)
 WebUI.closeBrowser()
-
-
 
 

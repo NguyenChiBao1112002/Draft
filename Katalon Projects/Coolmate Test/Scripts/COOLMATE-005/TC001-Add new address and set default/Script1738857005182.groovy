@@ -25,7 +25,6 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/pages/home_page/go_
 WebUI.click(findTestObject('Object Repository/pages/home_page/go_to_account'))
 CustomKeywords.'common.UtilKeyword.waitForPageLoadAndDelay'(20, 3)
 
-
 WebUI.scrollToElement(findTestObject('Object Repository/common/a/a_text', [('text'): 'Thông tin tài khoản']), 10)
 WebUI.delay(2)
 
@@ -53,6 +52,7 @@ CustomKeywords.'common.UtilKeyword.handleToastMessage'("Lưu địa chỉ thành
 CustomKeywords.'common.UtilKeyword.takeScreenShot'("add_address_successfully")
 
 'Close browser'
+WebUI.delay(2)
 WebUI.closeBrowser()
 
 
