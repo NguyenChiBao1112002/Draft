@@ -18,16 +18,12 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-'Go to Coolmate Web and authenticate'
-CustomKeywords.'common.UtilKeyword.openURLAndAuthenticate'(GlobalVariable.username_bao, GlobalVariable.password_bao)
-
 'Go to address book'
 WebUI.enhancedClick(findTestObject('Object Repository/common/icon/user_icon'))
 WebUI.delay(2)
 WebUI.verifyElementPresent(findTestObject('Object Repository/pages/home_page/go_to_account'), 10)
 WebUI.click(findTestObject('Object Repository/pages/home_page/go_to_account'))
 CustomKeywords.'common.UtilKeyword.waitForPageLoadAndDelay'(20, 3)
-
 
 WebUI.scrollToElement(findTestObject('Object Repository/common/a/a_text', [('text'): 'Thông tin tài khoản']), 10)
 WebUI.delay(2)
@@ -46,4 +42,7 @@ CustomKeywords.'common.UtilKeyword.handleToastMessage'("Xoá địa chỉ thành
 CustomKeywords.'common.UtilKeyword.takeScreenShot'("delete_address_successfully")
 
 'Close browser'
+WebUI.delay(2)
 WebUI.closeBrowser()
+
+
