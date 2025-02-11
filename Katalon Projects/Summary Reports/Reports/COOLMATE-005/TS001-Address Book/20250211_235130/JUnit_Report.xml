@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS001-Address Book" time="216.84" tests="3" failures="0" errors="0">
+   <testsuite name="TS001-Address Book" tests="3" failures="0" errors="0" time="216.84" skipped="0" timestamp="11-02-2025T23:51:38" hostname="FPT SHOP - LAPTOP-KSFR9P2B" id="Test Suites/COOLMATE-005/TS001-Address Book">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\BaoNguyen\\OneDrive\\M\u00E1y t\u00EDnh\\Draft Repo On Github\\Draft\\Katalon Projects\\Coolmate Test\\Reports\\20250211_235129\\COOLMATE-005\\TS001-Address Book\\20250211_235130"/>
+         <property name="logFiles" value="C:\\Users\\BaoNguyen\\OneDrive\\M\u00E1y t\u00EDnh\\Draft Repo On Github\\Draft\\Katalon Projects\\Coolmate Test\\Reports\\20250211_235129\\COOLMATE-005\\TS001-Address Book\\20250211_235130\\execution0.log"/>
+         <property name="attachments" value="C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-005\TS001-Address Book\TC001\add_address_successfully_11022025 235252.png, C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-005\TS001-Address Book\TC002\update_address_successfully_11022025 235406.png, C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-005\TS001-Address Book\TC003\delete_address_successfully_11022025 235513.png"/>
+         <property name="hostName" value="FPT SHOP - LAPTOP-KSFR9P2B"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 132.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="f1f9bcda6114a1cae782b1be9891457b"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/COOLMATE-005/TC001-Add new address and set default" time="75.912" classname="Test Cases/COOLMATE-005/TC001-Add new address and set default" status="PASSED">
+         <system-out><![CDATA[11-02-2025T23:51:39 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-005/TC001-Add new address and set default: Test Cases/COOLMATE-005/TC001-Add new address and set default
+
+11-02-2025T23:51:39 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+11-02-2025T23:51:39 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+11-02-2025T23:51:39 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+11-02-2025T23:51:39 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao): common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+11-02-2025T23:51:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-02-2025T23:51:46 - [MESSAGE][PASSED] - Current window maximized
+
+11-02-2025T23:51:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+11-02-2025T23:51:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[contains(@class,"popup")]/div//button'. Please recheck the objects properties to make sure the desired element is located. 
+
+11-02-2025T23:51:56 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/pages/home_page/ads_close_button' located by '//*[contains(@class,"popup")]/div//button' not found
+
+11-02-2025T23:51:56 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+11-02-2025T23:51:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:51:58 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+11-02-2025T23:52:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:52:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+11-02-2025T23:52:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+11-02-2025T23:52:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-02-2025T23:52:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:52:05 - [MESSAGE][PASSED] - Object 'Object Repository/component/close_popup_button' is visible
+
+11-02-2025T23:52:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/component/close_popup_button' is clicked on
+
+11-02-2025T23:52:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:52:20 - [MESSAGE][WARNING] - Object 'Object Repository/pages/home_page/ads_close_button' is not visible after 10 second(s)
+
+11-02-2025T23:52:30 - [MESSAGE][WARNING] - Object 'Object Repository/component/close_popup_button' is not visible after 10 second(s)
+
+11-02-2025T23:52:30 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+11-02-2025T23:52:30 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+11-02-2025T23:52:31 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/common/icon/user_icon")): Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+11-02-2025T23:52:31 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+11-02-2025T23:52:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T23:52:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:52:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/pages/home_page/go_to_account"), 10): Object 'Object Repository/pages/home_page/go_to_account' is present
+
+11-02-2025T23:52:33 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/go_to_account' is present
+
+11-02-2025T23:52:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/go_to_account")): Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+11-02-2025T23:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+11-02-2025T23:52:35 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+11-02-2025T23:52:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-02-2025T23:52:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+11-02-2025T23:52:38 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+11-02-2025T23:52:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/common/a/a_text", ["text":"Thông tin tài khoản"]), 10): Scroll to object 'Object Repository/common/a/a_text' successfully
+
+11-02-2025T23:52:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/a/a_text' successfully
+
+11-02-2025T23:52:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T23:52:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:52:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/a/a_text", ["text":"Sổ địa chỉ"])): Object: 'Object Repository/common/a/a_text' is clicked on
+
+11-02-2025T23:52:40 - [MESSAGE][PASSED] - Object: 'Object Repository/common/a/a_text' is clicked on
+
+11-02-2025T23:52:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T23:52:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:52:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/common/button/button_contains_text", ["text":"thêm địa chỉ mới"]), 10): Scroll to object 'Object Repository/common/button/button_contains_text' successfully
+
+11-02-2025T23:52:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/button/button_contains_text' successfully
+
+11-02-2025T23:52:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/button/button_contains_text", ["text":"thêm địa chỉ mới"])): Object: 'Object Repository/common/button/button_contains_text' is clicked on
+
+11-02-2025T23:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_contains_text' is clicked on
+
+11-02-2025T23:52:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/common/div/div_class", ["class":"address-book-form"]), 10): Object 'Object Repository/common/div/div_class' is visible
+
+11-02-2025T23:52:43 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class' is visible
+
+11-02-2025T23:52:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/common/input/input_name", ["name":"address"]), suggestedAddress): Text 'Phường Đa Kao' is set on object 'Object Repository/common/input/input_name'
+
+11-02-2025T23:52:43 - [MESSAGE][PASSED] - Text 'Phường Đa Kao' is set on object 'Object Repository/common/input/input_name'
+
+11-02-2025T23:52:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2025T23:52:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2025T23:52:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/div/div_text", ["text":address])): Object: 'Object Repository/common/div/div_text' is clicked on
+
+11-02-2025T23:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/common/div/div_text' is clicked on
+
+11-02-2025T23:52:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+11-02-2025T23:52:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+11-02-2025T23:52:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/span/span_contains_text", ["text":"Thêm"])): Object: 'Object Repository/common/span/span_contains_text' is clicked on
+
+11-02-2025T23:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/common/span/span_contains_text' is clicked on
+
+11-02-2025T23:52:51 - [TEST_STEP][PASSED] - common.UtilKeyword.handleToastMessage("Lưu địa chỉ thành công!", 10): common.UtilKeyword.handleToastMessage is PASSED
+
+11-02-2025T23:52:52 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class_contains_class' is visible
+
+11-02-2025T23:52:52 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class_contains_class' is: 'Lưu địa chỉ thành công!'
+
+11-02-2025T23:52:52 - [MESSAGE][INFO] - Hanlde Toast Message successfully: Lưu địa chỉ thành công!
+
+11-02-2025T23:52:52 - [MESSAGE][PASSED] - common.UtilKeyword.handleToastMessage is PASSED
+
+11-02-2025T23:52:52 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("add_address_successfully"): common.UtilKeyword.takeScreenShot is PASSED
+
+11-02-2025T23:52:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-005\TS001-Address Book\TC001\add_address_successfully_11022025 235252.png]]
+
+11-02-2025T23:52:52 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+11-02-2025T23:52:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T23:52:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:52:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2025T23:52:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-005/TC002-Update address" time="73.418" classname="Test Cases/COOLMATE-005/TC002-Update address" status="PASSED">
+         <system-out><![CDATA[11-02-2025T23:52:55 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-005/TC002-Update address: Test Cases/COOLMATE-005/TC002-Update address
+
+11-02-2025T23:52:55 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+11-02-2025T23:52:55 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+11-02-2025T23:52:55 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+11-02-2025T23:52:55 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao): common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+11-02-2025T23:53:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-02-2025T23:53:01 - [MESSAGE][PASSED] - Current window maximized
+
+11-02-2025T23:53:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+11-02-2025T23:53:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[contains(@class,"popup")]/div//button'. Please recheck the objects properties to make sure the desired element is located. 
+
+11-02-2025T23:53:10 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/pages/home_page/ads_close_button' located by '//*[contains(@class,"popup")]/div//button' not found
+
+11-02-2025T23:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+11-02-2025T23:53:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:53:12 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+11-02-2025T23:53:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:53:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+11-02-2025T23:53:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+11-02-2025T23:53:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-02-2025T23:53:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:53:19 - [MESSAGE][PASSED] - Object 'Object Repository/component/close_popup_button' is visible
+
+11-02-2025T23:53:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/component/close_popup_button' is clicked on
+
+11-02-2025T23:53:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:53:34 - [MESSAGE][WARNING] - Object 'Object Repository/pages/home_page/ads_close_button' is not visible after 10 second(s)
+
+11-02-2025T23:53:44 - [MESSAGE][WARNING] - Object 'Object Repository/component/close_popup_button' is not visible after 10 second(s)
+
+11-02-2025T23:53:44 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+11-02-2025T23:53:44 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+11-02-2025T23:53:45 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/common/icon/user_icon")): Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+11-02-2025T23:53:45 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+11-02-2025T23:53:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T23:53:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:53:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/pages/home_page/go_to_account"), 10): Object 'Object Repository/pages/home_page/go_to_account' is present
+
+11-02-2025T23:53:47 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/go_to_account' is present
+
+11-02-2025T23:53:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/go_to_account")): Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+11-02-2025T23:53:48 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+11-02-2025T23:53:48 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+11-02-2025T23:53:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-02-2025T23:53:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+11-02-2025T23:53:51 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+11-02-2025T23:53:51 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/common/a/a_text", ["text":"Thông tin tài khoản"]), 10): Scroll to object 'Object Repository/common/a/a_text' successfully
+
+11-02-2025T23:53:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/a/a_text' successfully
+
+11-02-2025T23:53:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T23:53:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:53:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/a/a_text", ["text":"Sổ địa chỉ"])): Object: 'Object Repository/common/a/a_text' is clicked on
+
+11-02-2025T23:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/common/a/a_text' is clicked on
+
+11-02-2025T23:53:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T23:53:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:53:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/common/button/button_contains_text", ["text":"Cập nhật"]), 10): Scroll to object 'Object Repository/common/button/button_contains_text' successfully
+
+11-02-2025T23:53:56 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/button/button_contains_text' successfully
+
+11-02-2025T23:53:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/button/button_contains_text", ["text":"Cập nhật"])): Object: 'Object Repository/common/button/button_contains_text' is clicked on
+
+11-02-2025T23:53:56 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_contains_text' is clicked on
+
+11-02-2025T23:53:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/common/div/div_class", ["class":"address-book-form"]), 10): Object 'Object Repository/common/div/div_class' is visible
+
+11-02-2025T23:53:56 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class' is visible
+
+11-02-2025T23:53:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/common/input/input_name", ["name":"address"]), suggestedAddress): Text 'Phường 4, Thành phố Cà Mau' is set on object 'Object Repository/common/input/input_name'
+
+11-02-2025T23:53:57 - [MESSAGE][PASSED] - Text 'Phường 4, Thành phố Cà Mau' is set on object 'Object Repository/common/input/input_name'
+
+11-02-2025T23:53:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2025T23:54:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2025T23:54:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/div/div_text", ["text":updatedAddress])): Object: 'Object Repository/common/div/div_text' is clicked on
+
+11-02-2025T23:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/common/div/div_text' is clicked on
+
+11-02-2025T23:54:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+11-02-2025T23:54:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+11-02-2025T23:54:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/span/span_contains_text", ["text":"Lưu"])): Object: 'Object Repository/common/span/span_contains_text' is clicked on
+
+11-02-2025T23:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/common/span/span_contains_text' is clicked on
+
+11-02-2025T23:54:05 - [TEST_STEP][PASSED] - common.UtilKeyword.handleToastMessage("Cập nhật địa chỉ thành công!", 10): common.UtilKeyword.handleToastMessage is PASSED
+
+11-02-2025T23:54:06 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class_contains_class' is visible
+
+11-02-2025T23:54:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class_contains_class' is: 'Cập nhật địa chỉ thành công!'
+
+11-02-2025T23:54:06 - [MESSAGE][INFO] - Hanlde Toast Message successfully: Cập nhật địa chỉ thành công!
+
+11-02-2025T23:54:06 - [MESSAGE][PASSED] - common.UtilKeyword.handleToastMessage is PASSED
+
+11-02-2025T23:54:06 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("update_address_successfully"): common.UtilKeyword.takeScreenShot is PASSED
+
+11-02-2025T23:54:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-005\TS001-Address Book\TC002\update_address_successfully_11022025 235406.png]]
+
+11-02-2025T23:54:06 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+11-02-2025T23:54:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T23:54:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:54:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2025T23:54:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COOLMATE-005/TC003-Delete address" time="67.042" classname="Test Cases/COOLMATE-005/TC003-Delete address" status="PASSED">
+         <system-out><![CDATA[11-02-2025T23:54:08 - [TEST_CASE][PASSED] - Test Cases/COOLMATE-005/TC003-Delete address: Test Cases/COOLMATE-005/TC003-Delete address
+
+11-02-2025T23:54:08 - [TEST_STEP][PASSED] - Start listener action : beforeTestCase: null
+
+11-02-2025T23:54:08 - [TEST_STEP][PASSED] - testCaseName = split("/").last(): null
+
+11-02-2025T23:54:08 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+11-02-2025T23:54:08 - [TEST_STEP][PASSED] - common.UtilKeyword.openURLAndAuthenticate(username_bao, password_bao): common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+11-02-2025T23:54:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-02-2025T23:54:12 - [MESSAGE][PASSED] - Current window maximized
+
+11-02-2025T23:54:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+11-02-2025T23:54:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[contains(@class,"popup")]/div//button'. Please recheck the objects properties to make sure the desired element is located. 
+
+11-02-2025T23:54:21 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/pages/home_page/ads_close_button' located by '//*[contains(@class,"popup")]/div//button' not found
+
+11-02-2025T23:54:22 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+11-02-2025T23:54:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:54:24 - [MESSAGE][PASSED] - Keys 'baob2012178@student.ctu.edu.vn' sent to object: 'Object Repository/common/div/div_id_with_input_name'
+
+11-02-2025T23:54:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:54:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/common/div/div_id_with_input_name'
+
+11-02-2025T23:54:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_class' is clicked on
+
+11-02-2025T23:54:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-02-2025T23:54:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:54:32 - [MESSAGE][PASSED] - Object 'Object Repository/component/close_popup_button' is visible
+
+11-02-2025T23:54:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:54:34 - [MESSAGE][PASSED] - Object: 'Object Repository/component/close_popup_button' is clicked on
+
+11-02-2025T23:54:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:54:47 - [MESSAGE][WARNING] - Object 'Object Repository/pages/home_page/ads_close_button' is not visible after 10 second(s)
+
+11-02-2025T23:54:57 - [MESSAGE][WARNING] - Object 'Object Repository/component/close_popup_button' is not visible after 10 second(s)
+
+11-02-2025T23:54:57 - [MESSAGE][PASSED] - common.UtilKeyword.openURLAndAuthenticate is PASSED
+
+11-02-2025T23:54:57 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+11-02-2025T23:54:57 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("Object Repository/common/icon/user_icon")): Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+11-02-2025T23:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/common/icon/user_icon' is clicked on
+
+11-02-2025T23:54:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T23:54:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:54:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/pages/home_page/go_to_account"), 10): Object 'Object Repository/pages/home_page/go_to_account' is present
+
+11-02-2025T23:55:00 - [MESSAGE][PASSED] - Object 'Object Repository/pages/home_page/go_to_account' is present
+
+11-02-2025T23:55:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/pages/home_page/go_to_account")): Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+11-02-2025T23:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/pages/home_page/go_to_account' is clicked on
+
+11-02-2025T23:55:01 - [TEST_STEP][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay(20, 3): common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+11-02-2025T23:55:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-02-2025T23:55:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+11-02-2025T23:55:04 - [MESSAGE][PASSED] - common.UtilKeyword.waitForPageLoadAndDelay is PASSED
+
+11-02-2025T23:55:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/common/a/a_text", ["text":"Thông tin tài khoản"]), 10): Scroll to object 'Object Repository/common/a/a_text' successfully
+
+11-02-2025T23:55:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/a/a_text' successfully
+
+11-02-2025T23:55:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T23:55:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:55:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/a/a_text", ["text":"Sổ địa chỉ"])): Object: 'Object Repository/common/a/a_text' is clicked on
+
+11-02-2025T23:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/common/a/a_text' is clicked on
+
+11-02-2025T23:55:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+11-02-2025T23:55:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+11-02-2025T23:55:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/common/button/button_contains_text", ["text":"Xóa"]), 10): Scroll to object 'Object Repository/common/button/button_contains_text' successfully
+
+11-02-2025T23:55:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/common/button/button_contains_text' successfully
+
+11-02-2025T23:55:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/common/button/button_contains_text", ["text":"Xóa"])): Object: 'Object Repository/common/button/button_contains_text' is clicked on
+
+11-02-2025T23:55:12 - [MESSAGE][PASSED] - Object: 'Object Repository/common/button/button_contains_text' is clicked on
+
+11-02-2025T23:55:12 - [TEST_STEP][PASSED] - common.UtilKeyword.handleToastMessage("Xoá địa chỉ thành công!", 10): common.UtilKeyword.handleToastMessage is PASSED
+
+11-02-2025T23:55:13 - [MESSAGE][PASSED] - Object 'Object Repository/common/div/div_class_contains_class' is visible
+
+11-02-2025T23:55:13 - [MESSAGE][PASSED] - Text of object 'Object Repository/common/div/div_class_contains_class' is: 'Xoá địa chỉ thành công!'
+
+11-02-2025T23:55:13 - [MESSAGE][INFO] - Hanlde Toast Message successfully: Xoá địa chỉ thành công!
+
+11-02-2025T23:55:13 - [MESSAGE][PASSED] - common.UtilKeyword.handleToastMessage is PASSED
+
+11-02-2025T23:55:13 - [TEST_STEP][PASSED] - common.UtilKeyword.takeScreenShot("delete_address_successfully"): common.UtilKeyword.takeScreenShot is PASSED
+
+11-02-2025T23:55:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\BaoNguyen\OneDrive\Máy tính\Draft Repo On Github\Draft\Katalon Projects\Coolmate Test\Screenshots\Test Suites\COOLMATE-005\TS001-Address Book\TC003\delete_address_successfully_11022025 235513.png]]
+
+11-02-2025T23:55:13 - [MESSAGE][PASSED] - common.UtilKeyword.takeScreenShot is PASSED
+
+11-02-2025T23:55:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+11-02-2025T23:55:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+11-02-2025T23:55:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-02-2025T23:55:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-02-2025T23:51:38 - [TEST_SUITE][PASSED] - TS001-Address Book: Test Cases/COOLMATE-005/TC003-Delete address]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
