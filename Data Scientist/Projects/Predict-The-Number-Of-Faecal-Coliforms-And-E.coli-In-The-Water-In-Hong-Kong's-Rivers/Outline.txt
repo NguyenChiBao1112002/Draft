@@ -1,0 +1,15 @@
+- Mục tiêu: 
+	+ Dựa vào các thông số đã được cho trước, áp dụng thuật toán Machine Learning để dự đoán số lượng
+	Faecal Coliforms và E.coli có trong nước ở các con sông của Hong-Kong
+	
+	+ Giải quyết bài toán mà đầu ra gồm nhiều target (2 target)
+
+	+ Giải quyết Missing Data (có nhiều cột có ít quá ít dữ liệu)
+
+	+ Cần lựa chọn các thuộc tính có quan hệ tốt với các target
+
+	+ Cần lấy được file tổng hợp từ các năm-> gộp thành 1 file
+
+	+ Tham khảo github repo: https://github.com/SulemanHamdani/Hong-Kong-s-River-dataset-cleaning
+
+ 
