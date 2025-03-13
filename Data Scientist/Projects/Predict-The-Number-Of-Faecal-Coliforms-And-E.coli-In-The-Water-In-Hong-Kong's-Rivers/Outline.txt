@@ -12,4 +12,6 @@
 
 	+ Tham khảo github repo: https://github.com/SulemanHamdani/Hong-Kong-s-River-dataset-cleaning
 
+	+ Có các bước trình bày dữ liệu
+
  
