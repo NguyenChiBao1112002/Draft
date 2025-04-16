@@ -1,0 +1,4 @@
+P1. Load MRI Images Dataset
+P2. Data Preprocessing (Reading Images => Data Augmentation => Label Encoding => Data Generation)
+P3. Model Training
+P4. Model Evaluation
